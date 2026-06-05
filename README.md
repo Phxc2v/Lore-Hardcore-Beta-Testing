@@ -11,7 +11,7 @@
 - 🇬🇧 **[Beta changelog (EN)](BETA_CHANGELOG_EN.md)** — what changed since the last Steam release.
 
 **Last stable Steam release / Последний релиз в Steam:** v0.1.7.5
-**Current beta / Текущая бета:** v0.1.9.42
+**Current beta / Текущая бета:** v0.1.9.56
 
 ---
 
@@ -36,6 +36,6 @@
 ---
 
 ## Bug reports / Баги
-🇬🇧 Found a bug in the beta? Please report it with: the version (shown in the main menu, e.g. `v0.1.9.42`), what you did, and the log file `rgl_log_*.txt` from `C:\ProgramData\Mount and Blade II Bannerlord\logs\`.
+🇬🇧 Found a bug in the beta? Please report it with: the version (shown in the main menu, e.g. `v0.1.9.56`), what you did, and the log file `rgl_log_*.txt` from `C:\ProgramData\Mount and Blade II Bannerlord\logs\`.
 
-🇷🇺 Нашли баг в бете? Сообщите: версию (видна в главном меню, напр. `v0.1.9.42`), что делали, и лог `rgl_log_*.txt` из `C:\ProgramData\Mount and Blade II Bannerlord\logs\`.
+🇷🇺 Нашли баг в бете? Сообщите: версию (видна в главном меню, напр. `v0.1.9.56`), что делали, и лог `rgl_log_*.txt` из `C:\ProgramData\Mount and Blade II Bannerlord\logs\`.

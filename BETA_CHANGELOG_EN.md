@@ -9,9 +9,41 @@
 > of the same module conflict).
 
 **Last stable Steam Workshop release:** v0.1.7.5
-**Current beta:** v0.1.9.45
+**Current beta:** v0.1.9.56
 
 This file is updated on every beta publish. Newest on top.
+
+---
+
+## New in beta v0.1.9.56 (since v0.1.9.45)
+
+### ⭐ Dark Gods system (new Chaos feature)
+- When you join Chaos you pledge to one of **four Dark Gods** — Khorne, Nurgle, Tzeentch or Slaanesh. **The choice is permanent.**
+- Once your **personal kill count** reaches a threshold, your god grants you their **full top-tier set of armour and weapon** (default 1000 kills) — each god has their own kit.
+- At a higher kill count (default 2000 total) you unlock the **challenge against the Chaos Overlord** — a duel for his throne.
+- Two **configurable thresholds** in settings (new "Dark Gods" tab, range 500–2000 each) with "?" hover hints.
+
+### 🩸 Chaos — peace with beastmen and cults
+- After you join Chaos, **beastmen** (Brass Keep / Beastmen) and the dark cults **no longer war with you** or declare war every day — they become allies. (Before joining they stay hostile, as before.)
+
+### 📖 In-game guide (hotkey)
+- The guide now opens with **Alt+H** (plain "H" used to fire even while typing a lord's name / in menus and **crashed the game** — fixed).
+- Opening the guide now **pauses the game**.
+- Fixed the **section order** — it now reads top-to-bottom, important topics first (the list used to be upside down).
+
+### 💬 Text and terms
+- "Chaos King" → **"Chaos Overlord"** across all dialogue and localization.
+- Fixed line breaks in the **"Gift of Chaos accepted"** message (literal `\n` used to show).
+- Tidied the god-choice window (text no longer crowds the buttons).
+
+### ⚔️ Chaos recruiting
+- **Chaos Portal:** 10 different soldiers per summon (5% Minotaur chance), weekly cooldown.
+- **Beastmen lair:** up to 20 max-tier troops (Ungors/Gors/Minotaur), plus a **"who and how many were recruited" report**.
+- Minotaur removed from ordinary settlement recruiting; its party-size penalty eased (−7 → −2).
+
+### 🛠 Stability
+- Fixed a **load-time freeze** when loading a save where the god set was already earned.
+- Guard against a crash when a **Chaos Lord (Mortkin)** is captured by an ordinary lord.
 
 ---
 

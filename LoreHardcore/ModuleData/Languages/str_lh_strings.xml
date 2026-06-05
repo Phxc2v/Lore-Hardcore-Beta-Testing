@@ -312,7 +312,7 @@
     <string id="lh_set_EnableMaceShieldBonus_lbl" text="Mace/hammer breaks metal shields" />
     <string id="lh_set_EnableMaceShieldBonus_desc" text="Toggle for the blunt-weapon-versus-metal-shield bonus damage (maces, hammers). OFF = blunt weapons deal vanilla shield damage." />
     <string id="lh_health_title" text="Lore-Hardcore: compatibility check" />
-    <string id="lh_ck_duel_abort" text="Could not begin the duel here. Challenge the King out in the open field." />
+    <string id="lh_ck_duel_abort" text="Could not begin the duel here. Challenge the Overlord out in the open field." />
     <string id="lh_health_intro" text="Some Lore-Hardcore features are being blocked by another mod:" />
     <string id="lh_health_ui" text="The map time panel (extra speed button and Chaos progress bar) could not be added." />
     <string id="lh_health_suspect" text="Possible cause: {LIST}" />
@@ -429,6 +429,7 @@
     <string id="lh_chaos_recruit_cd" text="This place has not yet gathered its strength. Return later." />
     <string id="lh_chaos_recruit_nogold" text="Not enough gold for the offering." />
     <string id="lh_chaos_portal_got" text="{NAME} emerges from the portal." />
+    <string id="lh_chaos_recruited_list" text="Summoned: {LIST}." />
     <string id="lh_chaos_vassal_offer" text="I wish to serve the Dark Gods." />
     <string id="lh_ck_challenge" text="The throne of Chaos belongs to the strongest. I challenge you to battle!" />
     <string id="lh_ck_resp_lord" text="Insolent mortal! So be it — the Gods thirst for blood. Meet me outside the walls, on the open ground. Come when you are ready — one of us will not see the sunset." />
@@ -438,17 +439,17 @@
     <string id="lh_ck_taunt_lord" text="You have already tempted your fate and were struck down, miserable worm! The Dark Gods see your deceit — here is your reckoning." />
     <string id="lh_ck_load_penalty" text="The Dark Gods have turned from the coward: your Chaos Glory dims." />
     <string id="lh_ck_wound" text="The Gods have punished your insolence. Heal your wounds and prove you are worthy of the throne." />
-    <string id="lh_ck_defeat" text="You are struck down by the Chaos King. Return in {DAYS} days to challenge him again." />
-    <string id="lh_ck_victory" text="You have torn the throne from the dead hands of the Chaos King! The Dark Gods acknowledge a new lord. The kingdom is yours." />
+    <string id="lh_ck_defeat" text="You are struck down by the Chaos Overlord. Return in {DAYS} days to challenge him again." />
+    <string id="lh_ck_victory" text="You have torn the throne from the dead hands of the Chaos Overlord! The Dark Gods acknowledge a new lord. The kingdom is yours." />
     <string id="lh_ck_victory_title" text="The Usurper Ascends the Throne" />
-    <string id="lh_ck_eligible" text="The Dark Gods gaze upon you! Find the Chaos King — the ruler of a Chaos kingdom — speak with him and challenge him for the throne." />
+    <string id="lh_ck_eligible" text="The Dark Gods gaze upon you! Find the Chaos Overlord — the ruler of a Chaos kingdom — speak with him and challenge him for the throne." />
     <string id="lh_ck_bar_legend" text="Chaos Glory" />
     <string id="lh_ck_bar_ready" text="Challenge Ready" />
     <string id="lh_ck_bar_disgrace" text="In Disgrace" />
     <string id="lh_enc_chaos_market_t" text="Cursed Markets" />
     <string id="lh_enc_chaos_market_b" text="Chaos arms and armor are shunned by honest folk and appear for sale ONLY in the markets of Chaos-held towns. Marauder gear, cultist robes, chaos weapons, shields and a chaos steed are stocked in any Chaos town; the blessed war-plate of the Dark Gods (Khorne, Nurgle, Tzeentch, Slaanesh) and the helms of the Chosen only in the capital — the most prosperous Chaos town — and for a fortune.\nAnyone may buy in a Chaos town, but cursed goods cannot be SOLD anywhere except Chaos towns and villages — no other merchant will touch them." />
-    <string id="lh_enc_chaos_throne_t" text="Overthrow the King" />
-    <string id="lh_enc_chaos_throne_b" text="Might makes right. Slay enough foes with your own hand and the Dark Gods will mark you as a rival to the reigning Chaos King.\nYour personal kills build a Chaos Glory, shown on the bar above the map clock. Serve Chaos at least 30 days and raise your Chaos Glory above the King's. When the Gods take notice, challenge the King to mortal combat: you against the King and two of his Chaos Warriors.\nWin and his throne, fiefs and vassals are yours, and you take his blessed war-gear as a trophy. Lose and your Chaos Glory is broken by a third." />
+    <string id="lh_enc_chaos_throne_t" text="Overthrow the Overlord" />
+    <string id="lh_enc_chaos_throne_b" text="Might makes right. Slay enough foes with your own hand and the Dark Gods will mark you as a rival to the reigning Chaos Overlord.\nYour personal kills build a Chaos Glory, shown on the bar above the map clock. Serve Chaos at least 30 days and raise your Chaos Glory above the Overlord's. When the Gods take notice, challenge the Overlord to mortal combat: you against the Overlord and two of his Chaos Warriors.\nWin and his throne, fiefs and vassals are yours, and you take his blessed war-gear as a trophy. Lose and your Chaos Glory is broken by a third." />
     <string id="lh_chaos_vassal_response_lord" text="Hah! Bring me {VASSAL_GOLD} gold, and I will accept your oath." />
     <string id="lh_chaos_vassal_pay_p" text="Here is the gold." />
     <string id="lh_chaos_vassal_no_gold_p" text="I do not have that much." />
@@ -472,6 +473,7 @@
     <string id="lh_cw_accept" text="Done. {GOLD_AMOUNT} is yours." />
     <string id="lh_cw_decline" text="I cannot pay that just now." />
     <string id="lh_chaos_fodder_partysize" text="Chaos cannon fodder" />
+    <string id="lh_chaos_minotaur_weight_relief" text="Minotaur weight (eased)" />
     <!-- ===== Encyclopedia / In-Game Guide ===== -->
     <string id="lh_enc_menu_button" text="Lore-Hardcore Guide" />
     <string id="lh_enc_race_orc" text="Orcs" />
@@ -519,7 +521,7 @@
     <string id="lh_enc_chaos_troops_b" text="The armies of Chaos mix cheap fodder with terrifying elites.\n\nThe roster, roughly from weakest to strongest:\n- Cultists and Acolytes — human fanatics, pure cannon fodder.\n- Ungors — the smaller beastmen, also fodder.\n- Norscan tribesmen and their champions — the human warriors of the north. They have been given a HP buff so a Norscan is sturdier than an ordinary man, as the lore demands.\n- Gor and their elites — the larger beastmen, with a HP buff above the Norscans.\n- Chaos Warriors — armoured champions of the Dark Gods.\n- Minotaurs — massive monsters with the biggest HP buff of all.\n\nThe fodder mechanic: Cultists and Ungors take LESS room in your party. For every couple of fodder units you carry, your party limit rises by one — exactly like the small undead of the vampire faction. This keeps the cheap rabble playable instead of wasting precious party slots.\n\nAll the HP buffs are adjustable in the settings if you want a different balance." />
 
     <string id="lh_enc_chaos_recruiting_t" text="Recruiting Chaos Troops" />
-    <string id="lh_enc_chaos_recruiting_b" text="Once you are aligned with Chaos (a vassal/king, or of the chaos culture) you gain several ways to raise dark armies. You cannot do any of this as an outsider — the cults only open up to the faithful.\n\nWays to recruit:\n- Settlements: notables in chaos-aligned towns, castles and villages offer dark volunteers instead of normal recruits. Castle areas lean toward elite warriors; towns mix in fodder.\n- Cultist and beastmen LAIRS (the bandit-style hideouts of forest and steppe cults): instead of fighting them, you can pass peacefully and even summon their servants for gold. There is a cooldown so you cannot farm one lair forever.\n- Chaos PORTALS: special sites where you can bow and pass, or summon the Chosen of Chaos — the elite of the elite — for a price.\n- Minotaurs appear as a rare recruit slot when you visit a chaos castle.\n\nWhich fodder a place offers depends on its culture (steppe lairs give Ungors, forest cults give Cultists)." />
+    <string id="lh_enc_chaos_recruiting_b" text="Once you are aligned with Chaos (a vassal/overlord, or of the chaos culture) you gain several ways to raise dark armies. You cannot do any of this as an outsider — the cults only open up to the faithful.\n\nWays to recruit:\n- Settlements: notables in chaos-aligned towns, castles and villages offer dark volunteers instead of normal recruits. Castle areas lean toward elite warriors; towns mix in fodder.\n- Cultist and beastmen LAIRS (the bandit-style hideouts of forest and steppe cults): instead of fighting them, you can pass peacefully and even summon their servants for gold. There is a cooldown so you cannot farm one lair forever.\n- Chaos PORTALS: special sites where you can bow and pass, or summon the Chosen of Chaos — the elite of the elite — for a price.\n- Minotaurs appear as a rare recruit slot when you visit a chaos castle.\n\nWhich fodder a place offers depends on its culture (steppe lairs give Ungors, forest cults give Cultists)." />
 
     <string id="lh_enc_chaos_tempting_t" text="Tempting Captives" />
     <string id="lh_enc_chaos_tempting_b" text="As a Chaos player you can corrupt the lords you capture, turning enemy nobles into servants of the Dark Gods instead of just ransoming them.\n\nHow it works:\n- Hold an enemy lord prisoner. Each day in your dungeon adds 'tempting' progress as the Gods whisper to them.\n- When progress crosses the threshold, the captive is ready to accept the Gift of Chaos. You get the option to convert them — they break and join your side.\n- If the captive is freed or escapes, their progress decays.\n- Each lord you have already converted makes the next one slightly harder, so you cannot endlessly mass-convert the whole world.\n\nAll the numbers — progress per day, the threshold, the per-conversion penalty, the decay rate, and a bonus if you are already of the chaos culture — are tunable in the settings. By default it takes a couple of months of captivity to turn a lord." />
@@ -534,25 +536,25 @@
     <string id="lh_enc_chaos_war_b" text="The most important thing to understand before you join: the ENTIRE world is at war with Chaos, and once you belong to a Chaos kingdom, that means the entire world is at war with YOU.\n\nThis is intended. Chaos is the great enemy of every civilised faction — there is no lasting peace to be had as a sworn servant of the Dark Gods. Expect to be attacked from all sides.\n\nThe one exception is BEFORE you join: while you are still an independent clan with no kingdom, the mod does not force you into war with Chaos. That window is what lets you ride up to a Chaos lord and negotiate joining in the first place. The moment you swear the oath, the gloves come off and the world unites against you.\n\nPlan accordingly: build a strong, self-sufficient dark army (fodder for numbers, elites and monsters for punch) before you take the plunge, because you will be fighting everyone." />
     <string id="lh_chaos_wand_full_p" text="I have no room for you — my retinue is already full." />
     <string id="lh_chaos_wand_full_lord" text="Then return when you have made room, mortal. The Dark Gods do not like to wait." />
-    <string id="lh_ck_where_p" text="Where might I find your lord, the King?" />
+    <string id="lh_ck_where_p" text="Where might I find your master, the Overlord of Chaos?" />
     <string id="lh_ck_loc_court" text="Our lord holds court in {SETTLEMENT}." />
     <string id="lh_ck_loc_march" text="Our lord is on the march, near {SETTLEMENT}." />
     <string id="lh_ck_loc_prison" text="Our lord lies captive in the dungeons of {SETTLEMENT}." />
     <string id="lh_ck_loc_unknown" text="Our lord roams the wilds — even I know not where." />
     <string id="lh_ck_bar_days" text="{DAYS}d of service left" />
     <string id="lh_ck_ready_title" text="The Throne Awaits" />
-    <string id="lh_ck_ready_msg" text="You have proven yourself in blood and service. Seek out the Chaos King — ask any Chaos lord where he holds court — and challenge him for his throne." />
-    <string id="lh_ck_cd_p" text="I would face you again, Chaos King." />
+    <string id="lh_ck_ready_msg" text="You have proven yourself in blood and service. Seek out the Chaos Overlord — ask any Chaos lord where he holds court — and challenge him for his throne." />
+    <string id="lh_ck_cd_p" text="I would face you again, Chaos Overlord." />
     <string id="lh_ck_cd_lord" text="You already tasted defeat, mortal. Lick your wounds and return when you are worthy — in {DAYS} days. Begone!" />
     <string id="lh_ck_cd_leave" text="I leave... in shame." />
     <string id="lh_ck_bar_cooldown" text="challenge in {DAYS}d" />
     <string id="lh_kd_begin" text="Draw your weapon — begin the duel." />
     <string id="lh_kd_escort_title" text="Choose your champions" />
-    <string id="lh_kd_escort_desc" text="Pick who fights at your side (up to {MAX}). The Chaos King brings an equal guard. Choose none to face him alone." />
+    <string id="lh_kd_escort_desc" text="Pick who fights at your side (up to {MAX}). The Chaos Overlord brings an equal guard. Choose none to face him alone." />
     <string id="lh_kd_escort_ok" text="To battle!" />
     <string id="lh_kd_escort_back" text="Back" />
-    <string id="lh_kd_prep_text" text="The cultists of Chaos have raised a ring of skulls and black iron upon the field. The Chaos King {KING} steps in to face you — only one of you will walk out of the ring alive." />
-    <string id="lh_kd_won_text" text="The Chaos King lies dead at your feet. The Dark Gods roar their approval — the path to your own throne is open." />
+    <string id="lh_kd_prep_text" text="The cultists of Chaos have raised a ring of skulls and black iron upon the field. The Chaos Overlord {KING} steps in to face you — only one of you will walk out of the ring alive." />
+    <string id="lh_kd_won_text" text="The Chaos Overlord lies dead at your feet. The Dark Gods roar their approval — the path to your own throne is open." />
     <string id="lh_kd_claim" text="Claim the throne of Chaos." />
     <string id="lh_kd_lost_text" text="You are beaten and cast down. Lick your wounds and return in {DAYS} days to try again." />
     <string id="lh_ck_found_title" text="Found Your Kingdom of Chaos" />
@@ -561,5 +563,25 @@
     <string id="lh_ck_founded" text="Your kingdom of Chaos is founded. The Dark Gods watch their new champion." />
     <string id="lh_kd_chicken" text="Not today — I withdraw. (leave)" />
     <string id="lh_extorsion_tier_too_low" text="Tier too low — only T4+ orcs have golden teef worth taking." />
+    <string id="lh_set_tab_gods" text="Dark Gods" />
+    <string id="lh_set_ChaosGodSetKillThreshold_lbl" text="Kills for your God's war-set" />
+    <string id="lh_set_ChaosGodSetKillThreshold_desc" text="When you pledge to Chaos you choose one of four Dark Gods (Khorne, Nurgle, Tzeentch, Slaanesh). Once your personal kill count reaches this number, your god rewards you with their full top-tier set of armour and weapon. Lower = you earn the elite gear sooner. Example: 1000 means about 1000 enemies slain by your own hand. Range 500-2000." />
+    <string id="lh_set_ChaosGodDuelKillThreshold_lbl" text="Extra kills to challenge the Overlord" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_desc" text="Additional personal kills, ON TOP of the war-set threshold, before you may challenge the Chaos Overlord (Mortkin) to a duel for his throne. Total kills for the duel = war-set threshold + this value. Lower = the throne challenge unlocks sooner. Example: with both at 1000, you challenge him at 2000 kills. Range 500-2000." />
+    <string id="lh_god_khorne" text="Khorne, the Blood God" />
+    <string id="lh_god_nurgle" text="Nurgle, the Plague Lord" />
+    <string id="lh_god_tzeentch" text="Tzeentch, the Changer of Ways" />
+    <string id="lh_god_slaanesh" text="Slaanesh, the Dark Prince" />
+    <string id="lh_god_none" text="No god" />
+    <string id="lh_god_khorne_flv" text="Skulls for the skull throne. Khorne favours the relentless butcher who takes heads in open slaughter." />
+    <string id="lh_god_nurgle_flv" text="The Grandfather of plagues embraces the enduring. His chosen rot, yet refuse to fall." />
+    <string id="lh_god_tzeentch_flv" text="The Architect of Fate rewards the cunning sorcerer who bends the winds of magic to his will." />
+    <string id="lh_god_slaanesh_flv" text="The Prince of Pleasure prizes the swift and the perfect - the duelist who makes killing an art." />
+    <string id="lh_god_choose_title" text="Pledge to a Dark God" />
+    <string id="lh_god_choose_desc" text="You kneel before the altar of Chaos. Choose the god whose mark you will bear — this choice is final. At {SET} kills your chosen god grants you their full war-panoply; at {DUEL} kills you may challenge the Overlord himself for his throne." />
+    <string id="lh_god_choose_ok" text="Swear the oath" />
+    <string id="lh_god_chosen_msg" text="You are now sworn to {GOD}. {FLAVOR}" />
+    <string id="lh_god_set_granted" text="The Dark Gods reward your slaughter - the full war-panoply of {GOD} now lies in your inventory. Equip it from your inventory (press I)." />
+    <string id="lh_god_set_title" text="A God's Favour" />
   </strings>
 </base>
