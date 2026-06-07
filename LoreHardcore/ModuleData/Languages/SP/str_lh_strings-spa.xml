@@ -524,5 +524,27 @@
     <string id="lh_set_MaxBanditPartiesPerHideout_desc" text="Cuántos grupos de bandidos errantes pueden aparecer alrededor de CADA escondite activo. El valor predeterminado de TOR es 6 — redúcelo para aclarar los grupos en el mapa. Ejemplo: 3." />
     <string id="lh_set_MaxLooterParties_lbl" text="Máx. grupos de saqueadores/desertores" />
     <string id="lh_set_MaxLooterParties_desc" text="Límite máximo fijo de grupos de saqueadores y desertores en el mapa. TOR permite hasta 200 — esto solo lo reduce (nunca por encima de lo que permite la etapa de campaña de TOR). Ejemplo: 60." />
+    <string id="lh_god_khorne" text="Khorne, el Dios de la Sangre" />
+    <string id="lh_god_nurgle" text="Nurgle, el Señor de la Plaga" />
+    <string id="lh_god_tzeentch" text="Tzeentch, el Cambiante de los Caminos" />
+    <string id="lh_god_slaanesh" text="Slaanesh, el Príncipe Oscuro" />
+    <string id="lh_god_none" text="Ningún dios" />
+    <string id="lh_god_khorne_flv" text="Cráneos para el trono de cráneos. Khorne favorece al carnicero implacable que corta cabezas en la matanza abierta." />
+    <string id="lh_god_nurgle_flv" text="El Abuelo de las plagas acoge a los perseverantes. Sus elegidos se pudren, pero se niegan a caer." />
+    <string id="lh_god_tzeentch_flv" text="El Arquitecto del Destino recompensa al hechicero astuto que doblega los vientos de la magia a su voluntad." />
+    <string id="lh_god_slaanesh_flv" text="El Príncipe de los Placeres aprecia a los veloces y perfectos - el duelista que hace del matar un arte." />
+    <string id="lh_god_choose_title" text="Jura a un Dios Oscuro" />
+    <string id="lh_god_choose_desc" text="Te arrodillas ante el altar del Caos. Elige al dios cuya marca portarás — esta elección es definitiva. Con {SET} bajas tu dios te concede su panoplia de guerra completa; con {DUEL} bajas podrás desafiar al Overlord en persona por su trono." />
+    <string id="lh_god_choose_ok" text="Prestar el juramento" />
+    <string id="lh_god_chosen_msg" text="Ahora estás consagrado a {GOD}. {FLAVOR}" />
+    <string id="lh_god_set_granted" text="Los Dioses Oscuros recompensan tu matanza - la panoplia de guerra completa de {GOD} está ahora en tu inventario. Equípala desde tu inventario (tecla I)." />
+    <string id="lh_god_set_title" text="El Favor de un Dios" />
+    <string id="lh_set_tab_gods" text="Dioses Oscuros" />
+    <string id="lh_set_ChaosGodSetKillThreshold_lbl" text="Bajas para la panoplia de tu Dios" />
+    <string id="lh_set_ChaosGodSetKillThreshold_desc" text="Al consagrarte al Caos eliges uno de los cuatro Dioses Oscuros (Khorne, Nurgle, Tzeentch, Slaanesh). Cuando tu recuento personal de bajas alcanza este número, tu dios te recompensa con su conjunto completo de armadura y arma de alto nivel. Más bajo = consigues el equipo de élite antes. Ejemplo: 1000 son unos 1000 enemigos abatidos por tu propia mano. Rango 500-2000." />
+    <string id="lh_set_ChaosGodDuelKillThreshold_lbl" text="Bajas extra para desafiar al Overlord" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_desc" text="Bajas personales adicionales, ADEMÁS del umbral de la panoplia, antes de poder desafiar al Overlord del Caos (Mortkin) a un duelo por su trono. Bajas totales para el duelo = umbral de la panoplia + este valor. Más bajo = el desafío al trono se desbloquea antes. Ejemplo: ambos en 1000, lo desafías con 2000 bajas. Rango 500-2000." />
+    <string id="lh_chaos_minotaur_weight_relief" text="Peso del Minotauro (reducido)" />
+    <string id="lh_chaos_recruited_list" text="Invocados: {LIST}." />
   </strings>
 </base>

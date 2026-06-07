@@ -523,5 +523,27 @@
     <string id="lh_set_MaxBanditPartiesPerHideout_desc" text="アクティブな隠れ家ごとの周囲に出現する放浪盗賊団の数。TORの既定値は6——マップを徘徊する集団を減らすには下げる。例：3。" />
     <string id="lh_set_MaxLooterParties_lbl" text="略奪者・脱走兵集団の上限" />
     <string id="lh_set_MaxLooterParties_desc" text="マップ上の略奪者・脱走兵集団の上限値。TORは最大200まで許容——本設定は下げるのみ（TORのキャンペーン段階が許す値を超えて上げることはない）。例：60。" />
+    <string id="lh_god_khorne" text="コーン、血の神" />
+    <string id="lh_god_nurgle" text="ナーグル、疫病の王" />
+    <string id="lh_god_tzeentch" text="ティーンチ、変転の神" />
+    <string id="lh_god_slaanesh" text="スラーネッシュ、闇の公子" />
+    <string id="lh_god_none" text="神なし" />
+    <string id="lh_god_khorne_flv" text="髑髏の玉座に髑髏を。コーンは公然たる殺戮で首級を挙げる容赦なき屠殺者を好む。" />
+    <string id="lh_god_nurgle_flv" text="疫病の祖父は耐え忍ぶ者を抱く。その選ばれし者は腐れども、倒れることを拒む。" />
+    <string id="lh_god_tzeentch_flv" text="運命の設計者は、魔法の風を意のままに操る狡猾な術師に報いる。" />
+    <string id="lh_god_slaanesh_flv" text="快楽の公子は迅速かつ完璧なる者——殺しを芸術と化す決闘者を尊ぶ。" />
+    <string id="lh_god_choose_title" text="闇の神に誓いを立てる" />
+    <string id="lh_god_choose_desc" text="あなたは混沌の祭壇の前にひざまずく。その刻印を負う神を選べ——この選択は最終である。{SET} キルであなたの神は完全な戦の武具を授け、{DUEL} キルで至高の支配者その人に王座を懸けて挑むことができる。" />
+    <string id="lh_god_choose_ok" text="誓いを立てる" />
+    <string id="lh_god_chosen_msg" text="あなたは今や {GOD} に誓いを立てた。{FLAVOR}" />
+    <string id="lh_god_set_granted" text="闇の神々はあなたの殺戮に報いる——{GOD} の完全な戦の武具が今あなたの所持品にある。所持品から装備せよ（I キー）。" />
+    <string id="lh_god_set_title" text="神の寵愛" />
+    <string id="lh_set_tab_gods" text="闇の神々" />
+    <string id="lh_set_ChaosGodSetKillThreshold_lbl" text="神の戦装束に必要なキル数" />
+    <string id="lh_set_ChaosGodSetKillThreshold_desc" text="混沌に誓うとき、四柱の闇の神（コーン、ナーグル、ティーンチ、スラーネッシュ）から一柱を選ぶ。個人キル数がこの数に達すると、神は最上位の防具と武器の完全な一式を授ける。低いほど精鋭装備を早く得られる。例：1000 は自らの手で約 1000 体の敵を倒すこと。範囲 500-2000。" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_lbl" text="至高の支配者に挑むための追加キル数" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_desc" text="戦装束の閾値に加えて、混沌の至高の支配者（モートキン）に王座を懸けて決闘を挑むまでに必要な追加の個人キル数。決闘に必要な総キル数＝戦装束の閾値＋この値。低いほど王座への挑戦が早く解放される。例：両方 1000 なら 2000 キルで彼に挑む。範囲 500-2000。" />
+    <string id="lh_chaos_minotaur_weight_relief" text="ミノタウロスの重量（緩和）" />
+    <string id="lh_chaos_recruited_list" text="召喚：{LIST}。" />
   </strings>
 </base>

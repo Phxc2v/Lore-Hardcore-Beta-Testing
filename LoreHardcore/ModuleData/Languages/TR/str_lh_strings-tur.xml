@@ -531,5 +531,27 @@
     <string id="lh_set_MaxBanditPartiesPerHideout_desc" text="HER aktif sığınağın çevresinde kaç gezgin haydut grubunun çıkabileceği. TOR varsayılanı 6'dır — haritada dolaşan grupları azaltmak için düşürün. Örnek: 3." />
     <string id="lh_set_MaxLooterParties_lbl" text="Maks. çapulcu/firari grubu" />
     <string id="lh_set_MaxLooterParties_desc" text="Haritadaki çapulcu ve firari gruplarına kesin üst sınır. TOR en fazla 200'e izin verir — bu yalnızca düşürür (TOR'un kampanya aşamasının izin verdiğinin üzerine asla çıkarmaz). Örnek: 60." />
+    <string id="lh_god_khorne" text="Khorne, Kan Tanrısı" />
+    <string id="lh_god_nurgle" text="Nurgle, Veba Efendisi" />
+    <string id="lh_god_tzeentch" text="Tzeentch, Yolların Değiştiricisi" />
+    <string id="lh_god_slaanesh" text="Slaanesh, Karanlık Prens" />
+    <string id="lh_god_none" text="Tanrı yok" />
+    <string id="lh_god_khorne_flv" text="Kafatası tahtına kafatasları. Khorne, açık katliamda kafa toplayan amansız kasabı kayırır." />
+    <string id="lh_god_nurgle_flv" text="Vebaların Büyükbabası dayananları kucaklar. Seçilmişleri çürür ama düşmeyi reddeder." />
+    <string id="lh_god_tzeentch_flv" text="Kaderin Mimarı, büyü rüzgârlarını iradesine boyun eğdiren kurnaz büyücüyü ödüllendirir." />
+    <string id="lh_god_slaanesh_flv" text="Zevkin Prensi hızlı ve kusursuz olanı sever - öldürmeyi sanata dönüştüren düellocuyu." />
+    <string id="lh_god_choose_title" text="Bir Karanlık Tanrı'ya yemin et" />
+    <string id="lh_god_choose_desc" text="Kaos sunağının önünde diz çökersin. İşaretini taşıyacağın tanrıyı seç — bu seçim kesindir. {SET} öldürmede tanrın sana tam savaş teçhizatını bahşeder; {DUEL} öldürmede tahtı için Overlord'un kendisine meydan okuyabilirsin." />
+    <string id="lh_god_choose_ok" text="Yemini et" />
+    <string id="lh_god_chosen_msg" text="Artık {GOD} adına yeminlisin. {FLAVOR}" />
+    <string id="lh_god_set_granted" text="Karanlık Tanrılar katliamını ödüllendirir - {GOD} tam savaş teçhizatı artık envanterinde. Envanterinden kuşan (I tuşu)." />
+    <string id="lh_god_set_title" text="Bir Tanrı'nın Lütfu" />
+    <string id="lh_set_tab_gods" text="Karanlık Tanrılar" />
+    <string id="lh_set_ChaosGodSetKillThreshold_lbl" text="Tanrının savaş takımı için öldürme" />
+    <string id="lh_set_ChaosGodSetKillThreshold_desc" text="Kaos'a yemin ettiğinde dört Karanlık Tanrı'dan birini seçersin (Khorne, Nurgle, Tzeentch, Slaanesh). Kişisel öldürme sayın bu rakama ulaştığında, tanrın seni en üst seviye zırh ve silahtan oluşan tam takımla ödüllendirir. Düşük = seçkin teçhizatı daha erken kazanırsın. Örnek: 1000, kendi elinle öldürdüğün yaklaşık 1000 düşman demektir. Aralık 500-2000." />
+    <string id="lh_set_ChaosGodDuelKillThreshold_lbl" text="Overlord'a meydan okumak için ek öldürme" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_desc" text="Savaş takımı eşiğine EK olarak, Kaos Overlord'una (Mortkin) tahtı için düelloya davet edebilmeden önceki ek kişisel öldürmeler. Düello için toplam öldürme = savaş takımı eşiği + bu değer. Düşük = taht meydan okuması daha erken açılır. Örnek: ikisi de 1000 iken ona 2000 öldürmede meydan okursun. Aralık 500-2000." />
+    <string id="lh_chaos_minotaur_weight_relief" text="Minotor ağırlığı (hafifletildi)" />
+    <string id="lh_chaos_recruited_list" text="Çağrılanlar: {LIST}." />
   </strings>
 </base>

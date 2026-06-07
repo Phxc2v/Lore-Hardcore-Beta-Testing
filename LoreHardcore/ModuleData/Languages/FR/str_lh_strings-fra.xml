@@ -524,5 +524,27 @@
     <string id="lh_set_MaxBanditPartiesPerHideout_desc" text="Combien de groupes de bandits errants peuvent apparaître autour de CHAQUE repaire actif. La valeur TOR par défaut est 6 — réduisez pour limiter les groupes sur la carte. Exemple : 3." />
     <string id="lh_set_MaxLooterParties_lbl" text="Groupes de pillards/déserteurs max." />
     <string id="lh_set_MaxLooterParties_desc" text="Plafond strict des groupes de pillards et de déserteurs sur la carte. TOR en autorise jusqu'à 200 — ceci ne fait que l'abaisser (jamais au-dessus de ce que permet l'étape de campagne de TOR). Exemple : 60." />
+    <string id="lh_god_khorne" text="Khorne, le Dieu du Sang" />
+    <string id="lh_god_nurgle" text="Nurgle, le Seigneur des Pestes" />
+    <string id="lh_god_tzeentch" text="Tzeentch, le Changeur des Voies" />
+    <string id="lh_god_slaanesh" text="Slaanesh, le Prince Noir" />
+    <string id="lh_god_none" text="Aucun dieu" />
+    <string id="lh_god_khorne_flv" text="Des crânes pour le trône de crânes. Khorne favorise le boucher implacable qui prend des têtes dans le carnage ouvert." />
+    <string id="lh_god_nurgle_flv" text="Le Grand-Père des pestes embrasse les endurants. Ses élus pourrissent, mais refusent de tomber." />
+    <string id="lh_god_tzeentch_flv" text="L'Architecte du Destin récompense le sorcier rusé qui plie les vents de la magie à sa volonté." />
+    <string id="lh_god_slaanesh_flv" text="Le Prince des Plaisirs prise les rapides et les parfaits - le duelliste qui fait du meurtre un art." />
+    <string id="lh_god_choose_title" text="Prête serment à un Dieu Sombre" />
+    <string id="lh_god_choose_desc" text="Tu t'agenouilles devant l'autel du Chaos. Choisis le dieu dont tu porteras la marque — ce choix est définitif. À {SET} victimes, ton dieu t'accorde sa panoplie de guerre complète ; à {DUEL} victimes, tu pourras défier l'Overlord lui-même pour son trône." />
+    <string id="lh_god_choose_ok" text="Prêter le serment" />
+    <string id="lh_god_chosen_msg" text="Tu es désormais lié à {GOD}. {FLAVOR}" />
+    <string id="lh_god_set_granted" text="Les Dieux Sombres récompensent ton carnage - la panoplie de guerre complète de {GOD} se trouve dans ton inventaire. Équipe-la depuis ton inventaire (touche I)." />
+    <string id="lh_god_set_title" text="La Faveur d'un Dieu" />
+    <string id="lh_set_tab_gods" text="Dieux Sombres" />
+    <string id="lh_set_ChaosGodSetKillThreshold_lbl" text="Victimes pour la panoplie de ton Dieu" />
+    <string id="lh_set_ChaosGodSetKillThreshold_desc" text="En te vouant au Chaos, tu choisis l'un des quatre Dieux Sombres (Khorne, Nurgle, Tzeentch, Slaanesh). Lorsque ton total de victimes personnelles atteint ce nombre, ton dieu te récompense avec sa panoplie complète d'armure et d'arme de haut rang. Plus bas = tu gagnes l'équipement d'élite plus tôt. Exemple : 1000 signifie environ 1000 ennemis tués de ta propre main. Plage 500-2000." />
+    <string id="lh_set_ChaosGodDuelKillThreshold_lbl" text="Victimes supplémentaires pour défier l'Overlord" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_desc" text="Victimes personnelles supplémentaires, EN PLUS du seuil de la panoplie, avant de pouvoir défier l'Overlord du Chaos (Mortkin) en duel pour son trône. Total de victimes pour le duel = seuil de la panoplie + cette valeur. Plus bas = le défi du trône se débloque plus tôt. Exemple : les deux à 1000, tu le défies à 2000 victimes. Plage 500-2000." />
+    <string id="lh_chaos_minotaur_weight_relief" text="Poids du Minotaure (allégé)" />
+    <string id="lh_chaos_recruited_list" text="Invoqués : {LIST}." />
   </strings>
 </base>

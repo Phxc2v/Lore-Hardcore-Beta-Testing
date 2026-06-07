@@ -524,5 +524,27 @@
     <string id="lh_set_MaxBanditPartiesPerHideout_desc" text="每個活躍藏身處周圍可生成多少遊蕩的盜匪隊伍。TOR預設值為6——調低以減少在地圖上遊蕩的隊伍。例如：3。" />
     <string id="lh_set_MaxLooterParties_lbl" text="劫掠者/逃兵隊伍上限" />
     <string id="lh_set_MaxLooterParties_desc" text="地圖上劫掠者和逃兵隊伍的硬性上限。TOR最多允許200——此項只會降低它（絕不會高於TOR戰役階段所允許的數量）。例如：60。" />
+    <string id="lh_god_khorne" text="庫恩，血神" />
+    <string id="lh_god_nurgle" text="納垢，瘟疫之主" />
+    <string id="lh_god_tzeentch" text="奇巧，詭途變易者" />
+    <string id="lh_god_slaanesh" text="色孽，黑暗王子" />
+    <string id="lh_god_none" text="無神" />
+    <string id="lh_god_khorne_flv" text="顱骨獻予顱骨王座。庫恩青睞在公開殺戮中不斷斬取頭顱的無情屠夫。" />
+    <string id="lh_god_nurgle_flv" text="瘟疫祖父接納堅忍者。祂的選民腐爛，卻拒絕倒下。" />
+    <string id="lh_god_tzeentch_flv" text="命運締造者獎賞將魔法之風屈從於己意的狡黠術士。" />
+    <string id="lh_god_slaanesh_flv" text="愉悅王子珍視迅捷而完美者——將殺戮化為藝術的決鬥者。" />
+    <string id="lh_god_choose_title" text="向黑暗之神立誓" />
+    <string id="lh_god_choose_desc" text="你跪於混沌祭壇前。選擇你將承其印記的神祇——此選擇不可更改。擊殺達 {SET} 時，你的神授予你完整的頂級戰爭裝備；擊殺達 {DUEL} 時，你可挑戰至高領主本人，奪取其王座。" />
+    <string id="lh_god_choose_ok" text="立下誓言" />
+    <string id="lh_god_chosen_msg" text="你如今效忠於 {GOD}。{FLAVOR}" />
+    <string id="lh_god_set_granted" text="黑暗諸神獎賞你的殺戮——{GOD} 的完整戰爭裝備現已置於你的物品欄。從物品欄裝備（按 I）。" />
+    <string id="lh_god_set_title" text="神之恩寵" />
+    <string id="lh_set_tab_gods" text="黑暗諸神" />
+    <string id="lh_set_ChaosGodSetKillThreshold_lbl" text="換取你神祇戰爭套裝的擊殺數" />
+    <string id="lh_set_ChaosGodSetKillThreshold_desc" text="向混沌立誓時，你選擇四位黑暗之神之一（庫恩、納垢、奇巧、色孽）。當你的個人擊殺數達到此數值，你的神便以整套頂級護甲與武器獎賞你。越低＝越早獲得精英裝備。例如：1000 約為你親手擊殺 1000 名敵人。範圍 500-2000。" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_lbl" text="挑戰至高領主所需的額外擊殺" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_desc" text="在戰爭套裝閾值之外的額外個人擊殺數，達到後方可挑戰混沌至高領主（莫特金）以爭奪其王座。決鬥所需總擊殺＝戰爭套裝閾值＋此數值。越低＝越早解鎖王座挑戰。例如：兩者皆為 1000，則在 2000 擊殺時挑戰他。範圍 500-2000。" />
+    <string id="lh_chaos_minotaur_weight_relief" text="米諾陶重量（已減輕）" />
+    <string id="lh_chaos_recruited_list" text="已召喚：{LIST}。" />
   </strings>
 </base>

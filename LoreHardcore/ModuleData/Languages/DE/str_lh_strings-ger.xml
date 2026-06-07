@@ -524,5 +524,27 @@
     <string id="lh_set_MaxBanditPartiesPerHideout_desc" text="Wie viele umherziehende Banditengruppen um JEDES aktive Versteck erscheinen können. TOR-Standard ist 6 — senken, um die Gruppen auf der Karte auszudünnen. Beispiel: 3." />
     <string id="lh_set_MaxLooterParties_lbl" text="Max. Plünderer-/Deserteur-Gruppen" />
     <string id="lh_set_MaxLooterParties_desc" text="Feste Obergrenze für Plünderer- und Deserteur-Gruppen auf der Karte. TOR erlaubt bis zu 200 — dies senkt nur (hebt nie über das an, was die TOR-Kampagnenphase zulässt). Beispiel: 60." />
+    <string id="lh_god_khorne" text="Khorne, der Blutgott" />
+    <string id="lh_god_nurgle" text="Nurgle, der Seuchenfürst" />
+    <string id="lh_god_tzeentch" text="Tzeentch, der Wandler der Wege" />
+    <string id="lh_god_slaanesh" text="Slaanesh, der Dunkle Prinz" />
+    <string id="lh_god_none" text="Kein Gott" />
+    <string id="lh_god_khorne_flv" text="Schädel für den Schädelthron. Khorne begünstigt den unerbittlichen Schlächter, der im offenen Gemetzel Köpfe nimmt." />
+    <string id="lh_god_nurgle_flv" text="Der Großvater der Seuchen nimmt die Beständigen auf. Seine Auserwählten verrotten, weigern sich aber zu fallen." />
+    <string id="lh_god_tzeentch_flv" text="Der Architekt des Schicksals belohnt den listigen Zauberer, der die Winde der Magie seinem Willen beugt." />
+    <string id="lh_god_slaanesh_flv" text="Der Prinz der Lust schätzt die Schnellen und Vollkommenen - den Duellanten, der das Töten zur Kunst macht." />
+    <string id="lh_god_choose_title" text="Schwöre einem Dunklen Gott" />
+    <string id="lh_god_choose_desc" text="Du kniest vor dem Altar des Chaos. Wähle den Gott, dessen Mal du tragen wirst — diese Wahl ist endgültig. Bei {SET} Tötungen gewährt dir dein Gott seine volle Kriegsausrüstung; bei {DUEL} Tötungen darfst du den Overlord selbst um seinen Thron herausfordern." />
+    <string id="lh_god_choose_ok" text="Den Eid schwören" />
+    <string id="lh_god_chosen_msg" text="Du bist nun {GOD} geweiht. {FLAVOR}" />
+    <string id="lh_god_set_granted" text="Die Dunklen Götter belohnen dein Gemetzel - die volle Kriegsausrüstung von {GOD} liegt nun in deinem Inventar. Lege sie aus deinem Inventar an (Taste I)." />
+    <string id="lh_god_set_title" text="Die Gunst eines Gottes" />
+    <string id="lh_set_tab_gods" text="Dunkle Götter" />
+    <string id="lh_set_ChaosGodSetKillThreshold_lbl" text="Tötungen für die Kriegsausrüstung deines Gottes" />
+    <string id="lh_set_ChaosGodSetKillThreshold_desc" text="Wenn du dich dem Chaos verschreibst, wählst du einen von vier Dunklen Göttern (Khorne, Nurgle, Tzeentch, Slaanesh). Sobald deine persönliche Tötungszahl diesen Wert erreicht, belohnt dich dein Gott mit seiner kompletten Spitzenausrüstung aus Rüstung und Waffe. Niedriger = du verdienst die Elite-Ausrüstung früher. Beispiel: 1000 sind etwa 1000 eigenhändig erschlagene Feinde. Bereich 500-2000." />
+    <string id="lh_set_ChaosGodDuelKillThreshold_lbl" text="Zusätzliche Tötungen, um den Overlord herauszufordern" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_desc" text="Zusätzliche persönliche Tötungen, ZUSÄTZLICH zur Ausrüstungsschwelle, bevor du den Chaos-Overlord (Mortkin) zum Duell um seinen Thron herausfordern darfst. Gesamttötungen für das Duell = Ausrüstungsschwelle + dieser Wert. Niedriger = die Herausforderung schaltet früher frei. Beispiel: beide auf 1000, du forderst ihn bei 2000 Tötungen heraus. Bereich 500-2000." />
+    <string id="lh_chaos_minotaur_weight_relief" text="Minotauren-Gewicht (gemildert)" />
+    <string id="lh_chaos_recruited_list" text="Beschworen: {LIST}." />
   </strings>
 </base>

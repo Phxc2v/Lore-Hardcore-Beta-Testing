@@ -9,9 +9,18 @@
 > of the same module conflict).
 
 **Last stable Steam Workshop release:** v0.1.7.5
-**Current beta:** v0.1.9.56
+**Current beta:** v0.1.9.57
 
 This file is updated on every beta publish. Newest on top.
+
+---
+
+## New in beta v0.1.9.57 (hotfix over v0.1.9.56)
+
+### 🛠 Fixed: crash when starting a NEW game
+- Starting a brand-new campaign could **crash on load** (`NullReferenceException` in the name generator during minor-faction hero spawn).
+- Cause: an old balance patch deleted 14 named orc-lord characters but left dangling hero references in TOR data, producing broken heroes that crashed name generation. Loading an existing save was unaffected, which is why it only showed up on **new games**.
+- The lord-deletion patch was **removed entirely**. Orc army size is still tamed by the existing clan-tier reduction. No save-breaking change — data only.
 
 ---
 

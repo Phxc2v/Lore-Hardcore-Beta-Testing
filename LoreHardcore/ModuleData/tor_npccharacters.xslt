@@ -1,55 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Lore-Hardcore — XSLT-patch: удаление избыточных orc-lord-героев.
+    Lore-Hardcore — tor_npccharacters: identity-transform (НИЧЕГО не удаляем).
 
-    ПРОБЛЕМА (жалоба клиента 2026-05-06): «Massif Choppas объединяет 22 лорда
-    в одну Army = 3700 орков». Среднее по orc-кингдомам ~16 лордов, у Massif
-    Choppas 22 (на 38% выше).
+    ⚠ ИСТОРИЯ / ПОЧЕМУ ПУСТО:
+    Раньше этот XSLT удалял 14 именованных orc-лордов (Massif Choppas / Crooked Eye /
+    Red Eye) — попытка срезать размер орочьих орд по жалобе клиента 2026-05-06
+    («22 лорда = одна Army ~3700 орков»).
 
-    ФИКС: удаляем 4 лорда из each clan'а Massif Choppas + 3 лорда у Crooked Eye
-    и Red Eye (которые тоже завышены, 19 vs 16 average).
+    Это вызывало КРАШ на старте новой игры (CrashDoctor a839bc6a, 2026-06-07):
+    мы удаляли NPCCharacter, но в TOR `tor_heroes.xml` оставались <Hero id="...">
+    на те же ID → шаблон=null → битые герои с null Culture/FirstName →
+    NullReferenceException в NameGenerator.CalculateNameScore при генерации имён
+    на OnNewGameCreated (HeroSpawnCampaignBehavior.SpawnMinorFactionHeroes).
+    На загрузке сейва не воспроизводилось (OnNewGameCreated не зовётся), потому
+    вылезло только когда начали тестить НОВУЮ игру.
 
-    Удаляются:
-      Massif Choppas clan_1 (12→8): _first_9, _first_10, _first_11, _first_12
-      Massif Choppas clan_2 (10→6): _second_7, _second_8, _second_9, _second_10
-      Crooked Eye (19→16):          _first_8, _first_9, _first_10
-      Red Eye (19→16):              _first_9, _first_10, _first_11
+    РЕШЕНИЕ: удаление лордов убрано полностью. Размер орочьих армий и так режется
+    чистым способом — понижением tier 6→4 в tor_clans.xslt (party size cap -30-40%).
+    Если орды снова будут великоваты — делать рантайм-лимит на число лордов в Army,
+    а НЕ удалять предопределённых героев из данных TOR (хрупко, dangling <Hero>).
 
-    После: Massif Choppas 14, Crooked Eye 16, Red Eye 16. Близко к среднему.
-
-    Применяется к TOR'овскому tor_npccharacters (path в SubModule.xml). Лорды
-    лежат в физическом файле tor_npccharacters/tor_campaign_lords.xml — но
-    Bannerlord загружает их под единым XmlName id="NPCCharacters" path="tor_npccharacters".
+    Файл оставлен как identity-transform: нужен одноимённый стаб-XML
+    (tor_npccharacters.xml) + регистрация в SubModule.xml, удалять конвейер не стали.
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="xml" omit-xml-declaration="no" indent="yes"/>
 
-    <!-- identity transform -->
+    <!-- identity transform: копируем всё как есть, ничего не трогаем -->
     <xsl:template match="@*|node()">
         <xsl:copy>
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
-
-    <!-- Massif Choppas clan_1: -4 лорда -->
-    <xsl:template match="NPCCharacter[@id='tor_greenskin_lord_massif_choppas_first_9']" />
-    <xsl:template match="NPCCharacter[@id='tor_greenskin_lord_massif_choppas_first_10']" />
-    <xsl:template match="NPCCharacter[@id='tor_greenskin_lord_massif_choppas_first_11']" />
-    <xsl:template match="NPCCharacter[@id='tor_greenskin_lord_massif_choppas_first_12']" />
-
-    <!-- Massif Choppas clan_2: -4 лорда -->
-    <xsl:template match="NPCCharacter[@id='tor_greenskin_lord_massif_choppas_second_7']" />
-    <xsl:template match="NPCCharacter[@id='tor_greenskin_lord_massif_choppas_second_8']" />
-    <xsl:template match="NPCCharacter[@id='tor_greenskin_lord_massif_choppas_second_9']" />
-    <xsl:template match="NPCCharacter[@id='tor_greenskin_lord_massif_choppas_second_10']" />
-
-    <!-- Crooked Eye: -3 лорда (19→16) -->
-    <xsl:template match="NPCCharacter[@id='tor_greenskin_lord_crooked_eye_first_8']" />
-    <xsl:template match="NPCCharacter[@id='tor_greenskin_lord_crooked_eye_first_9']" />
-    <xsl:template match="NPCCharacter[@id='tor_greenskin_lord_crooked_eye_first_10']" />
-
-    <!-- Red Eye: -3 лорда (19→16) -->
-    <xsl:template match="NPCCharacter[@id='tor_greenskin_lord_red_eye_first_9']" />
-    <xsl:template match="NPCCharacter[@id='tor_greenskin_lord_red_eye_first_10']" />
-    <xsl:template match="NPCCharacter[@id='tor_greenskin_lord_red_eye_first_11']" />
 </xsl:stylesheet>

@@ -531,5 +531,27 @@
     <string id="lh_set_MaxBanditPartiesPerHideout_desc" text="Quanti gruppi di banditi vaganti possono comparire attorno a OGNI nascondiglio attivo. Il valore predefinito di TOR è 6 — riducilo per diradare i gruppi sulla mappa. Esempio: 3." />
     <string id="lh_set_MaxLooterParties_lbl" text="Max gruppi di sciacalli/disertori" />
     <string id="lh_set_MaxLooterParties_desc" text="Limite massimo fisso per i gruppi di sciacalli e disertori sulla mappa. TOR ne consente fino a 200 — questo lo abbassa soltanto (mai oltre quanto consente la fase di campagna di TOR). Esempio: 60." />
+    <string id="lh_god_khorne" text="Khorne, il Dio del Sangue" />
+    <string id="lh_god_nurgle" text="Nurgle, il Signore della Peste" />
+    <string id="lh_god_tzeentch" text="Tzeentch, il Mutatore delle Vie" />
+    <string id="lh_god_slaanesh" text="Slaanesh, il Principe Oscuro" />
+    <string id="lh_god_none" text="Nessun dio" />
+    <string id="lh_god_khorne_flv" text="Teschi per il trono di teschi. Khorne favorisce il macellaio implacabile che mozza teste nel massacro aperto." />
+    <string id="lh_god_nurgle_flv" text="Il Nonno delle pesti abbraccia chi resiste. I suoi eletti marciscono, ma si rifiutano di cadere." />
+    <string id="lh_god_tzeentch_flv" text="L'Architetto del Fato premia lo stregone astuto che piega i venti della magia al proprio volere." />
+    <string id="lh_god_slaanesh_flv" text="Il Principe dei Piaceri apprezza i rapidi e i perfetti - il duellante che fa dell'uccidere un'arte." />
+    <string id="lh_god_choose_title" text="Giura a un Dio Oscuro" />
+    <string id="lh_god_choose_desc" text="Ti inginocchi davanti all'altare del Caos. Scegli il dio di cui porterai il marchio — questa scelta è definitiva. A {SET} uccisioni il tuo dio ti concede il suo arsenale di guerra completo; a {DUEL} uccisioni potrai sfidare l'Overlord stesso per il suo trono." />
+    <string id="lh_god_choose_ok" text="Pronuncia il giuramento" />
+    <string id="lh_god_chosen_msg" text="Ora sei votato a {GOD}. {FLAVOR}" />
+    <string id="lh_god_set_granted" text="Gli Dei Oscuri premiano il tuo massacro - l'arsenale di guerra completo di {GOD} è ora nel tuo inventario. Equipaggialo dal tuo inventario (tasto I)." />
+    <string id="lh_god_set_title" text="Il Favore di un Dio" />
+    <string id="lh_set_tab_gods" text="Dei Oscuri" />
+    <string id="lh_set_ChaosGodSetKillThreshold_lbl" text="Uccisioni per l'arsenale del tuo Dio" />
+    <string id="lh_set_ChaosGodSetKillThreshold_desc" text="Votandoti al Caos scegli uno dei quattro Dei Oscuri (Khorne, Nurgle, Tzeentch, Slaanesh). Quando il tuo conteggio personale di uccisioni raggiunge questo numero, il tuo dio ti premia con il suo set completo di armatura e arma di alto livello. Più basso = ottieni l'equipaggiamento d'élite prima. Esempio: 1000 significa circa 1000 nemici uccisi di tua mano. Intervallo 500-2000." />
+    <string id="lh_set_ChaosGodDuelKillThreshold_lbl" text="Uccisioni extra per sfidare l'Overlord" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_desc" text="Uccisioni personali aggiuntive, OLTRE alla soglia dell'arsenale, prima di poter sfidare l'Overlord del Caos (Mortkin) a duello per il suo trono. Uccisioni totali per il duello = soglia dell'arsenale + questo valore. Più basso = la sfida al trono si sblocca prima. Esempio: entrambi a 1000, lo sfidi a 2000 uccisioni. Intervallo 500-2000." />
+    <string id="lh_chaos_minotaur_weight_relief" text="Peso del Minotauro (ridotto)" />
+    <string id="lh_chaos_recruited_list" text="Evocati: {LIST}." />
   </strings>
 </base>

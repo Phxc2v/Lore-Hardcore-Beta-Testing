@@ -531,5 +531,27 @@
     <string id="lh_set_MaxBanditPartiesPerHideout_desc" text="Ile wędrownych grup bandytów może pojawić się wokół KAŻDEJ aktywnej kryjówki. Domyślna wartość TOR to 6 — zmniejsz, aby przerzedzić grupy na mapie. Przykład: 3." />
     <string id="lh_set_MaxLooterParties_lbl" text="Maks. grupy rabusiów/dezerterów" />
     <string id="lh_set_MaxLooterParties_desc" text="Sztywny limit grup rabusiów i dezerterów na mapie. TOR pozwala na maks. 200 — to tylko go obniża (nigdy powyżej tego, co dopuszcza etap kampanii TOR). Przykład: 60." />
+    <string id="lh_god_khorne" text="Khorne, Bóg Krwi" />
+    <string id="lh_god_nurgle" text="Nurgle, Władca Zarazy" />
+    <string id="lh_god_tzeentch" text="Tzeentch, Odmieniec Ścieżek" />
+    <string id="lh_god_slaanesh" text="Slaanesh, Mroczny Książę" />
+    <string id="lh_god_none" text="Brak boga" />
+    <string id="lh_god_khorne_flv" text="Czaszki dla tronu czaszek. Khorne sprzyja nieubłaganemu rzeźnikowi, który zbiera głowy w otwartej rzezi." />
+    <string id="lh_god_nurgle_flv" text="Dziadek zaraz przygarnia wytrwałych. Jego wybrańcy gniją, lecz nie chcą upaść." />
+    <string id="lh_god_tzeentch_flv" text="Architekt Losu nagradza przebiegłego czarnoksiężnika, który nagina wiatry magii do swej woli." />
+    <string id="lh_god_slaanesh_flv" text="Książę Rozkoszy ceni szybkich i doskonałych - pojedynkowicza, który czyni z zabijania sztukę." />
+    <string id="lh_god_choose_title" text="Złóż przysięgę Mrocznemu Bogu" />
+    <string id="lh_god_choose_desc" text="Klękasz przed ołtarzem Chaosu. Wybierz boga, którego znamię będziesz nosić — ten wybór jest ostateczny. Przy {SET} zabójstwach twój bóg obdarza cię pełnym rynsztunkiem bojowym; przy {DUEL} zabójstwach możesz wyzwać samego Zwierzchnika o jego tron." />
+    <string id="lh_god_choose_ok" text="Złóż przysięgę" />
+    <string id="lh_god_chosen_msg" text="Jesteś teraz zaprzysiężony {GOD}. {FLAVOR}" />
+    <string id="lh_god_set_granted" text="Mroczni Bogowie nagradzają twą rzeź - pełny rynsztunek bojowy {GOD} spoczywa teraz w twoim ekwipunku. Załóż go z ekwipunku (klawisz I)." />
+    <string id="lh_god_set_title" text="Łaska Boga" />
+    <string id="lh_set_tab_gods" text="Mroczni Bogowie" />
+    <string id="lh_set_ChaosGodSetKillThreshold_lbl" text="Zabójstwa za rynsztunek twojego Boga" />
+    <string id="lh_set_ChaosGodSetKillThreshold_desc" text="Zaprzysięgając się Chaosowi wybierasz jednego z czterech Mrocznych Bogów (Khorne, Nurgle, Tzeentch, Slaanesh). Gdy twoja osobista liczba zabójstw osiągnie tę wartość, bóg nagradza cię pełnym zestawem pancerza i broni najwyższego poziomu. Niżej = zdobędziesz elitarny sprzęt wcześniej. Przykład: 1000 to około 1000 wrogów zabitych własną ręką. Zakres 500-2000." />
+    <string id="lh_set_ChaosGodDuelKillThreshold_lbl" text="Dodatkowe zabójstwa, by wyzwać Zwierzchnika" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_desc" text="Dodatkowe osobiste zabójstwa, PONAD próg rynsztunku, zanim wyzwiesz Zwierzchnika Chaosu (Mortkina) na pojedynek o tron. Łączne zabójstwa do pojedynku = próg rynsztunku + ta wartość. Niżej = wyzwanie o tron odblokuje się wcześniej. Przykład: oba na 1000, wyzwiesz go przy 2000 zabójstw. Zakres 500-2000." />
+    <string id="lh_chaos_minotaur_weight_relief" text="Waga Minotaura (złagodzona)" />
+    <string id="lh_chaos_recruited_list" text="Przyzwani: {LIST}." />
   </strings>
 </base>

@@ -523,5 +523,27 @@
     <string id="lh_set_MaxBanditPartiesPerHideout_desc" text="활성화된 각 은신처 주변에 생성되는 떠도는 도적 무리 수. TOR 기본값은 6 — 지도를 배회하는 무리를 줄이려면 낮추세요. 예: 3." />
     <string id="lh_set_MaxLooterParties_lbl" text="약탈자/탈영병 무리 최대 수" />
     <string id="lh_set_MaxLooterParties_desc" text="지도상 약탈자 및 탈영병 무리의 고정 상한. TOR은 최대 200까지 허용 — 이 설정은 낮추기만 합니다(TOR 캠페인 단계가 허용하는 값을 넘겨 올리지 않음). 예: 60." />
+    <string id="lh_god_khorne" text="코른, 피의 신" />
+    <string id="lh_god_nurgle" text="너글, 역병의 군주" />
+    <string id="lh_god_tzeentch" text="젠취, 변화의 신" />
+    <string id="lh_god_slaanesh" text="슬라네쉬, 어둠의 왕자" />
+    <string id="lh_god_none" text="신 없음" />
+    <string id="lh_god_khorne_flv" text="해골 왕좌에 해골을. 코른은 공개된 학살에서 머리를 베는 가차 없는 도살자를 총애한다." />
+    <string id="lh_god_nurgle_flv" text="역병의 할아버지는 인내하는 자를 품는다. 그의 선택받은 자들은 썩어가되 쓰러지기를 거부한다." />
+    <string id="lh_god_tzeentch_flv" text="운명의 설계자는 마법의 바람을 제 뜻에 굴복시키는 교활한 주술사에게 보답한다." />
+    <string id="lh_god_slaanesh_flv" text="쾌락의 왕자는 빠르고 완벽한 자—살인을 예술로 만드는 결투가를 귀히 여긴다." />
+    <string id="lh_god_choose_title" text="어둠의 신에게 맹세하라" />
+    <string id="lh_god_choose_desc" text="당신은 혼돈의 제단 앞에 무릎 꿇는다. 그 표식을 짊어질 신을 선택하라—이 선택은 되돌릴 수 없다. {SET} 처치 시 당신의 신은 완전한 전투 장비 일습을 하사하며, {DUEL} 처치 시 지고의 군주 본인에게 그의 왕좌를 걸고 도전할 수 있다." />
+    <string id="lh_god_choose_ok" text="맹세를 하다" />
+    <string id="lh_god_chosen_msg" text="당신은 이제 {GOD}에게 맹세했다. {FLAVOR}" />
+    <string id="lh_god_set_granted" text="어둠의 신들이 당신의 학살에 보답한다—{GOD}의 완전한 전투 장비 일습이 이제 당신의 소지품에 있다. 소지품에서 착용하라(I 키)." />
+    <string id="lh_god_set_title" text="신의 가호" />
+    <string id="lh_set_tab_gods" text="어둠의 신들" />
+    <string id="lh_set_ChaosGodSetKillThreshold_lbl" text="신의 전투 장비를 얻기 위한 처치 수" />
+    <string id="lh_set_ChaosGodSetKillThreshold_desc" text="혼돈에 맹세할 때 네 어둠의 신(코른, 너글, 젠취, 슬라네쉬) 중 하나를 선택한다. 개인 처치 수가 이 수치에 도달하면 신이 최상급 방어구와 무기 일습으로 보답한다. 낮을수록 정예 장비를 더 일찍 얻는다. 예: 1000은 직접 처치한 약 1000명의 적을 뜻한다. 범위 500-2000." />
+    <string id="lh_set_ChaosGodDuelKillThreshold_lbl" text="지고의 군주에게 도전하기 위한 추가 처치 수" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_desc" text="전투 장비 임계값에 더해, 혼돈의 지고의 군주(모트킨)에게 왕좌를 걸고 결투를 신청하기까지 필요한 추가 개인 처치 수. 결투에 필요한 총 처치 수 = 전투 장비 임계값 + 이 값. 낮을수록 왕좌 도전이 더 일찍 열린다. 예: 둘 다 1000이면 2000 처치에서 그에게 도전한다. 범위 500-2000." />
+    <string id="lh_chaos_minotaur_weight_relief" text="미노타우로스 중량(완화)" />
+    <string id="lh_chaos_recruited_list" text="소환됨: {LIST}." />
   </strings>
 </base>
