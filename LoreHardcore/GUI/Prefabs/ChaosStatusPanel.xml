@@ -5,14 +5,17 @@
          HoverBegin/HoverEnd на корне И кнопке → VM.WantsFocus → MapView даёт/снимает фокус слою.
 
          === Нативный дизайн Bannerlord (v0.1.9.70) ===
-         • Тело — нативный Sprite="StdAssets\Popup\canvas" + резная рамка Sprite="frame_9" (как у попапов
-           и карточек Crash Doctor). Под ними тёмная BlankWhiteSquare-подложка на случай, если спрайты
-           не загрузятся на слое карты (тогда панель просто тёмная, без «дыры»).
-         • Корень — Fixed высота (CoverChildren на слое карты не считается → раньше раздувало в колонну).
+         • Тело — нативный Sprite="StdAssets\Popup\canvas" + резная рамка Sprite="frame_9".
+         • Корень — Fixed высота (CoverChildren на слое карты НЕ считается → раздувает в колонну).
          • ListPanel = VerticalBottomToTop: этот слой инвертирует список, так выходит визуально сверху-вниз.
-         • Секции-разделители (Слава / Боги / Служба), подписи строк, цветные ячейки богов, tooltips. -->
+
+         ⚠ ВАЖНО (регресс v0.1.9.82, исправлено): каждый ребёнок ListPanel должен иметь ДЕТЕРМИНИРОВАННУЮ
+         высоту — Fixed-контейнер или leaf-TextWidget. Контейнер-Widget с HeightSizePolicy="CoverChildren"
+         на этом слое НЕ вычисляет высоту → ListPanel разъезжается (пустая колонна, контент пропадает).
+         Поэтому строки с HintWidget-подсказкой обёрнуты в Fixed-контейнеры (как ряды богов и бар),
+         а НЕ в CoverChildren. -->
     <Widget Id="ChaosStatusRoot" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed"
-            SuggestedWidth="272" SuggestedHeight="448"
+            SuggestedWidth="272" SuggestedHeight="460"
             HorizontalAlignment="Right" VerticalAlignment="Center" PositionYOffset="20"
             MarginRight="12" IsVisible="@IsVisible"
             Command.HoverBegin="ExecuteHoverBegin" Command.HoverEnd="ExecuteHoverEnd">
@@ -35,11 +38,11 @@
                    MarginTop="22" MarginBottom="18" MarginLeft="26" MarginRight="26">
           <Children>
 
-            <!-- ===== Заголовок ===== (HintWidget = обзорная подсказка по всей панели) -->
-            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren">
+            <!-- ===== Заголовок ===== (Fixed-контейнер + HintWidget = обзорная подсказка по панели) -->
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="32">
               <Children>
                 <HintWidget DataSource="{TitleHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
-                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren"
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" VerticalAlignment="Center"
                             Brush.FontSize="22" Brush.FontColor="#F4E1C4FF"
                             Brush.TextHorizontalAlignment="Center"
                             Text="@TitleText" DoNotAcceptEvents="true"/>
@@ -75,10 +78,11 @@
               </Children>
             </Widget>
 
-            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginBottom="10">
+            <!-- Подпись Славы (Fixed-контейнер + HintWidget) -->
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="24" MarginBottom="10">
               <Children>
                 <HintWidget DataSource="{GloryHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
-                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren"
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" VerticalAlignment="Center"
                             Brush.FontSize="17" Brush.FontColor="#E8D9B9FF"
                             Brush.TextHorizontalAlignment="Center"
                             Text="@GloryText" DoNotAcceptEvents="true"/>
@@ -89,37 +93,37 @@
                     MarginBottom="9"
                     Sprite="BlankWhiteSquare_9" Color="#3A3024FF" DoNotAcceptEvents="true"/>
 
-            <!-- ===== Секция «Боги» ===== (каждая строка = своя HintWidget-зона) -->
-            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginBottom="4">
+            <!-- ===== Секция «Боги» ===== (каждая строка = Fixed-контейнер + своя HintWidget-зона) -->
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="22" MarginBottom="4">
               <Children>
                 <HintWidget DataSource="{PatronHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
-                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren"
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" VerticalAlignment="Center"
                             Brush.FontSize="16" Brush.FontColor="#D6C4A8FF"
                             Text="@PatronText" DoNotAcceptEvents="true"/>
               </Children>
             </Widget>
-            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginBottom="4">
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="22" MarginBottom="4">
               <Children>
                 <HintWidget DataSource="{AllegianceHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
-                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren"
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" VerticalAlignment="Center"
                             Brush.FontSize="16" Brush.FontColor="#C8B898FF"
                             Text="@AllegianceText" DoNotAcceptEvents="true"/>
               </Children>
             </Widget>
-            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginBottom="6">
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="22" MarginBottom="6">
               <Children>
                 <HintWidget DataSource="{MissionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
-                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren"
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" VerticalAlignment="Center"
                             Brush.FontSize="16" Brush.FontColor="#C8B898FF"
                             Text="@MissionText" DoNotAcceptEvents="true"/>
               </Children>
             </Widget>
 
-            <!-- Преданность: подпись + 4 цветные ячейки богов. HintWidget = зона подсказки. -->
-            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginBottom="3">
+            <!-- Преданность: подпись (Fixed-контейнер) + 4 цветные строки богов. HintWidget = зона подсказки. -->
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="22" MarginBottom="3">
               <Children>
                 <HintWidget DataSource="{DevotionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
-                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren"
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" VerticalAlignment="Center"
                             Brush.FontSize="16" Brush.FontColor="#D6C4A8FF"
                             Text="@DevotionLabelText" DoNotAcceptEvents="true"/>
               </Children>
@@ -182,26 +186,26 @@
                     MarginBottom="9"
                     Sprite="BlankWhiteSquare_9" Color="#3A3024FF" DoNotAcceptEvents="true"/>
 
-            <!-- ===== Секция «Служба» ===== (HintWidget = подсказка про срок службы/кулдаун) -->
-            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren">
+            <!-- ===== Секция «Служба» ===== (Fixed-контейнер + HintWidget) -->
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="20">
               <Children>
                 <HintWidget DataSource="{ServiceHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
-                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren"
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" VerticalAlignment="Center"
                             Brush.FontSize="15" Brush.FontColor="#988673FF"
                             Text="@ServiceText" DoNotAcceptEvents="true"/>
               </Children>
             </Widget>
 
             <!-- Кнопка «Углубить Преданность» — нативная Popup.Done.Button.
-                 HintWidget-фон = подсказка; подпись DoNotAcceptEvents, клик ловит сама кнопка. -->
-            <ButtonWidget UpdateChildrenStates="true"
+                 (Тултип на кнопке убран: DoNotPassEventsToChildren не пропускает hover к HintWidget,
+                  а клик критичен. Смысл кнопки покрыт подсказкой «Преданность».) -->
+            <ButtonWidget DoNotPassEventsToChildren="true" UpdateChildrenStates="true"
                           WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="42"
                           MarginTop="12" IsVisible="@CanDeepen"
                           Brush="Popup.Done.Button"
                           Command.Click="ExecuteDeepenDevotion"
                           Command.HoverBegin="ExecuteHoverBegin" Command.HoverEnd="ExecuteHoverEnd">
               <Children>
-                <HintWidget DataSource="{DeepenHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
                 <TextWidget DoNotAcceptEvents="true"
                             WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"
                             Brush="Popup.Button.Text" Brush.FontSize="17"

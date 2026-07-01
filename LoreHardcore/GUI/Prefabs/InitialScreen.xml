@@ -130,7 +130,7 @@
         <!-- Lore-Hardcore: версия мода в правом-верхнем углу (под селектором профиля) -->
         <ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" VerticalAlignment="Top" MarginTop="80" MarginRight="15" Sprite="BlankWhiteSquare_9" Color="#000000BB" AlphaFactor="0.85" StackLayout.LayoutMethod="VerticalTopToBottom" DoNotAcceptEvents="true">
           <Children>
-            <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" MarginLeft="14" MarginRight="14" MarginTop="8" MarginBottom="8" Text="Lore-Hardcore — v0.1.9.82" Color="#E8D9B9FF" DoNotAcceptEvents="true"/>
+            <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" MarginLeft="14" MarginRight="14" MarginTop="8" MarginBottom="8" Text="Lore-Hardcore — v0.1.9.84" Color="#E8D9B9FF" DoNotAcceptEvents="true"/>
           </Children>
         </ListPanel>
 

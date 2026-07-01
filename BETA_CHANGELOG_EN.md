@@ -9,13 +9,13 @@
 > of the same module conflict).
 
 **Last stable Steam Workshop release:** v0.1.7.5
-**Current beta:** v0.1.9.82
+**Current beta:** v0.1.9.84
 
 This file is updated on every beta publish. Newest on top.
 
 ---
 
-## New in beta v0.1.9.82 (since v0.1.9.57)
+## New in beta v0.1.9.84 (since v0.1.9.57)
 
 ### ⭐ Devotion to the Four (Chaos)
 - Spend Dark Energy to deepen your devotion to **each** of the four Dark Gods (ranks 0–10). Each rank strengthens that God's battle boon (Khorne damage / Nurgle health / Tzeentch Winds of Magic / Slaanesh speed) and **stacks** with your patron's boon.
@@ -32,6 +32,7 @@ This file is updated on every beta publish. Newest on top.
 - Devotion to the gods is now a readable list "name (colour) + rank/10 + boon" (was the cryptic "K1 N0 T0 S0").
 - **Hover tooltips on every element** of the panel — what it is, what it's for, how it works; in all 12 languages.
 - Glory bar: the count caps at "X/X ✓" once the threshold is reached; the golden marker hides once passed.
+- The mod settings screen now shows the current mod version (under the title).
 
 ### 🛡 Stability & polish
 - Full code audit + fixes: Lord Seduction is transactional (no resource loss on failure), cooldowns/progress survive save/load, combat boons fall away when you leave the Chaos kingdom, signature weapons are unique per God.

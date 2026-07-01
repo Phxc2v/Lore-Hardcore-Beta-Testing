@@ -33,6 +33,12 @@
                             MarginLeft="24" Text="@Title"
                             Brush.FontSize="32" Brush.FontColor="#E8D9B9FF"
                             DoNotAcceptEvents="true"/>
+                <!-- Версия мода (авто-актуальна из LhVersion.Build) — слева внизу под заголовком. -->
+                <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren"
+                            HorizontalAlignment="Left" VerticalAlignment="Bottom"
+                            MarginLeft="26" MarginBottom="3" Text="@VersionText"
+                            Brush.FontSize="14" Brush.FontColor="#8A9AA5FF"
+                            DoNotAcceptEvents="true"/>
                 <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren"
                             HorizontalAlignment="Right" VerticalAlignment="Center"
                             MarginRight="100" Text="@ModeText"

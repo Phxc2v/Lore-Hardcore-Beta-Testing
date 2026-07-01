@@ -4,7 +4,7 @@ Each entry is a release day. Multiple small fixes within a day are bundled into 
 
 ---
 
-## (pending release) — v0.1.9.82: Devotion to the Four, Lord Seduction, TOR Tweaks settings, Chaos panel polish
+## (pending release) — v0.1.9.84: Devotion to the Four, Lord Seduction, TOR Tweaks settings, Chaos panel polish
 
 Large set of changes since v0.1.9.57 (still local/beta, not yet on Steam). Target: Bannerlord 1.3.15, TOR "War in the Mountains" 1.16.
 
