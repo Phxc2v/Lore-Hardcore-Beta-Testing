@@ -315,17 +315,21 @@
         </xsl:copy>
     </xsl:template>
 
-    <!-- Тролль — лорная пропорция «1 тролль = 6-8 человек».
-         v0.1.4.68: Endurance 800 → 500 (срез ~37%). С HP×1.40 в реальном бою
-         даёт ~700 HP (≈9× человека), в AI-бою с HP×1.20 ~600 HP (≈8× человека).
-         Skill +30% не применяется (отдельный exclude в OrcSkillValuePatch),
-         Athletics ×0.85 (TrollAthleticsNerfPatch). Лорно: «огромная мясная гора,
-         медленная, но мощная — нужно 6-8 копейщиков, чтобы свалить». -->
+    <!-- Тролль. ⚠⚠ КРАШ-ФИКС 2026-06-15: УБРАН инлайновый <skills><skill Endurance=500>.
+         Симптом: NRE в TORPartyUpgraderCampaignBehavior.GetTroopUpgradeList:136
+         (t.Character.UpgradeTargets == null) + PartyBase.OnXpChanged — 6/6 троллиных
+         крашей только с LH. Механизм: skill_template tor_skills_troll НЕ содержит Endurance
+         (только Athletics/OneHanded/TwoHanded/Polearm), и добавление инлайнового Endurance
+         именно троллю роняло base.Deserialize ДО установки culture/equipment/UpgradeTargets
+         → все три поля null → краш апгрейд-модели/начисления XP. Тролль и так танковый по
+         race-HP TOR (Endurance в его шаблоне нет — наш «нерф 800→500» по факту НЕ применялся,
+         тролль брал HP не из Endurance). Нерф HP, если понадобится, делать через
+         OrcHPStatsModelPatch (MaxHitpoints), НЕ через инлайновый skill. npcCost оставлен
+         (безопасный атрибут, как у орков). НЕ возвращать инлайновый <skills> на тролля. -->
     <xsl:template match="NPCCharacter[@id='tor_gs_trolls']">
         <xsl:copy><xsl:apply-templates select="@*"/>
             <xsl:attribute name="npcCost">30000</xsl:attribute>
             <xsl:apply-templates select="node()"/>
-            <skills><skill id="Endurance" value="500" /></skills>
         </xsl:copy>
     </xsl:template>
     <!-- bully/thug/master_thug получают Endurance (ранее были без). Скилы bully/master_thug обновлены выше. -->

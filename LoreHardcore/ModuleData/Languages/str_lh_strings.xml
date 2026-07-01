@@ -29,7 +29,6 @@
     <string id="lh_village_goblin_hired" text="Recruited: {COUNT} goblins (for {PRICE}{GOLD_ICON})" />
     <string id="lh_goblin_companions_added" text="+{COUNT} goblin servants for {TROOP}" />
     <string id="lh_goblin_companions_capped" text="+{COUNT} goblins (wanted {DESIRED}, hit 4:1 limit)" />
-    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
     <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="Arrer Boy Boss" />
     <string id="lh_troop_tor_gs_orc_bigun" text="Big'Un Orc" />
     <string id="lh_troop_tor_gs_black_orc" text="Black Orc" />
@@ -64,13 +63,6 @@
     <string id="lh_castle_challenge_err_no_gold" text="[Challenge] Not enough gold for the wager." />
     <string id="lh_castle_challenge_err_generic" text="[Challenge] Error: {ERROR}" />
     <string id="lh_castle_challenge_reward_troop_join" text=", and one of his kind joins your party" />
-    <string id="lh_settings_economy_title" text="Lore-Hardcore: economy choice" />
-    <string id="lh_settings_economy_desc" text="This choice is locked into your save. To change it, start a new game." />
-    <string id="lh_settings_economy_teef_title" text="Orcish Teef Economy (Warhammer canon)" />
-    <string id="lh_settings_economy_teef_hint" text="Buy orcish elite in castles for teef (orc currency) earned in battle. Goblins still use gold. +5 teef per day for each orc town/castle you own. Lore-accurate to Warhammer Fantasy — orcs don't respect gold." />
-    <string id="lh_settings_economy_classic_title" text="Classic (everything for gold)" />
-    <string id="lh_settings_economy_classic_hint" text="Orcs and goblins are hired for gold as in vanilla TOR. No teef economy, no daily fief income. Simple and familiar." />
-    <string id="lh_settings_economy_confirm" text="Confirm" />
     <string id="lh_castle_no_teef" text="Not enough teef: need {LH_TEEF_NEEDED}, have {LH_TEEF_HAVE}." />
     <string id="lh_castle_not_orc" text="Only for orc heroes. Orcs don't respect outsiders." />
     <string id="lh_teef_daily_msg" text="+{TEEF} teef from your orc towns and castles ({COUNT})" />
@@ -80,44 +72,28 @@
     <string id="lh_castle_challenge_no_fee_gold" text="Need {FEE} gold to issue the challenge (have {HAVE})." />
     <string id="lh_teef_recruit_msg" text="-{TEEF} teef for {TROOP} ×{COUNT}." />
     <string id="lh_teef_recruit_no_teef" text="Not enough teef for {TROOP} (need {NEED}, have {HAVE})." />
+    <string id="lh_teef_upkeep_warn" text="Not enough teef to feed your elite ({NEED}/day, you have {HAVE}). The boyz are grumblin' — find teef or in a day or two they'll start runnin' off." />
+    <string id="lh_teef_upkeep_desert" text="No teef, rotten mood — the boyz have had enough. Some of da elite are stompin' off! Get teef or lose 'em all." />
+    <string id="lh_teef_upkeep_line" text="Elite upkeep (teef)" />
+    <string id="lh_teef_upkeep_morale" text="No teef for the boyz" />
     <string id="lh_teef_unit" text="teef" />
     <string id="lh_bt_conflict_title" text="Mod conflict: BetterTime + Lore-Hardcore" />
     <string id="lh_bt_conflict_text" text="The third-party BetterTime mod is loaded together with Lore-Hardcore. This mod is NOT compatible with The Old Realms — it conflicts via UI MapBar override.{newline}{newline}Lore-Hardcore ALREADY INCLUDES BetterTime functionality:{newline}D3 / Numpad3 — fast forward ×4{newline}D4 / Numpad4 — ultra fast ×8{newline}Release the key — back to normal speed{newline}{newline}RECOMMENDATION: close the game, disable or remove third-party BetterTime in Bannerlord Launcher, restart." />
     <string id="lh_bt_conflict_ok" text="Understood, I'll fix it" />
-    <string id="lh_tournament_cannot_leave" text="Da fight ain't over. No runnin'." />
 
     <!-- ============ Lore-Hardcore Encyclopedia (in-game guide, hotkey H) ============ -->
     <string id="lh_orc_execute_enemy_buff" text="Enemy executed. The orc party takes pride. Morale +10, Honor reputation restored." />
     <string id="lh_chaos_uprising_announce" text="!!! THE FORCES OF CHAOS HAVE RISEN — a Chaos uprising has appeared on the map !!!" />
     <string id="lh_enc_title" text="Lore-Hardcore — In-Game Guide" />
-    <string id="lh_enc_pick_topic" text="Pick a topic to read:" />
-    <string id="lh_enc_read" text="Open" />
-    <string id="lh_enc_back" text="Back to topics" />
     <string id="lh_enc_close" text="Close" />
 
-    <string id="lh_enc_topic_teef_economy_title" text="Tooth Economy" />
-    <string id="lh_enc_topic_teef_economy_body" text="For orc and goblin players the Tooth Economy is ALWAYS active — no mid-game switch, no dialog at start. Humans, dwarves, vampires keep gold as before.{newline}{newline}When you play an orc:{newline}- In orc settlements you pay teef instead of gold for everything.{newline}- Outside orc settlements (Empire, Bretonnia, etc.) you still pay gold.{newline}- Teef are earned ONLY in real combat: kills of T4+ troops, lord kills, brawl wins, castle challenges, daily tribute from orc fiefs you own.{newline}- Orc parties drain no gold from your clan — wage morale penalty is suppressed (you don't pay them anyway).{newline}- Daily teef income is capped to keep AI orc lords from snowballing the map." />
 
-    <string id="lh_enc_topic_career_path_title" text="Career: from Bully to Boss" />
-    <string id="lh_enc_topic_career_path_body" text="Orc career has two paths chosen during character creation: Path of the Bully (becomes Boss) or Path of the Shaman.{newline}{newline}Unlock requirements cut from vanilla TOR for Lore-Hardcore:{newline}- Tier 2 (Boss): weapon skills 80/80/30, 30 battles, 5 tournaments, 10 brawls, 2000 teef.{newline}- Tier 3 (Boss): weapon skills 150/120/60, 70 battles, 15 tournaments, 20 brawls, 5 lord duels, 5 cities captured, 10000 teef.{newline}- Tier 2 (Shaman): pray at a shrine, Spellcraft 50, Faith 50, 3 enchantments, 2000 teef, 5 shrines looted.{newline}- Tier 3 (Shaman): Spellcraft 120, Faith 100, 8 enchantments, 10000 teef, 5 cities, 30 shrines." />
 
-    <string id="lh_enc_topic_orc_morale_waaagh_title" text="Orc Morale and WAAAGH!" />
-    <string id="lh_enc_topic_orc_morale_waaagh_body" text="Orc party morale and AI scaling have been rebalanced.{newline}{newline}- Orc lords have +40% HP and +30% to combat skills baseline.{newline}- Morale multiplier: x1.5 (orcs more aggressive than humans).{newline}- Elite orcs (Black Orc, Boss, Berzerka, Bigun) are FEARLESS — never panic from low morale or being outnumbered.{newline}- WAAAGH! proximity buff stacks when massed orcs attack.{newline}{newline}AI balancing (so orcs don't snowball the map):{newline}- Soft cap on AI orc lord party size: 80 troops.{newline}- Marshal's Army can hold maximum 5 parties (leader + 4 called) — orcs attack in mini-armies of 400-500 instead of 3000.{newline}- AI strength estimation: orcs counted at x1.8, goblins x0.8, trolls/Big'Uns/warbosses x3.0 — imperial AI now correctly assesses orc threat.{newline}- Massif Choppas reduced from 22 to 14 lords; Crooked Eye and Red Eye to 17. Capital prosperity rebalanced.{newline}{newline}Player party uses normal vanilla limits." />
 
-    <string id="lh_enc_topic_castle_challenge_title" text="Castle Duel Challenge" />
-    <string id="lh_enc_topic_castle_challenge_body" text="When you visit an orc castle, you can challenge an elite orc to a duel for a teef stake.{newline}{newline}- Win: the elite joins your party as a trophy unit, plus you get +15 teef.{newline}- Lose: your stake is gone, your reputation in the castle drops temporarily.{newline}{newline}Elites available depend on the castle: Bigun, Boss, Black Orc, Brute, Berzerka. Each has its own price and difficulty.{newline}{newline}Stakes scale with elite tier — Bigun ~50 teef, Black Orc ~150 teef, Boss ~250 teef.{newline}{newline}The duel itself is a real 1v1 fight on a castle scene. No tricks, no auto-resolve." />
 
-    <string id="lh_enc_topic_orc_sieges_ram_title" text="Orc Sieges and the Ram" />
-    <string id="lh_enc_topic_orc_sieges_ram_body" text="Orc sieges work differently in Lore-Hardcore.{newline}{newline}- Orcs CANNOT build trebuchets. Lore-wise: a counterweight machine with parabolic trajectory math is too engineered for an orc. Available siege engines: ballistas, onagers, catapults (including fire variants).{newline}- Battering ram is buffed: hits 5x harder, holds out 3.5x longer. Gates fall in 5-10 hits instead of vanilla 30+. Lore-wise: a log with a tooth-grinder skull, iron-clad, shoved by eight burly orcs.{newline}- Auto-resolve gets the same ram buff so orc sieges feel right whether you fight on the scene or skip." />
 
-    <string id="lh_enc_topic_prisoner_cannibalism_title" text="Prisoner Cannibalism" />
-    <string id="lh_enc_topic_prisoner_cannibalism_body" text="Orcs do NOT chop prisoners on the spot. Meat comes ONLY from on-the-march hunger cannibalism.{newline}{newline}After a battle:{newline}- Auto-chop in loot screen: 0 meat (regardless of how many prisoners taken).{newline}- 'Chop' button in Quartermaster: 0 meat.{newline}- Meat from kills (TOR auto-formula): 0 for player victories.{newline}{newline}Only way to get meat from prisoners — take them, run out of food, wait. Each in-game hour with empty larder:{newline}1. PRISONERS first. Each = 1 meat.{newline}2. Then GOBLINS. Each = 1 meat.{newline}3. Lords and companions NEVER eaten (lord = ransom, companion = quest line).{newline}{newline}Lore: orcs eat captives alive on the road, not at the butcher's block.{newline}{newline}AI orc parties keep TOR vanilla meat-from-battle so they don't starve." />
 
-    <string id="lh_enc_topic_brawl_arena_title" text="Greenskin Brawl Arena" />
-    <string id="lh_enc_topic_brawl_arena_body" text="Greenskin Brawl is a fistfight arena unique to orc settlements.{newline}{newline}- 18 enemies per match (much larger than the vanilla arena).{newline}- Reward calculated by your personal kill count, not just survival.{newline}- Runaway enemies who fall into out-of-bounds zones are auto-killed once per second to prevent the match from freezing.{newline}- Goblins no longer spawn on the arena roof (an old TOR placement bug).{newline}- Win condition: be the last one standing OR the team with most kills if you survive.{newline}- In conquered non-orc cities (Bretonnian, Imperial taverns) brawl atmosphere shaders are suppressed to avoid 'cannot find entry point' errors on older GPUs.{newline}{newline}Good for: training One-Handed skill, earning teef, completing the orc career quest brawl objective." />
 
-    <string id="lh_enc_topic_execute_enemy_buff_title" text="Executing Racial Enemies" />
-    <string id="lh_enc_topic_execute_enemy_buff_body" text="When an orc player executes a captured racial enemy lord, the orc party celebrates — not laments.{newline}{newline}Vanilla Bannerlord penalises any execution with -1000 Honor XP. For an orc, killing a Dwarf, Vampire, Elf or Imperial lord is a feat, not a sin.{newline}{newline}Lore-Hardcore adds a buff:{newline}- Honor XP fully compensated (+1000) so the vanilla penalty is cancelled.{newline}- Mercy trait gets a token +1 XP (status balance).{newline}- Orc party gains +10 morale immediately.{newline}- A green message confirms the buff was applied.{newline}{newline}Applies only when the player is orc-culture (aserai in TOR) and the victim is a racial enemy: Dwarf (sturgia), Vampire Counts (khuzait), Empire, Bretonnia (vlandia), Wood Elves (battania), Eonir, Mousillon, Blood Dragons, Chaos, High Elves, Dark Elves.{newline}{newline}Executing your OWN race (other orcs) keeps the vanilla penalty — that's a shame for an orc warlord." />
     <string id="lh_settings_button" text="Lore-Hardcore Settings" />
 
     <!-- ========== Settings UI: chrome ========== -->
@@ -251,6 +227,8 @@
     <string id="lh_set_GoblinUpgradeMinCost_desc" text="Minimum gold a goblin upgrade can cost. Example: 50 gold floor per goblin upgrade." />
     <string id="lh_set_OrcEliteAIDiscount_lbl" text="AI elite discount" />
     <string id="lh_set_OrcEliteAIDiscount_desc" text="Fraction of the elite-orc price the AI pays (1.0 = full price). Lower = AI fields elites cheaper than you. Example: 0.60 = AI pays 60% of the elite cost." />
+    <string id="lh_set_OrcEliteTeefUpkeepMultiplier_lbl" text="Elite teef upkeep" />
+    <string id="lh_set_OrcEliteTeefUpkeepMultiplier_desc" text="Daily teef cost to maintain your ELITE orcs (Tier 4+) as a player in the teef economy. Base rate per unit: T4=1, T5=2, T6=3 teef/day, multiplied by this value. T1-T3 orcs and goblins are always free. 0 = off (elite is free, old behaviour). 1 = normal. 2-3 = hardcore. Example: 20 Black Orcs (T5) at x1 = 40 teef/day. If you run out, your boyz get angry (morale drops, shown in the party morale tooltip) and after a day or two the elite start deserting." />
     <string id="lh_set_OrcChopMeatRegular_lbl" text="Meat per regular prisoner" />
     <string id="lh_set_OrcChopMeatRegular_desc" text="Meat gained from butchering a regular prisoner (cannibalism economy). Example: 1 meat per normal prisoner chopped." />
     <string id="lh_set_OrcChopMeatLarge_lbl" text="Meat per large prisoner" />
@@ -287,22 +265,6 @@
     <string id="lh_set_TrollCaveLureAllowed_desc" text="If ON, adds a 'Lure trolls (10 meat)' option to the cave menu. Off by default because a Tier-6 troll for 10 meat is exploitable." />
 
     <!-- ========== System toggles (Restart) ========== -->
-    <string id="lh_set_EnableOrcHPBuff_lbl" text="Orc HP buff" />
-    <string id="lh_set_EnableOrcHPBuff_desc" text="Structural toggle: turn the entire orc HP-buff system on or off. OFF = orcs use vanilla HP regardless of the HP sliders." />
-    <string id="lh_set_EnableOrcDamageMods_lbl" text="Team-aware damage" />
-    <string id="lh_set_EnableOrcDamageMods_desc" text="Structural toggle for all orc damage modifiers (ally/enemy attacker and victim multipliers). OFF = vanilla orc damage." />
-    <string id="lh_set_EnableTeefEconomy_lbl" text="TeefEconomy" />
-    <string id="lh_set_EnableTeefEconomy_desc" text="Structural toggle for the orc teef currency economy (earning and spending teef). OFF = orcs use plain gold like vanilla." />
-    <string id="lh_set_EnableOrcArmyCaps_lbl" text="Orc army caps" />
-    <string id="lh_set_EnableOrcArmyCaps_desc" text="Structural toggle for orc party-size and army caps. OFF = AI orc parties grow without our limits." />
-    <string id="lh_set_EnableTrollCaveNerf_lbl" text="Troll cave nerf" />
-    <string id="lh_set_EnableTrollCaveNerf_desc" text="Structural toggle for the troll-cave rebalance (battle size, raid limits). OFF = vanilla troll-cave behavior." />
-    <string id="lh_set_EnableHideoutCooldown_lbl" text="Hideout cooldown" />
-    <string id="lh_set_EnableHideoutCooldown_desc" text="Structural toggle for the hideout cooldown/limit system. OFF = vanilla hideout respawn rules." />
-    <string id="lh_set_EnableBrawlRewardNerf_lbl" text="Brawl reward nerf" />
-    <string id="lh_set_EnableBrawlRewardNerf_desc" text="Structural toggle for the reduced brawl gold reward. OFF = vanilla brawl payout." />
-    <string id="lh_set_EnableShrineLootNerf_lbl" text="Shrine loot nerf" />
-    <string id="lh_set_EnableShrineLootNerf_desc" text="Structural toggle for the shrine-loot rebalance (gold only, no meat/teef). OFF = vanilla shrine loot." />
     <string id="lh_set_EnableOrcCareerQuestNerf_lbl" text="Career quest nerf" />
     <string id="lh_set_EnableOrcCareerQuestNerf_desc" text="Lowers the requirements of orc career quests (weapon-skill training counts, battles, duels, teef earned). OFF = vanilla quest requirements." />
     <string id="lh_set_EnableOrcNoTrebuchet_lbl" text="Orcs without trebuchets" />
@@ -313,20 +275,24 @@
     <string id="lh_set_EnableMaceShieldBonus_desc" text="Toggle for the blunt-weapon-versus-metal-shield bonus damage (maces, hammers). OFF = blunt weapons deal vanilla shield damage." />
     <string id="lh_health_title" text="Lore-Hardcore: compatibility check" />
     <string id="lh_ck_duel_abort" text="Could not begin the duel here. Challenge the Overlord out in the open field." />
-    <string id="lh_health_intro" text="Some Lore-Hardcore features are being blocked by another mod:" />
+    <string id="lh_health_intro2" text="Lore-Hardcore detected a problem with some features:" />
+    <string id="lh_health_open_log" text="Open log folder" />
+    <string id="lh_health_close" text="Close" />
+    <string id="lh_whatsnew_title" text="Lore-Hardcore updated to {VER}" />
+    <string id="lh_hud_task" text="Task {P}/{T}" />
+    <string id="lh_whatsnew_0_1_9_60" text="NEW in this version:\n- Patron Gods now grant a permanent boon (damage / health / Winds of Magic / speed).\n- Dark Energy economy: earn it by raiding villages, sacrificing prisoners and defiling shrines.\n- Tasks of the Dark Gods: take a quest in any settlement for a big Dark Energy reward.\n- Overthrow the Overlord now lets you execute OR spare him as your vassal.\nPress Alt+H for the full in-game guide." />
+    <string id="lh_tip_orc_intro_t" text="You lead the Greenskins" />
+    <string id="lh_tip_orc_intro_b" text="Orcs pay in Teef, not gold. You knock Teef out of tough enemies (T4+) in battle and earn it from your orc fiefs, brawls and the arena. Spend it to recruit. Press Alt+H any time for the full guide." />
+    <string id="lh_tip_chaos_intro_t" text="You serve the Dark Gods" />
+    <string id="lh_tip_chaos_intro_b" text="You now walk the path of Chaos. Earn Dark Energy by raiding villages, sacrificing prisoners and defiling shrines. Choose a patron God for a permanent boon, take tasks from the Gods for big rewards, and one day overthrow the Overlord himself. Press Alt+H for the guide." />
+    <string id="lh_tip_patron_t" text="Choose a Patron God" />
+    <string id="lh_tip_patron_b" text="Pledge to one of the Four - Khorne (+damage), Nurgle (+health), Tzeentch (+Winds of Magic) or Slaanesh (+speed). The choice is permanent and grants a lasting boon. You are prompted when you join Chaos; you can also use the console: lh.chaos_god." />
+    <string id="lh_tip_de_t" text="Dark Energy gathered" />
+    <string id="lh_tip_de_b" text="Dark Energy is the currency of Chaos. Spend it on Tasks of the Gods and on Devotion to the Four. Keep raiding, sacrificing and defiling to gather more." />
+    <string id="lh_health_tor_api" text="Some core systems could not connect to TOR (it may have been updated): {LIST}. Teef and Dark Energy income may not work. Details are in the file lorehardcore_health.log." />
     <string id="lh_health_ui" text="The map time panel (extra speed button and Chaos progress bar) could not be added." />
     <string id="lh_health_suspect" text="Possible cause: {LIST}" />
     <string id="lh_health_footer" text="Load Lore-Hardcore AFTER TOR. Libraries like UIExtenderEx, MCM and ButterLib are required and fine - do not disable them. If a feature stays broken, try disabling UI/combat overhaul mods." />
-    <string id="lh_set_EnableGoblinSpeedBuff_lbl" text="Faster goblins" />
-    <string id="lh_set_EnableGoblinSpeedBuff_desc" text="Structural toggle for the goblin speed/athletics buffs. OFF = goblins move at vanilla speed." />
-    <string id="lh_set_EnableOrcKickStunBuff_lbl" text="Long kick stun" />
-    <string id="lh_set_EnableOrcKickStunBuff_desc" text="Structural toggle for the longer orc kick and shield-bash stun. OFF = vanilla stun durations." />
-    <string id="lh_set_EnableChaosVassalRecruit_lbl" text="Chaos recruiting" />
-    <string id="lh_set_EnableChaosVassalRecruit_desc" text="Legacy toggle, now covered by the Chaos master switch on the Main tab. Left in place for save compatibility." />
-    <string id="lh_set_EnableBrawlRandomSpawn_lbl" text="Random brawl spawn" />
-    <string id="lh_set_EnableBrawlRandomSpawn_desc" text="If ON, you spawn at a random point in the brawl arena instead of a fixed spot. Cosmetic variety only." />
-    <string id="lh_set_EnableRecruitIconSwap_lbl" text="Teef icon" />
-    <string id="lh_set_EnableRecruitIconSwap_desc" text="If ON, the hire menu shows a teef icon instead of the gold coin for orc recruitment. Cosmetic." />
     <!-- ===== Master race toggles (Main tab) ===== -->
     <string id="lh_set_EnableOrcRace_lbl" text="Enable orc overhaul" />
     <string id="lh_set_EnableOrcRace_desc" text="Master switch for ALL orc-race changes. OFF turns off every orc patch and behavior, so greenskins use pure vanilla TOR mechanics. Requires a game restart." />
@@ -365,11 +331,27 @@
     <string id="lh_set_ChaosUprisingCooldownDays_desc" text="Days between Chaos Uprisings. Vanilla TOR is 126 days (~4 months); our default 30 (~1 month) makes Chaos joinable early. Applied on a new campaign." />
     <string id="lh_orc_appetite" text="Greenskin appetite" />
     <string id="lh_chaos_exec_reward" text="The Dark Gods savour the sacrifice. +{DE} Dark Energy." />
+    <string id="lh_de_raid" text="The Dark Gods feast on the ruin you leave behind. +{DE} Dark Energy." />
+    <string id="lh_de_sacrifice_opt" text="Sacrifice your prisoners to the Dark Gods" />
+    <string id="lh_de_sacrifice_tip" text="Offer {N} captive(s) to the Four. Gain {DE} Dark Energy." />
+    <string id="lh_de_sacrifice_done" text="You offer {N} captive(s) upon the altar of Chaos. +{DE} Dark Energy." />
+    <string id="lh_de_defile_cd" text="You can only defile a shrine every {DEFILE_COOLDOWN_DAYS} days." />
+    <string id="lh_god_mission_seek_opt" text="Seek a task from the Dark Gods" />
+    <string id="lh_god_mission_status_opt" text="Hear the Dark Gods' demand" />
+    <string id="lh_god_mission_assigned" text="The Dark Gods set you a task: {TASK} You have {DAYS} days." />
+    <string id="lh_god_mission_status" text="Task of the Gods: {TASK} Progress {PROGRESS}/{TARGET}. Days left: {DAYS}." />
+    <string id="lh_god_mission_progress" text="The Dark Gods watch: {PROGRESS}/{TARGET}." />
+    <string id="lh_god_mission_success" text="The Dark Gods are pleased - the task is done. +{DE} Dark Energy." />
+    <string id="lh_god_mission_fail" text="You failed the task of the Dark Gods. Their displeasure costs you {DE} Dark Energy." />
+    <string id="lh_god_mission_task_slaughter" text="execute {N} enemy lords." />
+    <string id="lh_god_mission_task_pillage" text="raid {N} villages and leave only ash." />
+    <string id="lh_god_mission_task_cleanse" text="wipe out {N} bandit lairs." />
+    <string id="lh_god_mission_task_conquer" text="win {N} battles for the glory of Chaos." />
+    <string id="lh_god_mission_task_none" text="serve the Gods." />
     <string id="lh_chaos_tempt_popup_title" text="The temptation is complete" />
     <string id="lh_chaos_tempt_popup_body" text="{HERO} is broken in captivity and ready to accept the Gift of Chaos. Convert them and take them into your ranks?" />
     <string id="lh_chaos_tempt_popup_yes" text="Convert" />
     <string id="lh_chaos_tempt_popup_no" text="Not yet" />
-    <string id="lh_chaos_upgrade_de" text="-{DE} Dark Energy for {COUNT}x {NAME}." />
     <string id="lh_ungor_pierce_arrows" text="Ungor Barbed Arrows" />
     <!-- Норсканское дерево (Picc/photo_32): переименования существующих + новые юниты -->
     <string id="str_tor_chaos_norscan_reaver" text="Norscan Hunter" />
@@ -382,19 +364,10 @@
     <string id="lh_goblin_changer_hub_leave_p" text="Maybe later, gobbo." />
     <string id="lh_goblin_changer_cooldown" text="Eh boss, I already gived ya teefz yesterdai! Come back in {DAYS} dayz, I needz ta dig more, see?" />
     <string id="lh_goblin_changer_hub_no_gold_p" text="Ain't got dat much shinies yet." />
-    <string id="lh_goblin_changer_intro" text="Oi BIG boss! Gotz teef fer ya shinies, wanna trade, eh? Hurr hurr!" />
     <string id="lh_goblin_changer_after_no_gold" text="Hurr hurr! No shinies, no teefz. Go pinch some humies first, ya hear?" />
-    <string id="lh_goblin_changer_hub_trade" text="Trade 1000 shinies fer {AMOUNT} teefz." />
     <string id="lh_goblin_changer_after_trade" text="*The goblin counts out {NOMINAL} teef, slips {HIDDEN} coins into his sneaky pouch on the side.* Pleazure doin' bizniss wif ya, BIG boss!" />
-    <string id="lh_goblin_changer_town_ok" text="Walk away" />
-    <string id="lh_goblin_changer_town_title" text="Goblin Changer" />
-    <string id="lh_goblin_changer_town_outcome" text="*The goblin counts out {NOMINAL} teef on the tavern table, then quickly slips {HIDDEN} coins into a pouch on his belt before pushing the rest over to you.* Pleazure doin' bizniss wif ya, BIG boss!" />
-    <string id="lh_goblin_changer_town_intro" text="*A cunning goblin at the corner table waves you over, fingering a heap of small coins. He whispers:* Oi BIG boss! Gotz teef fer ya shinies. 1000 shinies — and I count out {NOMINAL}. Will I slip {HIDDEN} into me own pouch on da side? Maybe... Wanna trade or wot?" />
-    <string id="lh_goblin_changer_town_cancel" text="Maybe later" />
-    <string id="lh_goblin_changer_town_option" text="Talk to da goblin changer in da tavern" />
     <string id="lh_goblin_changer_town_no_gold" text="*A goblin in the corner sniffs at your purse and snorts.* Hurr hurr! No shinies, no teefz. Go pinch some humies first, ya hear?" />
     <string id="lh_goblin_changer_town_trade" text="Trade" />
-    <string id="lh_goblin_changer_town_cooldown" text="*A goblin in the corner of the tavern eyes you suspiciously and turns away.* Eh boss, I already gived ya teefz couple days back! Come in {DAYS} more days, see?" />
     <string id="lh_goblin_changer_intro_town" text="Greetinz, BIG boss! Da boyz watch me deal here — straight 'n fair, no funny bizniss. Wanna change ya shinies fer teef?" />
     <string id="lh_goblin_changer_after_town_trade" text="*Goblin counts out exactly {AMOUNT} teef into ya palm — straight 'n honest, da brutes are watchin'.* Anyfing else, BIG boss?" />
     <string id="lh_goblin_changer_village_trade" text="Trade 1000 shinies fer {AMOUNT} teef." />
@@ -419,37 +392,25 @@
     <string id="lh_chaos_lord_nolands" text="We hold no lands yet, mortal — there is nowhere to take you in. Return when the Gods grant us a stronghold." />
     <string id="lh_chaos_hire_merc" text="Serve my throne as a mercenary." />
     <string id="lh_chaos_hire_merc_accept" text="The Gods favor your gold. Our blades are yours, my lord." />
-    <string id="lh_chaos_lord_ask_leader" text="Where is your overlord right now?" />
-    <string id="lh_chaos_lord_subordinate_response" text="My overlord is {LEADER_LOC}. I am merely his hand." />
     <string id="lh_chaos_lord_leave" text="Just passing by." />
-    <string id="lh_chaos_hideout_pass_peace" text="Pass peacefully (the Dark Gods hear your blood)" />
     <string id="lh_chaos_hideout_recruit" text="Summon the servants of Chaos from the lair" />
     <string id="lh_chaos_portal_peace" text="Bow before the portal and pass peacefully" />
     <string id="lh_chaos_portal_recruit" text="Summon the Chosen of Chaos from the portal" />
     <string id="lh_chaos_recruit_cd" text="This place has not yet gathered its strength. Return later." />
     <string id="lh_chaos_recruit_nogold" text="Not enough gold for the offering." />
-    <string id="lh_chaos_portal_got" text="{NAME} emerges from the portal." />
     <string id="lh_chaos_recruited_list" text="Summoned: {LIST}." />
     <string id="lh_chaos_vassal_offer" text="I wish to serve the Dark Gods." />
     <string id="lh_ck_challenge" text="The throne of Chaos belongs to the strongest. I challenge you to battle!" />
     <string id="lh_ck_resp_lord" text="Insolent mortal! So be it — the Gods thirst for blood. Meet me outside the walls, on the open ground. Come when you are ready — one of us will not see the sunset." />
     <string id="lh_ck_accept_p" text="This throne will be mine." />
     <string id="lh_ck_decline_p" text="Not yet." />
-    <string id="lh_ck_disgraced_p" text="I challenge you again!" />
-    <string id="lh_ck_taunt_lord" text="You have already tempted your fate and were struck down, miserable worm! The Dark Gods see your deceit — here is your reckoning." />
-    <string id="lh_ck_load_penalty" text="The Dark Gods have turned from the coward: your Chaos Glory dims." />
-    <string id="lh_ck_wound" text="The Gods have punished your insolence. Heal your wounds and prove you are worthy of the throne." />
-    <string id="lh_ck_defeat" text="You are struck down by the Chaos Overlord. Return in {DAYS} days to challenge him again." />
-    <string id="lh_ck_victory" text="You have torn the throne from the dead hands of the Chaos Overlord! The Dark Gods acknowledge a new lord. The kingdom is yours." />
-    <string id="lh_ck_victory_title" text="The Usurper Ascends the Throne" />
     <string id="lh_ck_eligible" text="The Dark Gods gaze upon you! Find the Chaos Overlord — the ruler of a Chaos kingdom — speak with him and challenge him for the throne." />
     <string id="lh_ck_bar_legend" text="Chaos Glory" />
     <string id="lh_ck_bar_ready" text="Challenge Ready" />
-    <string id="lh_ck_bar_disgrace" text="In Disgrace" />
     <string id="lh_enc_chaos_market_t" text="Cursed Markets" />
     <string id="lh_enc_chaos_market_b" text="Chaos arms and armor are shunned by honest folk and appear for sale ONLY in the markets of Chaos-held towns. Marauder gear, cultist robes, chaos weapons, shields and a chaos steed are stocked in any Chaos town; the blessed war-plate of the Dark Gods (Khorne, Nurgle, Tzeentch, Slaanesh) and the helms of the Chosen only in the capital — the most prosperous Chaos town — and for a fortune.\nAnyone may buy in a Chaos town, but cursed goods cannot be SOLD anywhere except Chaos towns and villages — no other merchant will touch them." />
     <string id="lh_enc_chaos_throne_t" text="Overthrow the Overlord" />
-    <string id="lh_enc_chaos_throne_b" text="Might makes right. Slay enough foes with your own hand and the Dark Gods will mark you as a rival to the reigning Chaos Overlord.\nYour personal kills build a Chaos Glory, shown on the bar above the map clock. Serve Chaos at least 30 days and raise your Chaos Glory above the Overlord's. When the Gods take notice, challenge the Overlord to mortal combat: you against the Overlord and two of his Chaos Warriors.\nWin and his throne, fiefs and vassals are yours, and you take his blessed war-gear as a trophy. Lose and your Chaos Glory is broken by a third." />
+    <string id="lh_enc_chaos_throne_b" text="Might makes right. Slay enough foes with your own hand and the Dark Gods will mark you as a rival to the reigning Chaos Overlord.\nYour personal kills build a Chaos Glory, shown on the bar above the map clock. Serve Chaos at least 30 days and raise your Chaos Glory above the Overlord's. When the Gods take notice, challenge the Overlord to mortal combat: you against the Overlord and two of his Chaos Warriors.\nWin and his throne and vassals are yours. You then choose his fate: EXECUTE him - take his fiefs and his blessed war-gear as a trophy - or SPARE him, and the broken Overlord kneels as your vassal, keeping his clan and lands. Lose and your Chaos Glory is broken by a third." />
     <string id="lh_chaos_vassal_response_lord" text="Hah! Bring me {VASSAL_GOLD} gold, and I will accept your oath." />
     <string id="lh_chaos_vassal_pay_p" text="Here is the gold." />
     <string id="lh_chaos_vassal_no_gold_p" text="I do not have that much." />
@@ -475,7 +436,6 @@
     <string id="lh_chaos_fodder_partysize" text="Chaos cannon fodder" />
     <string id="lh_chaos_minotaur_weight_relief" text="Minotaur weight (eased)" />
     <!-- ===== Encyclopedia / In-Game Guide ===== -->
-    <string id="lh_enc_menu_button" text="Lore-Hardcore Guide" />
     <string id="lh_enc_race_orc" text="Orcs" />
     <string id="lh_enc_race_chaos" text="Chaos" />
 
@@ -515,7 +475,11 @@
     <string id="lh_enc_chaos_gift_b" text="The Gift of Chaos is a ritual that turns your hero — and your whole clan — into the chaos culture. It is the deep commitment to the Dark Gods.\n\nWhat it does:\n- Changes your hero's culture to chaos, and crucially your CLAN's culture too. This matters: if only the hero changed, fiefs you hold would suffer a loyalty mismatch. Both are converted so chaos settlements stay loyal to you.\n- Tries to change your appearance toward a chaos-touched look where the game supports it.\n- Grants a burst of combat experience, reflecting the raw power the Gods pour into the newly faithful.\n\nHow to get it: ask a Chaos lord to 'make you one of them' in dialogue (a minimum clan tier applies, set in settings). The conversion is permanent.\n\nAfter the Gift you can recruit dark troops freely in chaos lands, pass cultist lairs peacefully, and you start generating Dark Energy." />
 
     <string id="lh_enc_chaos_darkenergy_t" text="Dark Energy" />
-    <string id="lh_enc_chaos_darkenergy_b" text="Dark Energy is the resource of the Chaos player — the favour of the Dark Gods made manifest. It works like the orcs' teef or the vampires' winds: a special currency only your faction uses.\n\nHow you EARN it:\n- Sacrificing prisoners by execution (the Gods savour the offering).\n- Other dark deeds as the faction grows.\n\nWhat you SPEND it on:\n- Upgrading elite Chaos troops. Promoting a unit into a true Chaos elite costs Dark Energy on top of the normal upgrade. If you cannot afford it, the upgrade is blocked in the UI until you have enough — so you cannot go into debt.\n\nDark Energy never drops below zero, and you only see it once you are aligned with Chaos. Think of it as the price the Gods charge for their finest champions: you must keep feeding them to keep growing." />
+    <string id="lh_enc_chaos_darkenergy_b" text="Dark Energy is the resource of the Chaos player - the favour of the Dark Gods made manifest. It works like the orcs' teef: a special currency only your faction uses. You only see it once you are aligned with Chaos, and it never drops below zero.\n\nHow you EARN it:\n- Raid a village as a Chaos servant (+80).\n- Sacrifice your rank-and-file prisoners on the altar ('Sacrifice your prisoners to the Dark Gods' in any settlement).\n- Defile a shrine of the old gods (the Chaos defile option, once every few days).\n- Execute enemy lords (+200).\n- Complete Tasks of the Dark Gods (+1000 each).\n\nWhat you SPEND it on:\n- Tasks of the Dark Gods now; Devotion to the Four and dark sorcery at portals in a coming update.\n\nKeep raiding, sacrificing and defiling to keep growing." />
+    <string id="lh_enc_chaos_gods_t" text="The Four Gods &amp; their Boons" />
+    <string id="lh_enc_chaos_gods_b" text="When you join Chaos you pledge to one of the Four Dark Gods. The choice is final and grants a permanent boon to YOU (not your troops):\n- Khorne, the Blood God: +15% to all damage you deal.\n- Nurgle, the Plague Lord: +20% to your maximum health.\n- Tzeentch, the Changer of Ways: +25% maximum Winds of Magic and faster recharge.\n- Slaanesh, the Dark Prince: +12% movement speed in battle.\n\nYou are asked to choose when you join Chaos (or use the console: lh.chaos_god). At a kill threshold your patron also grants you their full war-panoply. You may also deepen your Devotion to all four Gods with Dark Energy for escalating rewards - see the Devotion section." />
+    <string id="lh_enc_chaos_missions_t" text="Tasks of the Dark Gods" />
+    <string id="lh_enc_chaos_missions_b" text="The Dark Gods test their champions. In any town, castle or village choose 'Seek a task from the Dark Gods' to receive a quest:\n- Slaughter: execute a number of enemy lords.\n- Pillage: raid a number of villages.\n- Cleanse: wipe out a number of bandit lairs.\n- Conquer: win a number of battles.\n\nYou have 30 days. Succeed and the Gods reward you with a large amount of Dark Energy (+1000). Miss the deadline and their displeasure costs you Dark Energy (-100). Choose 'Hear the Dark Gods' demand' to check your current task and progress. There is a one-day cooldown between tasks." />
 
     <string id="lh_enc_chaos_troops_t" text="Chaos Troops" />
     <string id="lh_enc_chaos_troops_b" text="The armies of Chaos mix cheap fodder with terrifying elites.\n\nThe roster, roughly from weakest to strongest:\n- Cultists and Acolytes — human fanatics, pure cannon fodder.\n- Ungors — the smaller beastmen, also fodder.\n- Norscan tribesmen and their champions — the human warriors of the north. They have been given a HP buff so a Norscan is sturdier than an ordinary man, as the lore demands.\n- Gor and their elites — the larger beastmen, with a HP buff above the Norscans.\n- Chaos Warriors — armoured champions of the Dark Gods.\n- Minotaurs — massive monsters with the biggest HP buff of all.\n\nThe fodder mechanic: Cultists and Ungors take LESS room in your party. For every couple of fodder units you carry, your party limit rises by one — exactly like the small undead of the vampire faction. This keeps the cheap rabble playable instead of wasting precious party slots.\n\nAll the HP buffs are adjustable in the settings if you want a different balance." />
@@ -555,11 +519,12 @@
     <string id="lh_kd_escort_back" text="Back" />
     <string id="lh_kd_prep_text" text="The cultists of Chaos have raised a ring of skulls and black iron upon the field. The Chaos Overlord {KING} steps in to face you — only one of you will walk out of the ring alive." />
     <string id="lh_kd_won_text" text="The Chaos Overlord lies dead at your feet. The Dark Gods roar their approval — the path to your own throne is open." />
-    <string id="lh_kd_claim" text="Claim the throne of Chaos." />
+    <string id="lh_kd_execute" text="Execute the Overlord and claim his war-panoply." />
+    <string id="lh_kd_spare" text="Spare the Overlord - he shall kneel and serve you." />
+    <string id="lh_ck_founded_spare" text="Your kingdom of Chaos is founded. The broken Overlord kneels as your vassal - a trophy more bitter than his armour. The Dark Gods watch their new champion." />
+    <string id="lh_ck_slain_no_throne" text="The Overlord lies dead at your feet, yet the throne of Chaos slips from your grasp this day." />
+    <string id="lh_ck_spared_no_throne" text="You spare the broken Overlord, but the throne of Chaos eludes you - for now." />
     <string id="lh_kd_lost_text" text="You are beaten and cast down. Lick your wounds and return in {DAYS} days to try again." />
-    <string id="lh_ck_found_title" text="Found Your Kingdom of Chaos" />
-    <string id="lh_ck_found_text" text="The throne is yours by blood. Name your new kingdom of Chaos." />
-    <string id="lh_ck_found_default" text="Host of Chaos" />
     <string id="lh_ck_founded" text="Your kingdom of Chaos is founded. The Dark Gods watch their new champion." />
     <string id="lh_kd_chicken" text="Not today — I withdraw. (leave)" />
     <string id="lh_extorsion_tier_too_low" text="Tier too low — only T4+ orcs have golden teef worth taking." />
@@ -577,11 +542,85 @@
     <string id="lh_god_nurgle_flv" text="The Grandfather of plagues embraces the enduring. His chosen rot, yet refuse to fall." />
     <string id="lh_god_tzeentch_flv" text="The Architect of Fate rewards the cunning sorcerer who bends the winds of magic to his will." />
     <string id="lh_god_slaanesh_flv" text="The Prince of Pleasure prizes the swift and the perfect - the duelist who makes killing an art." />
+    <string id="lh_god_boon_khorne" text="Boon of Khorne: +15% to all damage you deal." />
+    <string id="lh_god_boon_nurgle" text="Boon of Nurgle: +20% to your maximum health." />
+    <string id="lh_god_boon_tzeentch" text="Boon of Tzeentch: +25% maximum Winds of Magic and faster recharge." />
+    <string id="lh_god_boon_slaanesh" text="Boon of Slaanesh: +12% movement speed in battle." />
+    <string id="lh_god_chosen_msg2" text="You are now sworn to {GOD}. {FLAVOR} {BOON}" />
     <string id="lh_god_choose_title" text="Pledge to a Dark God" />
     <string id="lh_god_choose_desc" text="You kneel before the altar of Chaos. Choose the god whose mark you will bear — this choice is final. At {SET} kills your chosen god grants you their full war-panoply; at {DUEL} kills you may challenge the Overlord himself for his throne." />
     <string id="lh_god_choose_ok" text="Swear the oath" />
-    <string id="lh_god_chosen_msg" text="You are now sworn to {GOD}. {FLAVOR}" />
     <string id="lh_god_set_granted" text="The Dark Gods reward your slaughter - the full war-panoply of {GOD} now lies in your inventory. Equip it from your inventory (press I)." />
     <string id="lh_god_set_title" text="A God's Favour" />
+    <string id="lh_panel_patron" text="Patron: {GOD}" />
+    <string id="lh_panel_lbl_devotion" text="Devotion" />
+    <string id="lh_panel_tip_glory" text="Chaos Glory is your renown among the Dark Gods, earned by slaying foes. Reach the golden mark and serve your time to challenge the Chaos King." />
+    <string id="lh_panel_tip_devotion" text="Devotion to the Four. Each rank strengthens that God's boon: Khorne - damage, Nurgle - health, Tzeentch - Winds of Magic, Slaanesh - speed. Deepen it with Dark Energy." />
+    <string id="lh_panel_title" text="Chaos Status" />
+    <string id="lh_panel_no_patron" text="No patron chosen" />
+    <string id="lh_panel_overlord" text="Overlord of Chaos" />
+    <string id="lh_panel_vassal" text="Vassal of Chaos" />
+    <string id="lh_panel_touched" text="Chaos-touched" />
+    <string id="lh_panel_task" text="Task of the Gods: {P}/{T}" />
+    <string id="lh_panel_no_task" text="No task active" />
+    <string id="lh_dev_advanced" text="Your devotion to {GOD} deepens to rank {LVL}." />
+    <string id="lh_dev_need_de" text="You need {DE} Dark Energy to deepen devotion to {GOD} (you have {HAVE})." />
+    <string id="lh_dev_balance_locked" text="The Four demand balance — deepen your other devotions first (a rank may not exceed the lowest by more than 2)." />
+    <string id="lh_dev_max" text="Your devotion to {GOD} is already at its zenith (rank {LVL})." />
+    <string id="lh_dev_not_servant" text="Only a sworn servant of the Dark Gods may deepen devotion." />
+    <string id="lh_dev_item_reward" text="{GOD} bestows a weapon upon you for your deepening devotion (rank 5)." />
+    <string id="lh_dev_set_reward" text="{GOD} clads you in the full war-panoply of the faithful (rank 10)." />
+    <string id="lh_dev_prayer_reward" text="{GOD} grants you a battle-spell: {SPELL}. Open your spell book in battle to wield it." />
+    <string id="lh_dev_deepen_btn" text="Deepen Devotion" />
+    <string id="lh_dev_benefit" text="{DOMAIN} +{FROM}%→+{TO}%" />
+    <string id="lh_dev_dom_khorne" text="damage" />
+    <string id="lh_dev_dom_nurgle" text="max HP" />
+    <string id="lh_dev_dom_tzeentch" text="Winds" />
+    <string id="lh_dev_dom_slaanesh" text="speed" />
+    <string id="lh_dev_mk_spell" text="spell" />
+    <string id="lh_dev_mk_weapon" text="weapon" />
+    <string id="lh_dev_mk_set" text="full set" />
+    <string id="lh_dev_menu_title" text="Deepen your Devotion" />
+    <string id="lh_dev_menu_desc" text="Spend Dark Energy to deepen your devotion to the Four. You hold {DE} Dark Energy. The Four demand balance: no rank may exceed the lowest by more than 2. Your patron's branch is 20% cheaper." />
+    <string id="lh_dev_menu_opt" text="{GOD} — rank {CUR}→{NEXT} ({COST} DE)" />
+    <string id="lh_dev_menu_opt_max" text="{GOD} — rank {LVL} (MAX)" />
+    <string id="lh_dev_menu_hint_max" text="Already at maximum rank." />
+    <string id="lh_dev_menu_hint_balance" text="Balance forbidden — deepen your lower devotions first (max +2 over the lowest)." />
+    <string id="lh_dev_menu_hint_de" text="Not enough Dark Energy (need {COST})." />
+    <string id="lh_dev_menu_deepen" text="Deepen" />
+    <string id="lh_dev_menu_close" text="Close" />
+    <string id="lh_enc_chaos_devotion_t" text="Devotion to the Four" />
+    <string id="lh_enc_chaos_devotion_b" text="Beyond your patron's boon, you may deepen your Devotion to EACH of the Four Dark Gods. Every God has a rank from 0 to 10, bought with Dark Energy.\nThe deeper your faith, the stronger that God's battle boon becomes for you: Khorne deepens your damage, Nurgle your health, Tzeentch your Winds of Magic, Slaanesh your speed. These stack with your patron's permanent boon.\nThe Four demand balance: no God's rank may exceed your lowest by more than 2, so you must raise all four. Your patron's branch costs 20% less.\nMilestones: rank 3 grants a battle-spell to the sorcerer Gods (Tzeentch - Fireball, Nurgle - Curse of Years; Khorne despises magic and Slaanesh's sorcery is not offered, so Khorne and Slaanesh instead gain renown at ranks 3 and 7); rank 5 grants that God's signature weapon; rank 7 grants a SECOND, stronger spell to those Gods (Tzeentch - Flame Storm, Nurgle - the Purple Sun of Xereus); rank 10 clads you in the full war-panoply AND awakens a legendary battle capstone for that God (Khorne: heal and a blood-shockwave on every kill; Nurgle: health regeneration in battle; Tzeentch: Winds of Magic restored on each kill; Slaanesh: a chance to seduce nearby enemies on each kill).\nOpen it from the 'Deepen Devotion' button on the Chaos Status panel beside the map clock." />
+    <string id="lh_tip_devotion_t" text="Devotion to the Four" />
+    <string id="lh_tip_devotion_b" text="You may now deepen your Devotion to each Dark God, paying Dark Energy for ever greater rewards. Open the 'Deepen Devotion' button on the Chaos Status panel (right of the map). Each rank strengthens that God's battle boon; rank 3 grants a battle-spell, rank 5 a signature weapon, rank 10 the full war-panoply. The Four demand balance - raise all of them, not just one. Press Alt+H for the guide." />
+    <string id="lh_whatsnew_0_1_9_62" text="NEW in this version:\n- Devotion to the Four: spend Dark Energy to deepen your faith in each God (ranks 0-10).\n- Each rank deepens that God's battle boon (damage / health / Winds of Magic / speed).\n- Rank 3 grants a battle-spell (Tzeentch, Nurgle); rank 5 a signature weapon; rank 10 the full war-panoply.\n- Open it from the 'Deepen Devotion' button on the Chaos Status panel.\nPress Alt+H for the full in-game guide." />
+    <string id="lh_dev_rw_spell" text="Next rank unlocks a battle-spell." />
+    <string id="lh_dev_rw_weapon" text="Next rank grants this God's signature weapon." />
+    <string id="lh_dev_rw_set" text="Next rank grants this God's full war-panoply." />
+    <string id="lh_dev_rw_growth" text="Next rank deepens this God's battle boon." />
+    <string id="lh_seduce_menu" text="Whisper of the Dark Gods — seduce this lord (500 Dark Energy, 200 Influence)" />
+    <string id="lh_seduce_need" text="Requires 500 Dark Energy and 200 Influence, and devotion to Slaanesh (rank 4)." />
+    <string id="lh_seduce_no_resources" text="You lack the Dark Energy or influence to bend this lord's will." />
+    <string id="lh_seduce_no_successor" text="{LORD}'s clan has no suitable successor — the seduction fails." />
+    <string id="lh_seduce_success" text="{LORD} has been seduced to the Dark Gods and joins your retinue." />
+    <string id="lh_seduce_failed" text="The lord resists your whispers — the seduction fails." />
+    <string id="lh_dev_martial_reward" text="Your dread service to {GOD} spreads — your renown grows by {AMT}." />
+    <string id="lh_dev_rw_renown" text="Next rank grows your dread renown." />
+    <string id="lh_dev_mk_renown" text="renown" />
+    <string id="lh_whatsnew_0_1_9_71" text="NEW in this version:\n- Legendary Devotion capstones: reach rank 10 with a God to awaken a battle power.\n- Khorne: heal on every kill and unleash a blood-shockwave around the slain.\n- Nurgle: slowly regenerate health throughout the battle.\n- Tzeentch: every kill restores Winds of Magic.\n- Slaanesh: a chance on each kill to seduce nearby enemies to your side.\nPress Alt+H for the full in-game guide." />
+    <string id="lh_whatsnew_0_1_9_72" text="NEW in this version:\n- Devotion now grants a SECOND, stronger battle-spell at rank 7 to the sorcerer Gods.\n- Tzeentch: Flame Storm (a roaring vortex of fire).\n- Nurgle: The Purple Sun of Xereus (a devouring vortex of death).\n- Reach rank 3 for the first spell, rank 7 for the second.\nPress Alt+H for the full in-game guide." />
+    <string id="lh_whatsnew_0_1_9_73" text="NEW in this version:\n- Lord Seduction: with devotion to Slaanesh (rank 4), whisper enemy lords to your side.\n- When you meet an enemy lord, choose 'Whisper of the Dark Gods' (costs 500 Dark Energy + 200 Influence).\n- The lord joins your retinue; their clan promotes a successor so it survives.\n- Faction leaders cannot be seduced.\nPress Alt+H for the full in-game guide." />
+    <string id="lh_enc_chaos_seduction_t" text="Lord Seduction" />
+    <string id="lh_enc_chaos_seduction_b" text="With devotion to Slaanesh (rank 4), you can whisper enemy lords to your side. When you meet an enemy lord on the map, choose 'Whisper of the Dark Gods' (costs 500 Dark Energy and 200 Influence). The lord abandons their banner and joins your retinue; if they led a clan, a successor is promoted so the clan endures. Faction leaders are too strong-willed to seduce." />
+    <string id="lh_tip_seduction_t" text="Whispers of Slaanesh" />
+    <string id="lh_tip_seduction_b" text="Your devotion to Slaanesh is deep enough to seduce enemy lords. When you meet an enemy lord on the map, choose 'Whisper of the Dark Gods' to lure them into your retinue for 500 Dark Energy and 200 Influence. Their clan promotes a successor and survives; faction leaders are too strong-willed to seduce. Press Alt+H for the guide." />
+    <string id="lh_set_LordsRebuildFromScratch_lbl" text="TOR: Lords rebuild army from scratch" />
+    <string id="lh_set_LordsRebuildFromScratch_desc" text="When an AI lord is released or escapes from captivity, their new party spawns almost empty (just the lord) and they must recruit an army from scratch — instead of instantly respawning with a full army. Applies to ALL AI lords. OFF = vanilla." />
+    <string id="lh_set_RemoveSkillLearningCap_lbl" text="TOR: Remove skill learning cap" />
+    <string id="lh_set_RemoveSkillLearningCap_desc" text="Removes the soft learning cap, so skills keep gaining XP normally far past the limit your attributes and focus would normally allow. OFF = vanilla cap. Applies to all heroes." />
+    <string id="lh_set_FocusPointsPerLevel_lbl" text="TOR: Focus points per level" />
+    <string id="lh_set_FocusPointsPerLevel_desc" text="How many focus points you gain each level. Vanilla is 1. Higher = faster skill specialization. Example: 2 doubles focus gain." />
+    <string id="lh_set_LevelsPerAttributePoint_lbl" text="TOR: Levels per attribute point" />
+    <string id="lh_set_LevelsPerAttributePoint_desc" text="How many levels between each free attribute point. Vanilla is 4 (one attribute point every 4 levels). LOWER = more attribute points (e.g. 1 = one every level)." />
   </strings>
 </base>

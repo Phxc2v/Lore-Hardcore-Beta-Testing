@@ -29,7 +29,6 @@
     <string id="lh_village_goblin_hired" text="모집 완료: 고블린 {COUNT}명 (비용 {PRICE}{GOLD_ICON})" />
     <string id="lh_goblin_companions_added" text="{TROOP} 가 고블린 시종 +{COUNT}명을 데려왔다" />
     <string id="lh_goblin_companions_capped" text="고블린 +{COUNT}명 (원래 {DESIRED}명을 원했지만, 4:1 한도에 도달)" />
-    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
     <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="궁수 보이 보스" />
     <string id="lh_troop_tor_gs_orc_bigun" text="빅언 오크" />
     <string id="lh_troop_tor_gs_black_orc" text="흑색 오크" />
@@ -64,13 +63,6 @@
     <string id="lh_castle_challenge_err_no_gold" text="[결투] 베팅에 쓸 자금이 부족하다." />
     <string id="lh_castle_challenge_err_generic" text="[결투] 오류: {ERROR}" />
     <string id="lh_castle_challenge_reward_troop_join" text=", 그리고 그의 동족 한 명이 너의 부대에 합류한다" />
-    <string id="lh_settings_economy_title" text="Lore-Hardcore: 경제 모드 선택" />
-    <string id="lh_settings_economy_desc" text="이 선택은 저장 파일에 잠긴다. 변경하려면 새 게임을 시작해야 한다." />
-    <string id="lh_settings_economy_teef_title" text="오크 이빨 경제 (워해머 설정)" />
-    <string id="lh_settings_economy_teef_hint" text="성에서 전투로 얻은 이빨(오크 화폐)로 오크 정예를 구매한다. 고블린은 여전히 자금 사용. 보유한 오크 도시/성마다 매일 이빨 +5. 워해머 판타지 설정에 부합 — 오크는 자금을 존중하지 않는다." />
-    <string id="lh_settings_economy_classic_title" text="클래식 (모든 것을 자금으로)" />
-    <string id="lh_settings_economy_classic_hint" text="오크와 고블린을 원본 TOR처럼 자금으로 모집한다. 이빨 경제 없음, 매일 영지 수입 없음. 단순하고 익숙하다." />
-    <string id="lh_settings_economy_confirm" text="확인" />
     <string id="lh_castle_no_teef" text="이빨 부족: 필요 {LH_TEEF_NEEDED}, 보유 {LH_TEEF_HAVE}." />
     <string id="lh_castle_not_orc" text="오크 영웅 전용. 오크는 외부인을 받아들이지 않는다." />
     <string id="lh_teef_daily_msg" text="당신의 오크 도시와 성에서 이빨 +{TEEF} ({COUNT}개)" />
@@ -80,43 +72,27 @@
     <string id="lh_castle_challenge_no_fee_gold" text="결투를 신청하려면 자금 {FEE}이 필요하다 (보유 {HAVE})." />
     <string id="lh_teef_recruit_msg" text="{TROOP} ×{COUNT} 비용 -{TEEF} 이빨." />
     <string id="lh_teef_recruit_no_teef" text="{TROOP} 모집에 이빨 부족 (필요 {NEED}, 보유 {HAVE})." />
+    <string id="lh_teef_upkeep_warn" text="정예를 유지할 이빨이 부족합니다 (하루 {NEED}, 보유 {HAVE}). 녀석들이 불평하고 있습니다 — 이빨을 구하지 않으면 하루 이틀 안에 도망치기 시작합니다." />
+    <string id="lh_teef_upkeep_desert" text="이빨이 없어 사기가 바닥 — 녀석들이 더는 못 참습니다. 정예 일부가 떠나갑니다! 이빨을 구하지 않으면 전부 잃습니다." />
+    <string id="lh_teef_upkeep_line" text="정예 유지비 (이빨)" />
+    <string id="lh_teef_upkeep_morale" text="녀석들에게 줄 이빨이 없음" />
     <string id="lh_teef_unit" text="이빨" />
     <string id="lh_bt_conflict_title" text="모드 충돌: BetterTime + Lore-Hardcore" />
     <string id="lh_bt_conflict_text" text="제3자 BetterTime 모드가 Lore-Hardcore와 함께 로드되었다. 이 모드는 The Old Realms와 호환되지 않는다 — UI MapBar 오버라이드를 통해 충돌이 발생한다.{newline}{newline}Lore-Hardcore에는 이미 BetterTime 기능이 포함되어 있다:{newline}D3 / Numpad3 — 빨리감기 ×4{newline}D4 / Numpad4 — 초고속 ×8{newline}키를 놓으면 — 정상 속도로 복귀{newline}{newline}권장: 게임을 종료하고, Bannerlord 런처에서 제3자 BetterTime을 비활성화하거나 제거한 후, 재시작하라." />
     <string id="lh_bt_conflict_ok" text="알겠다, 수정하겠다" />
-    <string id="lh_tournament_cannot_leave" text="싸움 아직 안 끝났다. 도망치지 마." />
 <!-- ============ Lore-Hardcore Encyclopedia (in-game guide, hotkey H) ============ -->
     <string id="lh_orc_execute_enemy_buff" text="적을 처형했다. 오크 무리가 자부심을 느낀다. 사기 +10, 명예 평판 회복." />
     <string id="lh_chaos_uprising_announce" text="!!! 혼돈의 세력이 일어났다 —— 혼돈의 봉기가 지도에 나타났다 !!!" />
     <string id="lh_enc_title" text="Lore-Hardcore — 인게임 가이드" />
-    <string id="lh_enc_pick_topic" text="읽을 주제를 선택하세요:" />
-    <string id="lh_enc_read" text="읽기" />
-    <string id="lh_enc_back" text="주제 목록으로" />
     <string id="lh_enc_close" text="닫기" />
 
-    <string id="lh_enc_topic_teef_economy_title" text="이빨 경제" />
-    <string id="lh_enc_topic_teef_economy_body" text="오크와 고블린 플레이어에게 이빨 경제는 항상 활성화됩니다 — 게임 중간에 전환되지 않으며, 시작 시 대화도 없습니다. 인간, 드워프, 뱀파이어는 이전처럼 금화를 사용합니다.{newline}{newline}오크로 플레이할 때:{newline}- 오크 정착지에서는 모든 것을 금화 대신 이빨로 지불합니다.{newline}- 오크 정착지 외부(제국, 브레토니아 등)에서는 여전히 금화로 지불합니다.{newline}- 이빨은 실전 전투에서만 획득됩니다: T4+ 부대 처치, 영주 처치, 난투 승리, 성 도전, 소유한 오크 영지의 일일 공물.{newline}- 오크 부대는 클랜에서 금화를 빨아내지 않습니다 — 미지급 급여로 인한 사기 페널티는 오크 부대에 대해 억제됩니다(어차피 지불하지 않습니다).{newline}- 일일 이빨 수입은 AI 오크 영주가 지도를 휩쓸지 못하도록 상한이 있습니다." />
 
-    <string id="lh_enc_topic_career_path_title" text="승급: 불리에서 보스로" />
-    <string id="lh_enc_topic_career_path_body" text="오크 승급은 캐릭터 생성 시 두 갈래로 선택됩니다: 불리의 길(보스로 성장) 또는 샤먼의 길.{newline}{newline}vanilla TOR에서 Lore-Hardcore용으로 요구사항이 완화되었습니다:{newline}- 단계 2(보스): 무기 스킬 80/80/30, 전투 30회, 토너먼트 5회, 난투 10회, 이빨 2000.{newline}- 단계 3(보스): 무기 스킬 150/120/60, 전투 70회, 토너먼트 15회, 난투 20회, 영주 결투 5회, 도시 5개 점령, 이빨 10000.{newline}- 단계 2(샤먼): 성소에서 기도, 주문술 50, 신앙 50, 인챈트 3회, 이빨 2000, 성소 약탈 5건.{newline}- 단계 3(샤먼): 주문술 120, 신앙 100, 인챈트 8회, 이빨 10000, 도시 5개, 성소 30개." />
 
-    <string id="lh_enc_topic_orc_morale_waaagh_title" text="오크 사기와 WAAAGH!" />
-    <string id="lh_enc_topic_orc_morale_waaagh_body" text="오크 부대 사기와 AI 스케일링이 재조정되었습니다.{newline}{newline}- 오크 영주는 기본 +40% HP, +30% 전투 스킬.{newline}- 사기 배율: ×1.5(오크가 인간보다 더 공격적).{newline}- 엘리트 오크(검은 오크, 보스, 베르제르카, 빅언)는 무적 — 낮은 사기나 수적 열세에도 절대 패닉하지 않습니다.{newline}- WAAAGH! 근접 보너스는 대규모 오크 공세에서 누적됩니다.{newline}{newline}AI 균형(오크 눈덩이 효과 방지):{newline}- AI 오크 영주 부대 규모 소프트 캡: 80 부대.{newline}- 원수의 군대는 최대 5 부대(리더 + 호출 4) — 오크는 3000이 아닌 400-500의 소형 군대로 공격합니다.{newline}- AI 전력 평가: 오크 ×1.8, 고블린 ×0.8, 트롤/빅언/워보스 ×3.0 — 제국 AI가 이제 오크 위협을 정확히 평가합니다.{newline}- Massif Choppas는 22명에서 14명 영주로 감축; Crooked Eye와 Red Eye는 17명으로. 수도 번영도 재조정.{newline}{newline}플레이어 부대는 일반 vanilla 한도를 사용합니다." />
 
-    <string id="lh_enc_topic_castle_challenge_title" text="성 결투 도전" />
-    <string id="lh_enc_topic_castle_challenge_body" text="오크 성을 방문하면, 이빨 베팅으로 엘리트 오크에게 결투를 신청할 수 있습니다.{newline}{newline}- 승리: 엘리트가 트로피 유닛으로 부대에 합류하고, +15 이빨 추가.{newline}- 패배: 베팅금 손실, 성 평판이 일시적으로 하락.{newline}{newline}성에 따라 가능한 엘리트: 빅언, 보스, 검은 오크, 브루트, 베르제르카. 각각 가격과 난이도가 다릅니다.{newline}{newline}베팅금은 엘리트 등급에 따라 — 빅언 약 50 이빨, 검은 오크 약 150 이빨, 보스 약 250 이빨.{newline}{newline}결투 자체는 성 장면에서의 진짜 1v1 전투입니다. 속임수 없음, 자동 해결 없음." />
 
-    <string id="lh_enc_topic_orc_sieges_ram_title" text="오크 공성과 충차" />
-    <string id="lh_enc_topic_orc_sieges_ram_body" text="Lore-Hardcore에서 오크 공성전은 다르게 작동합니다.{newline}{newline}- 오크는 트레뷰쳇을 만들 수 없습니다. 설정: 평형추와 포물선 궤적 수학이 있는 기계는 오크에게는 너무 복잡합니다. 사용 가능한 공성 무기: 발리스타, 오나거, 투석기(화염 변종 포함).{newline}- 충차 강화: 5배 데미지, 3.5배 내구. 성문은 vanilla의 30+가 아닌 5-10타에 무너집니다. 설정: 이빨 가는 두개골, 철 갑옷, 8명의 근육질 오크가 미는 통나무.{newline}- 자동 해결에도 같은 충차 보너스가 적용되어, 장면이든 스킵이든 오크 공성전은 동일한 느낌입니다." />
 
-    <string id="lh_enc_topic_prisoner_cannibalism_title" text="포로 식인" />
-    <string id="lh_enc_topic_prisoner_cannibalism_body" text="오크는 포로를 그 자리에서 해체하지 않습니다. 고기는 행군 중 기아 식인에서만 나옵니다.{newline}{newline}전투 후:{newline}- 전리품 화면 자동 해체: 0 고기(포로 수에 관계없이).{newline}- 군수담당의 「해체」 버튼: 0 고기.{newline}- 처치로 인한 고기(TOR 자동 공식): 플레이어 승리 시 0.{newline}{newline}포로에게서 고기를 얻는 유일한 방법 — 데려가서, 식량이 떨어지고, 기다리기. 빈 식료품 저장고로 게임 1시간마다:{newline}1. 먼저 포로. 1명 = 1 고기.{newline}2. 그 다음 고블린. 1마리 = 1 고기.{newline}3. 영주와 동료는 절대 먹히지 않습니다(영주 = 몸값, 동료 = 퀘스트 라인).{newline}{newline}설정: 오크는 도살장이 아닌 길에서 포로를 산 채로 먹습니다.{newline}{newline}AI 오크 부대는 굶어 죽지 않도록 vanilla TOR의 전투 고기 공식을 유지합니다." />
 
-    <string id="lh_enc_topic_brawl_arena_title" text="그린스킨 난투 경기장" />
-    <string id="lh_enc_topic_brawl_arena_body" text="그린스킨 난투는 오크 정착지 고유의 주먹 격투 경기장입니다.{newline}{newline}- 매치당 18명의 적(vanilla 경기장보다 훨씬 큼).{newline}- 보상은 생존만이 아닌 개인 처치 수로 계산됩니다.{newline}- 경계 밖 지역으로 떨어진 도주 적은 매치 정지를 막기 위해 초당 한 번 자동 처치됩니다.{newline}- 고블린은 경기장 지붕에 더 이상 스폰되지 않습니다(이전 TOR 배치 버그).{newline}- 승리 조건: 최후의 생존자가 되거나, 생존 시 처치 수가 가장 많은 팀.{newline}- 정복된 비-오크 도시(브레토니아, 제국 술집)에서는 구형 GPU의 「cannot find entry point」 오류를 피하기 위해 난투 분위기 셰이더가 억제됩니다.{newline}{newline}용도: 한손 스킬 훈련, 이빨 획득, 오크 승급 퀘스트 난투 목표 완료." />
 
-    <string id="lh_enc_topic_execute_enemy_buff_title" text="종족 적 처형" />
-    <string id="lh_enc_topic_execute_enemy_buff_body" text="오크 플레이어가 포로로 잡힌 종족 적 영주를 처형하면, 오크 부대는 슬퍼하지 않고 — 축하합니다.{newline}{newline}vanilla Bannerlord는 모든 처형에 -1000 명예 경험치를 페널티로 부과합니다. 오크에게 드워프, 뱀파이어, 엘프, 제국 영주를 죽이는 것은 죄가 아니라 위업입니다.{newline}{newline}Lore-Hardcore는 보너스를 추가합니다:{newline}- 명예 경험치 완전 보상(+1000), vanilla 페널티 상쇄.{newline}- 자비 특성에 상징적인 +1 경험치(상태 균형).{newline}- 오크 부대 즉시 +10 사기 획득.{newline}- 녹색 메시지로 적용된 보너스 확인.{newline}{newline}플레이어가 오크 문화(TOR에서 aserai)이고 희생자가 종족 적인 경우에만 적용: 드워프(sturgia), 뱀파이어 백작(khuzait), 제국, 브레토니아(vlandia), 우드 엘프(battania), Eonir, Mousillon, 블러드 드래곤, 카오스, 하이 엘프, 다크 엘프.{newline}{newline}자기 종족(다른 오크)을 처형하면 vanilla 페널티가 유지됩니다 — 오크 전쟁 영주에게는 수치입니다." />
   
     <string id="lh_set_tab_main" text="메인" />
     <string id="lh_set_tab_vassalage" text="종속" />
@@ -135,7 +111,7 @@
     <string id="lh_set_ChaosDarkPactMinClanTier_lbl" text="혼돈의 선물 최소 클랜 등급" />
     <string id="lh_set_ChaosDarkPactMinClanTier_desc" text="혼돈 문화로 전향 의식을 치르기 위해 필요한 플레이어의 최소 클랜 등급입니다." />
     <string id="lh_set_ChaosDarkPactSkillXpBoost_lbl" text="전향 시 스킬 경험치 보너스" />
-    <string id="lh_set_ChaosDarkPactSkillXpBoost_desc" text="혼돈의 선물을 수락할 때 플레이어의 전투 스킬 각각이 얻는 경험치 양입니다." />
+    <string id="lh_set_ChaosDarkPactSkillXpBoost_desc" text="혼돈의 선물을 수락하는 순간 당신의 전투 스킬 각각이 얻는 경험치. 높을수록 일회성 전력 상승이 커집니다. 예: 스킬당 5000 경험치." />
     <string id="lh_set_ChaosTemptingBaseProgressPerDay_lbl" text="일당 유혹 진행도" />
     <string id="lh_set_ChaosTemptingBaseProgressPerDay_desc" text="포로 상태일 때 일당 추가되는 유혹 진행도 점수입니다. 기본값 1.5, 선물까지 약 67 일 소요." />
     <string id="lh_set_ChaosTemptingChaosCultureBonus_lbl" text="혼돈 플레이어 보너스" />
@@ -275,6 +251,8 @@
     <string id="lh_set_GoblinUpgradeMinCost_desc" text="고블린 승급에 들 수 있는 최소 금화. 예: 고블린 승급마다 하한 50 금화." />
     <string id="lh_set_OrcEliteAIDiscount_lbl" text="AI 정예 할인" />
     <string id="lh_set_OrcEliteAIDiscount_desc" text="AI가 지불하는 정예 오크 가격의 비율(1.0 = 정가). 낮을수록 AI가 당신보다 싸게 정예를 갖춥니다. 예: 0.60 = AI가 정예 비용의 60%를 지불." />
+    <string id="lh_set_OrcEliteTeefUpkeepMultiplier_lbl" text="이빨 정예 유지비" />
+    <string id="lh_set_OrcEliteTeefUpkeepMultiplier_desc" text="이빨 경제에서 정예(T4+) 유지에 하루 몇 개의 이빨이 드는지. 유닛당 기본: T4=1, T5=2, T6=3 이빨/일, 이 값을 곱합니다. T1~T3와 고블린은 항상 무료. 0 = 끔 (정예 무료, 이전 방식). 1 = 보통. 2~3 = 하드코어. 예: 블랙 오크 20명(T5) ×1 = 하루 이빨 40개. 이빨이 떨어지면 녀석들이 화를 내고(사기 하락, 원인은 부대 사기 툴팁에 표시) 하루 이틀 뒤 정예가 탈영하기 시작합니다." />
     <string id="lh_set_OrcChopMeatRegular_lbl" text="일반 포로당 고기" />
     <string id="lh_set_OrcChopMeatRegular_desc" text="일반 포로를 도축해 얻는 고기(식인 경제). 예: 일반 포로 1명당 고기 1." />
     <string id="lh_set_OrcChopMeatLarge_lbl" text="대형 포로당 고기" />
@@ -303,22 +281,6 @@
     <string id="lh_set_TrollCaveTroopLimit_desc" text="동굴 소탕전에 데려갈 수 있는 당신 병력의 수(원본 20). 트롤 7마리는 일대일이라도 20명을 짓밟을 수 있으므로, 많을수록 수적 기회가 생깁니다. 예: 40." />
     <string id="lh_set_TrollCaveLureAllowed_lbl" text="트롤 유인 허용" />
     <string id="lh_set_TrollCaveLureAllowed_desc" text="켜면 동굴 메뉴에 &apos;트롤 유인(고기 10)&apos; 선택지를 추가합니다. 6등급 트롤을 고기 10으로 얻는 것은 악용될 수 있어 기본은 꺼짐입니다." />
-    <string id="lh_set_EnableOrcHPBuff_lbl" text="오크 HP 강화" />
-    <string id="lh_set_EnableOrcHPBuff_desc" text="구조적 토글: 오크 HP 강화 시스템 전체를 켜거나 끕니다. 꺼짐 = HP 슬라이더와 무관하게 오크가 원본 HP를 사용합니다." />
-    <string id="lh_set_EnableOrcDamageMods_lbl" text="진영별 피해" />
-    <string id="lh_set_EnableOrcDamageMods_desc" text="모든 오크 피해 보정(아군/적 공격자 및 피격자 배율)의 구조적 토글. 꺼짐 = 원본 오크 피해." />
-    <string id="lh_set_EnableTeefEconomy_lbl" text="이빨 경제" />
-    <string id="lh_set_EnableTeefEconomy_desc" text="오크 이빨 화폐 경제(이빨 획득과 소비)의 구조적 토글. 꺼짐 = 오크가 원본처럼 일반 금화를 사용합니다." />
-    <string id="lh_set_EnableOrcArmyCaps_lbl" text="오크 군대 상한" />
-    <string id="lh_set_EnableOrcArmyCaps_desc" text="오크 부대 규모 및 군대 상한의 구조적 토글. 꺼짐 = AI 오크 부대가 우리 제한 없이 불어납니다." />
-    <string id="lh_set_EnableTrollCaveNerf_lbl" text="트롤 동굴 너프" />
-    <string id="lh_set_EnableTrollCaveNerf_desc" text="트롤 동굴 재조정(전투 규모, 습격 제한)의 구조적 토글. 꺼짐 = 원본 트롤 동굴 동작." />
-    <string id="lh_set_EnableHideoutCooldown_lbl" text="은신처 쿨다운" />
-    <string id="lh_set_EnableHideoutCooldown_desc" text="은신처 쿨다운/제한 시스템의 구조적 토글. 꺼짐 = 원본 은신처 재출현 규칙." />
-    <string id="lh_set_EnableBrawlRewardNerf_lbl" text="난투 보상 너프" />
-    <string id="lh_set_EnableBrawlRewardNerf_desc" text="난투 금화 보상 감소의 구조적 토글. 꺼짐 = 원본 난투 보상." />
-    <string id="lh_set_EnableShrineLootNerf_lbl" text="사당 약탈 너프" />
-    <string id="lh_set_EnableShrineLootNerf_desc" text="사당 약탈 재조정(금화만, 고기/이빨 없음)의 구조적 토글. 꺼짐 = 원본 사당 약탈." />
     <string id="lh_set_EnableOrcCareerQuestNerf_lbl" text="직업 퀘스트 너프" />
     <string id="lh_set_EnableOrcCareerQuestNerf_desc" text="오크 직업 퀘스트의 요구치를 낮춥니다(무기 기술 훈련 집계, 전투, 결투, 획득한 이빨). 꺼짐 = 원본 퀘스트 요구치." />
     <string id="lh_set_EnableOrcNoTrebuchet_lbl" text="투석기를 안 짓는 오크" />
@@ -329,27 +291,15 @@
     <string id="lh_set_EnableMaceShieldBonus_desc" text="둔기(철퇴, 망치) 대 금속 방패 추가 피해의 토글. 꺼짐 = 둔기가 원본 방패 피해를 가합니다." />
     <string id="lh_health_title" text="Lore-Hardcore: 호환성 점검" />
     <string id="lh_ck_duel_abort" text="여기서는 결투를 시작할 수 없습니다. 탁 트인 들판에서 왕에게 도전하세요." />
-    <string id="lh_health_intro" text="일부 Lore-Hardcore 기능이 다른 모드에 의해 차단되고 있습니다:" />
     <string id="lh_health_ui" text="지도 시간 패널(추가 속도 버튼과 카오스 진행 바)을 추가할 수 없습니다." />
     <string id="lh_health_suspect" text="가능한 원인: {LIST}" />
     <string id="lh_health_footer" text="Lore-Hardcore를 TOR 뒤에 로드하세요. UIExtenderEx, MCM, ButterLib 같은 라이브러리는 필수이며 문제가 없습니다 - 비활성화하지 마세요. 기능이 계속 작동하지 않으면 UI/전투 오버홀 모드를 비활성화해 보세요." />
-    <string id="lh_set_EnableGoblinSpeedBuff_lbl" text="더 빠른 고블린" />
-    <string id="lh_set_EnableGoblinSpeedBuff_desc" text="고블린 속도/운동 능력 강화의 구조적 토글. 꺼짐 = 고블린이 원본 속도로 이동합니다." />
-    <string id="lh_set_EnableOrcKickStunBuff_lbl" text="긴 발차기 기절" />
-    <string id="lh_set_EnableOrcKickStunBuff_desc" text="오크 발차기와 방패 가격 기절 연장의 구조적 토글. 꺼짐 = 원본 기절 시간." />
-    <string id="lh_set_EnableChaosVassalRecruit_lbl" text="혼돈 모집" />
-    <string id="lh_set_EnableChaosVassalRecruit_desc" text="구식 토글로, 이제 &apos;메인&apos; 탭의 혼돈 마스터 스위치가 담당합니다. 세이브 호환성을 위해 남겨 두었습니다." />
-    <string id="lh_set_EnableBrawlRandomSpawn_lbl" text="난투 무작위 시작 위치" />
-    <string id="lh_set_EnableBrawlRandomSpawn_desc" text="켜면 고정 위치 대신 난투 경기장의 무작위 지점에서 시작합니다. 외형 변화만." />
-    <string id="lh_set_EnableRecruitIconSwap_lbl" text="이빨 아이콘" />
-    <string id="lh_set_EnableRecruitIconSwap_desc" text="켜면 오크 모집 시 고용 메뉴에 금화 대신 이빨 아이콘을 표시합니다. 외형만." />
     <string id="lh_orc_appetite" text="그린스킨의 식욕" />
     <string id="lh_chaos_exec_reward" text="암흑 신들이 이 제물을 음미한다. +{DE} 암흑 에너지." />
     <string id="lh_chaos_tempt_popup_title" text="유혹이 완성되었다" />
     <string id="lh_chaos_tempt_popup_body" text="{HERO}이(가) 갇힌 채 무너져 혼돈의 선물을 받아들일 준비가 되었다. 전향시켜 휘하에 들일까?" />
     <string id="lh_chaos_tempt_popup_yes" text="전향시킨다" />
     <string id="lh_chaos_tempt_popup_no" text="아직 아니다" />
-    <string id="lh_chaos_upgrade_de" text="{COUNT}× {NAME}을(를) 위해 -{DE} 암흑 에너지." />
     <string id="lh_ungor_pierce_arrows" text="웅고르 미늘 화살" />
     <string id="str_tor_chaos_norscan_reaver" text="노스카 사냥꾼" />
     <string id="str_tor_chaos_norscan_champion" text="노스카 광전사" />
@@ -376,16 +326,12 @@
     <string id="lh_chaos_lord_nolands" text="우리는 아직 영토가 없다, 필멸자여 — 그대를 들일 곳이 없다. 신들이 우리에게 요새를 내리거든 돌아오라." />
     <string id="lh_chaos_hire_merc" text="용병으로서 내 왕좌를 섬겨라." />
     <string id="lh_chaos_hire_merc_accept" text="신들이 그대의 금화를 가상히 여긴다. 우리의 칼날은 그대의 것이오, 나의 군주여." />
-    <string id="lh_chaos_lord_ask_leader" text="지금 그대의 군주는 어디에 있나?" />
-    <string id="lh_chaos_lord_subordinate_response" text="내 군주는 {LEADER_LOC}. 나는 그저 그분의 손일 뿐이오." />
     <string id="lh_chaos_lord_leave" text="그저 지나가는 길이오." />
-    <string id="lh_chaos_hideout_pass_peace" text="평화로이 지나간다(암흑 신들이 그대의 피를 듣는다)" />
     <string id="lh_chaos_hideout_recruit" text="소굴에서 혼돈의 종복을 소환한다" />
     <string id="lh_chaos_portal_peace" text="차원문 앞에 무릎 꿇고 평화로이 지나간다" />
     <string id="lh_chaos_portal_recruit" text="차원문에서 혼돈의 선택받은 자를 소환한다" />
     <string id="lh_chaos_recruit_cd" text="이곳은 아직 힘을 모으지 못했다. 나중에 돌아오라." />
     <string id="lh_chaos_recruit_nogold" text="제물을 바칠 금화가 부족하다." />
-    <string id="lh_chaos_portal_got" text="{NAME}이(가) 차원문에서 나타난다." />
     <string id="lh_chaos_vassal_offer" text="암흑 신들을 섬기고 싶소." />
     <string id="lh_chaos_vassal_response_lord" text="하! {VASSAL_GOLD} 금화를 가져와라. 그러면 그대의 맹세를 받아들이겠다." />
     <string id="lh_chaos_vassal_pay_p" text="여기 금화가 있소." />
@@ -400,7 +346,6 @@
     <string id="lh_chaos_wand_skip" text="본론으로 가지. 그대에게 맡길 일이 있네." />
     <string id="lh_chaos_wand_hire" text="그대의 솜씨가 필요하네. 나와 함께 가겠나?" />
     <string id="lh_chaos_fodder_partysize" text="혼돈의 총알받이" />
-    <string id="lh_enc_menu_button" text="Lore-Hardcore 안내서" />
     <string id="lh_enc_race_orc" text="오크" />
     <string id="lh_enc_race_chaos" text="혼돈" />
     <string id="lh_enc_orc_overview_t" text="오크 개편 — 개요" />
@@ -426,7 +371,7 @@
     <string id="lh_enc_chaos_gift_t" text="혼돈의 선물" />
     <string id="lh_enc_chaos_gift_b" text="혼돈의 선물은 당신의 영웅 — 그리고 씨족 전체 — 을 혼돈 문화로 전향시키는 의식입니다. 암흑 신들을 향한 깊은 헌신입니다.\n\n하는 일:\n- 영웅의 문화를 혼돈으로 바꾸고, 결정적으로 당신 &apos;씨족&apos;의 문화도 바꿉니다. 이는 중요합니다: 영웅만 바뀐다면 보유한 영지가 충성 불일치로 고통받습니다. 둘 다 전향되어 혼돈 정착지가 당신에게 충성을 유지합니다.\n- 게임이 지원하는 곳에서, 외모를 혼돈에 물든 모습으로 바꾸려 시도합니다.\n- 전투 경험의 폭발을 부여합니다 — 신들이 새 신도에게 쏟아붓는 날것의 힘을 반영합니다.\n\n얻는 법: 대화에서 혼돈 영주에게 「당신을 그들 중 하나로 만들어 달라」고 청하세요(최소 씨족 등급이 적용되며, 설정에서 정합니다). 전향은 영구적입니다.\n\n선물 이후에는 혼돈 땅에서 암흑 병력을 자유로이 모집하고, 교단원 소굴을 평화로이 지나며, 암흑 에너지를 생성하기 시작합니다." />
     <string id="lh_enc_chaos_darkenergy_t" text="암흑 에너지" />
-    <string id="lh_enc_chaos_darkenergy_b" text="암흑 에너지는 혼돈 플레이어의 자원 — 형상으로 드러난 암흑 신들의 은총입니다. 오크의 이빨이나 뱀파이어의 바람처럼 작동합니다: 당신 진영만 쓰는 특별한 화폐입니다.\n\n&apos;버는&apos; 법:\n- 처형으로 포로를 제물로 바치기(신들이 제물을 음미합니다).\n- 진영이 자라남에 따라 행하는 그 밖의 암흑 행위.\n\n&apos;쓰는&apos; 곳:\n- 정예 혼돈 병력의 승급. 한 유닛을 진정한 혼돈 정예로 승급시키려면 일반 승급에 더해 암흑 에너지가 듭니다. 감당할 수 없으면 충분해질 때까지 UI에서 승급이 막히므로 — 빚을 질 수 없습니다.\n\n암흑 에너지는 결코 0 아래로 내려가지 않으며, 혼돈과 결속한 뒤에야 보입니다. 신들이 최고의 용사를 위해 매기는 값으로 생각하세요: 자라려면 계속 그들을 먹여야 합니다." />
+    <string id="lh_enc_chaos_darkenergy_b" text="어둠의 에너지는 혼돈 플레이어의 자원 - 어둠의 신들의 은총이 실체가 된 것이다. 오크의 이빨처럼 당신의 진영만 쓰는 특별한 화폐다. 혼돈과 한편이 된 뒤에야 보이며 결코 0 아래로 떨어지지 않는다.\n\n얻는 방법:\n- 혼돈의 종으로서 마을을 약탈한다(+80).\n- 평범한 포로를 제단에서 제물로 바친다(어느 정착지든 포로를 어둠의 신들에게 제물로 바친다).\n- 옛 신들의 신전을 더럽힌다(혼돈의 더럽히기 선택지, 며칠마다).\n- 적 영주를 처형한다(+200).\n- 어둠의 신들의 임무를 완수한다(각 +1000).\n\n쓰는 곳:\n- 지금은 신들의 임무에; 다가올 업데이트에서는 사신에 대한 헌신과 관문에서의 어둠 마법에.\n\n계속 약탈하고 제물을 바치고 더럽혀 성장하라." />
     <string id="lh_enc_chaos_troops_t" text="혼돈의 병력" />
     <string id="lh_enc_chaos_troops_b" text="혼돈의 군대는 값싼 총알받이와 무시무시한 정예를 뒤섞습니다.\n\n구성은 대략 약한 순에서 강한 순으로:\n- 교단원과 시종 — 인간 광신도, 순수한 총알받이.\n- 웅고르 — 더 작은 비스트맨, 역시 총알받이.\n- 노스카 부족민과 그 정예 — 북방의 인간 전사. 설정이 요구하는 대로, 노스카인이 보통 인간보다 단단하도록 HP 강화가 주어졌습니다.\n- 고르와 그 정예 — 더 큰 비스트맨으로, 노스카인보다 높은 HP 강화.\n- 혼돈의 전사 — 암흑 신들의 갑주 두른 용사.\n- 미노타우로스 — 그중 가장 큰 HP 강화를 지닌 거대한 괴물.\n\n총알받이 메커니즘: 교단원과 웅고르는 부대에서 차지하는 자리가 &apos;적습니다&apos;. 이런 총알받이 유닛을 한 쌍 데려갈 때마다 부대 한도가 1씩 오릅니다 — 뱀파이어 진영의 소형 언데드와 똑같습니다. 이로써 값싼 잡것들이 귀한 부대 칸을 낭비하지 않고 쓸 만하게 유지됩니다.\n\n다른 균형을 원하면 모든 HP 강화를 설정에서 조정할 수 있습니다." />
     <string id="lh_enc_chaos_recruiting_t" text="혼돈 병력 모집" />
@@ -442,19 +387,10 @@
     <string id="lh_goblin_changer_hub_leave_p" text="다음에 보자고, 고브." />
     <string id="lh_goblin_changer_cooldown" text="에이 두목, 어제 이빨 다 줬잖수! {DAYS}일 있다 다시 와, 더 캐와야 한다고, 알겠수?" />
     <string id="lh_goblin_changer_hub_no_gold_p" text="반짝이가 그렇게 많지 않은데." />
-    <string id="lh_goblin_changer_intro" text="어이 큰 두목! 네 반짝이로 이빨 바꿔주지, 거래할래, 응? 히히!" />
     <string id="lh_goblin_changer_after_no_gold" text="히히! 반짝이 없으면 이빨도 없어. 먼저 인간들한테서 좀 털어와, 알겠냐?" />
-    <string id="lh_goblin_changer_hub_trade" text="반짝이 1000을 이빨 {AMOUNT}와 바꾼다." />
     <string id="lh_goblin_changer_after_trade" text="*고블린이 이빨 {NOMINAL}개를 세더니, 슬쩍 {HIDDEN}개를 옆구리 은밀한 주머니에 챙긴다.* 거래해서 좋네, 큰 두목!" />
-    <string id="lh_goblin_changer_town_ok" text="물러난다" />
-    <string id="lh_goblin_changer_town_title" text="고블린 환전상" />
-    <string id="lh_goblin_changer_town_outcome" text="*고블린이 선술집 탁자에서 이빨 {NOMINAL}개를 세더니, 잽싸게 {HIDDEN}개를 허리띠 주머니에 챙기고는 나머지를 네 쪽으로 밀어준다.* 거래해서 좋네, 큰 두목!" />
-    <string id="lh_goblin_changer_town_intro" text="*구석 탁자의 교활한 고블린이 잔돈 더미를 만지작거리며 너를 손짓해 부른다. 그러곤 속삭인다:* 어이 큰 두목! 반짝이로 이빨 바꿔주지. 반짝이 1000이면 — {NOMINAL}개 세어주마. 옆 내 주머니에 {HIDDEN}개 챙길까? 글쎄다…… 거래할 거야, 말 거야?" />
-    <string id="lh_goblin_changer_town_cancel" text="다음에" />
-    <string id="lh_goblin_changer_town_option" text="선술집의 고블린 환전상과 흥정한다" />
     <string id="lh_goblin_changer_town_no_gold" text="*구석의 고블린이 네 지갑 냄새를 맡더니 콧방귀를 뀐다.* 히히! 반짝이 없으면 이빨도 없어. 먼저 인간들한테서 좀 털어와, 응?" />
     <string id="lh_goblin_changer_town_trade" text="거래한다" />
-    <string id="lh_goblin_changer_town_cooldown" text="*선술집 구석의 고블린이 의심스럽게 너를 보더니 고개를 돌린다.* 에이 두목, 며칠 전에 이빨 줬잖수! {DAYS}일 더 있다 와, 알겠수?" />
     <string id="lh_goblin_changer_intro_town" text="어이, 큰 두목! 형제들이 내 거래를 지켜본다고 — 곧고 공정해, 수작 없어. 반짝이를 이빨로 바꿀래?" />
     <string id="lh_goblin_changer_after_town_trade" text="*고블린이 딱 {AMOUNT}개의 이빨을 네 손바닥에 센다 — 곧고 정직하게, 거친 놈들이 보고 있으니까.* 또 뭐 필요해, 큰 두목?" />
     <string id="lh_goblin_changer_village_trade" text="반짝이 1000을 이빨 {AMOUNT}와 바꾼다." />
@@ -465,17 +401,9 @@
     <string id="lh_ck_resp_lord" text="건방진 필멸자여! 좋다 — 신들이 피를 갈망한다. 성벽 밖, 탁 트인 들판에서 나를 만나라. 준비가 되면 오라 — 우리 중 하나는 석양을 보지 못하리라." />
     <string id="lh_ck_accept_p" text="이 왕좌는 내 것이 되리라." />
     <string id="lh_ck_decline_p" text="아직은 때가 아니다." />
-    <string id="lh_ck_disgraced_p" text="다시 한 번 그대에게 도전한다!" />
-    <string id="lh_ck_taunt_lord" text="그대는 이미 운명을 시험했고 쓰러졌다, 가련한 벌레여! 어둠의 신들은 그대의 속임수를 보고 계신다 — 이것이 그대의 응보다." />
-    <string id="lh_ck_load_penalty" text="어둠의 신들이 겁쟁이에게서 등을 돌렸다. 그대의 혼돈의 영광이 바래간다." />
-    <string id="lh_ck_wound" text="신들이 그대의 오만을 벌하셨다. 상처를 치유하고 왕좌에 합당함을 증명하라." />
-    <string id="lh_ck_defeat" text="혼돈의 왕이 그대를 쓰러뜨린다. {DAYS}일 후에 다시 도전하라." />
-    <string id="lh_ck_victory" text="그대는 혼돈의 왕의 죽은 손에서 왕좌를 빼앗았다! 어둠의 신들이 새로운 군주를 인정한다. 왕국은 그대의 것이다." />
-    <string id="lh_ck_victory_title" text="찬탈자가 왕좌에 오르다" />
     <string id="lh_ck_eligible" text="어둠의 신들이 그대를 주시한다! 혼돈의 왕 — 혼돈 왕국의 통치자 — 을 찾아 말을 걸고 왕좌를 걸고 도전하라." />
     <string id="lh_ck_bar_legend" text="혼돈의 영광" />
     <string id="lh_ck_bar_ready" text="도전 준비됨" />
-    <string id="lh_ck_bar_disgrace" text="실총" />
     <string id="lh_cw_bs_a" text="나는 어둠의 신들의 이름으로 먼 길을 걸어왔다." />
     <string id="lh_cw_bs_b" text="피와 영광 — 이제 중요한 것은 그것뿐이다." />
     <string id="lh_cw_bs_c" text="약자는 섬기고 강자는 다스린다. 그대는 어느 쪽인가?" />
@@ -489,7 +417,7 @@
     <string id="lh_enc_chaos_market_t" text="저주받은 시장" />
     <string id="lh_enc_chaos_market_b" text="혼돈의 무기와 갑옷은 정직한 이들이 꺼리며 오직 혼돈이 장악한 도시의 시장에서만 팔린다. 약탈자 장비, 광신도 로브, 혼돈 무기, 방패, 그리고 혼돈의 군마는 어느 혼돈 도시에서나 구할 수 있다. 어둠의 신들(코른, 너글, 진취, 슬라네쉬)의 축복받은 전투 갑주와 선택받은 자의 투구는 오직 수도 — 가장 번영한 혼돈 도시 — 에서만, 그것도 막대한 값에 팔린다.\n혼돈 도시에서는 누구나 살 수 있으나, 저주받은 물품은 혼돈의 도시와 마을 외에는 어디서도 팔 수 없다 — 다른 상인은 결코 손대지 않는다." />
     <string id="lh_enc_chaos_throne_t" text="왕을 무너뜨려라" />
-    <string id="lh_enc_chaos_throne_b" text="힘이 곧 정의다. 그대의 손으로 충분한 적을 베면 어둠의 신들이 그대를 현 혼돈의 왕의 경쟁자로 점지하리라.\n그대의 개인 처치 수가 혼돈의 영광을 쌓는다(지도 시계 위의 막대에 표시된다). 혼돈을 적어도 30일 섬기고 그대의 혼돈의 영광을 왕의 것 위로 끌어올려라. 신들이 알아챌 때 왕에게 사투를 신청하라 — 그대 혼자서 왕과 그의 혼돈 전사 둘을 상대한다.\n승리하면 왕좌와 영지와 봉신이 그대의 것이 되고, 그의 축복받은 전투 장비를 전리품으로 취한다. 패배하면 그대의 혼돈의 영광이 삼분의 일 꺾인다." />
+    <string id="lh_enc_chaos_throne_b" text="힘이 곧 정의다. 직접 충분한 적을 베면 어둠의 신들이 당신을 군림하는 혼돈 대군주의 맞수로 점찍는다.\n당신의 개인 처치는 혼돈의 영광을 쌓는다(지도 시계 위의 막대). 혼돈을 최소 30일 섬기고 혼돈의 영광을 대군주보다 높이라. 신들이 주목하면 대군주에게 죽음의 결투를 신청하라: 당신 대 대군주와 그의 혼돈 전사 둘.\n승리하면 그의 왕좌와 봉신은 당신의 것. 이어 그의 운명을 정한다: 처형 - 그의 영지와 축복받은 전투 장비를 전리품으로 취함 - 또는 사면, 무너진 대군주가 봉신으로 무릎 꿇고 가문과 영지를 유지한다. 패하면 당신의 혼돈의 영광은 3분의 1 깎인다." />
     <string id="lh_chaos_wand_full_p" text="그대를 들일 자리가 없다 — 수행원이 이미 가득 찼다." />
     <string id="lh_chaos_wand_full_lord" text="그렇다면 자리를 비운 뒤 돌아오라, 필멸자여. 어둠의 신들은 기다리는 것을 좋아하지 않는다." />
     <string id="lh_ck_where_p" text="그대의 주군이신 왕을 어디서 찾을 수 있나?" />
@@ -511,11 +439,7 @@
     <string id="lh_kd_escort_back" text="뒤로" />
     <string id="lh_kd_prep_text" text="혼돈의 추종자들이 들판에 해골과 검은 무쇠로 결투의 원을 세웠다. 혼돈의 왕 {KING}이 그 안으로 들어와 그대와 맞선다 — 원에서 살아 나가는 것은 단 하나뿐이다." />
     <string id="lh_kd_won_text" text="혼돈의 왕이 그대의 발치에 시신으로 누웠다. 어둠의 신들이 승인의 포효를 울린다 — 그대 자신의 왕좌로 가는 길이 열렸다." />
-    <string id="lh_kd_claim" text="혼돈의 왕좌를 차지하라." />
     <string id="lh_kd_lost_text" text="그대는 패배하여 쓰러졌다. 상처를 핥고 {DAYS}일 후에 다시 도전하라." />
-    <string id="lh_ck_found_title" text="그대의 혼돈 왕국을 세우라" />
-    <string id="lh_ck_found_text" text="왕좌는 피로써 그대의 것이다. 그대의 새 혼돈 왕국에 이름을 지어라." />
-    <string id="lh_ck_found_default" text="혼돈의 무리" />
     <string id="lh_ck_founded" text="그대의 혼돈 왕국이 세워졌다. 어둠의 신들이 새 투사를 지켜본다." />
     <string id="lh_kd_chicken" text="오늘은 아니다 — 물러난다. (떠나기)" />
     <string id="lh_extorsion_tier_too_low" text="등급이 너무 낮음 — 가져갈 만한 금니빨은 T4+ 오크에게만 있다." />
@@ -535,7 +459,6 @@
     <string id="lh_god_choose_title" text="어둠의 신에게 맹세하라" />
     <string id="lh_god_choose_desc" text="당신은 혼돈의 제단 앞에 무릎 꿇는다. 그 표식을 짊어질 신을 선택하라—이 선택은 되돌릴 수 없다. {SET} 처치 시 당신의 신은 완전한 전투 장비 일습을 하사하며, {DUEL} 처치 시 지고의 군주 본인에게 그의 왕좌를 걸고 도전할 수 있다." />
     <string id="lh_god_choose_ok" text="맹세를 하다" />
-    <string id="lh_god_chosen_msg" text="당신은 이제 {GOD}에게 맹세했다. {FLAVOR}" />
     <string id="lh_god_set_granted" text="어둠의 신들이 당신의 학살에 보답한다—{GOD}의 완전한 전투 장비 일습이 이제 당신의 소지품에 있다. 소지품에서 착용하라(I 키)." />
     <string id="lh_god_set_title" text="신의 가호" />
     <string id="lh_set_tab_gods" text="어둠의 신들" />
@@ -545,5 +468,132 @@
     <string id="lh_set_ChaosGodDuelKillThreshold_desc" text="전투 장비 임계값에 더해, 혼돈의 지고의 군주(모트킨)에게 왕좌를 걸고 결투를 신청하기까지 필요한 추가 개인 처치 수. 결투에 필요한 총 처치 수 = 전투 장비 임계값 + 이 값. 낮을수록 왕좌 도전이 더 일찍 열린다. 예: 둘 다 1000이면 2000 처치에서 그에게 도전한다. 범위 500-2000." />
     <string id="lh_chaos_minotaur_weight_relief" text="미노타우로스 중량(완화)" />
     <string id="lh_chaos_recruited_list" text="소환됨: {LIST}." />
+    <string id="lh_god_boon_khorne" text="코른의 은총: 가하는 모든 피해 +15%." />
+    <string id="lh_god_boon_nurgle" text="나글의 은총: 최대 체력 +20%." />
+    <string id="lh_god_boon_tzeentch" text="젠취의 은총: 최대 마법의 바람 +25%, 회복 속도 증가." />
+    <string id="lh_god_boon_slaanesh" text="슬라네쉬의 은총: 전투 중 이동 속도 +12%." />
+    <string id="lh_god_chosen_msg2" text="당신은 이제 {GOD}에게 맹세했다. {FLAVOR} {BOON}" />
+    <string id="lh_de_raid" text="어둠의 신들이 당신이 남긴 폐허를 탐닉한다. +{DE} 어둠의 에너지." />
+    <string id="lh_de_sacrifice_opt" text="포로를 어둠의 신들에게 제물로 바친다" />
+    <string id="lh_de_sacrifice_tip" text="{N}명의 포로를 사신에게 바친다. {DE} 어둠의 에너지를 얻는다." />
+    <string id="lh_de_sacrifice_done" text="당신은 혼돈의 제단에 포로 {N}명을 바쳤다. +{DE} 어둠의 에너지." />
+    <string id="lh_de_defile_cd" text="신전은 {DEFILE_COOLDOWN_DAYS}일에 한 번만 더럽힐 수 있다." />
+    <string id="lh_kd_execute" text="대군주를 처형하고 그의 전투 장비를 차지한다." />
+    <string id="lh_kd_spare" text="대군주를 살려준다 - 그는 무릎 꿇고 당신을 섬길 것이다." />
+    <string id="lh_ck_founded_spare" text="당신의 혼돈 왕국이 세워졌다. 무너진 대군주가 당신의 봉신으로 무릎 꿇는다 - 그의 갑옷보다 더 쓰라린 전리품. 어둠의 신들이 새로운 용사를 지켜본다." />
+    <string id="lh_ck_slain_no_throne" text="대군주가 당신의 발치에 쓰러져 죽었으나, 혼돈의 왕좌는 오늘 당신의 손에서 빠져나간다." />
+    <string id="lh_ck_spared_no_throne" text="당신은 무너진 대군주를 살려두지만, 혼돈의 왕좌는 아직 당신의 손을 벗어난다." />
+    <string id="lh_health_intro2" text="Lore-Hardcore가 일부 기능에서 문제를 감지했습니다:" />
+    <string id="lh_health_tor_api" text="일부 핵심 시스템이 TOR에 연결하지 못했습니다(업데이트되었을 수 있음): {LIST}. 이빨과 어둠의 에너지 수입이 작동하지 않을 수 있습니다. 자세한 내용은 lorehardcore_health.log 파일을 참조하세요." />
+    <string id="lh_health_open_log" text="로그 폴더 열기" />
+    <string id="lh_health_close" text="닫기" />
+    <string id="lh_god_mission_seek_opt" text="어둠의 신들에게 임무를 청한다" />
+    <string id="lh_god_mission_status_opt" text="어둠의 신들의 요구를 듣는다" />
+    <string id="lh_god_mission_assigned" text="어둠의 신들이 당신에게 임무를 내렸다: {TASK} {DAYS}일이 남았다." />
+    <string id="lh_god_mission_status" text="신들의 임무: {TASK} 진행 {PROGRESS}/{TARGET}. 남은 일수: {DAYS}." />
+    <string id="lh_god_mission_progress" text="어둠의 신들이 지켜본다: {PROGRESS}/{TARGET}." />
+    <string id="lh_god_mission_success" text="어둠의 신들이 만족했다 - 임무 완료. +{DE} 어둠의 에너지." />
+    <string id="lh_god_mission_fail" text="어둠의 신들의 임무에 실패했다. 그들의 불쾌함이 {DE} 어둠의 에너지를 앗아간다." />
+    <string id="lh_god_mission_task_slaughter" text="적 영주 {N}명을 처형하라." />
+    <string id="lh_god_mission_task_pillage" text="마을 {N}곳을 약탈하고 잿더미만 남겨라." />
+    <string id="lh_god_mission_task_cleanse" text="산적 소굴 {N}곳을 소탕하라." />
+    <string id="lh_god_mission_task_conquer" text="혼돈의 영광을 위해 전투 {N}번을 승리하라." />
+    <string id="lh_god_mission_task_none" text="신들을 섬겨라." />
+    <string id="lh_whatsnew_title" text="Lore-Hardcore가 {VER}(으)로 업데이트됨" />
+    <string id="lh_tip_orc_intro_t" text="당신은 그린스킨을 이끈다" />
+    <string id="lh_tip_orc_intro_b" text="오크는 금이 아니라 이빨로 지불한다. 전투에서 강한 적(4단계 이상)에게서 이빨을 뽑아내고, 오크 영지와 난투, 투기장에서도 얻는다. 이빨로 병력을 모집하라. 언제든 Alt+H로 전체 가이드를 열 수 있다." />
+    <string id="lh_tip_chaos_intro_t" text="당신은 어둠의 신들을 섬긴다" />
+    <string id="lh_tip_chaos_intro_b" text="이제 당신은 혼돈의 길을 걷는다. 마을을 약탈하고 포로를 제물로 바치며 신전을 더럽혀 어둠의 에너지를 얻으라. 수호신을 골라 영구적 은총을 받고, 신들의 임무로 큰 보상을 얻으며, 언젠가 대군주마저 무너뜨려라. 가이드는 Alt+H." />
+    <string id="lh_tip_patron_t" text="수호신을 선택하라" />
+    <string id="lh_tip_patron_b" text="사신 중 하나에게 맹세하라 - 코른(+피해), 나글(+체력), 젠취(+마법의 바람), 슬라네쉬(+속도). 선택은 되돌릴 수 없으며 지속적인 은총을 준다. 혼돈에 합류할 때 묻는다. 콘솔도 사용 가능: lh.chaos_god." />
+    <string id="lh_tip_de_t" text="어둠의 에너지를 모았다" />
+    <string id="lh_tip_de_b" text="어둠의 에너지는 혼돈의 화폐다. 지금은 신들의 임무에, 다가올 업데이트에서는 사신에 대한 헌신에 쓸 수 있다. 더 모으려면 계속 약탈하고 제물을 바치고 더럽혀라." />
+    <string id="lh_enc_chaos_gods_t" text="네 신과 그들의 은총" />
+    <string id="lh_enc_chaos_gods_b" text="혼돈에 합류하면 네 어둠의 신 중 하나에게 맹세한다. 선택은 되돌릴 수 없으며 당신 자신(부대가 아님)에게 영구적 은총을 준다:\n- 피의 신 코른: 가하는 모든 피해 +15%.\n- 역병의 군주 나글: 최대 체력 +20%.\n- 변화의 신 젠취: 최대 마법의 바람 +25%, 회복 속도 증가.\n- 어둠의 군주 슬라네쉬: 전투 중 이동 속도 +12%.\n\n혼돈에 합류할 때 묻는다(콘솔도 가능: lh.chaos_god). 일정 처치 수에 도달하면 수호신은 완전한 전투 장비도 내린다. 헌신 체계 - 어둠의 에너지로 구매하는, 네 신 모두에 대한 더 깊은 보상 - 은 다가올 업데이트에서 추가된다." />
+    <string id="lh_enc_chaos_missions_t" text="어둠의 신들의 임무" />
+    <string id="lh_enc_chaos_missions_b" text="어둠의 신들은 자신의 용사를 시험한다. 어느 도시, 성, 마을에서든 어둠의 신들에게 임무를 청한다 를 선택해 퀘스트를 받으라:\n- 학살: 적 영주 일정 수를 처형하라.\n- 약탈: 마을 일정 수를 약탈하라.\n- 소탕: 산적 소굴 일정 수를 소탕하라.\n- 정복: 전투 일정 수를 승리하라.\n\n기한은 30일이다. 성공하면 신들이 많은 어둠의 에너지로 보답한다(+1000). 기한을 놓치면 그들의 불쾌함이 어둠의 에너지를 앗아간다(-100). 어둠의 신들의 요구를 듣는다 를 선택하면 현재 임무와 진행을 확인할 수 있다. 임무 사이에는 하루의 재사용 대기가 있다." />
+    <string id="lh_whatsnew_0_1_9_60" text="이번 버전의 새로운 점:\n- 수호신이 이제 영구적 은총을 준다(피해 / 체력 / 마법의 바람 / 속도).\n- 어둠의 에너지 경제: 마을 약탈, 포로 제물, 신전 더럽히기로 획득.\n- 어둠의 신들의 임무: 어느 정착지에서든 퀘스트를 받아 큰 어둠의 에너지 보상을 얻는다.\n- 대군주 타도에서 이제 그를 처형하거나 봉신으로 사면할 수 있다.\nAlt+H로 전체 게임 내 가이드를 연다." />
+    <string id="lh_hud_task" text="임무 {P}/{T}" />
+    <string id="lh_panel_patron" text="수호신: {GOD}" />
+    <string id="lh_panel_lbl_devotion" text="사신에 대한 헌신" />
+    <string id="lh_panel_tip_title" text="혼돈 상태 — 어둠의 신들 앞에서의 그대의 위치. 이 패널은 그대의 혼돈의 영광, 수호신, 사신에 대한 헌신, 진행 중인 신들의 임무, 그리고 혼돈의 대군주에게 그의 왕좌를 걸고 도전하기까지 치러야 할 복무를 보여준다. 각 항목에 마우스를 올리면 자세한 내용을 볼 수 있다." />
+    <string id="lh_panel_tip_glory" text="혼돈의 영광 — 어둠의 신들 사이에서의 그대의 명성으로, 전투에서 적을 처치해 얻는다. 그대가 죽일수록 보라색 막대가 차오른다. 황금 표식은 그대의 수호신이 완전한 전투 갑주(방어구 일습)를 하사하는 지점이다. 막대를 끝까지 채우고 정해진 복무 일수를 마쳐야 혼돈의 대군주에게 그의 왕좌를 걸고 도전할 수 있다." />
+    <string id="lh_panel_tip_patron" text="그대의 수호신 — 사신 중 그대가 맹세한 하나. 그는 영구적인 전투 은총을 내린다 (코른: 피해, 너글: 체력, 젠취: 마법의 바람, 슬라네쉬: 속도). 그리고 황금 영광 표식에 도달하면 완전한 전투 갑주를 하사한다. 수호신은 단 한 번 선택하며 바꿀 수 없다." />
+    <string id="lh_panel_tip_allegiance" text="혼돈의 위계 속 그대의 위치. 혼돈에 물든 자 — 그대는 그 길을 걷되 아직 어떤 군주도 섬기지 않는다. 혼돈의 봉신 — 그대는 대군주를 맹세한 영주로서 섬긴다. 혼돈의 대군주 — 그대는 이전 대군주를 무너뜨리고 모든 혼돈을 다스린다." />
+    <string id="lh_panel_tip_mission" text="어둠의 신들의 임무 — 어느 정착지에서든 받을 수 있는 선택 퀘스트로, 막대한 어둠의 에너지를 보상으로 준다. 계수기는 그대의 진행도를 보여준다 (완료 / 목표). 이를 완수해 그대의 헌신에 자금을 대고 신들의 총애를 얻으라." />
+    <string id="lh_panel_tip_service" text="대군주를 향한 그대의 복무. 충분한 영광을 갖췄더라도, 그에게 도전하려면 최소한의 복무 일수를 채워야 한다. 도전에 실패하면 재도전 대기가 적용된다. 이 항목은 남은 일수를 센다. 0이 되면 그대의 복무는 완수된 것이다." />
+    <string id="lh_panel_tip_devotion" text="사신에 대한 헌신 — 아래 버튼으로 어둠의 에너지를 소모해 각 신에 대한 신앙을 깊게 하라 (등급 0-10). 각 등급은 그 신의 전투 은총을 강화한다: 코른 — 피해, 너글 — 체력, 젠취 — 마법의 바람, 슬라네쉬 — 속도. 등급 3은 전투 주문을, 등급 5는 상징 무기를, 등급 10은 완전한 전투 갑주와 전설적인 권능을 하사한다. 넷은 균형을 요구한다 — 하나만이 아니라 모두를 올려라." />
+    <string id="lh_panel_tip_deepen" text="헌신 강화 창을 열어 어둠의 에너지를 소모하고 사신 각각에 대한 등급을 올려, 그들의 전투 은총과 주문, 무기, 전투 갑주를 해금하라." />
+    <string id="lh_boon_dmg" text="피해" />
+    <string id="lh_boon_hp" text="체력" />
+    <string id="lh_boon_wom" text="마법의 바람" />
+    <string id="lh_boon_spd" text="속도" />
+    <string id="lh_panel_title" text="혼돈 상태" />
+    <string id="lh_panel_no_patron" text="수호신 미선택" />
+    <string id="lh_panel_overlord" text="혼돈의 대군주" />
+    <string id="lh_panel_vassal" text="혼돈의 봉신" />
+    <string id="lh_panel_touched" text="혼돈에 물든 자" />
+    <string id="lh_panel_task" text="신들의 임무: {P}/{T}" />
+    <string id="lh_panel_no_task" text="활성 임무 없음" />
+    <string id="lh_dev_advanced" text="{GOD}에 대한 헌신이 {LVL}등급으로 깊어집니다." />
+    <string id="lh_dev_need_de" text="{GOD}에 대한 헌신을 깊게 하려면 어둠의 에너지가 {DE} 필요합니다 (보유: {HAVE})." />
+    <string id="lh_dev_balance_locked" text="넷은 균형을 요구한다 — 먼저 다른 헌신을 깊게 하라 (한 등급은 최저보다 2를 초과해 높을 수 없다)." />
+    <string id="lh_dev_max" text="{GOD}에 대한 헌신은 이미 정점에 도달했습니다 (등급 {LVL})." />
+    <string id="lh_dev_not_servant" text="어둠의 신들에게 맹세한 종복만이 헌신을 깊게 할 수 있다." />
+    <string id="lh_dev_item_reward" text="{GOD}이(가) 깊어지는 헌신에 응해 무기를 하사합니다 (등급 5)." />
+    <string id="lh_dev_set_reward" text="{GOD}이(가) 신도의 완전한 전투 갑주를 하사합니다 (등급 10)." />
+    <string id="lh_dev_prayer_reward" text="{GOD}이(가) 전투 주문을 하사합니다: {SPELL}. 전투 중 주문서를 열어 시전하라." />
+    <string id="lh_dev_deepen_btn" text="헌신 강화" />
+    <string id="lh_dev_benefit" text="{DOMAIN} +{FROM}%→+{TO}%" />
+    <string id="lh_dev_dom_khorne" text="피해" />
+    <string id="lh_dev_dom_nurgle" text="체력" />
+    <string id="lh_dev_dom_tzeentch" text="마법의 바람" />
+    <string id="lh_dev_dom_slaanesh" text="속도" />
+    <string id="lh_dev_mk_spell" text="주문" />
+    <string id="lh_dev_mk_weapon" text="무기" />
+    <string id="lh_dev_mk_set" text="세트" />
+    <string id="lh_dev_menu_title" text="헌신을 강화하라" />
+    <string id="lh_dev_menu_desc" text="어둠의 에너지를 소모해 넷에 대한 헌신을 깊게 하라. 보유한 어둠의 에너지: {DE}. 넷은 균형을 요구한다: 어떤 등급도 최저보다 2를 초과해 높을 수 없다. 수호신 계열은 20% 저렴하다." />
+    <string id="lh_dev_menu_opt" text="{GOD} — 등급 {CUR}→{NEXT} ({COST} 어둠의 에너지)" />
+    <string id="lh_dev_menu_opt_max" text="{GOD} — 등급 {LVL} (최대)" />
+    <string id="lh_dev_menu_hint_max" text="이미 최대 등급입니다." />
+    <string id="lh_dev_menu_hint_balance" text="균형 위반 — 먼저 낮은 헌신을 깊게 하라 (최저보다 최대 +2)." />
+    <string id="lh_dev_menu_hint_de" text="어둠의 에너지가 부족합니다 (필요: {COST})." />
+    <string id="lh_dev_menu_deepen" text="강화" />
+    <string id="lh_dev_menu_close" text="닫기" />
+    <string id="lh_enc_chaos_devotion_t" text="넷에 대한 헌신" />
+    <string id="lh_enc_chaos_devotion_b" text="수호신의 은총에 더해, 네 어둠의 신 각각에 대한 헌신을 깊게 할 수 있다. 각 신은 0에서 10까지의 등급을 가지며 어둠의 에너지로 구매한다.\n신앙이 깊을수록 그 신의 전투 은총이 강해진다: Khorne는 피해, Nurgle는 체력, Tzeentch는 마법의 바람, Slaanesh는 속도를 깊게 한다. 이는 수호신의 영구 은총과 합산된다.\n넷은 균형을 요구한다: 어떤 등급도 최저보다 2를 초과해 높을 수 없으므로 넷 모두를 올려야 한다. 수호신 계열은 20% 저렴하다.\n이정표: 등급 3은 마법을 다루는 신들에게 전투 주문을 하사한다 (Tzeentch - Fireball, Nurgle - Curse of Years; Khorne는 마법을 경멸하며 Slaanesh의 마법은 제공되지 않는다); 등급 5는 그 신의 상징 무기를 하사한다; 등급 10은 완전한 전투 갑주를 하사한다.\n지도 시계 옆 혼돈 상태 패널의 '헌신 강화' 버튼에서 연다." />
+    <string id="lh_tip_devotion_t" text="넷에 대한 헌신" />
+    <string id="lh_tip_devotion_b" text="이제 각 어둠의 신에 대한 헌신을 깊게 하고, 어둠의 에너지를 지불해 점점 더 큰 보상을 얻을 수 있다. 혼돈 상태 패널(지도 오른쪽)의 '헌신 강화' 버튼을 열어라. 각 등급은 신의 전투 은총을 강화한다; 등급 3은 주문, 등급 5는 상징 무기, 등급 10은 완전한 갑주를 하사한다. 넷은 균형을 요구한다 - 하나만이 아니라 모두 올려라. Alt+H로 안내를 확인하라." />
+    <string id="lh_whatsnew_0_1_9_62" text="이번 버전의 새로운 기능:\n- 넷에 대한 헌신: 어둠의 에너지를 소모해 각 신에 대한 신앙을 깊게 한다 (등급 0-10).\n- 각 등급은 신의 전투 은총을 깊게 한다 (피해 / 체력 / 마법의 바람 / 속도).\n- 등급 3은 전투 주문을 하사한다 (Tzeentch, Nurgle); 등급 5는 상징 무기; 등급 10은 완전한 전투 갑주.\n- 혼돈 상태 패널의 '헌신 강화' 버튼에서 연다.\nAlt+H로 게임 내 전체 안내를 확인하라." />
+    <string id="lh_dev_rw_spell" text="다음 등급에서 전투 주문을 해금한다." />
+    <string id="lh_dev_rw_weapon" text="다음 등급에서 이 신의 상징 무기를 하사한다." />
+    <string id="lh_dev_rw_set" text="다음 등급에서 이 신의 완전한 전투 갑주를 하사한다." />
+    <string id="lh_dev_rw_growth" text="다음 등급에서 이 신의 전투 은총이 깊어진다." />
+    <string id="lh_seduce_menu" text="Whisper of the Dark Gods — seduce this lord (500 Dark Energy, 200 Influence)" />
+    <string id="lh_seduce_need" text="Requires 500 Dark Energy and 200 Influence, and devotion to Slaanesh (rank 4)." />
+    <string id="lh_seduce_no_resources" text="You lack the Dark Energy or influence to bend this lord's will." />
+    <string id="lh_seduce_no_successor" text="{LORD}'s clan has no suitable successor — the seduction fails." />
+    <string id="lh_seduce_success" text="{LORD} has been seduced to the Dark Gods and joins your retinue." />
+    <string id="lh_seduce_failed" text="The lord resists your whispers — the seduction fails." />
+    <string id="lh_dev_martial_reward" text="Your dread service to {GOD} spreads — your renown grows by {AMT}." />
+    <string id="lh_dev_rw_renown" text="Next rank grows your dread renown." />
+    <string id="lh_dev_mk_renown" text="renown" />
+    <string id="lh_whatsnew_0_1_9_71" text="NEW in this version:\n- Legendary Devotion capstones: reach rank 10 with a God to awaken a battle power.\n- Khorne: heal on every kill and unleash a blood-shockwave around the slain.\n- Nurgle: slowly regenerate health throughout the battle.\n- Tzeentch: every kill restores Winds of Magic.\n- Slaanesh: a chance on each kill to seduce nearby enemies to your side.\nPress Alt+H for the full in-game guide." />
+    <string id="lh_whatsnew_0_1_9_72" text="NEW in this version:\n- Devotion now grants a SECOND, stronger battle-spell at rank 7 to the sorcerer Gods.\n- Tzeentch: Flame Storm (a roaring vortex of fire).\n- Nurgle: The Purple Sun of Xereus (a devouring vortex of death).\n- Reach rank 3 for the first spell, rank 7 for the second.\nPress Alt+H for the full in-game guide." />
+    <string id="lh_whatsnew_0_1_9_73" text="NEW in this version:\n- Lord Seduction: with devotion to Slaanesh (rank 4), whisper enemy lords to your side.\n- When you meet an enemy lord, choose 'Whisper of the Dark Gods' (costs 500 Dark Energy + 200 Influence).\n- The lord joins your retinue; their clan promotes a successor so it survives.\n- Faction leaders cannot be seduced.\nPress Alt+H for the full in-game guide." />
+    <string id="lh_whatsnew_0_1_9_77" text="새로움 — 모드 설정에 TOR 조정 항목 추가 (일반 탭):\n- 영주가 군대를 처음부터 재건: 포로 상태에서 풀려난 AI 영주는 거의 텅 빈 채로 재등장하며 다시 모집해야 한다.\n- 스킬 학습 한계 제거: 능력치/집중의 소프트 캡을 넘어서도 스킬이 계속 경험치를 얻는다.\n- 레벨당 집중 점수 (1-5) 와 능력치 1점당 레벨 (1-4) 슬라이더.\n메인 메뉴에서 모드 설정을 열어 켜고 끌 수 있다." />
+    <string id="lh_enc_chaos_seduction_t" text="Lord Seduction" />
+    <string id="lh_enc_chaos_seduction_b" text="With devotion to Slaanesh (rank 4), you can whisper enemy lords to your side. When you meet an enemy lord on the map, choose 'Whisper of the Dark Gods' (costs 500 Dark Energy and 200 Influence). The lord abandons their banner and joins your retinue; if they led a clan, a successor is promoted so the clan endures. Faction leaders are too strong-willed to seduce." />
+    <string id="lh_tip_seduction_t" text="Whispers of Slaanesh" />
+    <string id="lh_tip_seduction_b" text="Your devotion to Slaanesh is deep enough to seduce enemy lords. When you meet an enemy lord on the map, choose 'Whisper of the Dark Gods' to lure them into your retinue for 500 Dark Energy and 200 Influence. Their clan promotes a successor and survives; faction leaders are too strong-willed to seduce. Press Alt+H for the guide." />
+    <string id="lh_set_LordsRebuildFromScratch_lbl" text="TOR: Lords rebuild army from scratch" />
+    <string id="lh_set_LordsRebuildFromScratch_desc" text="When an AI lord is released or escapes from captivity, their new party spawns almost empty (just the lord) and they must recruit an army from scratch — instead of instantly respawning with a full army. Applies to ALL AI lords. OFF = vanilla." />
+    <string id="lh_set_RemoveSkillLearningCap_lbl" text="TOR: Remove skill learning cap" />
+    <string id="lh_set_RemoveSkillLearningCap_desc" text="Removes the soft learning cap, so skills keep gaining XP normally far past the limit your attributes and focus would normally allow. OFF = vanilla cap. Applies to all heroes." />
+    <string id="lh_set_FocusPointsPerLevel_lbl" text="TOR: Focus points per level" />
+    <string id="lh_set_FocusPointsPerLevel_desc" text="How many focus points you gain each level. Vanilla is 1. Higher = faster skill specialization. Example: 2 doubles focus gain." />
+    <string id="lh_set_LevelsPerAttributePoint_lbl" text="TOR: Levels per attribute point" />
+    <string id="lh_set_LevelsPerAttributePoint_desc" text="How many levels between each free attribute point. Vanilla is 4 (one attribute point every 4 levels). LOWER = more attribute points (e.g. 1 = one every level)." />
   </strings>
 </base>

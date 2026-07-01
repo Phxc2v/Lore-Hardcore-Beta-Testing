@@ -17,11 +17,10 @@
         <DependedModule Id="Bannerlord.Harmony" DependentVersion="v2.4.2"/>
         <DependedModule Id="TOR_Core" DependentVersion="v1.3.15"/>
         <DependedModule Id="TOR_Armory" DependentVersion="v1.3.15"/>
-        <!-- Optional: CrashDoctor provides generic NRE safety nets + dangling
-             roster cleanup that prevent crashes from dangling CharacterObject
-             references (a known TOR / cross-mod issue). LH works without it,
-             but it's recommended for crash protection. -->
-        <DependedModule Id="CrashDoctor" DependentVersion="v1.4.0" Optional="true"/>
+        <!-- CrashDoctor intentionally NOT declared as a dependency here: a DependedModule (even
+             Optional) forces CrashDoctor to load BEFORE Lore-Hardcore. Crash Doctor must load at
+             the very BOTTOM (after LH) so its diagnostics see the final state; CD declares that
+             ordering itself via its own DependedModuleMetadatas. LH says nothing about CD. -->
     </DependedModules>
     <!-- Жёсткий порядок загрузки: Harmony первый, все core+TOR до нас, мы последние. -->
     <DependedModuleMetadatas>
@@ -33,7 +32,6 @@
         <DependedModuleMetadata id="StoryMode" order="LoadBeforeThis"/>
         <DependedModuleMetadata id="TOR_Core" order="LoadBeforeThis"/>
         <DependedModuleMetadata id="TOR_Armory" order="LoadBeforeThis"/>
-        <DependedModuleMetadata id="CrashDoctor" order="LoadBeforeThis" optional="true"/>
     </DependedModuleMetadatas>
     <SubModules>
         <SubModule>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Prefab>
+  <Window>
+    <!-- Панель «Статус Хаоса» на правом краю экрана карты (свой GauntletLayer ChaosStatusMapView).
+         HoverBegin/HoverEnd на корне И кнопке → VM.WantsFocus → MapView даёт/снимает фокус слою.
+
+         === Нативный дизайн Bannerlord (v0.1.9.70) ===
+         • Тело — нативный Sprite="StdAssets\Popup\canvas" + резная рамка Sprite="frame_9" (как у попапов
+           и карточек Crash Doctor). Под ними тёмная BlankWhiteSquare-подложка на случай, если спрайты
+           не загрузятся на слое карты (тогда панель просто тёмная, без «дыры»).
+         • Корень — Fixed высота (CoverChildren на слое карты не считается → раньше раздувало в колонну).
+         • ListPanel = VerticalBottomToTop: этот слой инвертирует список, так выходит визуально сверху-вниз.
+         • Секции-разделители (Слава / Боги / Служба), подписи строк, цветные ячейки богов, tooltips. -->
+    <Widget Id="ChaosStatusRoot" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed"
+            SuggestedWidth="272" SuggestedHeight="448"
+            HorizontalAlignment="Right" VerticalAlignment="Center" PositionYOffset="20"
+            MarginRight="12" IsVisible="@IsVisible"
+            Command.HoverBegin="ExecuteHoverBegin" Command.HoverEnd="ExecuteHoverEnd">
+      <Children>
+
+        <!-- Гарантированная тёмная подложка (fallback, если нативный канвас не загрузится). -->
+        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"
+                Sprite="BlankWhiteSquare_9" Color="#17111FF2" DoNotAcceptEvents="true"/>
+        <!-- НАТИВНОЕ тело-канвас Bannerlord. -->
+        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"
+                Sprite="StdAssets\Popup\canvas" DoNotAcceptEvents="true"/>
+        <!-- НАТИВНАЯ резная рамка-9slice поверх краёв. -->
+        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"
+                Sprite="frame_9" ExtendLeft="14" ExtendTop="14" ExtendRight="14" ExtendBottom="14"
+                IsEnabled="false"/>
+
+        <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren"
+                   VerticalAlignment="Top"
+                   StackLayout.LayoutMethod="VerticalBottomToTop"
+                   MarginTop="22" MarginBottom="18" MarginLeft="26" MarginRight="26">
+          <Children>
+
+            <!-- ===== Заголовок ===== (HintWidget = обзорная подсказка по всей панели) -->
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren">
+              <Children>
+                <HintWidget DataSource="{TitleHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren"
+                            Brush.FontSize="22" Brush.FontColor="#F4E1C4FF"
+                            Brush.TextHorizontalAlignment="Center"
+                            Text="@TitleText" DoNotAcceptEvents="true"/>
+              </Children>
+            </Widget>
+
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="2"
+                    MarginTop="8" MarginBottom="10"
+                    Sprite="BlankWhiteSquare_9" Color="#5A4A30FF" DoNotAcceptEvents="true"/>
+
+            <!-- ===== Секция «Слава» ===== -->
+            <!-- Прогресс-бар: внешняя рамка → утопленная дорожка → заливка + золотой маркер.
+                 HintWidget сверху = зона подсказки «что такое Слава Хаосу». -->
+            <Widget WidthSizePolicy="Fixed" SuggestedWidth="204" HeightSizePolicy="Fixed" SuggestedHeight="18"
+                    HorizontalAlignment="Center" MarginBottom="7">
+              <Children>
+                <HintWidget DataSource="{GloryHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"
+                        Sprite="BlankWhiteSquare_9" Color="#1A140EFF" DoNotAcceptEvents="true"/>
+                <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"
+                        MarginLeft="2" MarginTop="2" MarginRight="2" MarginBottom="2"
+                        Sprite="BlankWhiteSquare_9" Color="#0C0810FF" DoNotAcceptEvents="true">
+                  <Children>
+                    <Widget WidthSizePolicy="Fixed" SuggestedWidth="@FillWidth" HeightSizePolicy="StretchToParent"
+                            HorizontalAlignment="Left" VerticalAlignment="Center"
+                            Sprite="BlankWhiteSquare_9" Color="#B23DE0FF" DoNotAcceptEvents="true"/>
+                    <Widget WidthSizePolicy="Fixed" SuggestedWidth="2" HeightSizePolicy="StretchToParent"
+                            HorizontalAlignment="Left" VerticalAlignment="Center" MarginLeft="@SetMarkerPos"
+                            IsVisible="@ShowSetMarker"
+                            Sprite="BlankWhiteSquare_9" Color="#E8C98AFF" DoNotAcceptEvents="true"/>
+                  </Children>
+                </Widget>
+              </Children>
+            </Widget>
+
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginBottom="10">
+              <Children>
+                <HintWidget DataSource="{GloryHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren"
+                            Brush.FontSize="17" Brush.FontColor="#E8D9B9FF"
+                            Brush.TextHorizontalAlignment="Center"
+                            Text="@GloryText" DoNotAcceptEvents="true"/>
+              </Children>
+            </Widget>
+
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="2"
+                    MarginBottom="9"
+                    Sprite="BlankWhiteSquare_9" Color="#3A3024FF" DoNotAcceptEvents="true"/>
+
+            <!-- ===== Секция «Боги» ===== (каждая строка = своя HintWidget-зона) -->
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginBottom="4">
+              <Children>
+                <HintWidget DataSource="{PatronHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren"
+                            Brush.FontSize="16" Brush.FontColor="#D6C4A8FF"
+                            Text="@PatronText" DoNotAcceptEvents="true"/>
+              </Children>
+            </Widget>
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginBottom="4">
+              <Children>
+                <HintWidget DataSource="{AllegianceHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren"
+                            Brush.FontSize="16" Brush.FontColor="#C8B898FF"
+                            Text="@AllegianceText" DoNotAcceptEvents="true"/>
+              </Children>
+            </Widget>
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginBottom="6">
+              <Children>
+                <HintWidget DataSource="{MissionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren"
+                            Brush.FontSize="16" Brush.FontColor="#C8B898FF"
+                            Text="@MissionText" DoNotAcceptEvents="true"/>
+              </Children>
+            </Widget>
+
+            <!-- Преданность: подпись + 4 цветные ячейки богов. HintWidget = зона подсказки. -->
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginBottom="3">
+              <Children>
+                <HintWidget DataSource="{DevotionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren"
+                            Brush.FontSize="16" Brush.FontColor="#D6C4A8FF"
+                            Text="@DevotionLabelText" DoNotAcceptEvents="true"/>
+              </Children>
+            </Widget>
+            <!-- 4 строки: имя бога (его цвет) + «ранг/10 бонус» в фикс. колонке. HintWidget = тултип. -->
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="19" MarginBottom="2">
+              <Children>
+                <HintWidget DataSource="{DevotionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent"
+                            HorizontalAlignment="Left" VerticalAlignment="Center" MarginLeft="8"
+                            Brush.FontSize="16" Brush.FontColor="#C0392BFF"
+                            Text="@DevKhorneName" DoNotAcceptEvents="true"/>
+                <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent"
+                            HorizontalAlignment="Left" VerticalAlignment="Center" MarginLeft="104"
+                            Brush.FontSize="15" Brush.FontColor="#B8A888FF"
+                            Text="@DevKhorneInfo" DoNotAcceptEvents="true"/>
+              </Children>
+            </Widget>
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="19" MarginBottom="2">
+              <Children>
+                <HintWidget DataSource="{DevotionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent"
+                            HorizontalAlignment="Left" VerticalAlignment="Center" MarginLeft="8"
+                            Brush.FontSize="16" Brush.FontColor="#6E9A3AFF"
+                            Text="@DevNurgleName" DoNotAcceptEvents="true"/>
+                <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent"
+                            HorizontalAlignment="Left" VerticalAlignment="Center" MarginLeft="104"
+                            Brush.FontSize="15" Brush.FontColor="#B8A888FF"
+                            Text="@DevNurgleInfo" DoNotAcceptEvents="true"/>
+              </Children>
+            </Widget>
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="19" MarginBottom="2">
+              <Children>
+                <HintWidget DataSource="{DevotionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent"
+                            HorizontalAlignment="Left" VerticalAlignment="Center" MarginLeft="8"
+                            Brush.FontSize="16" Brush.FontColor="#3A86C8FF"
+                            Text="@DevTzeentchName" DoNotAcceptEvents="true"/>
+                <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent"
+                            HorizontalAlignment="Left" VerticalAlignment="Center" MarginLeft="104"
+                            Brush.FontSize="15" Brush.FontColor="#B8A888FF"
+                            Text="@DevTzeentchInfo" DoNotAcceptEvents="true"/>
+              </Children>
+            </Widget>
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="19" MarginBottom="6">
+              <Children>
+                <HintWidget DataSource="{DevotionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent"
+                            HorizontalAlignment="Left" VerticalAlignment="Center" MarginLeft="8"
+                            Brush.FontSize="16" Brush.FontColor="#C45AA0FF"
+                            Text="@DevSlaaneshName" DoNotAcceptEvents="true"/>
+                <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent"
+                            HorizontalAlignment="Left" VerticalAlignment="Center" MarginLeft="104"
+                            Brush.FontSize="15" Brush.FontColor="#B8A888FF"
+                            Text="@DevSlaaneshInfo" DoNotAcceptEvents="true"/>
+              </Children>
+            </Widget>
+
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="2"
+                    MarginBottom="9"
+                    Sprite="BlankWhiteSquare_9" Color="#3A3024FF" DoNotAcceptEvents="true"/>
+
+            <!-- ===== Секция «Служба» ===== (HintWidget = подсказка про срок службы/кулдаун) -->
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren">
+              <Children>
+                <HintWidget DataSource="{ServiceHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren"
+                            Brush.FontSize="15" Brush.FontColor="#988673FF"
+                            Text="@ServiceText" DoNotAcceptEvents="true"/>
+              </Children>
+            </Widget>
+
+            <!-- Кнопка «Углубить Преданность» — нативная Popup.Done.Button.
+                 HintWidget-фон = подсказка; подпись DoNotAcceptEvents, клик ловит сама кнопка. -->
+            <ButtonWidget UpdateChildrenStates="true"
+                          WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="42"
+                          MarginTop="12" IsVisible="@CanDeepen"
+                          Brush="Popup.Done.Button"
+                          Command.Click="ExecuteDeepenDevotion"
+                          Command.HoverBegin="ExecuteHoverBegin" Command.HoverEnd="ExecuteHoverEnd">
+              <Children>
+                <HintWidget DataSource="{DeepenHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <TextWidget DoNotAcceptEvents="true"
+                            WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"
+                            Brush="Popup.Button.Text" Brush.FontSize="17"
+                            Brush.TextHorizontalAlignment="Center"
+                            Text="@DeepenButtonText"/>
+              </Children>
+            </ButtonWidget>
+
+          </Children>
+        </ListPanel>
+
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>

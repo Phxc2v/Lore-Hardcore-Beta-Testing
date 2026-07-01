@@ -4,6 +4,96 @@ Each entry is a release day. Multiple small fixes within a day are bundled into 
 
 ---
 
+## (pending release) — v0.1.9.82: Devotion to the Four, Lord Seduction, TOR Tweaks settings, Chaos panel polish
+
+Large set of changes since v0.1.9.57 (still local/beta, not yet on Steam). Target: Bannerlord 1.3.15, TOR "War in the Mountains" 1.16.
+
+### ⭐ Devotion to the Four (Chaos)
+- Spend Dark Energy to deepen your devotion to **each** of the four Dark Gods, ranks 0-10.
+- Each rank strengthens that God's battle boon (Khorne damage / Nurgle health / Tzeentch Winds of Magic / Slaanesh speed) and **stacks** with your patron's boon. The Four demand balance — raise all of them, not just one.
+- **Milestones:** rank 3 and 7 grant battle-spells to the sorcerer Gods (Tzeentch: Fireball → Flame Storm; Nurgle: Curse of Years → Purple Sun). Khorne & Slaanesh instead gain **renown** at those ranks.
+- **Rank 5** grants that God's signature weapon (now unique per God); **rank 10** the full war-panoply.
+- **Rank 10 legendary capstone** — a battle power awakens: Khorne heals + a blood-shockwave on each kill, Nurgle regenerates health in battle, Tzeentch restores Winds of Magic on kills, Slaanesh can seduce nearby enemies on kills.
+- Open it from the **"Deepen Devotion"** button on the Chaos Status panel.
+
+### 😈 Lord Seduction (Chaos)
+- With devotion to **Slaanesh (rank 4)**, you can whisper enemy lords to your side. Meet an enemy lord on the map → **"Whisper of the Dark Gods"** (costs 500 Dark Energy + 200 Influence). The lord joins your retinue; their clan promotes a successor so it survives. Faction leaders are too strong-willed to seduce.
+
+### 🔧 TOR Tweaks (new settings — Common tab, for everyone, not just Chaos)
+- **Lords rebuild army from scratch:** AI lords released from captivity respawn almost empty and must recruit an army again, instead of instantly respawning with a full army.
+- **Remove skill learning cap:** skills keep gaining XP past the attribute/focus soft cap.
+- **Focus points per level** (1-5) and **Levels per attribute point** (1-4) sliders.
+
+### 🛡 Stability & polish
+- Full code audit + fixes: Lord Seduction is now transactional (no resource loss if it fails), cooldowns and progress (changers, recruit pool, tournament, captive tempting) now survive save/load, combat boons correctly fall away if you leave the Chaos kingdom, signature weapons are unique per God, and several balance/observability fixes.
+
+### 📖 Discoverability
+- New "What's new" pop-ups, Alt+H codex sections (Devotion, Lord Seduction) and onboarding tips for the new features.
+
+### 🖥 Chaos Status panel — clarity & tooltips
+- **Devotion to the gods** is now a readable list: each god's name in its own colour + rank/10 + boon (was the cryptic "K1 N0 T0 S0" — a single letter nobody could parse).
+- **Hover tooltips on EVERY element** of the panel (title, Glory bar, patron, standing, task, devotion, service, button) — a detailed "what it is, what it's for, how it works". In all 12 languages.
+- **Glory bar:** the count now caps at "X/X ✓" once the threshold is reached (was "3266/2000", reading like an overflow); the golden set-threshold marker hides once passed (was a puzzling tick in the middle of a full bar). Bar tooltip rewritten.
+- **Localization fixes:** the Russian "What's new" pop-up is no longer shown in English; the raw `{=lh_panel_lbl_devotion}` tag is replaced by a proper "Devotion to the Four" label. The missing "What's new" pop-up was added to all 12 languages.
+
+---
+
+## 2026-06-07 — v0.1.9.57: Dark Gods system, reworked Overlord fight, peace with beastmen + new-game crash fix
+
+Large update since the last Steam release (v0.1.7.5). Target: Bannerlord 1.3.15, TOR "War in the Mountains" 1.16. Defaults: Orcs ON, Chaos OFF (BETA).
+
+### ⭐ Dark Gods system (new Chaos feature)
+- On joining Chaos you pledge to one of **four Dark Gods** — Khorne, Nurgle, Tzeentch, Slaanesh. **The choice is permanent** (saved).
+- At a **personal kill threshold** (default 1000) your god grants their **full top-tier armour + weapon set** — each god has its own kit (Slaanesh uses its own gauntlet).
+- At a higher threshold (default 2000) you unlock the **duel against the Chaos Overlord** for his throne.
+- Two **configurable thresholds** (new "Dark Gods" settings tab, 500–2000 each), each with a "?" hover hint.
+
+### ⚔️ Overthrow the Chaos King — reworked fight
+- Full rework: "player + companions" vs "Overlord + 2 elite bodyguards".
+- **Player magic works inside the fight** — spells, raising skeletons/undead.
+- The Overlord is **invulnerable while a bodyguard lives** (red Khorne warriors); tougher once they fall.
+- **Disintegration aura** crumbles summoned undead near him.
+- Field battle is **mounted**; the castle fight is on foot.
+- **Escort selection** via checkboxes; the Overlord brings an equal number of fighters.
+- **Reliable exit** and correct win/loss detection (even after raising many skeletons); ~10 s pause after the outcome for the death animation.
+- **Magic fully polished** (large fix batch): no more "fire on the hands" after casting, weapon usable immediately, LMB cast no longer triggers an extra weapon attack.
+
+### 🩸 Chaos — peace with beastmen & cults
+- After you join Chaos, **beastmen** (Brass Keep / Beastmen) and the dark cults **no longer war you** or re-declare war every day — they become allies. (Before joining, they stay hostile as before.)
+- **War-spam fix:** Beastmen/Brass Keep no longer declare war every tick; players serving a NON-chaos faction (e.g. Serve As Soldier) no longer get an endless war↔peace toggle.
+
+### ⚔️ Chaos recruiting
+- **Chaos Portal:** 10 different soldiers per summon (5% Minotaur chance), weekly cooldown.
+- **Beastmen lair:** up to 20 max-tier troops (Ungors/Gors/Minotaur) + a "who and how many were recruited" report.
+- Minotaur removed from ordinary settlement recruiting; its party-size penalty eased (−7 → −2).
+
+### 🪙 Orc economy
+- **Elite teef upkeep:** orc elite (Tier 4+) costs teef per day. Configurable multiplier (0 = off, 1 = normal, 2–3 = hardcore). Out of teef → morale drops and elite gradually deserts. T1–T3 orcs and goblins stay free.
+
+### 📖 In-game guide
+- Opens with **Alt+H** (plain "H" used to fire while typing / in menus and **crashed the game** — fixed), map-only.
+- Opening the guide **pauses the game**.
+- Fixed **section order** (was reversed) — important topics first.
+
+### 💛 Supporters wall
+- Settings now have a separate **"♥ Supporters"** button — a list of people who backed the mod financially, ranked with stars by contribution. Thank you! ♥
+
+### 💬 Text & terms
+- "Chaos King" → **"Chaos Overlord"** across all dialogue and localization.
+- Fixed literal `\n` in the **"Gift of Chaos accepted"** message; tidied the god-choice window.
+
+### 🛠 Stability & crash fixes
+- **Fixed a hard crash on starting a NEW game** (`NullReferenceException` in the name generator during minor-faction hero spawn). Cause: an old balance patch deleted 14 named orc-lord characters but left dangling hero references in TOR data, producing broken heroes that crashed name generation. Loading an existing save was unaffected, which is why it only showed up on **new games**. The lord-deletion patch was **removed entirely**; orc army size is still tamed by the existing clan-tier reduction.
+- Fixed a **load-time freeze** when loading a save where the god set was already earned.
+- **Guard** against a crash when a Chaos Lord (Mortkin) is captured by an ordinary lord.
+- Misc orc career teef-quest fixes, hideout reactivation cooldowns and bandit density caps.
+
+### 🌍 Localization & compatibility
+- All new/changed strings translated across **13 languages** (EN + RU/DE/FR/SP/IT/PL/TR/BR/CNs/CNt/JP/KO), validated (no unescaped characters).
+- **Compatible with TOR "War in the Mountains" 1.16.**
+
+---
+
 ## 2026-05-31 — v0.1.7.5: Chaos troops can be upgraded again, market purchases no longer vanish, crash safety
 
 Post-release fixes on top of v0.1.7.3, driven by player feedback.

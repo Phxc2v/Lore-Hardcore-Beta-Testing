@@ -12,7 +12,8 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="Item[@id='tor_chs_mount_horse_chaos_horse_001']/@is_merchandise">
+    <!-- ⚠ РАСШИРЕНО 2026-06-15 (баг лута): ВСЕ chaos-кони/сбруя → merchandise=true (см. tor_armors.xslt). -->
+    <xsl:template match="Item[starts-with(@id,'tor_chaos_') or starts-with(@id,'tor_chs_')]/@is_merchandise">
         <xsl:attribute name="is_merchandise">true</xsl:attribute>
     </xsl:template>
 </xsl:stylesheet>

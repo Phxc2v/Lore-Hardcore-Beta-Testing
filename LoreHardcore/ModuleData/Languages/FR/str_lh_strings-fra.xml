@@ -29,7 +29,6 @@
     <string id="lh_village_goblin_hired" text="Recruté : {COUNT} gobelins (pour {PRICE}{GOLD_ICON})" />
     <string id="lh_goblin_companions_added" text="+{COUNT} gobelins-serviteurs pour {TROOP}" />
     <string id="lh_goblin_companions_capped" text="+{COUNT} gobelins (voulait {DESIRED}, limite 4:1 atteinte)" />
-    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
     <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="Chef Archer-Garçon" />
     <string id="lh_troop_tor_gs_orc_bigun" text="Grand Orc" />
     <string id="lh_troop_tor_gs_black_orc" text="Orc Noir" />
@@ -64,13 +63,6 @@
     <string id="lh_castle_challenge_err_no_gold" text="[Duel] Pas assez d'or pour la mise." />
     <string id="lh_castle_challenge_err_generic" text="[Duel] Erreur : {ERROR}" />
     <string id="lh_castle_challenge_reward_troop_join" text=", et un de ses semblables rejoint ton groupe" />
-    <string id="lh_settings_economy_title" text="Lore-Hardcore : choix d'économie" />
-    <string id="lh_settings_economy_desc" text="Ce choix est verrouillé dans la sauvegarde. Pour le changer, commencez une nouvelle partie." />
-    <string id="lh_settings_economy_teef_title" text="Économie des dents orques (canon Warhammer)" />
-    <string id="lh_settings_economy_teef_hint" text="Achetez l'élite orque dans les châteaux avec des dents (monnaie orque) gagnées en bataille. Les gobelins utilisent toujours l'or. +5 dents par jour pour chaque ville/château orque possédé. Fidèle au lore Warhammer Fantasy — les orques ne respectent pas l'or." />
-    <string id="lh_settings_economy_classic_title" text="Classique (tout pour de l'or)" />
-    <string id="lh_settings_economy_classic_hint" text="Orcs et gobelins sont recrutés pour de l'or comme dans le TOR vanilla. Pas d'économie des dents, pas de revenu quotidien des fiefs. Simple et familier." />
-    <string id="lh_settings_economy_confirm" text="Confirmer" />
     <string id="lh_castle_no_teef" text="Pas assez de dents : besoin de {LH_TEEF_NEEDED}, possède {LH_TEEF_HAVE}." />
     <string id="lh_castle_not_orc" text="Réservé aux héros orques. Les orques ne respectent pas les étrangers." />
     <string id="lh_teef_daily_msg" text="+{TEEF} dents de tes villes et châteaux orques ({COUNT})" />
@@ -80,43 +72,27 @@
     <string id="lh_castle_challenge_no_fee_gold" text="Il faut {FEE} pièces d'or pour lancer le défi (en a {HAVE})." />
     <string id="lh_teef_recruit_msg" text="-{TEEF} dents pour {TROOP} ×{COUNT}." />
     <string id="lh_teef_recruit_no_teef" text="Pas assez de dents pour {TROOP} (besoin {NEED}, a {HAVE})." />
+    <string id="lh_teef_upkeep_warn" text="Pas assez de dents pour entretenir ton élite ({NEED}/jour, tu en as {HAVE}). Les gars grognent — trouve des dents, sinon dans un jour ou deux ils vont déserter." />
+    <string id="lh_teef_upkeep_desert" text="Plus de dents, moral pourri — les gars en ont assez. Une partie de l'élite s'en va ! Trouve des dents ou tu vas tous les perdre." />
+    <string id="lh_teef_upkeep_line" text="Entretien de l'élite (dents)" />
+    <string id="lh_teef_upkeep_morale" text="Pas de dents pour les gars" />
     <string id="lh_bt_conflict_title" text="Conflit de mods : BetterTime + Lore-Hardcore" />
     <string id="lh_bt_conflict_text" text="Le mod tiers BetterTime est chargé avec Lore-Hardcore. Ce mod N'EST PAS compatible avec The Old Realms.{newline}{newline}Lore-Hardcore INCLUT DÉJÀ la fonctionnalité BetterTime :{newline}D3 / Numpad3 — accélération ×4{newline}D4 / Numpad4 — ultra accélération ×8{newline}Relâcher la touche — retour à la vitesse normale{newline}{newline}RECOMMANDATION : fermez le jeu, désactivez le BetterTime tiers dans le Launcher, redémarrez." />
     <string id="lh_bt_conflict_ok" text="Compris, je vais régler ça" />
     <string id="lh_teef_unit" text="dents" />
-    <string id="lh_tournament_cannot_leave" text="Le combat n'est pas fini. Pas d'fuite." />
 <!-- ============ Lore-Hardcore Encyclopedia (in-game guide, hotkey H) ============ -->
     <string id="lh_orc_execute_enemy_buff" text="Ennemi exécuté. La bande d'orques en tire fierté. Moral +10, réputation d'Honneur restaurée." />
     <string id="lh_chaos_uprising_announce" text="!!! LES FORCES DU CHAOS SE SONT LEVÉES — un soulèvement du Chaos est apparu sur la carte !!!" />
     <string id="lh_enc_title" text="Lore-Hardcore — Guide en jeu" />
-    <string id="lh_enc_pick_topic" text="Choisis un sujet à lire :" />
-    <string id="lh_enc_read" text="Lire" />
-    <string id="lh_enc_back" text="Retour aux sujets" />
     <string id="lh_enc_close" text="Fermer" />
 
-    <string id="lh_enc_topic_teef_economy_title" text="Économie des Dents" />
-    <string id="lh_enc_topic_teef_economy_body" text="Pour les joueurs orques et gobelins, l'Économie des Dents est TOUJOURS active — pas de changement en cours de partie, pas de dialogue au début. Humains, nains, vampires gardent l'or comme avant.{newline}{newline}Quand tu joues un orque :{newline}- Dans les colonies orques, tu paies en dents au lieu d'or pour tout.{newline}- Hors des colonies orques (Empire, Bretonnie, etc.), tu paies toujours en or.{newline}- Les dents s'obtiennent UNIQUEMENT au combat réel : tuer des troupes T4+, tuer des seigneurs, gagner des bagarres, défis de château, tribut quotidien des fiefs orques.{newline}- Les troupes orques ne drainent pas l'or de ton clan — la pénalité de moral pour solde impayée est désactivée pour les troupes orques (tu ne les paies pas de toute façon).{newline}- Le revenu quotidien de dents est plafonné pour empêcher les seigneurs orques IA de submerger la carte." />
 
-    <string id="lh_enc_topic_career_path_title" text="Carrière : du Bully au Boss" />
-    <string id="lh_enc_topic_career_path_body" text="La carrière orque a deux voies choisies à la création du personnage : Voie du Bully (devient Boss) ou Voie du Chaman.{newline}{newline}Exigences réduites par rapport au TOR vanille pour Lore-Hardcore :{newline}- Niveau 2 (Boss) : compétences d'arme 80/80/30, 30 batailles, 5 tournois, 10 bagarres, 2000 dents.{newline}- Niveau 3 (Boss) : compétences d'arme 150/120/60, 70 batailles, 15 tournois, 20 bagarres, 5 duels de seigneurs, 5 villes capturées, 10000 dents.{newline}- Niveau 2 (Chaman) : prier dans un sanctuaire, Sortilège 50, Foi 50, 3 enchantements, 2000 dents, 5 sanctuaires pillés.{newline}- Niveau 3 (Chaman) : Sortilège 120, Foi 100, 8 enchantements, 10000 dents, 5 villes, 30 sanctuaires." />
 
-    <string id="lh_enc_topic_orc_morale_waaagh_title" text="Moral des Orques et WAAAGH !" />
-    <string id="lh_enc_topic_orc_morale_waaagh_body" text="Le moral des orques et la mise à l'échelle de l'IA ont été rééquilibrés.{newline}{newline}- Les seigneurs orques ont +40% PV et +30% aux compétences de combat de base.{newline}- Multiplicateur de moral : x1.5 (orques plus agressifs que les humains).{newline}- Orques d'élite (Orque Noir, Boss, Berzerka, Bigun) sont SANS PEUR — ne paniquent jamais en cas de moral bas ou d'infériorité numérique.{newline}- Le bonus de proximité WAAAGH ! s'empile lors d'attaques massives.{newline}{newline}Équilibrage IA (pour que les orques ne dominent pas la carte) :{newline}- Limite souple sur la taille de troupe d'un seigneur orque IA : 80 troupes.{newline}- L'Armée du maréchal contient maximum 5 troupes (chef + 4 appelées) — les orques attaquent en mini-armées de 400-500 au lieu de 3000.{newline}- Estimation de force IA : orques x1.8, gobelins x0.8, trolls/Big'Uns/seigneurs de guerre x3.0 — l'IA impériale évalue maintenant correctement la menace orque.{newline}- Massif Choppas réduit de 22 à 14 seigneurs ; Crooked Eye et Red Eye à 17. Prospérité des capitales rééquilibrée.{newline}{newline}La troupe du joueur utilise les limites vanille normales." />
 
-    <string id="lh_enc_topic_castle_challenge_title" text="Duel du château" />
-    <string id="lh_enc_topic_castle_challenge_body" text="Lors de la visite d'un château orque, tu peux défier un orque d'élite en duel pour une mise en dents.{newline}{newline}- Victoire : l'orque d'élite rejoint ta troupe comme unité trophée, plus +15 dents.{newline}- Défaite : ta mise est perdue, ta réputation au château baisse temporairement.{newline}{newline}Élites disponibles selon le château : Bigun, Boss, Orque Noir, Brute, Berzerka. Chacun avec son prix et sa difficulté.{newline}{newline}Les mises évoluent avec le rang d'élite — Bigun ~50 dents, Orque Noir ~150 dents, Boss ~250 dents.{newline}{newline}Le duel lui-même est un vrai combat 1v1 sur une scène de château. Pas de tours, pas d'auto-résolution." />
 
-    <string id="lh_enc_topic_orc_sieges_ram_title" text="Sièges des orques et le bélier" />
-    <string id="lh_enc_topic_orc_sieges_ram_body" text="Les sièges orques fonctionnent différemment dans Lore-Hardcore.{newline}{newline}- Les orques NE PEUVENT PAS construire de trébuchets. Lore : une machine à contrepoids avec calcul de trajectoire parabolique est trop ingéniée pour un orque. Engins de siège disponibles : balistes, onagres, catapultes (y compris variantes incendiaires).{newline}- Bélier renforcé : frappe 5x plus fort, tient 3.5x plus longtemps. Les portes tombent en 5-10 coups au lieu de 30+ vanille. Lore : une bûche avec un crâne broyeur de dents, ferré, poussé par huit orques musclés.{newline}- L'auto-résolution reçoit le même bonus de bélier pour que les sièges orques aient le même feeling, scène ou skip." />
 
-    <string id="lh_enc_topic_prisoner_cannibalism_title" text="Cannibalisme des prisonniers" />
-    <string id="lh_enc_topic_prisoner_cannibalism_body" text="Les orques NE découpent PAS les prisonniers sur place. La viande vient UNIQUEMENT du cannibalisme de famine en marche.{newline}{newline}Après une bataille :{newline}- Auto-découpe dans l'écran de butin : 0 viande (peu importe le nombre de prisonniers).{newline}- Bouton 'Découper' chez le Quartier-Maître : 0 viande.{newline}- Viande des kills (formule TOR auto) : 0 pour les victoires du joueur.{newline}{newline}Seul moyen d'obtenir de la viande des prisonniers — les prendre, manquer de nourriture, attendre. Chaque heure de jeu avec garde-manger vide :{newline}1. PRISONNIERS d'abord. Chacun = 1 viande.{newline}2. Puis GOBELINS. Chacun = 1 viande.{newline}3. Seigneurs et compagnons NE SONT JAMAIS mangés (seigneur = rançon, compagnon = ligne de quête).{newline}{newline}Lore : les orques mangent les captifs vivants sur la route, pas au billot du boucher.{newline}{newline}Les troupes orques IA gardent la formule vanille TOR de viande-de-bataille pour ne pas mourir de faim." />
 
-    <string id="lh_enc_topic_brawl_arena_title" text="Arène de bagarre peau-verte" />
-    <string id="lh_enc_topic_brawl_arena_body" text="La Bagarre Peau-Verte est une arène de pugilat unique aux colonies orques.{newline}{newline}- 18 ennemis par match (bien plus que l'arène vanille).{newline}- Récompense calculée selon ton compte personnel de kills, pas seulement la survie.{newline}- Les ennemis fuyards qui tombent dans les zones hors-limites sont auto-tués une fois par seconde pour éviter le freeze du match.{newline}- Les gobelins ne spawn plus sur le toit de l'arène (ancien bug de placement TOR).{newline}- Condition de victoire : être le dernier debout OU l'équipe avec le plus de kills si tu survis.{newline}- Dans les villes non-orques conquises (tavernes bretonnes, impériales), les shaders d'atmosphère de bagarre sont supprimés pour éviter les erreurs 'cannot find entry point' sur les anciens GPU.{newline}{newline}Bon pour : entraîner la compétence Une-Main, gagner des dents, accomplir l'objectif bagarre de la quête de carrière orque." />
 
-    <string id="lh_enc_topic_execute_enemy_buff_title" text="Exécuter les ennemis raciaux" />
-    <string id="lh_enc_topic_execute_enemy_buff_body" text="Quand un joueur orque exécute un seigneur ennemi racial capturé, la troupe orque célèbre — ne se lamente pas.{newline}{newline}Bannerlord vanille pénalise toute exécution avec -1000 XP d'Honneur. Pour un orque, tuer un Nain, Vampire, Elfe ou seigneur Impérial est un exploit, pas un péché.{newline}{newline}Lore-Hardcore ajoute un bonus :{newline}- XP d'Honneur entièrement compensé (+1000), la pénalité vanille est annulée.{newline}- Le trait Miséricorde reçoit +1 XP symbolique (équilibre de statut).{newline}- La troupe orque gagne immédiatement +10 de moral.{newline}- Un message vert confirme l'application du bonus.{newline}{newline}S'applique uniquement quand le joueur est de culture orque (aserai dans TOR) et que la victime est un ennemi racial : Nain (sturgia), Comtes Vampires (khuzait), Empire, Bretonnie (vlandia), Elfes des Bois (battania), Eonir, Mousillon, Dragons de Sang, Chaos, Hauts-Elfes, Elfes Noirs.{newline}{newline}Exécuter sa PROPRE race (autres orques) garde la pénalité vanille — c'est une honte pour un seigneur de guerre orque." />
 
     <!-- ========== Lore-Hardcore Settings UI (v0.1.5+) ========== -->
     <string id="lh_set_title" text="Lore-Hardcore — Paramètres" />
@@ -160,63 +136,63 @@
     <string id="lh_set_toggle_on" text="ON" />
     <string id="lh_set_toggle_off" text="OFF" />
     <string id="lh_set_OrcHPMultWithPlayer_lbl" text="HP orque (avec joueur)" />
-    <string id="lh_set_OrcHPMultWithPlayer_desc" text="Multiplicateur de HP pour les orques en combat live avec PlayerTeam présent." />
+    <string id="lh_set_OrcHPMultWithPlayer_desc" text="Multiplie les HP des orques dans les batailles en direct auxquelles tu participes. 1.0 = vanilla. Affecte les orques alliés comme ennemis sur le champ de bataille. Exemple : 1.26 transforme un orque de 100 HP en orque de 126 HP, il survit donc à quelques coups de plus." />
     <string id="lh_set_OrcHPMultAINoPlayer_lbl" text="HP orque (IA vs IA)" />
-    <string id="lh_set_OrcHPMultAINoPlayer_desc" text="Multiplicateur de HP pour les orques en combats IA vs IA sans le joueur." />
+    <string id="lh_set_OrcHPMultAINoPlayer_desc" text="Multiplicateur de HP pour les orques dans les combats résolus entre IA sans toi (auto-résolution, batailles hors carte). Maintenu plus bas que la valeur avec joueur pour que les armées d'orques de l'IA ne soient pas imparables. Exemple : 1.08 = +8% de HP." />
     <string id="lh_set_OgreHPMultAINoPlayer_lbl" text="HP ogre (IA vs IA)" />
     <string id="lh_set_OgreHPMultAINoPlayer_desc" text="Multiplicateur de HP pour les trolls / Big Uns / Black Orcs dans les batailles IA vs IA. Plus bas que pour les orques ordinaires car le moteur n'a pas de mécanique d'encerclement — sans ce nerf, 3 trolls peuvent tuer 50 humains." />
     <string id="lh_set_GoblinHPMult_lbl" text="HP gobelin" />
-    <string id="lh_set_GoblinHPMult_desc" text="Multiplicateur de HP pour tous les gobelins." />
+    <string id="lh_set_GoblinHPMult_desc" text="Multiplicateur de HP pour tous les gobelins, censés rester de la chair à canon fragile. Exemple : 0.40 = 40% des HP vanilla, les gobelins meurent donc vite pour compenser leur recrutement de masse bon marché." />
     <string id="lh_set_OrcAttackerOnPlayerSide_lbl" text="Dégâts infligés par orque allié" />
-    <string id="lh_set_OrcAttackerOnPlayerSide_desc" text="Multiplicateur de dégâts pour les orques du côté du joueur." />
+    <string id="lh_set_OrcAttackerOnPlayerSide_desc" text="Multiplicateur de dégâts pour les orques qui combattent de TON côté. Plus haut = tes orques frappent plus fort. Exemple : 1.20 = +20% de dégâts infligés par les orques alliés." />
     <string id="lh_set_OrcAttackerEnemyOfPlayer_lbl" text="Dégâts infligés par orque ennemi" />
-    <string id="lh_set_OrcAttackerEnemyOfPlayer_desc" text="Multiplicateur de dégâts pour les orques combattant contre le joueur." />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_desc" text="Multiplicateur de dégâts pour les orques qui combattent CONTRE toi. Plus bas = les orques ennemis frappent moins fort et les batailles restent gagnables. Exemple : 0.70 = les orques ennemis infligent 70% des dégâts." />
     <string id="lh_set_OrcVictimOnPlayerSide_lbl" text="Dégâts subis par orque allié" />
     <string id="lh_set_OrcVictimOnPlayerSide_desc" text="Multiplicateur de dégâts quand un orque de ton côté est touché (plus bas = plus résistant)." />
     <string id="lh_set_OrcVictimEnemyOfPlayer_lbl" text="Dégâts subis par orque ennemi" />
     <string id="lh_set_OrcVictimEnemyOfPlayer_desc" text="Multiplicateur de dégâts quand un orque ennemi est touché (plus haut = plus facile à tuer)." />
     <string id="lh_set_AxeShieldDmgMult_lbl" text="Hache contre bouclier en bois" />
-    <string id="lh_set_AxeShieldDmgMult_desc" text="Multiplicateur de dégâts pour les haches contre les boucliers en bois." />
+    <string id="lh_set_AxeShieldDmgMult_desc" text="Dégâts bonus que les haches infligent aux boucliers en bois, permettant aux troupes orques à la hache de briser vite les boucliers. Exemple : 4.0 = dégâts x4 sur les boucliers en bois, brisés en quelques coups." />
     <string id="lh_set_MaceShieldDmgMult_lbl" text="Masse/marteau contre bouclier en métal" />
     <string id="lh_set_MaceShieldDmgMult_desc" text="Multiplicateur de dégâts des armes contondantes (masses, marteaux, marteaux à deux mains) contre les boucliers en MÉTAL. Les épées et les haches éraflent à peine le métal, mais un coup d'écrasement l'enfonce. Exemple : 4.0 = 4x dégâts, les boucliers en métal se brisent en quelques coups. 1.0 = vanilla (désactivé)." />
     <string id="lh_set_OrcAgentStructDmgMult_lbl" text="Dégâts d'ogre aux portes" />
-    <string id="lh_set_OrcAgentStructDmgMult_desc" text="Dégâts des Ogres / Big Uns / Trolls contre les portes en combat live." />
+    <string id="lh_set_OrcAgentStructDmgMult_desc" text="Dégâts que les unités de taille ogre (ogres, Big Uns, trolls) infligent aux portes et objets destructibles en bataille en direct. Plus bas empêche les sièges de se terminer instantanément. Exemple : 0.20 = 20% des dégâts de structure de base." />
     <string id="lh_set_OrcKickStunMult_lbl" text="Durée d'étourdissement coup de pied orque" />
     <string id="lh_set_OrcKickStunMult_desc" text="Durée de l'étourdissement appliqué par les coups de pied orques." />
     <string id="lh_set_OrcShieldBashStunMult_lbl" text="Étourdissement coup de bouclier orque" />
     <string id="lh_set_OrcShieldBashStunMult_desc" text="Durée de l'étourdissement des coups de bouclier orques." />
     <string id="lh_set_OrcSkillMult_lbl" text="Compétences de combat orque" />
-    <string id="lh_set_OrcSkillMult_desc" text="Multiplicateur des compétences de combat orque (à une main, à deux mains, arme d'hast)." />
+    <string id="lh_set_OrcSkillMult_desc" text="Multiplicateur des compétences d'armes des orques (à une main, à deux mains, armes d'hast), qui déterminent la précision, les dégâts et la vitesse de frappe. Exemple : 1.30 = +30% de compétence, les orques frappent donc plus fort et plus sûrement." />
     <string id="lh_set_TrollAthleticsMult_lbl" text="Athlétisme troll" />
-    <string id="lh_set_TrollAthleticsMult_desc" text="Compétence d'athlétisme des trolls (plus bas = plus lent)." />
+    <string id="lh_set_TrollAthleticsMult_desc" text="Vitesse de déplacement (athlétisme) des trolls. Plus bas = des trolls plus lents, plus faciles à harceler à distance. Exemple : 0.85 = les trolls se déplacent à 85% de leur vitesse." />
     <string id="lh_set_GoblinAthleticsMult_lbl" text="Athlétisme gobelin" />
     <string id="lh_set_GoblinAthleticsMult_desc" text="Compétence d'athlétisme des gobelins (plus haut = plus rapide)." />
     <string id="lh_set_GoblinSpeedMult_lbl" text="Vitesse gobelin" />
     <string id="lh_set_GoblinSpeedMult_desc" text="Multiplicateur de vitesse pour les gobelins à pied." />
     <string id="lh_set_OrcMoraleWaaaghMult_lbl" text="Bonus de moral WAAAGH!" />
-    <string id="lh_set_OrcMoraleWaaaghMult_desc" text="Multiplicateur de gain de moral pour le côté orque par tuerie." />
+    <string id="lh_set_OrcMoraleWaaaghMult_desc" text="Moral que le côté orque gagne par mise à mort (l'effet WAAAGH !). Plus haut = les orques se débandent moins et font boule de neige dans un combat gagnant. Exemple : 1.50 = +50% de gain de moral par mise à mort." />
     <string id="lh_set_AILordHardCap_lbl" text="Limite de taille party seigneur IA" />
     <string id="lh_set_AILordHardCap_desc" text="Limite stricte sur la taille de party des seigneurs orques IA. S'applique instantanément à la croissance, les parties surdimensionnées existantes diminuent progressivement." />
     <string id="lh_set_MaxOrcCalledParties_lbl" text="Parties par WAAAGH!" />
     <string id="lh_set_MaxOrcCalledParties_desc" text="Combien de parties peuvent rejoindre un maréchal. Armée = chef + N. Plafond = (1+N) x limite par seigneur." />
     <string id="lh_set_MilPowerEliteEstimate_lbl" text="Puissance élite (estimation IA)" />
-    <string id="lh_set_MilPowerEliteEstimate_desc" text="Comment l'IA estime la force des orques élite. Affecte les décisions de combat/fuite." />
+    <string id="lh_set_MilPowerEliteEstimate_desc" text="Force que l'IA CROIT que possèdent les orques élite quand elle décide d'attaquer ou de fuir. Doit correspondre à la valeur de combat des élites, sinon les orques jugent mal leurs combats. Plus haut = plus agressif. Exemple : 2.80." />
     <string id="lh_set_MilPowerOrcEstimate_lbl" text="Puissance orque (estimation IA)" />
-    <string id="lh_set_MilPowerOrcEstimate_desc" text="Estimation IA de la force des orques réguliers." />
+    <string id="lh_set_MilPowerOrcEstimate_desc" text="L'estimation par l'IA de la force des orques ordinaires pour les décisions combattre-ou-fuir. À garder égale à la valeur de combat des orques. Exemple : 1.60." />
     <string id="lh_set_MilPowerGoblinEstimate_lbl" text="Puissance gobelin (estimation IA)" />
     <string id="lh_set_MilPowerGoblinEstimate_desc" text="Estimation IA de la force des gobelins." />
     <string id="lh_set_MilPowerEliteCombat_lbl" text="Puissance élite (combat)" />
-    <string id="lh_set_MilPowerEliteCombat_desc" text="Puissance réelle au combat des orques élite en auto-résolution." />
+    <string id="lh_set_MilPowerEliteCombat_desc" text="Puissance de combat réelle des orques élite en auto-résolution. Détermine à quel point ils gagnent/perdent réellement les batailles simulées. Exemple : 2.80 signifie qu'un élite compte comme ~2.8 soldats moyens." />
     <string id="lh_set_MilPowerOrcCombat_lbl" text="Puissance orque (combat)" />
     <string id="lh_set_MilPowerOrcCombat_desc" text="Puissance réelle au combat des orques réguliers." />
     <string id="lh_set_MilPowerGoblinCombat_lbl" text="Puissance gobelin (combat)" />
     <string id="lh_set_MilPowerGoblinCombat_desc" text="Puissance réelle au combat des gobelins." />
     <string id="lh_set_OrcCastleHireChance_lbl" text="Chance de recrutement château IA" />
-    <string id="lh_set_OrcCastleHireChance_desc" text="Chance horaire qu'un seigneur IA achète un orque élite dans un château." />
+    <string id="lh_set_OrcCastleHireChance_desc" text="Chance horaire qu'un seigneur orque IA présent dans un château achète un orque élite. Plus haut = l'IA aligne des élites plus vite. Exemple : 0.25 = 25% par heure dans un château." />
     <string id="lh_set_OrcCastleHireVirtualChance_lbl" text="Chance de recrutement virtuel" />
     <string id="lh_set_OrcCastleHireVirtualChance_desc" text="Chance horaire de recrutement « comme-si-visité » quand le seigneur n'est pas physiquement dans un château mais que le clan en possède un." />
     <string id="lh_set_OrcCastleHireGoldBuffer_lbl" text="Réserve d'or IA (château)" />
-    <string id="lh_set_OrcCastleHireGoldBuffer_desc" text="Or minimum qu'une IA garde après un achat en château." />
+    <string id="lh_set_OrcCastleHireGoldBuffer_desc" text="Or minimum que l'IA conserve après l'achat d'un élite dans un château, pour ne jamais se ruiner. Exemple : 500 = l'IA n'achète que si elle reste au-dessus de 500 pièces d'or." />
     <string id="lh_set_OrcVillageGoblinHireChance_lbl" text="Chance recrutement gobelin IA" />
     <string id="lh_set_OrcVillageGoblinHireChance_desc" text="Chance horaire qu'un seigneur IA achète une paire de gobelins dans un village." />
     <string id="lh_set_OrcVillageGoblinPairPrice_lbl" text="Prix paire de gobelins" />
@@ -228,29 +204,31 @@
     <string id="lh_set_TrollAIRecruitChance_lbl" text="Chance recrutement troll IA" />
     <string id="lh_set_TrollAIRecruitChance_desc" text="Chance par visite qu'un seigneur IA prenne un troll dans une colonie orque." />
     <string id="lh_set_TrollAICapPerParty_lbl" text="Limite troll IA par party" />
-    <string id="lh_set_TrollAICapPerParty_desc" text="Maximum de trolls qu'un seigneur IA peut détenir." />
+    <string id="lh_set_TrollAICapPerParty_desc" text="Nombre maximum de trolls qu'un seul seigneur orque IA peut détenir. Exemple : 1 = au plus un troll par groupe IA, pour que les armées ne soient pas bourrées de trolls." />
     <string id="lh_set_OrcUpgradeMultiplier_lbl" text="Multiplicateur coût d'amélioration" />
     <string id="lh_set_OrcUpgradeMultiplier_desc" text="Multiplicateur appliqué à la formule vanille de coût d'amélioration." />
     <string id="lh_set_OrcUpgradeMinCost_lbl" text="Coût min. amélioration orque" />
-    <string id="lh_set_OrcUpgradeMinCost_desc" text="Coût minimum en or pour l'amélioration des unités orques." />
+    <string id="lh_set_OrcUpgradeMinCost_desc" text="Or minimum que peut coûter une amélioration d'orque, pour que les rangs bon marché ne soient jamais quasi gratuits. Exemple : 50 = aucune amélioration d'orque ne coûte moins de 50 pièces d'or." />
     <string id="lh_set_GoblinUpgradeMinCost_lbl" text="Coût min. amélioration gobelin" />
     <string id="lh_set_GoblinUpgradeMinCost_desc" text="Coût minimum en or pour les améliorations gobelines." />
     <string id="lh_set_OrcEliteAIDiscount_lbl" text="Remise élite IA" />
-    <string id="lh_set_OrcEliteAIDiscount_desc" text="L'IA paie le coût d'orque élite x N (1.0 = prix plein)." />
+    <string id="lh_set_OrcEliteAIDiscount_desc" text="Fraction du prix de l'orque élite que paie l'IA (1.0 = plein tarif). Plus bas = l'IA aligne des élites moins cher que toi. Exemple : 0.60 = l'IA paie 60% du coût de l'élite." />
+    <string id="lh_set_OrcEliteTeefUpkeepMultiplier_lbl" text="Entretien de l'élite en dents" />
+    <string id="lh_set_OrcEliteTeefUpkeepMultiplier_desc" text="Combien de dents par jour coûte l'entretien de ton ÉLITE (T4+) dans l'économie des dents. Taux de base par unité : T4=1, T5=2, T6=3 dents/jour, multiplié par cette valeur. Les T1–T3 et les gobelins sont toujours gratuits. 0 = désactivé (élite gratuite, comme avant). 1 = normal. 2–3 = hardcore. Exemple : 20 Orques Noirs (T5) à ×1 = 40 dents/jour. Sans dents, les gars s'énervent (le moral baisse, la raison est visible dans l'infobulle de moral du groupe) et au bout d'un jour ou deux l'élite commence à déserter." />
     <string id="lh_set_OrcChopMeatRegular_lbl" text="Viande par prisonnier ordinaire" />
     <string id="lh_set_OrcChopMeatRegular_desc" text="Rendement en viande du dépeçage d'un prisonnier ordinaire." />
     <string id="lh_set_OrcChopMeatLarge_lbl" text="Viande par grand prisonnier" />
     <string id="lh_set_OrcChopMeatLarge_desc" text="Rendement en viande du dépeçage d'un grand prisonnier (troll, minotaure)." />
     <string id="lh_set_BrawlGoldMult_lbl" text="Multiplicateur d'or brawl" />
-    <string id="lh_set_BrawlGoldMult_desc" text="Récompense en or pour gagner un brawl x N." />
+    <string id="lh_set_BrawlGoldMult_desc" text="Multiplicateur de la récompense en or pour une bagarre de taverne gagnée. Plus bas freine le farm d'or facile. Exemple : 0.50 = moitié de la récompense vanilla." />
     <string id="lh_set_ShrineLootGold_lbl" text="Or du pillage de sanctuaire" />
     <string id="lh_set_ShrineLootGold_desc" text="Récompense en or pour piller un sanctuaire." />
     <string id="lh_set_OrcExtorsionMinTier_lbl" text="Tier min. pour Extorsion" />
-    <string id="lh_set_OrcExtorsionMinTier_desc" text="Seuls les orques de Tier >= N génèrent des teef via l'Extorsion." />
+    <string id="lh_set_OrcExtorsionMinTier_desc" text="Seuls les orques de ce rang ou plus génèrent des dents via l'Extorsion. Plus haut = moins d'orques de bas rang gagnent des dents. Exemple : 4 = seuls les orques de Tier 4+ extorquent." />
     <string id="lh_set_HideoutCooldownDays_lbl" text="Délai de repaire (jours)" />
-    <string id="lh_set_HideoutCooldownDays_desc" text="Jours avant qu'un repaire nettoyé puisse se réactiver." />
+    <string id="lh_set_HideoutCooldownDays_desc" text="Jours pendant lesquels un repaire de bandits nettoyé reste disparu avant de pouvoir réapparaître. Plus haut = les repaires nettoyés restent absents plus longtemps. Exemple : 60 jours (~2 mois)." />
     <string id="lh_set_MaxHideouts_lbl" text="Max. repaires par faction" />
-    <string id="lh_set_MaxHideouts_desc" text="Maximum de repaires actifs simultanément." />
+    <string id="lh_set_MaxHideouts_desc" text="Combien de repaires UNE faction de bandits (déserteurs, cultistes, pillards orques, etc.) peut garder actifs en même temps sur la carte. TOR fait passer les 9 du vanilla à 30, ce qui inonde la carte — ce réglage ramène la limite. Plus bas = moins de repaires. Les repaires en surplus déjà présents s'éclaircissent à mesure que tu les nettoies. Exemple : 7." />
     <string id="lh_set_TrollCaveMaxRaidParties_lbl" text="Max. parties de raid troll" />
     <string id="lh_set_TrollCaveMaxRaidParties_desc" text="Combien de parties de raid peuvent être vivantes en même temps depuis une seule caverne." />
     <string id="lh_set_TrollCaveDailySpawnChance_lbl" text="Chance de spawn quotidienne" />
@@ -263,24 +241,8 @@
     <string id="lh_set_TrollCaveTroopLimit_desc" text="Combien de troupes tu peux emmener au nettoyage de caverne (vanille 20). 7 trolls peuvent écraser 20 humains même en 1 contre 1 — 40 donne une chance numérique." />
     <string id="lh_set_TrollCaveLureAllowed_lbl" text="Appâtage de trolls autorisé" />
     <string id="lh_set_TrollCaveLureAllowed_desc" text="Si activé — ajoute l'option « Appâter les trolls (10 viande) » au menu de la caverne. Désactivé par défaut (équilibre : troll de tier-6 pour 10 viande est exploitable)." />
-    <string id="lh_set_EnableOrcHPBuff_lbl" text="Bonus HP orque" />
-    <string id="lh_set_EnableOrcHPBuff_desc" text="Désactiver complètement les multiplicateurs de HP orque." />
-    <string id="lh_set_EnableOrcDamageMods_lbl" text="Dégâts par équipe" />
-    <string id="lh_set_EnableOrcDamageMods_desc" text="Les dégâts dépendent du côté du joueur." />
-    <string id="lh_set_EnableTeefEconomy_lbl" text="TeefEconomy" />
-    <string id="lh_set_EnableTeefEconomy_desc" text="Recruter les orques contre des teef au lieu d'or." />
-    <string id="lh_set_EnableOrcArmyCaps_lbl" text="Limites d'armée orque" />
-    <string id="lh_set_EnableOrcArmyCaps_desc" text="Limites sur les tailles de party et d'armée." />
-    <string id="lh_set_EnableTrollCaveNerf_lbl" text="Nerf des cavernes de trolls" />
-    <string id="lh_set_EnableTrollCaveNerf_desc" text="Taux de spawn et tailles de raid trolls plus bas." />
-    <string id="lh_set_EnableHideoutCooldown_lbl" text="Délai de repaire" />
-    <string id="lh_set_EnableHideoutCooldown_desc" text="Les repaires nettoyés restent fermés pendant 60 jours." />
-    <string id="lh_set_EnableBrawlRewardNerf_lbl" text="Nerf récompense brawl" />
-    <string id="lh_set_EnableBrawlRewardNerf_desc" text="Réduire la récompense en or des brawls." />
-    <string id="lh_set_EnableShrineLootNerf_lbl" text="Nerf pillage de sanctuaire" />
-    <string id="lh_set_EnableShrineLootNerf_desc" text="Seulement de l'or des sanctuaires — pas de viande ni de teef." />
     <string id="lh_set_EnableOrcCareerQuestNerf_lbl" text="Nerf quête de carrière" />
-    <string id="lh_set_EnableOrcCareerQuestNerf_desc" text="Abaisser les exigences des quêtes de carrière orque." />
+    <string id="lh_set_EnableOrcCareerQuestNerf_desc" text="Réduit les exigences des quêtes de carrière orques (compteurs d'entraînement aux compétences d'armes, batailles, duels, dents gagnées). OFF = exigences de quête vanilla." />
     <string id="lh_set_EnableOrcNoTrebuchet_lbl" text="Orques sans trébuchets" />
     <string id="lh_set_EnableOrcNoTrebuchet_desc" text="Les orques ne construisent pas de machines de siège complexes." />
     <string id="lh_set_EnableAxeShieldBonus_lbl" text="Hache brise boucliers" />
@@ -289,20 +251,9 @@
     <string id="lh_set_EnableMaceShieldBonus_desc" text="Les armes contondantes (masses, marteaux) infligent des dégâts bonus aux boucliers en métal." />
     <string id="lh_health_title" text="Lore-Hardcore : vérification de compatibilité" />
     <string id="lh_ck_duel_abort" text="Impossible de commencer le duel ici. Défiez le Roi en plein champ." />
-    <string id="lh_health_intro" text="Certaines fonctions de Lore-Hardcore sont bloquées par un autre mod :" />
     <string id="lh_health_ui" text="Le panneau de temps de la carte (bouton de vitesse supplémentaire et barre de progression du Chaos) n'a pas pu être ajouté." />
     <string id="lh_health_suspect" text="Cause possible : {LIST}" />
     <string id="lh_health_footer" text="Chargez Lore-Hardcore APRÈS TOR. Les bibliothèques comme UIExtenderEx, MCM et ButterLib sont requises et sans problème - ne les désactivez pas. Si une fonction reste cassée, désactivez les mods d'overhaul UI/combat." />
-    <string id="lh_set_EnableGoblinSpeedBuff_lbl" text="Gobelins plus rapides" />
-    <string id="lh_set_EnableGoblinSpeedBuff_desc" text="+50% de vitesse pour les gobelins." />
-    <string id="lh_set_EnableOrcKickStunBuff_lbl" text="Long étourdissement coup de pied" />
-    <string id="lh_set_EnableOrcKickStunBuff_desc" text="Les coups de pied orques étourdissent plus longtemps." />
-    <string id="lh_set_EnableChaosVassalRecruit_lbl" text="Recrutement Chaos" />
-    <string id="lh_set_EnableChaosVassalRecruit_desc" text="Les vassaux du Chaos peuvent recruter des troupes du Chaos." />
-    <string id="lh_set_EnableBrawlRandomSpawn_lbl" text="Spawn brawl aléatoire" />
-    <string id="lh_set_EnableBrawlRandomSpawn_desc" text="Le joueur apparaît à un point aléatoire de l'arène." />
-    <string id="lh_set_EnableRecruitIconSwap_lbl" text="Icône teef" />
-    <string id="lh_set_EnableRecruitIconSwap_desc" text="Le menu de recrutement affiche l'icône teef au lieu de l'or." />
     <string id="lh_set_EnableOrcRace_lbl" text="Activer la refonte des Orques" />
     <string id="lh_set_EnableOrcRace_desc" text="Interrupteur principal pour TOUS nos changements liés à la race orque. DÉSACTIVÉ désactive chaque correctif et comportement des orques, afin que les Peaux-vertes utilisent les mécaniques natives de TOR. Nécessite un redémarrage du jeu." />
     <string id="lh_set_EnableChaosRace_lbl" text="Activer la refonte du Chaos" />
@@ -341,19 +292,10 @@
     <string id="lh_goblin_changer_hub_leave_p" text="Une autre fois, gobbo." />
     <string id="lh_goblin_changer_cooldown" text="Eh chef, j'tai d'jà filé hier ! R'viens dans {DAYS} jours, faut qu'j'creuse encore, hé." />
     <string id="lh_goblin_changer_hub_no_gold_p" text="J'ai pas tant d'brillant sur moi, là." />
-    <string id="lh_goblin_changer_intro" text="Oi GROS chef ! J'ai d'la chicotte contre ton brillant, on échange, hein ? Hihi !" />
     <string id="lh_goblin_changer_after_no_gold" text="Hé hé ! Pas d'brillants, pas d'chicottes. Va plumer des humains d'abord, hein ?" />
-    <string id="lh_goblin_changer_hub_trade" text="Échangez 1000 d'brillant contre {AMOUNT} chicottes." />
     <string id="lh_goblin_changer_after_trade" text="*Le gobelin compte {NOMINAL} chicottes, glisse {HIDDEN} pièces dans sa petite poche discrètement.* Plaisir d'faire affaire, GROS chef !" />
-    <string id="lh_goblin_changer_town_ok" text="S'en aller" />
-    <string id="lh_goblin_changer_town_title" text="Gobelin changeur" />
-    <string id="lh_goblin_changer_town_outcome" text="*Le gobelin compte {NOMINAL} chicottes sur la table de la taverne, glisse rapidement {HIDDEN} pièces dans sa pochette de ceinture et pousse le reste vers vous.* Plaisir d'faire affaire, GROS chef !" />
-    <string id="lh_goblin_changer_town_intro" text="*Un gobelin sournois à la table du coin vous fait signe, jouant avec un tas de petites pièces. Il chuchote :* Oi GROS chef ! J'ai d'la chicotte contre ton brillant. 1000 brillants — je compte {NOMINAL}. Vais-je glisser {HIDDEN} dans ma p'tite poche ? Peut-être... On échange ?" />
-    <string id="lh_goblin_changer_town_cancel" text="Une autre fois" />
-    <string id="lh_goblin_changer_town_option" text="Parler au gobelin changeur dans la taverne" />
     <string id="lh_goblin_changer_town_no_gold" text="*Un gobelin dans le coin renifle votre bourse et grogne.* Hé hé ! Pas d'brillants, pas d'chicottes. Va plumer des humains d'abord, hein ?" />
     <string id="lh_goblin_changer_town_trade" text="Échanger" />
-    <string id="lh_goblin_changer_town_cooldown" text="*Un gobelin dans le coin de la taverne vous lance un regard méfiant et se détourne.* Eh chef, j'tai déjà filé y'a quelques jours ! R'viens dans {DAYS} jours, ok ?" />
     <string id="lh_goblin_changer_intro_town" text="Salutationz, GROS chef ! La troupe me regarde faire d'la traite honnête ici — pas d'embrouille. Tu troques tes brillants contre des chicottes ?" />
     <string id="lh_goblin_changer_after_town_trade" text="*Le gobelin compte pile {AMOUNT} chicottes dans ta paume — net et honnête, la troupe regarde.* Aut'chose, GROS chef ?" />
     <string id="lh_goblin_changer_village_trade" text="Échangez 1000 d'brillant contre {AMOUNT} chicottes." />
@@ -372,7 +314,6 @@
     <string id="lh_chaos_tempt_popup_body" text="{HERO} est brisé en captivité et prêt à accepter le Don du Chaos. Le convertir et l&apos;accueillir dans tes rangs ?" />
     <string id="lh_chaos_tempt_popup_yes" text="Convertir" />
     <string id="lh_chaos_tempt_popup_no" text="Pas encore" />
-    <string id="lh_chaos_upgrade_de" text="-{DE} d&apos;Énergie Sombre pour {COUNT}× {NAME}." />
     <string id="lh_ungor_pierce_arrows" text="Flèches barbelées ungor" />
     <string id="str_tor_chaos_norscan_reaver" text="Chasseur norse" />
     <string id="str_tor_chaos_norscan_champion" text="Berserker norse" />
@@ -399,16 +340,12 @@
     <string id="lh_chaos_lord_nolands" text="Nous ne tenons encore aucune terre, mortel — il n&apos;y a nulle part où t&apos;accueillir. Reviens quand les Dieux nous accorderont une forteresse." />
     <string id="lh_chaos_hire_merc" text="Sers mon trône comme mercenaire." />
     <string id="lh_chaos_hire_merc_accept" text="Les Dieux sont favorables à ton or. Nos lames sont à toi, mon seigneur." />
-    <string id="lh_chaos_lord_ask_leader" text="Où se trouve ton suzerain en ce moment ?" />
-    <string id="lh_chaos_lord_subordinate_response" text="Mon suzerain est {LEADER_LOC}. Je ne suis que sa main." />
     <string id="lh_chaos_lord_leave" text="Je ne fais que passer." />
-    <string id="lh_chaos_hideout_pass_peace" text="Passer en paix (les Dieux Sombres entendent ton sang)" />
     <string id="lh_chaos_hideout_recruit" text="Invoquer les serviteurs du Chaos depuis le repaire" />
     <string id="lh_chaos_portal_peace" text="S&apos;incliner devant le portail et passer en paix" />
     <string id="lh_chaos_portal_recruit" text="Invoquer les Élus du Chaos depuis le portail" />
     <string id="lh_chaos_recruit_cd" text="Ce lieu n&apos;a pas encore rassemblé sa force. Reviens plus tard." />
     <string id="lh_chaos_recruit_nogold" text="Pas assez d&apos;or pour l&apos;offrande." />
-    <string id="lh_chaos_portal_got" text="{NAME} émerge du portail." />
     <string id="lh_chaos_vassal_offer" text="Je veux servir les Dieux Sombres." />
     <string id="lh_chaos_vassal_response_lord" text="Hah ! Apporte-moi {VASSAL_GOLD} pièces d'or, et j'accepterai ton serment." />
     <string id="lh_chaos_vassal_pay_p" text="Voici l&apos;or." />
@@ -423,7 +360,6 @@
     <string id="lh_chaos_wand_skip" text="Venons-en aux affaires. J&apos;ai du travail pour toi." />
     <string id="lh_chaos_wand_hire" text="J&apos;ai besoin de tes talents. Viendras-tu avec moi ?" />
     <string id="lh_chaos_fodder_partysize" text="Chair à canon du Chaos" />
-    <string id="lh_enc_menu_button" text="Guide Lore-Hardcore" />
     <string id="lh_enc_race_orc" text="Orcs" />
     <string id="lh_enc_race_chaos" text="Chaos" />
     <string id="lh_enc_orc_overview_t" text="Refonte des orcs — Aperçu" />
@@ -449,7 +385,7 @@
     <string id="lh_enc_chaos_gift_t" text="Le Don du Chaos" />
     <string id="lh_enc_chaos_gift_b" text="Le Don du Chaos est un rituel qui transforme ton héros — et tout ton clan — à la culture du chaos. C&apos;est l&apos;engagement profond envers les Dieux Sombres.\n\nCe qu&apos;il fait :\n- Change la culture de ton héros en chaos et, surtout, la culture de ton CLAN aussi. C&apos;est important : si seul le héros changeait, tes fiefs souffriraient d&apos;un décalage de loyauté. Les deux sont convertis pour que les colonies du chaos te restent loyales.\n- Tente de modifier ton apparence vers un aspect marqué par le chaos, là où le jeu le permet.\n- Accorde une bouffée d&apos;expérience de combat, reflet de la puissance brute que les Dieux déversent dans les nouveaux fidèles.\n\nComment l&apos;obtenir : demande à un seigneur du Chaos de « faire de toi l&apos;un des leurs » dans le dialogue (un rang minimal de clan s&apos;applique, réglé dans les paramètres). La conversion est permanente.\n\nAprès le Don, tu peux recruter librement des troupes sombres dans les terres du chaos, passer paisiblement les repaires de cultistes et tu commences à générer de l&apos;Énergie Sombre." />
     <string id="lh_enc_chaos_darkenergy_t" text="Énergie Sombre" />
-    <string id="lh_enc_chaos_darkenergy_b" text="L&apos;Énergie Sombre est la ressource du joueur du Chaos — la faveur des Dieux Sombres rendue manifeste. Elle fonctionne comme les dents des orcs ou les vents des vampires : une monnaie spéciale que seule ta faction utilise.\n\nComment la GAGNER :\n- Sacrifier des prisonniers par exécution (les Dieux savourent l&apos;offrande).\n- D&apos;autres actes sombres à mesure que la faction grandit.\n\nÀ quoi la DÉPENSER :\n- À l&apos;amélioration des troupes d&apos;élite du Chaos. Promouvoir une unité en véritable élite du Chaos coûte de l&apos;Énergie Sombre en plus de l&apos;amélioration normale. Si tu ne peux pas te le permettre, l&apos;amélioration est bloquée dans l&apos;interface jusqu&apos;à ce que tu en aies assez — tu ne peux donc pas t&apos;endetter.\n\nL&apos;Énergie Sombre ne descend jamais sous zéro, et tu ne la vois qu&apos;une fois allié au Chaos. Vois-la comme le prix que les Dieux réclament pour leurs meilleurs champions : pour grandir, tu dois continuer à les nourrir." />
+    <string id="lh_enc_chaos_darkenergy_b" text="L Energie sombre est la ressource du joueur Chaos - la faveur des Dieux Sombres rendue manifeste. Elle fonctionne comme les dents des orcs : une monnaie speciale que seule votre faction utilise. Vous ne la voyez qu une fois aligne avec le Chaos, et elle ne tombe jamais sous zero.\n\nComment la GAGNER :\n- Pillez un village en tant que serviteur du Chaos (+80).\n- Sacrifiez vos prisonniers de base sur l autel (Sacrifier vos prisonniers aux Dieux Sombres, dans toute colonie).\n- Profanez un sanctuaire des anciens dieux (l option de profanation du Chaos, tous les quelques jours).\n- Executez des seigneurs ennemis (+200).\n- Accomplissez des taches des Dieux Sombres (+1000 chacune).\n\nA quoi la DEPENSER :\n- Aux taches des Dieux maintenant ; a la Devotion aux Quatre et a la sorcellerie sombre aux portails dans une mise a jour a venir.\n\nContinuez a piller, sacrifier et profaner pour grandir." />
     <string id="lh_enc_chaos_troops_t" text="Troupes du Chaos" />
     <string id="lh_enc_chaos_troops_b" text="Les armées du Chaos mêlent une chair à canon bon marché à une élite terrifiante.\n\nL&apos;effectif, en gros du plus faible au plus fort :\n- Cultistes et Acolytes — fanatiques humains, pure chair à canon.\n- Ungors — les hommes-bêtes les plus petits, eux aussi de la chair à canon.\n- Les tribus norses et leurs champions — les guerriers humains du nord. Ils ont reçu un bonus de PV pour qu&apos;un Norse soit plus solide qu&apos;un homme ordinaire, comme l&apos;exige le lore.\n- Les Gor et leur élite — les hommes-bêtes les plus grands, avec un bonus de PV supérieur aux Norses.\n- Les Guerriers du Chaos — champions cuirassés des Dieux Sombres.\n- Les Minotaures — monstres massifs avec le plus grand bonus de PV de tous.\n\nLa mécanique de la chair à canon : Cultistes et Ungors prennent MOINS de place dans ta troupe. Pour chaque paire d&apos;unités de chair à canon que tu transportes, ta limite de troupe augmente de un — exactement comme les petits morts-vivants de la faction vampire. Cela garde la racaille bon marché jouable au lieu de gâcher de précieux emplacements de troupe.\n\nTous les bonus de PV sont réglables dans les paramètres si tu veux un autre équilibre." />
     <string id="lh_enc_chaos_recruiting_t" text="Recruter des troupes du Chaos" />
@@ -466,17 +402,9 @@
     <string id="lh_ck_resp_lord" text="Mortel insolent ! Qu'il en soit ainsi — les Dieux ont soif de sang. Rejoins-moi hors des murs, en terrain découvert. Viens quand tu seras prêt — l'un de nous ne verra pas le couchant." />
     <string id="lh_ck_accept_p" text="Ce trône sera le mien." />
     <string id="lh_ck_decline_p" text="Pas encore." />
-    <string id="lh_ck_disgraced_p" text="Je te défie de nouveau !" />
-    <string id="lh_ck_taunt_lord" text="Tu as déjà tenté ton destin et tu as été terrassé, misérable vermine ! Les Dieux Sombres voient ta tromperie — voici ton châtiment." />
-    <string id="lh_ck_load_penalty" text="Les Dieux Sombres se sont détournés du lâche : ta Gloire du Chaos s&apos;efface." />
-    <string id="lh_ck_wound" text="Les Dieux ont puni ton insolence. Soigne tes blessures et prouve que tu es digne du trône." />
-    <string id="lh_ck_defeat" text="Le Roi du Chaos te terrasse. Reviens dans {DAYS} jours pour le défier à nouveau." />
-    <string id="lh_ck_victory" text="Tu as arraché le trône des mains mortes du Roi du Chaos ! Les Dieux Sombres reconnaissent un nouveau seigneur. Le royaume est à toi." />
-    <string id="lh_ck_victory_title" text="L&apos;usurpateur monte sur le trône" />
     <string id="lh_ck_eligible" text="Les Dieux Sombres posent les yeux sur toi ! Trouve le Roi du Chaos — le souverain d'un royaume du Chaos —, parle-lui et défie-le pour le trône." />
     <string id="lh_ck_bar_legend" text="Gloire du Chaos" />
     <string id="lh_ck_bar_ready" text="Défi prêt" />
-    <string id="lh_ck_bar_disgrace" text="En disgrâce" />
     <string id="lh_cw_bs_a" text="J&apos;ai parcouru une longue route au nom des Dieux Sombres." />
     <string id="lh_cw_bs_b" text="Le sang et la gloire — seul cela compte désormais." />
     <string id="lh_cw_bs_c" text="Les faibles servent, les forts règnent. Lequel es-tu ?" />
@@ -490,7 +418,7 @@
     <string id="lh_enc_chaos_market_t" text="Marchés maudits" />
     <string id="lh_enc_chaos_market_b" text="Les armes et armures du Chaos sont fuies par les honnêtes gens et ne se vendent QUE sur les marchés des villes tenues par le Chaos. Équipement de maraudeur, robes de cultiste, armes du chaos, boucliers et un destrier du chaos sont en vente dans toute ville du Chaos ; les armures de guerre bénies des Dieux Sombres (Khorne, Nurgle, Tzeentch, Slaanesh) et les heaumes des Élus seulement dans la capitale — la ville du Chaos la plus prospère — et pour une fortune.\nN&apos;importe qui peut acheter dans une ville du Chaos, mais les biens maudits ne peuvent être VENDUS nulle part ailleurs que dans les villes et villages du Chaos — aucun autre marchand n&apos;y touchera." />
     <string id="lh_enc_chaos_throne_t" text="Renverser le Roi" />
-    <string id="lh_enc_chaos_throne_b" text="La force fait le droit. Abats assez d'ennemis de ta propre main et les Dieux Sombres te marqueront comme rival du Roi du Chaos régnant.\nTes meurtres personnels bâtissent une Gloire du Chaos (barre au-dessus de l'horloge de la carte). Sers le Chaos au moins 30 jours et élève ta Gloire du Chaos au-dessus de celle du Roi. Quand les Dieux le remarquent, défie le Roi en combat mortel : toi contre le Roi et deux de ses Guerriers du Chaos.\nVainqueur, son trône, ses fiefs et ses vassaux sont à toi, et tu prends son équipement de guerre béni en trophée. Vaincu, ta Gloire du Chaos est brisée d'un tiers." />
+    <string id="lh_enc_chaos_throne_b" text="La force prime le droit. Tuez assez d ennemis de votre propre main et les Dieux Sombres vous marqueront comme rival du Suzerain du Chaos regnant.\nVos victimes personnelles batissent une Gloire du Chaos (la barre au-dessus de l horloge de la carte). Servez le Chaos au moins 30 jours et elevez votre Gloire du Chaos au-dessus de celle du Suzerain. Quand les Dieux le remarquent, defiez le Suzerain en combat mortel : vous contre le Suzerain et deux de ses Guerriers du Chaos.\nVictorieux, son trone et ses vassaux sont a vous. Vous choisissez alors son sort : l EXECUTER - prendre ses fiefs et son harnois beni en trophee - ou l EPARGNER, et le Suzerain brise s agenouille comme votre vassal, gardant son clan et ses terres. Vaincu, votre Gloire du Chaos est brisee d un tiers." />
     <string id="lh_chaos_wand_full_p" text="Je n&apos;ai pas de place pour toi — ma suite est déjà pleine." />
     <string id="lh_chaos_wand_full_lord" text="Alors reviens quand tu auras fait de la place, mortel. Les Dieux Sombres n&apos;aiment pas attendre." />
     <string id="lh_ck_where_p" text="Où puis-je trouver ton seigneur, le Roi ?" />
@@ -512,11 +440,7 @@
     <string id="lh_kd_escort_back" text="Retour" />
     <string id="lh_kd_prep_text" text="Les cultistes du Chaos ont dressé sur le champ une arène de crânes et de fer noir. Le Roi du Chaos {KING} y entre pour t'affronter — un seul sortira vivant de l'arène." />
     <string id="lh_kd_won_text" text="Le Roi du Chaos gît mort à tes pieds. Les Dieux Sombres rugissent leur approbation — la voie vers ton propre trône est ouverte." />
-    <string id="lh_kd_claim" text="Réclame le trône du Chaos." />
     <string id="lh_kd_lost_text" text="Tu es battu et terrassé. Panse tes plaies et reviens dans {DAYS} jours pour réessayer." />
-    <string id="lh_ck_found_title" text="Fonde ton royaume du Chaos" />
-    <string id="lh_ck_found_text" text="Le trône est tien par le sang. Nomme ton nouveau royaume du Chaos." />
-    <string id="lh_ck_found_default" text="Horde du Chaos" />
     <string id="lh_ck_founded" text="Ton royaume du Chaos est fondé. Les Dieux Sombres veillent sur leur nouveau champion." />
     <string id="lh_kd_chicken" text="Pas aujourd'hui — je me retire. (partir)" />
     <string id="lh_extorsion_tier_too_low" text="Rang trop bas — seuls les orcs T4+ ont des dents en or à prendre." />
@@ -536,7 +460,6 @@
     <string id="lh_god_choose_title" text="Prête serment à un Dieu Sombre" />
     <string id="lh_god_choose_desc" text="Tu t'agenouilles devant l'autel du Chaos. Choisis le dieu dont tu porteras la marque — ce choix est définitif. À {SET} victimes, ton dieu t'accorde sa panoplie de guerre complète ; à {DUEL} victimes, tu pourras défier l'Overlord lui-même pour son trône." />
     <string id="lh_god_choose_ok" text="Prêter le serment" />
-    <string id="lh_god_chosen_msg" text="Tu es désormais lié à {GOD}. {FLAVOR}" />
     <string id="lh_god_set_granted" text="Les Dieux Sombres récompensent ton carnage - la panoplie de guerre complète de {GOD} se trouve dans ton inventaire. Équipe-la depuis ton inventaire (touche I)." />
     <string id="lh_god_set_title" text="La Faveur d'un Dieu" />
     <string id="lh_set_tab_gods" text="Dieux Sombres" />
@@ -546,5 +469,132 @@
     <string id="lh_set_ChaosGodDuelKillThreshold_desc" text="Victimes personnelles supplémentaires, EN PLUS du seuil de la panoplie, avant de pouvoir défier l'Overlord du Chaos (Mortkin) en duel pour son trône. Total de victimes pour le duel = seuil de la panoplie + cette valeur. Plus bas = le défi du trône se débloque plus tôt. Exemple : les deux à 1000, tu le défies à 2000 victimes. Plage 500-2000." />
     <string id="lh_chaos_minotaur_weight_relief" text="Poids du Minotaure (allégé)" />
     <string id="lh_chaos_recruited_list" text="Invoqués : {LIST}." />
+    <string id="lh_god_boon_khorne" text="Faveur de Khorne : +15% a tous les degats que vous infligez." />
+    <string id="lh_god_boon_nurgle" text="Faveur de Nurgle : +20% a vos points de vie maximum." />
+    <string id="lh_god_boon_tzeentch" text="Faveur de Tzeentch : +25% de Vents de magie maximum et recharge plus rapide." />
+    <string id="lh_god_boon_slaanesh" text="Faveur de Slaanesh : +12% de vitesse de deplacement au combat." />
+    <string id="lh_god_chosen_msg2" text="Vous etes desormais lie a {GOD}. {FLAVOR} {BOON}" />
+    <string id="lh_de_raid" text="Les Dieux Sombres se repaissent des ruines que vous laissez. +{DE} Energie sombre." />
+    <string id="lh_de_sacrifice_opt" text="Sacrifier vos prisonniers aux Dieux Sombres" />
+    <string id="lh_de_sacrifice_tip" text="Offrez {N} captif(s) aux Quatre. Gagnez {DE} Energie sombre." />
+    <string id="lh_de_sacrifice_done" text="Vous offrez {N} captif(s) sur l autel du Chaos. +{DE} Energie sombre." />
+    <string id="lh_de_defile_cd" text="Vous ne pouvez profaner un sanctuaire que tous les {DEFILE_COOLDOWN_DAYS} jours." />
+    <string id="lh_kd_execute" text="Executer le Suzerain et vous emparer de son harnois de guerre." />
+    <string id="lh_kd_spare" text="Epargner le Suzerain - il s agenouillera et vous servira." />
+    <string id="lh_ck_founded_spare" text="Votre royaume du Chaos est fonde. Le Suzerain brise s agenouille comme votre vassal - un trophee plus amer que son armure. Les Dieux Sombres veillent sur leur nouveau champion." />
+    <string id="lh_ck_slain_no_throne" text="Le Suzerain git mort a tes pieds, mais le trone du Chaos t echappe en ce jour." />
+    <string id="lh_ck_spared_no_throne" text="Tu epargnes le Suzerain brise, mais le trone du Chaos t echappe - pour l instant." />
+    <string id="lh_health_intro2" text="Lore-Hardcore a detecte un probleme avec certaines fonctions :" />
+    <string id="lh_health_tor_api" text="Certains systemes essentiels n ont pas pu se connecter a TOR (il a peut-etre ete mis a jour) : {LIST}. Les revenus en Dents et en Energie sombre peuvent ne pas fonctionner. Details dans le fichier lorehardcore_health.log." />
+    <string id="lh_health_open_log" text="Ouvrir le dossier du journal" />
+    <string id="lh_health_close" text="Fermer" />
+    <string id="lh_god_mission_seek_opt" text="Demander une tache aux Dieux Sombres" />
+    <string id="lh_god_mission_status_opt" text="Ecouter l exigence des Dieux Sombres" />
+    <string id="lh_god_mission_assigned" text="Les Dieux Sombres vous confient une tache : {TASK} Vous avez {DAYS} jours." />
+    <string id="lh_god_mission_status" text="Tache des Dieux : {TASK} Progres {PROGRESS}/{TARGET}. Jours restants : {DAYS}." />
+    <string id="lh_god_mission_progress" text="Les Dieux Sombres observent : {PROGRESS}/{TARGET}." />
+    <string id="lh_god_mission_success" text="Les Dieux Sombres sont satisfaits - la tache est accomplie. +{DE} Energie sombre." />
+    <string id="lh_god_mission_fail" text="Vous avez echoue a la tache des Dieux Sombres. Leur deplaisir vous coute {DE} Energie sombre." />
+    <string id="lh_god_mission_task_slaughter" text="executez {N} seigneurs ennemis." />
+    <string id="lh_god_mission_task_pillage" text="pillez {N} villages et ne laissez que des cendres." />
+    <string id="lh_god_mission_task_cleanse" text="aneantissez {N} repaires de bandits." />
+    <string id="lh_god_mission_task_conquer" text="remportez {N} batailles pour la gloire du Chaos." />
+    <string id="lh_god_mission_task_none" text="servez les Dieux." />
+    <string id="lh_whatsnew_title" text="Lore-Hardcore mis a jour en {VER}" />
+    <string id="lh_tip_orc_intro_t" text="Vous menez les Peaux-Vertes" />
+    <string id="lh_tip_orc_intro_b" text="Les orcs paient en Dents, pas en or. Vous arrachez des Dents aux ennemis coriaces (rang 4+) au combat et en gagnez grace a vos fiefs orcs, aux bagarres et a l arene. Depensez-les pour recruter. Appuyez sur Alt+H a tout moment pour le guide complet." />
+    <string id="lh_tip_chaos_intro_t" text="Vous servez les Dieux Sombres" />
+    <string id="lh_tip_chaos_intro_b" text="Vous suivez desormais la voie du Chaos. Gagnez de l Energie sombre en pillant des villages, en sacrifiant des prisonniers et en profanant des sanctuaires. Choisissez un Dieu protecteur pour une faveur permanente, acceptez des taches des Dieux pour de grandes recompenses, et renversez un jour le Suzerain lui-meme. Appuyez sur Alt+H pour le guide." />
+    <string id="lh_tip_patron_t" text="Choisissez un Dieu protecteur" />
+    <string id="lh_tip_patron_b" text="Jurez fidelite a l un des Quatre - Khorne (+degats), Nurgle (+sante), Tzeentch (+Vents de magie) ou Slaanesh (+vitesse). Le choix est definitif et accorde une faveur durable. On vous le demande en rejoignant le Chaos; vous pouvez aussi utiliser la console : lh.chaos_god." />
+    <string id="lh_tip_de_t" text="Energie sombre amassee" />
+    <string id="lh_tip_de_b" text="L Energie sombre est la monnaie du Chaos. Depensez-la pour les taches des Dieux maintenant, et pour la Devotion aux Quatre dans une mise a jour a venir. Continuez a piller, sacrifier et profaner pour en amasser davantage." />
+    <string id="lh_enc_chaos_gods_t" text="Les Quatre Dieux &amp; leurs faveurs" />
+    <string id="lh_enc_chaos_gods_b" text="En rejoignant le Chaos, vous jurez fidelite a l un des Quatre Dieux Sombres. Le choix est definitif et vous accorde a VOUS (pas a vos troupes) une faveur permanente :\n- Khorne, le Dieu du Sang : +15% a tous les degats que vous infligez.\n- Nurgle, le Seigneur des Pestes : +20% a vos points de vie maximum.\n- Tzeentch, le Changeur des Voies : +25% de Vents de magie maximum et recharge plus rapide.\n- Slaanesh, le Prince Sombre : +12% de vitesse de deplacement au combat.\n\nOn vous le demande en rejoignant le Chaos (ou via la console : lh.chaos_god). A un certain seuil de victimes, votre protecteur vous accorde aussi son harnois de guerre complet. Un systeme de Devotion - des recompenses plus profondes pour les quatre Dieux, achetees avec de l Energie sombre - arrivera dans une future mise a jour." />
+    <string id="lh_enc_chaos_missions_t" text="Taches des Dieux Sombres" />
+    <string id="lh_enc_chaos_missions_b" text="Les Dieux Sombres eprouvent leurs champions. Dans n importe quelle ville, chateau ou village, choisissez Demander une tache aux Dieux Sombres pour recevoir une quete :\n- Carnage : executez un certain nombre de seigneurs ennemis.\n- Pillage : pillez un certain nombre de villages.\n- Purge : aneantissez un certain nombre de repaires de bandits.\n- Conquete : remportez un certain nombre de batailles.\n\nVous avez 30 jours. En cas de reussite, les Dieux vous recompensent d une grande quantite d Energie sombre (+1000). Manquez l echeance et leur deplaisir vous coute de l Energie sombre (-100). Choisissez Ecouter l exigence des Dieux Sombres pour verifier votre tache et votre progression. Il y a un delai d un jour entre les taches." />
+    <string id="lh_whatsnew_0_1_9_60" text="NOUVEAU dans cette version :\n- Les Dieux protecteurs accordent desormais une faveur permanente (degats / sante / Vents de magie / vitesse).\n- Economie d Energie sombre : gagnez-en en pillant des villages, sacrifiant des prisonniers et profanant des sanctuaires.\n- Taches des Dieux Sombres : prenez une quete dans n importe quelle colonie pour une grosse recompense en Energie sombre.\n- Renverser le Suzerain vous permet maintenant de l executer OU de l epargner comme vassal.\nAppuyez sur Alt+H pour le guide complet." />
+    <string id="lh_hud_task" text="Tache {P}/{T}" />
+    <string id="lh_panel_patron" text="Patron : {GOD}" />
+    <string id="lh_panel_lbl_devotion" text="Dévotion aux Quatre" />
+    <string id="lh_panel_tip_title" text="Statut du Chaos — votre rang aux yeux des Dieux Sombres. Ce panneau suit votre Gloire du Chaos, votre Dieu Patron, votre Dévotion aux Quatre, les Tâches des Dieux en cours et le service que vous devez accomplir avant de pouvoir défier le Suzerain du Chaos pour son trône. Survolez chaque ligne pour plus de détails." />
+    <string id="lh_panel_tip_glory" text="Gloire du Chaos — votre renom auprès des Dieux Sombres, gagné en abattant vos ennemis au combat. La barre pourpre se remplit à chaque victime. La marque dorée indique le point où votre Patron vous accorde sa panoplie de guerre complète (harnois d'armure). Remplissez toute la barre ET accomplissez les jours de service requis pour défier le Suzerain du Chaos pour son trône." />
+    <string id="lh_panel_tip_patron" text="Votre Dieu Patron — celui des Quatre à qui vous avez juré fidélité. Il accorde une faveur de combat permanente (Khorne : dégâts, Nurgle : santé, Tzeentch : Vents de Magie, Slaanesh : vitesse) et, à la marque dorée de Gloire, une panoplie de guerre complète. Le Patron est choisi une seule fois et ne peut être changé." />
+    <string id="lh_panel_tip_allegiance" text="Votre rang dans la hiérarchie du Chaos. Marqué par le Chaos — vous suivez la voie mais ne servez encore aucun seigneur. Vassal du Chaos — vous servez le Suzerain en tant que seigneur juré. Suzerain du Chaos — vous régnez sur tout le Chaos, ayant renversé le précédent Suzerain." />
+    <string id="lh_panel_tip_mission" text="Tâches des Dieux Sombres — quêtes facultatives à accepter dans n'importe quelle colonie contre une grande récompense en Énergie Sombre. Le compteur indique votre progression (accompli / objectif). Accomplissez-les pour financer votre Dévotion et gagner la faveur des Dieux." />
+    <string id="lh_panel_tip_service" text="Votre service auprès du Suzerain. Vous devez le servir un nombre minimum de jours avant de pouvoir le défier — même avec assez de Gloire. Après un défi manqué, un délai s'applique. Cette ligne décompte les jours restants ; une fois vide, votre service est accompli." />
+    <string id="lh_panel_tip_deepen" text="Ouvrez la fenêtre « Approfondir la Dévotion » pour dépenser de l'Énergie Sombre et élever votre rang auprès de chacun des Quatre Dieux, débloquant leurs faveurs de combat, sorts, armes et panoplies de guerre." />
+    <string id="lh_boon_dmg" text="dégâts" />
+    <string id="lh_boon_hp" text="santé" />
+    <string id="lh_boon_wom" text="Vents de Magie" />
+    <string id="lh_boon_spd" text="vitesse" />
+    <string id="lh_panel_tip_devotion" text="Dévotion aux Quatre — approfondissez votre foi en chaque Dieu (rang 0-10) en dépensant de l'Énergie Sombre via le bouton ci-dessous. Chaque rang renforce la faveur de combat du Dieu : Khorne — dégâts, Nurgle — santé, Tzeentch — Vents de Magie, Slaanesh — vitesse. Le rang 3 accorde un sort de combat, le rang 5 une arme emblématique, le rang 10 la panoplie de guerre complète et un pouvoir légendaire. Les Quatre exigent l'équilibre — élevez-les tous, pas seulement l'un d'eux." />
+    <string id="lh_panel_title" text="Statut du Chaos" />
+    <string id="lh_panel_no_patron" text="Aucun patron choisi" />
+    <string id="lh_panel_overlord" text="Suzerain du Chaos" />
+    <string id="lh_panel_vassal" text="Vassal du Chaos" />
+    <string id="lh_panel_touched" text="Marque par le Chaos" />
+    <string id="lh_panel_task" text="Tache des Dieux : {P}/{T}" />
+    <string id="lh_panel_no_task" text="Aucune tache active" />
+    <string id="lh_dev_advanced" text="Ta dévotion envers {GOD} s'approfondit au rang {LVL}." />
+    <string id="lh_dev_need_de" text="Il te faut {DE} Énergie Noire pour approfondir ta dévotion envers {GOD} (tu en as {HAVE})." />
+    <string id="lh_dev_balance_locked" text="Les Quatre exigent l'équilibre — approfondis d'abord tes autres dévotions (un rang ne peut dépasser le plus bas de plus de 2)." />
+    <string id="lh_dev_max" text="Ta dévotion envers {GOD} est déjà à son apogée (rang {LVL})." />
+    <string id="lh_dev_not_servant" text="Seul un serviteur assermenté des Dieux Sombres peut approfondir sa dévotion." />
+    <string id="lh_dev_item_reward" text="{GOD} t'accorde une arme pour ta dévotion grandissante (rang 5)." />
+    <string id="lh_dev_set_reward" text="{GOD} te revêt de la panoplie de guerre complète des fidèles (rang 10)." />
+    <string id="lh_dev_prayer_reward" text="{GOD} t'accorde un sort de combat : {SPELL}. Ouvre ton grimoire au combat pour l'utiliser." />
+    <string id="lh_dev_deepen_btn" text="Approfondir la dévotion" />
+    <string id="lh_dev_benefit" text="{DOMAIN} +{FROM}%→+{TO}%" />
+    <string id="lh_dev_dom_khorne" text="dégâts" />
+    <string id="lh_dev_dom_nurgle" text="PV max" />
+    <string id="lh_dev_dom_tzeentch" text="Vents" />
+    <string id="lh_dev_dom_slaanesh" text="vitesse" />
+    <string id="lh_dev_mk_spell" text="sort" />
+    <string id="lh_dev_mk_weapon" text="arme" />
+    <string id="lh_dev_mk_set" text="armure" />
+    <string id="lh_dev_menu_title" text="Approfondis ta dévotion" />
+    <string id="lh_dev_menu_desc" text="Dépense de l'Énergie Noire pour approfondir ta dévotion envers les Quatre. Tu as {DE} Énergie Noire. Les Quatre exigent l'équilibre : aucun rang ne peut dépasser le plus bas de plus de 2. La branche de ton protecteur coûte 20% de moins." />
+    <string id="lh_dev_menu_opt" text="{GOD} — rang {CUR}→{NEXT} ({COST} EN)" />
+    <string id="lh_dev_menu_opt_max" text="{GOD} — rang {LVL} (MAX)" />
+    <string id="lh_dev_menu_hint_max" text="Déjà au rang maximum." />
+    <string id="lh_dev_menu_hint_balance" text="Équilibre interdit — approfondis d'abord tes dévotions inférieures (max +2 au-dessus de la plus basse)." />
+    <string id="lh_dev_menu_hint_de" text="Pas assez d'Énergie Noire (il en faut {COST})." />
+    <string id="lh_dev_menu_deepen" text="Approfondir" />
+    <string id="lh_dev_menu_close" text="Fermer" />
+    <string id="lh_enc_chaos_devotion_t" text="Dévotion envers les Quatre" />
+    <string id="lh_enc_chaos_devotion_b" text="Au-delà de la faveur de ton protecteur, tu peux approfondir ta dévotion envers CHACUN des Quatre Dieux Sombres. Chaque Dieu possède un rang de 0 à 10, acheté avec de l'Énergie Noire.\nPlus ta foi est profonde, plus la faveur de combat de ce Dieu se renforce pour toi : Khorne approfondit tes dégâts, Nurgle ta santé, Tzeentch tes Vents de Magie, Slaanesh ta vitesse. Elles s'ajoutent à la faveur permanente de ton protecteur.\nLes Quatre exigent l'équilibre : aucun rang ne peut dépasser le plus bas de plus de 2, tu dois donc tous les élever. La branche de ton protecteur coûte 20% de moins.\nJalons : le rang 3 accorde un sort de combat aux Dieux sorciers (Tzeentch - Fireball, Nurgle - Curse of Years ; Khorne méprise la magie et la sorcellerie de Slaanesh n'est pas offerte) ; le rang 5 accorde l'arme emblématique du Dieu ; le rang 10 te revêt de la panoplie de guerre complète.\nOuvre-le via le bouton 'Approfondir la dévotion' sur le panneau de Statut du Chaos, près de l'horloge de la carte." />
+    <string id="lh_tip_devotion_t" text="Dévotion envers les Quatre" />
+    <string id="lh_tip_devotion_b" text="Tu peux désormais approfondir ta dévotion envers chaque Dieu Sombre, en payant de l'Énergie Noire pour des récompenses toujours plus grandes. Ouvre le bouton 'Approfondir la dévotion' sur le panneau de Statut du Chaos (à droite de la carte). Chaque rang renforce la faveur de combat du Dieu ; le rang 3 accorde un sort de combat, le rang 5 une arme emblématique, le rang 10 la panoplie complète. Les Quatre exigent l'équilibre - élève-les tous, pas un seul. Appuie sur Alt+H pour le guide." />
+    <string id="lh_whatsnew_0_1_9_62" text="NOUVEAU dans cette version :\n- Dévotion envers les Quatre : dépense de l'Énergie Noire pour approfondir ta foi en chaque Dieu (rangs 0-10).\n- Chaque rang approfondit la faveur de combat du Dieu (dégâts / santé / Vents de Magie / vitesse).\n- Le rang 3 accorde un sort de combat (Tzeentch, Nurgle) ; le rang 5 une arme emblématique ; le rang 10 la panoplie de guerre complète.\n- Ouvre-le via le bouton 'Approfondir la dévotion' sur le panneau de Statut du Chaos.\nAppuie sur Alt+H pour le guide complet dans le jeu." />
+    <string id="lh_dev_rw_spell" text="Le prochain rang débloque un sort de combat." />
+    <string id="lh_dev_rw_weapon" text="Le prochain rang accorde l'arme emblématique de ce Dieu." />
+    <string id="lh_dev_rw_set" text="Le prochain rang accorde la panoplie de guerre complète de ce Dieu." />
+    <string id="lh_dev_rw_growth" text="Le prochain rang approfondit la faveur de combat de ce Dieu." />
+    <string id="lh_seduce_menu" text="Whisper of the Dark Gods — seduce this lord (500 Dark Energy, 200 Influence)" />
+    <string id="lh_seduce_need" text="Requires 500 Dark Energy and 200 Influence, and devotion to Slaanesh (rank 4)." />
+    <string id="lh_seduce_no_resources" text="You lack the Dark Energy or influence to bend this lord's will." />
+    <string id="lh_seduce_no_successor" text="{LORD}'s clan has no suitable successor — the seduction fails." />
+    <string id="lh_seduce_success" text="{LORD} has been seduced to the Dark Gods and joins your retinue." />
+    <string id="lh_seduce_failed" text="The lord resists your whispers — the seduction fails." />
+    <string id="lh_dev_martial_reward" text="Your dread service to {GOD} spreads — your renown grows by {AMT}." />
+    <string id="lh_dev_rw_renown" text="Next rank grows your dread renown." />
+    <string id="lh_dev_mk_renown" text="renown" />
+    <string id="lh_whatsnew_0_1_9_71" text="NEW in this version:\n- Legendary Devotion capstones: reach rank 10 with a God to awaken a battle power.\n- Khorne: heal on every kill and unleash a blood-shockwave around the slain.\n- Nurgle: slowly regenerate health throughout the battle.\n- Tzeentch: every kill restores Winds of Magic.\n- Slaanesh: a chance on each kill to seduce nearby enemies to your side.\nPress Alt+H for the full in-game guide." />
+    <string id="lh_whatsnew_0_1_9_72" text="NEW in this version:\n- Devotion now grants a SECOND, stronger battle-spell at rank 7 to the sorcerer Gods.\n- Tzeentch: Flame Storm (a roaring vortex of fire).\n- Nurgle: The Purple Sun of Xereus (a devouring vortex of death).\n- Reach rank 3 for the first spell, rank 7 for the second.\nPress Alt+H for the full in-game guide." />
+    <string id="lh_whatsnew_0_1_9_73" text="NEW in this version:\n- Lord Seduction: with devotion to Slaanesh (rank 4), whisper enemy lords to your side.\n- When you meet an enemy lord, choose 'Whisper of the Dark Gods' (costs 500 Dark Energy + 200 Influence).\n- The lord joins your retinue; their clan promotes a successor so it survives.\n- Faction leaders cannot be seduced.\nPress Alt+H for the full in-game guide." />
+    <string id="lh_whatsnew_0_1_9_77" text="NOUVEAU — une section TOR Tweaks dans les paramètres du mod (onglet Common) :\n- Les seigneurs reconstituent leur armée de zéro : les seigneurs IA libérés de captivité réapparaissent presque sans troupes et doivent recruter à nouveau.\n- Suppression du plafond d'apprentissage des compétences : les compétences continuent de gagner de l'XP au-delà du plafond souple d'attribut/focalisation.\n- Curseurs Points de focalisation par niveau (1-5) et Niveaux par point d'attribut (1-4).\nOuvrez les paramètres du mod depuis le menu principal pour les activer." />
+    <string id="lh_enc_chaos_seduction_t" text="Lord Seduction" />
+    <string id="lh_enc_chaos_seduction_b" text="With devotion to Slaanesh (rank 4), you can whisper enemy lords to your side. When you meet an enemy lord on the map, choose 'Whisper of the Dark Gods' (costs 500 Dark Energy and 200 Influence). The lord abandons their banner and joins your retinue; if they led a clan, a successor is promoted so the clan endures. Faction leaders are too strong-willed to seduce." />
+    <string id="lh_tip_seduction_t" text="Whispers of Slaanesh" />
+    <string id="lh_tip_seduction_b" text="Your devotion to Slaanesh is deep enough to seduce enemy lords. When you meet an enemy lord on the map, choose 'Whisper of the Dark Gods' to lure them into your retinue for 500 Dark Energy and 200 Influence. Their clan promotes a successor and survives; faction leaders are too strong-willed to seduce. Press Alt+H for the guide." />
+    <string id="lh_set_LordsRebuildFromScratch_lbl" text="TOR: Lords rebuild army from scratch" />
+    <string id="lh_set_LordsRebuildFromScratch_desc" text="When an AI lord is released or escapes from captivity, their new party spawns almost empty (just the lord) and they must recruit an army from scratch — instead of instantly respawning with a full army. Applies to ALL AI lords. OFF = vanilla." />
+    <string id="lh_set_RemoveSkillLearningCap_lbl" text="TOR: Remove skill learning cap" />
+    <string id="lh_set_RemoveSkillLearningCap_desc" text="Removes the soft learning cap, so skills keep gaining XP normally far past the limit your attributes and focus would normally allow. OFF = vanilla cap. Applies to all heroes." />
+    <string id="lh_set_FocusPointsPerLevel_lbl" text="TOR: Focus points per level" />
+    <string id="lh_set_FocusPointsPerLevel_desc" text="How many focus points you gain each level. Vanilla is 1. Higher = faster skill specialization. Example: 2 doubles focus gain." />
+    <string id="lh_set_LevelsPerAttributePoint_lbl" text="TOR: Levels per attribute point" />
+    <string id="lh_set_LevelsPerAttributePoint_desc" text="How many levels between each free attribute point. Vanilla is 4 (one attribute point every 4 levels). LOWER = more attribute points (e.g. 1 = one every level)." />
   </strings>
 </base>

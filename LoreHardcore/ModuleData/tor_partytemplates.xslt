@@ -10,9 +10,10 @@
     (кол-во stacks, troop IDs, порядок, flags) остаётся 1:1 как у TOR, C#-инжекции работают.
 
     Политика тюнинга (консервативная):
-    — Только уменьшаем max_value (никогда не увеличиваем в этой фазе).
-    — Не трогаем min_value (отдельный XML-подузел, выше риск).
-    — Не трогаем troop=, flags, порядок stacks.
+    — В основном уменьшаем max_value; точечные повышения — в priority="2" секции ниже.
+    — min_value правим ТОЛЬКО у волчьих райдеров (кавалерия-ребаланс, в конце файла).
+    — Не трогаем troop= (кроме militia orc_boy→orc swap), flags, порядок stacks.
+    — АУДИТ 2026-06-10: шапка актуализирована; мёртвые дубли шаблонов удалены.
 
     Оригинал TOR greenskin_bandit_template: raider 35, boss 10, arrer 20.
     Наши raider 14, boss 3, arrer 8.
@@ -64,13 +65,8 @@
         <xsl:attribute name="max_value">5</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="MBPartyTemplate[@id='greenskins_lordparty_template']/stacks/PartyTemplateStack[@troop='NPCCharacter.tor_gs_black_orc']/@max_value">
-        <xsl:attribute name="max_value">6</xsl:attribute>
-    </xsl:template>
-
-    <xsl:template match="MBPartyTemplate[@id='greenskins_lordparty_template']/stacks/PartyTemplateStack[@troop='NPCCharacter.tor_gs_black_orc_brute']/@max_value">
-        <xsl:attribute name="max_value">4</xsl:attribute>
-    </xsl:template>
+    <!-- АУДИТ 2026-06-10: мёртвые дубли black_orc (6) и black_orc_brute (4) удалены —
+         их перекрывали шаблоны с priority="2" ниже (black_orc=4, brute=3). -->
 
     <xsl:template match="MBPartyTemplate[@id='greenskins_lordparty_template']/stacks/PartyTemplateStack[@troop='NPCCharacter.tor_gs_black_orc_berzerka']/@max_value">
         <xsl:attribute name="max_value">4</xsl:attribute>
@@ -82,9 +78,8 @@
         после этих правок total max = 124 → ~160-180 в спавне. Элита/кавалерия — уже срезаны/усилены.
         Все stacks ниже УЖЕ ЕСТЬ в оригинале TOR, только снижаем max_value.
     -->
-    <xsl:template match="MBPartyTemplate[@id='greenskins_lordparty_template']/stacks/PartyTemplateStack[@troop='NPCCharacter.tor_gs_orc_boy']/@max_value">
-        <xsl:attribute name="max_value">16</xsl:attribute>
-    </xsl:template>
+    <!-- АУДИТ 2026-06-10: мёртвые дубли orc_boy (16) и orc_bigun (6) удалены —
+         их перекрывали шаблоны с priority="2" ниже (orc_boy=30, bigun=15). -->
 
     <xsl:template match="MBPartyTemplate[@id='greenskins_lordparty_template']/stacks/PartyTemplateStack[@troop='NPCCharacter.tor_gs_orc_choppa']/@max_value">
         <xsl:attribute name="max_value">16</xsl:attribute>
@@ -92,10 +87,6 @@
 
     <xsl:template match="MBPartyTemplate[@id='greenskins_lordparty_template']/stacks/PartyTemplateStack[@troop='NPCCharacter.tor_gs_orc_arrer_boy']/@max_value">
         <xsl:attribute name="max_value">10</xsl:attribute>
-    </xsl:template>
-
-    <xsl:template match="MBPartyTemplate[@id='greenskins_lordparty_template']/stacks/PartyTemplateStack[@troop='NPCCharacter.tor_gs_orc_bigun']/@max_value">
-        <xsl:attribute name="max_value">6</xsl:attribute>
     </xsl:template>
 
     <!--

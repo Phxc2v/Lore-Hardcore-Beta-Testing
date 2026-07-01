@@ -9,9 +9,33 @@
 > of the same module conflict).
 
 **Last stable Steam Workshop release:** v0.1.7.5
-**Current beta:** v0.1.9.57
+**Current beta:** v0.1.9.82
 
 This file is updated on every beta publish. Newest on top.
+
+---
+
+## New in beta v0.1.9.82 (since v0.1.9.57)
+
+### ⭐ Devotion to the Four (Chaos)
+- Spend Dark Energy to deepen your devotion to **each** of the four Dark Gods (ranks 0–10). Each rank strengthens that God's battle boon (Khorne damage / Nurgle health / Tzeentch Winds of Magic / Slaanesh speed) and **stacks** with your patron's boon.
+- **Milestones:** ranks 3 and 7 grant battle-spells to the sorcerer Gods (Tzeentch: Fireball → Flame Storm; Nurgle: Curse of Years → Purple Sun); Khorne & Slaanesh gain renown instead. **Rank 5** grants a unique signature weapon; **rank 10** the full war-panoply + a legendary capstone (Khorne heals & shockwaves on kills, Nurgle regenerates, Tzeentch restores Winds of Magic, Slaanesh seduces nearby foes).
+- Open it from the **"Deepen Devotion"** button on the Chaos Status panel.
+
+### 😈 Lord Seduction (Chaos)
+- With devotion to **Slaanesh (rank 4)**, whisper enemy lords to your side: meet a lord and pick **"Whisper of the Dark Gods"** (500 Dark Energy + 200 Influence). The lord joins your retinue; their clan promotes a successor and survives. Faction leaders can't be seduced.
+
+### 🔧 TOR Tweaks (new settings — Common tab, for every race)
+- **Lords rebuild army from scratch** (released AI lords respawn almost empty), **remove skill learning cap**, and **Focus points per level** (1–5) / **Levels per attribute point** (1–4) sliders.
+
+### 🖥 Chaos Status panel — clarity & tooltips
+- Devotion to the gods is now a readable list "name (colour) + rank/10 + boon" (was the cryptic "K1 N0 T0 S0").
+- **Hover tooltips on every element** of the panel — what it is, what it's for, how it works; in all 12 languages.
+- Glory bar: the count caps at "X/X ✓" once the threshold is reached; the golden marker hides once passed.
+
+### 🛡 Stability & polish
+- Full code audit + fixes: Lord Seduction is transactional (no resource loss on failure), cooldowns/progress survive save/load, combat boons fall away when you leave the Chaos kingdom, signature weapons are unique per God.
+- Removed the "Supporters" button from settings. Localization fixes (the Russian "What's new" pop-up is no longer shown in English, raw tags removed).
 
 ---
 

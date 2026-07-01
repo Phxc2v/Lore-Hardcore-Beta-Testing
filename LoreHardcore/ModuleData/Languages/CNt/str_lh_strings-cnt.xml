@@ -29,7 +29,6 @@
     <string id="lh_village_goblin_hired" text="已招募:{COUNT} 個哥布林(花費 {PRICE}{GOLD_ICON})" />
     <string id="lh_goblin_companions_added" text="{TROOP} 帶來 +{COUNT} 個哥布林僕從" />
     <string id="lh_goblin_companions_capped" text="+{COUNT} 個哥布林(原想 {DESIRED} 個,達到了 4:1 上限)" />
-    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
     <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="弓箭小子老大" />
     <string id="lh_troop_tor_gs_orc_bigun" text="大塊頭獸人" />
     <string id="lh_troop_tor_gs_black_orc" text="黑獸人" />
@@ -64,13 +63,6 @@
     <string id="lh_castle_challenge_err_no_gold" text="[挑戰] 金錢不足支付賭注。" />
     <string id="lh_castle_challenge_err_generic" text="[挑戰] 錯誤:{ERROR}" />
     <string id="lh_castle_challenge_reward_troop_join" text=",並且他的一個同類加入你的隊伍" />
-    <string id="lh_settings_economy_title" text="Lore-Hardcore:經濟模式選擇" />
-    <string id="lh_settings_economy_desc" text="此選擇會鎖定到存檔中。如需更改,請開始新遊戲。" />
-    <string id="lh_settings_economy_teef_title" text="獸人牙齒經濟(戰錘設定)" />
-    <string id="lh_settings_economy_teef_hint" text="在城堡用戰鬥獲得的牙齒(獸人貨幣)購買獸人精銳。哥布林仍用金錢。你擁有的每個獸人城鎮/城堡每日 +5 牙齒。符合戰錘奇幻設定 — 獸人不在乎金錢。" />
-    <string id="lh_settings_economy_classic_title" text="經典模式(一切用金錢)" />
-    <string id="lh_settings_economy_classic_hint" text="獸人和哥布林按照原版 TOR 用金錢招募。無牙齒經濟,無每日封地收入。簡單熟悉。" />
-    <string id="lh_settings_economy_confirm" text="確認" />
     <string id="lh_castle_no_teef" text="牙齒不足:需要 {LH_TEEF_NEEDED},擁有 {LH_TEEF_HAVE}。" />
     <string id="lh_castle_not_orc" text="僅限獸人英雄。獸人不接納外人。" />
     <string id="lh_teef_daily_msg" text="來自你的獸人城鎮和城堡的 +{TEEF} 牙齒(共 {COUNT} 個)" />
@@ -80,43 +72,27 @@
     <string id="lh_castle_challenge_no_fee_gold" text="發起挑戰需要 {FEE} 金(擁有 {HAVE})。" />
     <string id="lh_teef_recruit_msg" text="{TROOP} ×{COUNT} 花費 -{TEEF} 牙齒。" />
     <string id="lh_teef_recruit_no_teef" text="招募 {TROOP} 牙齒不足(需要 {NEED},擁有 {HAVE})。" />
+    <string id="lh_teef_upkeep_warn" text="牙齒不夠養你的精銳了(每天 {NEED},你有 {HAVE})。小子們在抱怨——快去搞牙齒,不然一兩天內他們就會開始跑路。" />
+    <string id="lh_teef_upkeep_desert" text="沒有牙齒,士氣糟透——小子們受夠了。一部分精銳正在離隊!搞到牙齒,否則你會失去所有精銳。" />
+    <string id="lh_teef_upkeep_line" text="精銳維持費(牙齒)" />
+    <string id="lh_teef_upkeep_morale" text="沒有牙齒付給小子們" />
     <string id="lh_bt_conflict_title" text="模組衝突:BetterTime + Lore-Hardcore" />
     <string id="lh_bt_conflict_text" text="第三方 BetterTime 模組與 Lore-Hardcore 同時載入。該模組與 The Old Realms 不相容 — 它透過 UI MapBar 覆寫產生衝突。{newline}{newline}Lore-Hardcore 已包含 BetterTime 功能:{newline}D3 / Numpad3 — 快進 ×4{newline}D4 / Numpad4 — 超快 ×8{newline}鬆開按鍵 — 回到正常速度{newline}{newline}建議:關閉遊戲,在 Bannerlord 啟動器中停用或移除第三方 BetterTime,然後重啟。" />
     <string id="lh_bt_conflict_ok" text="明白,我來修復" />
     <string id="lh_teef_unit" text="牙齒" />
-    <string id="lh_tournament_cannot_leave" text="戰鬥還沒結束。不准跑。" />
 <!-- ============ Lore-Hardcore Encyclopedia (in-game guide, hotkey H) ============ -->
     <string id="lh_orc_execute_enemy_buff" text="敵人已被處決。獸人隊伍倍感自豪。士氣 +10，榮譽聲望已恢復。" />
     <string id="lh_chaos_uprising_announce" text="!!! 混沌之力已經崛起 —— 混沌叛亂出現在地圖上 !!!" />
     <string id="lh_enc_title" text="Lore-Hardcore — 遊戲內指南" />
-    <string id="lh_enc_pick_topic" text="選擇要閱讀的主題:" />
-    <string id="lh_enc_read" text="閱讀" />
-    <string id="lh_enc_back" text="返回主題" />
     <string id="lh_enc_close" text="關閉" />
 
-    <string id="lh_enc_topic_teef_economy_title" text="牙齒經濟" />
-    <string id="lh_enc_topic_teef_economy_body" text="對獸人和哥布林玩家而言,牙齒經濟始終啟用 — 不會中途切換,開局也沒有對話。人類、矮人、吸血鬼依然使用金錢。{newline}{newline}你扮演獸人時:{newline}- 在獸人聚居地用牙齒支付一切,不用金錢。{newline}- 在非獸人聚居地(帝國、布萊顿等)仍然支付金錢。{newline}- 牙齒僅在真實戰鬥中獲得:擊殺 T4+ 兵種、擊殺領主、鬥毆勝利、城堡挑戰、所擁有獸人領地的每日貢品。{newline}- 獸人隊伍不會消耗你氏族的金錢 — 未付薪水的士氣懲罰已對獸人隊伍抑製(反正也不付他們)。{newline}- 每日牙齒收入設有上限,防止 AI 獸人領主席卷地圖。" />
 
-    <string id="lh_enc_topic_career_path_title" text="晉升:從惡霸到老大" />
-    <string id="lh_enc_topic_career_path_body" text="獸人晉升路線在角色創建時選擇,有兩條道路:惡霸之路(成長為老大)或薩滿之路。{newline}{newline}相比 vanilla TOR,Lore-Hardcore 已降低要求:{newline}- 第 2 階段(老大):武器技能 80/80/30,30 場戰鬥,5 次比武,10 場鬥毆,2000 牙齒。{newline}- 第 3 階段(老大):武器技能 150/120/60,70 場戰鬥,15 次比武,20 場鬥毆,5 次領主決鬥,佔領 5 座城市,10000 牙齒。{newline}- 第 2 階段(薩滿):在圣所祈禱,法術 50,信仰 50,3 次附魔,2000 牙齒,洗劫 5 座圣所。{newline}- 第 3 階段(薩滿):法術 120,信仰 100,8 次附魔,10000 牙齒,5 座城市,30 座圣所。" />
 
-    <string id="lh_enc_topic_orc_morale_waaagh_title" text="獸人士氣與 WAAAGH!" />
-    <string id="lh_enc_topic_orc_morale_waaagh_body" text="獸人隊伍士氣與 AI 缩放已重新平衡。{newline}{newline}- 獸人領主基礎 +40% HP 和 +30% 戰鬥技能。{newline}- 士氣倍率:×1.5(獸人比人類更具侵略性)。{newline}- 精英獸人(黑獸人、老大、狂戰士、大塊头)無所畏懼 — 永遠不會因士氣低或人數劣勢而恐慌。{newline}- WAAAGH! 鄰近增益在大規模獸人攻勢中疊加。{newline}{newline}AI 平衡(防止獸人雪球):{newline}- AI 獸人領主隊伍規模軟上限:80 單位。{newline}- 元帥軍團最多容納 5 隊(領头 + 4 召集) — 獸人以 400-500 的小軍團進攻,而非 3000。{newline}- AI 力量評估:獸人 ×1.8,哥布林 ×0.8,巨魔/大塊头/戰爭老大 ×3.0 — 帝國 AI 現在能正確評估獸人威脅。{newline}- Massif Choppas 由 22 減至 14 名領主;Crooked Eye 與 Red Eye 減至 17 名。首都繁榮度已重新平衡。{newline}{newline}玩家隊伍仍使用普通 vanilla 上限。" />
 
-    <string id="lh_enc_topic_castle_challenge_title" text="城堡挑戰決鬥" />
-    <string id="lh_enc_topic_castle_challenge_body" text="造訪獸人城堡時,你可以以牙齒賭注向精英獸人發起決鬥。{newline}{newline}- 勝利:精英獸人作為戰利品單位加入你的隊伍,另加 +15 牙齒。{newline}- 失敗:賭注落空,城堡聲望暫時下降。{newline}{newline}視城堡而定的精英對手:大塊头、老大、黑獸人、蠻獸、狂戰士。各有不同價格與難度。{newline}{newline}賭注隨精英等級缩放 — 大塊头約 50 牙齒,黑獸人約 150 牙齒,老大約 250 牙齒。{newline}{newline}決鬥本身是城堡場景中的真實 1v1 戰鬥。無詭計、無自動結算。" />
 
-    <string id="lh_enc_topic_orc_sieges_ram_title" text="獸人圍城與攻城錘" />
-    <string id="lh_enc_topic_orc_sieges_ram_body" text="Lore-Hardcore 中獸人圍城運作不同。{newline}{newline}- 獸人不能建造投石機。設定:帶配重與拋物軌跡數學的機器對獸人來說過於精密。可用攻城武器:弩炮、投石器、拋石機(含火焰變種)。{newline}- 攻城錘強化:5 倍傷害,3.5 倍耐久。城門 5-10 擊即破,而非 vanilla 的 30+。設定:一根帶磨牙顱骨、鐵製覆面、由 8 個肌肉獸人推動的巨木。{newline}- 自動結算獲得相同攻城錘增益,使獸人圍城在場景與跳過兩種模式下感覺一致。" />
 
-    <string id="lh_enc_topic_prisoner_cannibalism_title" text="俘虜食人" />
-    <string id="lh_enc_topic_prisoner_cannibalism_body" text="獸人不會就地處決俘虜。肉只來源於行軍中的飢餓食人。{newline}{newline}戰鬥後:{newline}- 戰利品界面自動屠宰:0 肉(無論俘虜多少)。{newline}- 軍需官的「屠宰」按鈕:0 肉。{newline}- 擊殺產肉(TOR 自動公式):玩家勝利時為 0。{newline}{newline}從俘虜獲取肉的唯一方式 — 帶著他們,粮草耗盡,等待。儲藏空空時每個遊戲小時:{newline}1. 優先吃俘虜。每人 = 1 肉。{newline}2. 然後吃哥布林。每個 = 1 肉。{newline}3. 領主與同伴絕不被吃(領主 = 贖金,同伴 = 任務線)。{newline}{newline}設定:獸人在路上活吃俘虜,而非屠夫的砧板上。{newline}{newline}AI 獸人隊伍保留 vanilla TOR 的戰鬥產肉公式,以免餓死。" />
 
-    <string id="lh_enc_topic_brawl_arena_title" text="綠皮鬥毆競技場" />
-    <string id="lh_enc_topic_brawl_arena_body" text="綠皮鬥毆是獸人聚居地特有的拳鬥競技場。{newline}{newline}- 每場 18 名敵人(遠比 vanilla 競技場大)。{newline}- 獎勵基於你的個人擊殺數,而非僅僅生存。{newline}- 逃出場地墜入越界區的敵人每秒自動擊殺一次,以免比賽卡死。{newline}- 哥布林不再生成在競技場屋頂上(舊 TOR 放置錯誤)。{newline}- 勝利條件:成為最後站立者,或如你存活時擁有最多擊殺的隊伍。{newline}- 在徵服的非獸人城市(布萊顿、帝國酒館)鬥毆氛圍著色器被抑製,以避免老舊 GPU 上的「cannot find entry point」錯誤。{newline}{newline}用途:訓練單手技能、賺取牙齒、完成獸人晉升任務的鬥毆目標。" />
 
-    <string id="lh_enc_topic_execute_enemy_buff_title" text="處決種族敵人" />
-    <string id="lh_enc_topic_execute_enemy_buff_body" text="當獸人玩家處決被俘的種族敵人領主時,獸人隊伍會慶祝 — 而非哀悼。{newline}{newline}vanilla Bannerlord 對每次處決懲罰 -1000 榮誉經驗。對獸人來說,殺死矮人、吸血鬼、精靈或帝國領主是壯舉,而非罪孽。{newline}{newline}Lore-Hardcore 添加增益:{newline}- 榮誉經驗完全補償(+1000),vanilla 懲罰被取消。{newline}- 仁慈特質獲得象徵性 +1 經驗(狀態平衡)。{newline}- 獸人隊伍立即 +10 士氣。{newline}- 一條綠色消息確認增益已應用。{newline}{newline}僅當玩家是獸人文化(TOR 中的 aserai)且受害者為種族敵人時生效:矮人(sturgia)、吸血鬼伯爵(khuzait)、帝國、布萊顿(vlandia)、木精靈(battania)、Eonir、Mousillon、血龍、混沌、高等精靈、黑暗精靈。{newline}{newline}處決自己族類(其他獸人)保留 vanilla 懲罰 — 這對獸人戰爭領主是恥辱。" />
 
     <!-- ========== Lore-Hardcore Settings UI (v0.1.5+) ========== -->
     <string id="lh_set_title" text="Lore-Hardcore — 設定" />
@@ -160,63 +136,63 @@
     <string id="lh_set_toggle_on" text="開" />
     <string id="lh_set_toggle_off" text="關" />
     <string id="lh_set_OrcHPMultWithPlayer_lbl" text="獸人 HP(有玩家)" />
-    <string id="lh_set_OrcHPMultWithPlayer_desc" text="存在 PlayerTeam 的即時戰鬥中獸人 HP 的乘數。" />
+    <string id="lh_set_OrcHPMultWithPlayer_desc" text="在你親自參與的即時戰鬥中對獸人 HP 套用乘數。1.0 = 原版。對戰場上的友方和敵方獸人都有效。範例：1.26 會把 100 HP 的獸人變成 126 HP，讓獸人多撐幾下攻擊。" />
     <string id="lh_set_OrcHPMultAINoPlayer_lbl" text="獸人 HP(AI vs AI)" />
-    <string id="lh_set_OrcHPMultAINoPlayer_desc" text="無玩家的 AI vs AI 戰鬥中獸人 HP 的乘數。" />
+    <string id="lh_set_OrcHPMultAINoPlayer_desc" text="沒有你參與、由 AI 之間結算的戰鬥（自動解算、地圖外戰鬥）中獸人的 HP 乘數。刻意低於有玩家參與時的數值，以免 AI 獸人軍隊勢不可擋。範例：1.08 = +8% HP。" />
     <string id="lh_set_OgreHPMultAINoPlayer_lbl" text="食人魔 HP(AI vs AI)" />
     <string id="lh_set_OgreHPMultAINoPlayer_desc" text="AI vs AI 戰鬥中巨魔 / Big Uns / Black Orcs 的 HP 乘數。比普通獸人低，因為引擎沒有圍攻機制 — 沒有這個削弱，3 個巨魔可以殺死 50 個人類。" />
     <string id="lh_set_GoblinHPMult_lbl" text="哥布林 HP" />
-    <string id="lh_set_GoblinHPMult_desc" text="所有哥布林的 HP 乘數。" />
+    <string id="lh_set_GoblinHPMult_desc" text="所有哥布林的 HP 乘數，目的是讓他們保持脆弱炮灰的定位。範例：0.40 = 原版 HP 的 40%，哥布林死得很快，以抵消其廉價的大規模招募。" />
     <string id="lh_set_OrcAttackerOnPlayerSide_lbl" text="友軍獸人造成傷害" />
-    <string id="lh_set_OrcAttackerOnPlayerSide_desc" text="玩家一方獸人的傷害乘數。" />
+    <string id="lh_set_OrcAttackerOnPlayerSide_desc" text="為你而戰的獸人造成傷害的乘數。越高 = 你的獸人打得越痛。範例：1.20 = 友方獸人造成的傷害 +20%。" />
     <string id="lh_set_OrcAttackerEnemyOfPlayer_lbl" text="敵方獸人造成傷害" />
-    <string id="lh_set_OrcAttackerEnemyOfPlayer_desc" text="與玩家對抗的獸人的傷害乘數。" />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_desc" text="與你為敵的獸人造成傷害的乘數。越低 = 敵方獸人打得越輕，戰鬥依然有勝算。範例：0.70 = 敵方獸人造成 70% 傷害。" />
     <string id="lh_set_OrcVictimOnPlayerSide_lbl" text="友軍獸人承受傷害" />
     <string id="lh_set_OrcVictimOnPlayerSide_desc" text="你方獸人被擊中時的傷害乘數(越低越耐打)。" />
     <string id="lh_set_OrcVictimEnemyOfPlayer_lbl" text="敵方獸人承受傷害" />
-    <string id="lh_set_OrcVictimEnemyOfPlayer_desc" text="敵方獸人被擊中時的傷害乘數(越高越易殺)。" />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_desc" text="敵方獸人所受傷害的乘數。越高 = 敵方獸人越容易被殺死。範例：1.15 = 敵方獸人從你的部隊受到的傷害增加 15%。" />
     <string id="lh_set_AxeShieldDmgMult_lbl" text="斧 vs 木盾" />
-    <string id="lh_set_AxeShieldDmgMult_desc" text="斧頭擊中木盾的傷害乘數。" />
+    <string id="lh_set_AxeShieldDmgMult_desc" text="斧頭對木盾造成的額外傷害，讓持斧的獸人部隊快速劈碎盾牌。範例：4.0 = 對木盾造成 4 倍傷害，幾下就能打碎。" />
     <string id="lh_set_MaceShieldDmgMult_lbl" text="鈍器/錘 vs 金屬盾" />
     <string id="lh_set_MaceShieldDmgMult_desc" text="鈍器（釘頭錘、戰錘、雙手戰錘）擊中金屬盾的傷害乘數。劍和斧幾乎無法劃傷金屬，但重擊能將其砸凹。例如：4.0 = 4倍傷害，金屬盾幾下就被打破。1.0 = 原版（關閉）。" />
     <string id="lh_set_OrcAgentStructDmgMult_lbl" text="食人魔對城門傷害" />
-    <string id="lh_set_OrcAgentStructDmgMult_desc" text="即時戰鬥中食人魔 / Big Un / 巨魔對城門的傷害。" />
+    <string id="lh_set_OrcAgentStructDmgMult_desc" text="食人魔體型的單位（食人魔、大塊頭、巨魔）在即時戰鬥中對城門和可破壞物造成的傷害。調低可防止攻城瞬間結束。範例：0.20 = 基礎結構傷害的 20%。" />
     <string id="lh_set_OrcKickStunMult_lbl" text="獸人踢擊暈眩時長" />
-    <string id="lh_set_OrcKickStunMult_desc" text="獸人踢擊施加的暈眩時長。" />
+    <string id="lh_set_OrcKickStunMult_desc" text="獸人踢擊使目標暈眩的時長。越高 = 硬直越長，獸人可以追加攻擊。範例：2.5 = 暈眩持續原版的 2.5 倍。" />
     <string id="lh_set_OrcShieldBashStunMult_lbl" text="獸人盾擊暈眩" />
     <string id="lh_set_OrcShieldBashStunMult_desc" text="獸人盾擊的暈眩時長。" />
     <string id="lh_set_OrcSkillMult_lbl" text="獸人戰鬥技能" />
-    <string id="lh_set_OrcSkillMult_desc" text="獸人戰鬥技能的乘數(單手、雙手、長杆)。" />
+    <string id="lh_set_OrcSkillMult_desc" text="獸人武器技能（單手、雙手、長柄）的乘數，這些技能決定精度、傷害和揮砍速度。範例：1.30 = 技能 +30%，獸人打得更痛也更穩定。" />
     <string id="lh_set_TrollAthleticsMult_lbl" text="巨魔奔跑" />
-    <string id="lh_set_TrollAthleticsMult_desc" text="巨魔的奔跑技能(越低越慢)。" />
+    <string id="lh_set_TrollAthleticsMult_desc" text="巨魔的移動速度（奔跑技能）。越低 = 巨魔越慢，越容易放風箏。範例：0.85 = 巨魔以 85% 的速度移動。" />
     <string id="lh_set_GoblinAthleticsMult_lbl" text="哥布林奔跑" />
     <string id="lh_set_GoblinAthleticsMult_desc" text="哥布林的奔跑技能(越高越快)。" />
     <string id="lh_set_GoblinSpeedMult_lbl" text="哥布林速度" />
     <string id="lh_set_GoblinSpeedMult_desc" text="哥布林步行速度的乘數。" />
     <string id="lh_set_OrcMoraleWaaaghMult_lbl" text="WAAAGH! 士氣加成" />
-    <string id="lh_set_OrcMoraleWaaaghMult_desc" text="獸人一方每次擊殺的士氣獲取乘數。" />
+    <string id="lh_set_OrcMoraleWaaaghMult_desc" text="獸人一方每次擊殺獲得的士氣（WAAAGH! 效果）。越高 = 獸人越不容易潰逃，優勢戰鬥會滾雪球。範例：1.50 = 擊殺時士氣獲取 +50%。" />
     <string id="lh_set_AILordHardCap_lbl" text="AI 領主部隊規模上限" />
-    <string id="lh_set_AILordHardCap_desc" text="AI 獸人領主部隊規模的硬上限。對增長立即生效,超額的現有部隊會逐漸縮減。" />
+    <string id="lh_set_AILordHardCap_desc" text="AI 獸人領主的最大部隊規模。增長立即受限；超額的部隊會隨時間縮減。範例：140 會把 AI 獸人領主限制在 140 名士兵，而不是無限增長。" />
     <string id="lh_set_MaxOrcCalledParties_lbl" text="每個 WAAAGH! 的部隊數" />
     <string id="lh_set_MaxOrcCalledParties_desc" text="可加入元帥的部隊數。軍隊 = 領袖 + N。上限 = (1+N) x 單領主上限。" />
     <string id="lh_set_MilPowerEliteEstimate_lbl" text="精英戰力(AI 估值)" />
-    <string id="lh_set_MilPowerEliteEstimate_desc" text="AI 估算精英獸人戰力的方式。影響戰/逃決策。" />
+    <string id="lh_set_MilPowerEliteEstimate_desc" text="AI 在決定進攻還是逃跑時「認為」精英獸人有多強。必須與精英實際戰力值一致，否則獸人會誤判戰鬥。越高 = 越好鬥。範例：2.80。" />
     <string id="lh_set_MilPowerOrcEstimate_lbl" text="獸人戰力(AI 估值)" />
-    <string id="lh_set_MilPowerOrcEstimate_desc" text="AI 對普通獸人戰力的估值。" />
+    <string id="lh_set_MilPowerOrcEstimate_desc" text="AI 對普通獸人戰力的估值，用於戰/逃決策。請保持與獸人實際戰力值相等。範例：1.60。" />
     <string id="lh_set_MilPowerGoblinEstimate_lbl" text="哥布林戰力(AI 估值)" />
     <string id="lh_set_MilPowerGoblinEstimate_desc" text="AI 對哥布林戰力的估值。" />
     <string id="lh_set_MilPowerEliteCombat_lbl" text="精英戰力(戰鬥)" />
-    <string id="lh_set_MilPowerEliteCombat_desc" text="自動解算中精英獸人的實際戰力。" />
+    <string id="lh_set_MilPowerEliteCombat_desc" text="自動解算中精英獸人的實際戰力。決定他們在模擬戰鬥中的實際勝負程度。範例：2.80 表示一名精英約等於 2.8 名普通士兵。" />
     <string id="lh_set_MilPowerOrcCombat_lbl" text="獸人戰力(戰鬥)" />
     <string id="lh_set_MilPowerOrcCombat_desc" text="普通獸人的實際戰力。" />
     <string id="lh_set_MilPowerGoblinCombat_lbl" text="哥布林戰力(戰鬥)" />
     <string id="lh_set_MilPowerGoblinCombat_desc" text="哥布林的實際戰力。" />
     <string id="lh_set_OrcCastleHireChance_lbl" text="AI 城堡招募機率" />
-    <string id="lh_set_OrcCastleHireChance_desc" text="AI 領主在城堡每小時購買精英獸人的機率。" />
+    <string id="lh_set_OrcCastleHireChance_desc" text="駐留在城堡中的 AI 獸人領主每小時購買一名精英獸人的機率。越高 = AI 更快組建精英部隊。範例：0.25 = 在城堡中每小時 25%。" />
     <string id="lh_set_OrcCastleHireVirtualChance_lbl" text="虛擬招募機率" />
-    <string id="lh_set_OrcCastleHireVirtualChance_desc" text="領主不在城堡內但其家族擁有城堡時的「如同訪問過」每小時招募機率。" />
+    <string id="lh_set_OrcCastleHireVirtualChance_desc" text="領主本人不在城堡內、但其家族擁有城堡時的「如同訪問過」每小時招募機率。讓領主在外遊蕩時 AI 精英也能持續補充。範例：0.05 = 每小時 5%。" />
     <string id="lh_set_OrcCastleHireGoldBuffer_lbl" text="AI 金幣儲備(城堡)" />
-    <string id="lh_set_OrcCastleHireGoldBuffer_desc" text="AI 在城堡購買後保留的最低金幣。" />
+    <string id="lh_set_OrcCastleHireGoldBuffer_desc" text="AI 在城堡購買精英後保留的最低金幣，確保它不會破產。範例：500 = 只有購買後仍高於 500 金幣時 AI 才會購買。" />
     <string id="lh_set_OrcVillageGoblinHireChance_lbl" text="AI 哥布林招募機率" />
     <string id="lh_set_OrcVillageGoblinHireChance_desc" text="AI 領主在村莊每小時購買一對哥布林的機率。" />
     <string id="lh_set_OrcVillageGoblinPairPrice_lbl" text="哥布林對價格" />
@@ -226,31 +202,33 @@
     <string id="lh_set_OrcVillageGoblinGoldBuffer_lbl" text="AI 金幣儲備(村莊)" />
     <string id="lh_set_OrcVillageGoblinGoldBuffer_desc" text="AI 在村莊購買後保留的最低金幣。" />
     <string id="lh_set_TrollAIRecruitChance_lbl" text="AI 巨魔招募機率" />
-    <string id="lh_set_TrollAIRecruitChance_desc" text="AI 領主每次訪問在獸人聚居地招到巨魔的機率。" />
+    <string id="lh_set_TrollAIRecruitChance_desc" text="AI 獸人領主每次訪問獸人聚居地時招到一隻巨魔的機率。故意設得很低，巨魔稀有而強大。範例：0.02 = 每次訪問 2%。" />
     <string id="lh_set_TrollAICapPerParty_lbl" text="AI 單部隊巨魔上限" />
-    <string id="lh_set_TrollAICapPerParty_desc" text="AI 領主可持有的最多巨魔數。" />
+    <string id="lh_set_TrollAICapPerParty_desc" text="單個 AI 獸人領主能擁有的巨魔上限。範例：1 = 每支 AI 部隊最多一隻巨魔，避免軍隊堆滿巨魔。" />
     <string id="lh_set_OrcUpgradeMultiplier_lbl" text="升級花費乘數" />
-    <string id="lh_set_OrcUpgradeMultiplier_desc" text="應用於 vanilla 升級花費公式的乘數。" />
+    <string id="lh_set_OrcUpgradeMultiplier_desc" text="獸人部隊升級費用原版公式的乘數。越高 = 升級獸人花費更多金幣。範例：1.0 = 原版費用。" />
     <string id="lh_set_OrcUpgradeMinCost_lbl" text="獸人升級最低花費" />
-    <string id="lh_set_OrcUpgradeMinCost_desc" text="獸人單位升級的最低金幣花費。" />
+    <string id="lh_set_OrcUpgradeMinCost_desc" text="獸人升級的最低金幣費用，避免低級升級幾乎免費。範例：50 = 任何獸人升級都不低於 50 金幣。" />
     <string id="lh_set_GoblinUpgradeMinCost_lbl" text="哥布林升級最低花費" />
     <string id="lh_set_GoblinUpgradeMinCost_desc" text="哥布林升級的最低金幣花費。" />
     <string id="lh_set_OrcEliteAIDiscount_lbl" text="AI 精英折扣" />
-    <string id="lh_set_OrcEliteAIDiscount_desc" text="AI 支付精英獸人花費 x N(1.0 = 全價)。" />
+    <string id="lh_set_OrcEliteAIDiscount_desc" text="AI 購買精英獸人時支付的價格比例（1.0 = 全價）。越低 = AI 組建精英比你更便宜。範例：0.60 = AI 支付精英價格的 60%。" />
+    <string id="lh_set_OrcEliteTeefUpkeepMultiplier_lbl" text="精銳牙齒維持費" />
+    <string id="lh_set_OrcEliteTeefUpkeepMultiplier_desc" text="在牙齒經濟中,維持你的精銳(T4+)每天需要多少牙齒。每單位基礎費率:T4=1、T5=2、T6=3 牙齒/天,乘以該數值。T1–T3 和哥布林始終免費。0 = 關閉(精銳免費,舊機制)。1 = 標準。2–3 = 硬核。範例:20 個黑獸人(T5)×1 = 每天 40 顆牙齒。牙齒耗盡時小子們會發怒(士氣下降,原因顯示在隊伍士氣提示中),一兩天後精銳開始逃跑。" />
     <string id="lh_set_OrcChopMeatRegular_lbl" text="普通俘虜每個肉量" />
     <string id="lh_set_OrcChopMeatRegular_desc" text="宰殺一名普通俘虜獲得的肉量。" />
     <string id="lh_set_OrcChopMeatLarge_lbl" text="大型俘虜每個肉量" />
     <string id="lh_set_OrcChopMeatLarge_desc" text="宰殺一名大型俘虜(巨魔、米諾陶)獲得的肉量。" />
     <string id="lh_set_BrawlGoldMult_lbl" text="鬥毆金幣乘數" />
-    <string id="lh_set_BrawlGoldMult_desc" text="贏得鬥毆的金幣獎勵 x N。" />
+    <string id="lh_set_BrawlGoldMult_desc" text="贏得酒館鬥毆的金幣獎勵乘數。調低可遏制輕鬆刷金。範例：0.50 = 原版鬥毆獎勵的一半。" />
     <string id="lh_set_ShrineLootGold_lbl" text="神龕掠奪金幣" />
     <string id="lh_set_ShrineLootGold_desc" text="掠奪神龕的金幣獎勵。" />
     <string id="lh_set_OrcExtorsionMinTier_lbl" text="勒索最低階級" />
-    <string id="lh_set_OrcExtorsionMinTier_desc" text="僅 Tier >= N 的獸人通過勒索產出牙齒。" />
+    <string id="lh_set_OrcExtorsionMinTier_desc" text="只有達到此 Tier 及以上的獸人才能通過勒索產出牙齒。越高 = 賺牙齒的低級獸人越少。範例：4 = 僅 Tier 4+ 的獸人勒索。" />
     <string id="lh_set_HideoutCooldownDays_lbl" text="巢穴冷卻(天)" />
-    <string id="lh_set_HideoutCooldownDays_desc" text="被清剿的巢穴重新激活前需要的天數。" />
+    <string id="lh_set_HideoutCooldownDays_desc" text="被清剿的強盜巢穴在可以重新出現之前消失的天數。越高 = 清剿後的巢穴消失得越久。範例：60 天（約 2 個月）。" />
     <string id="lh_set_MaxHideouts_lbl" text="每個派系巢穴上限" />
-    <string id="lh_set_MaxHideouts_desc" text="同時激活的巢穴最大數。" />
+    <string id="lh_set_MaxHideouts_desc" text="單個強盜派系（逃兵、邪教徒、獸人掠奪者等）能同時在地圖上保持啟用的巢穴數量。TOR 把原版的 9 提高到 30，導致地圖上巢穴氾濫——此項將其重新限制。越低 = 巢穴越少。已有的超額巢穴會隨著你的清剿逐漸減少。範例：7。" />
     <string id="lh_set_TrollCaveMaxRaidParties_lbl" text="巨魔劫掠部隊上限" />
     <string id="lh_set_TrollCaveMaxRaidParties_desc" text="單個洞穴同時存活的劫掠部隊數。" />
     <string id="lh_set_TrollCaveDailySpawnChance_lbl" text="每日生成機率" />
@@ -263,66 +241,39 @@
     <string id="lh_set_TrollCaveTroopLimit_desc" text="進入洞穴清剿可帶的兵力(vanilla 20)。7 名巨魔即使 1 對 1 也能碾壓 20 名人類 — 40 給出數值上的機會。" />
     <string id="lh_set_TrollCaveLureAllowed_lbl" text="允許引誘巨魔" />
     <string id="lh_set_TrollCaveLureAllowed_desc" text="啟用 — 在洞穴選單添加「引誘巨魔(10 肉)」選項。預設關閉(平衡:10 肉換 T6 巨魔可被濫用)。" />
-    <string id="lh_set_EnableOrcHPBuff_lbl" text="獸人 HP 增益" />
-    <string id="lh_set_EnableOrcHPBuff_desc" text="完全禁用獸人 HP 乘數。" />
-    <string id="lh_set_EnableOrcDamageMods_lbl" text="陣營感知傷害" />
-    <string id="lh_set_EnableOrcDamageMods_desc" text="傷害依玩家所屬一方變化。" />
-    <string id="lh_set_EnableTeefEconomy_lbl" text="牙齒經濟" />
-    <string id="lh_set_EnableTeefEconomy_desc" text="以牙齒而非金幣招募獸人。" />
-    <string id="lh_set_EnableOrcArmyCaps_lbl" text="獸人軍隊上限" />
-    <string id="lh_set_EnableOrcArmyCaps_desc" text="部隊和軍隊規模上限。" />
-    <string id="lh_set_EnableTrollCaveNerf_lbl" text="巨魔洞穴削弱" />
-    <string id="lh_set_EnableTrollCaveNerf_desc" text="降低巨魔生成率和劫掠規模。" />
-    <string id="lh_set_EnableHideoutCooldown_lbl" text="巢穴冷卻" />
-    <string id="lh_set_EnableHideoutCooldown_desc" text="被清剿的巢穴 60 天內保持關閉。" />
-    <string id="lh_set_EnableBrawlRewardNerf_lbl" text="鬥毆獎勵削弱" />
-    <string id="lh_set_EnableBrawlRewardNerf_desc" text="削減鬥毆的金幣獎勵。" />
-    <string id="lh_set_EnableShrineLootNerf_lbl" text="神龕掠奪削弱" />
-    <string id="lh_set_EnableShrineLootNerf_desc" text="神龕只產金幣 — 無肉無牙齒。" />
     <string id="lh_set_EnableOrcCareerQuestNerf_lbl" text="晉升任務削弱" />
-    <string id="lh_set_EnableOrcCareerQuestNerf_desc" text="降低獸人晉升任務的要求。" />
+    <string id="lh_set_EnableOrcCareerQuestNerf_desc" text="降低獸人職業任務的要求（武器技能訓練次數、戰鬥、決鬥、賺取的牙齒）。關閉 = 原版任務要求。" />
     <string id="lh_set_EnableOrcNoTrebuchet_lbl" text="獸人不造投石機" />
-    <string id="lh_set_EnableOrcNoTrebuchet_desc" text="獸人不建造複雜的攻城器械。" />
+    <string id="lh_set_EnableOrcNoTrebuchet_desc" text="獸人不建造複雜的攻城器械，只造弩炮和攻城錘。關閉 = 獸人可以像原版一樣建造配重投石機。" />
     <string id="lh_set_EnableAxeShieldBonus_lbl" text="斧頭破盾" />
     <string id="lh_set_EnableAxeShieldBonus_desc" text="斧頭對木盾造成額外傷害。" />
     <string id="lh_set_EnableMaceShieldBonus_lbl" text="鈍器破盾" />
-    <string id="lh_set_EnableMaceShieldBonus_desc" text="鈍器（釘頭錘、戰錘）對金屬盾造成額外傷害。" />
+    <string id="lh_set_EnableMaceShieldBonus_desc" text="鈍器對金屬盾額外傷害（釘頭錘、戰錘）的開關。關閉 = 鈍器對盾牌造成原版傷害。" />
     <string id="lh_health_title" text="Lore-Hardcore：相容性檢查" />
     <string id="lh_ck_duel_abort" text="無法在此開始決鬥。到開闊地帶挑戰國王。" />
-    <string id="lh_health_intro" text="部分 Lore-Hardcore 功能被其他模組阻擋：" />
     <string id="lh_health_ui" text="地圖時間面板（額外加速按鈕和混沌進度條）無法新增。" />
     <string id="lh_health_suspect" text="可能原因：{LIST}" />
     <string id="lh_health_footer" text="請在 TOR 之後載入 Lore-Hardcore。UIExtenderEx、MCM、ButterLib 等程式庫是必需且無害的——請勿停用。若功能仍異常，可嘗試停用 UI/戰鬥大型模組。" />
-    <string id="lh_set_EnableGoblinSpeedBuff_lbl" text="哥布林加速" />
-    <string id="lh_set_EnableGoblinSpeedBuff_desc" text="哥布林 +50% 速度。" />
-    <string id="lh_set_EnableOrcKickStunBuff_lbl" text="長效踢擊暈眩" />
-    <string id="lh_set_EnableOrcKickStunBuff_desc" text="獸人踢擊的暈眩時間更長。" />
-    <string id="lh_set_EnableChaosVassalRecruit_lbl" text="混沌招募" />
-    <string id="lh_set_EnableChaosVassalRecruit_desc" text="混沌封臣可招募混沌單位。" />
-    <string id="lh_set_EnableBrawlRandomSpawn_lbl" text="鬥毆隨機出生" />
-    <string id="lh_set_EnableBrawlRandomSpawn_desc" text="玩家在競技場隨機位置出生。" />
-    <string id="lh_set_EnableRecruitIconSwap_lbl" text="牙齒圖示" />
-    <string id="lh_set_EnableRecruitIconSwap_desc" text="招募選單顯示牙齒圖示而非金幣。" />
     <string id="lh_set_EnableOrcRace_lbl" text="啟用獸人重製" />
     <string id="lh_set_EnableOrcRace_desc" text="所有獸人種族變更的總開關。關閉將停用所有獸人修補與行為，使綠皮使用純淨原版舊世界機制。需要重啟遊戲。" />
     <string id="lh_set_EnableChaosRace_lbl" text="啟用混沌重製" />
     <string id="lh_set_EnableChaosRace_desc" text="所有混沌種族變更的總開關。關閉將停用所有混沌修補與行為。需要重啟遊戲。涵蓋：在酒館和村莊招募混沌單位、與黑暗派系和平、友好的邪教徒藏身处、混沌恩賜（轉化）等。" />
     <string id="lh_set_ChaosVassalageTributeRequired_lbl" text="附庸關係貢金（金幣）" />
-    <string id="lh_set_ChaosVassalageTributeRequired_desc" text="混沌領主為接受玩家成為附庸，向諸神獻禮所需的金幣數量。" />
+    <string id="lh_set_ChaosVassalageTributeRequired_desc" text="混沌領主在接受你為附庸之前，作為獻給諸神的禮物所要求的金幣。越高 = 加入混沌前需要更久的積攢。範例：50000 金幣。" />
     <string id="lh_set_ChaosVassalageMinClanTier_lbl" text="附庸關係最低氏族等級" />
     <string id="lh_set_ChaosVassalageMinClanTier_desc" text="向混沌領主請求附庸關係所需的玩家氏族最低等級。" />
     <string id="lh_set_ChaosDarkPactMinClanTier_lbl" text="混沌恩賜最低氏族等級" />
     <string id="lh_set_ChaosDarkPactMinClanTier_desc" text="進行轉化儀式進入混沌文化所需的玩家氏族最低等級。" />
     <string id="lh_set_ChaosDarkPactSkillXpBoost_lbl" text="轉化時技能經驗值加成" />
-    <string id="lh_set_ChaosDarkPactSkillXpBoost_desc" text="接受混沌恩賜時，玩家各項戰鬥技能獲得的經驗值數量。" />
+    <string id="lh_set_ChaosDarkPactSkillXpBoost_desc" text="在你接受混沌恩賜的那一刻，每項戰鬥技能獲得的經驗值。越高 = 一次性的實力提升越大。範例：每項技能 5000 經驗值。" />
     <string id="lh_set_ChaosTemptingBaseProgressPerDay_lbl" text="每日誘惑進度" />
-    <string id="lh_set_ChaosTemptingBaseProgressPerDay_desc" text="被俘虜期間每日增加的誘惑進度點數。預設 1.5，約需 67 天獲得恩賜。" />
+    <string id="lh_set_ChaosTemptingBaseProgressPerDay_desc" text="領主作為你的俘虜期間，每天增加的誘惑進度。進度條朝著轉化填滿。範例：每天 1.5，約 67 天獲得恩賜。" />
     <string id="lh_set_ChaosTemptingChaosCultureBonus_lbl" text="混沌玩家加成" />
-    <string id="lh_set_ChaosTemptingChaosCultureBonus_desc" text="若玩家已屬混沌文化（獲得恩賜後）的進度倍率。預設 0.5 = +50%。" />
+    <string id="lh_set_ChaosTemptingChaosCultureBonus_desc" text="若你已屬於混沌文化（獲得恩賜後），額外增加的誘惑進度。範例：0.5 = 轉化速度加快 +50%。" />
     <string id="lh_set_ChaosTemptingThreshold_lbl" text="轉化閾值" />
     <string id="lh_set_ChaosTemptingThreshold_desc" text="俘虜準備接受混沌恩賜所需的進度。預設 100。" />
     <string id="lh_set_ChaosTemptingPerConversionPenalty_lbl" text="每次先前轉化的懲罰" />
-    <string id="lh_set_ChaosTemptingPerConversionPenalty_desc" text="每位已轉化的領主將降低速率 N（隨時間變難）。預設 0.10 = -10%。" />
+    <string id="lh_set_ChaosTemptingPerConversionPenalty_desc" text="你已轉化的每位領主都會按此比例減慢後續轉化，因此一個比一個難。範例：0.10 = 每有一次先前轉化，速率 -10%。" />
     <string id="lh_set_ChaosTemptingDecayPerDayWhenFree_lbl" text="自由時每日進度衰減" />
     <string id="lh_set_ChaosTemptingDecayPerDayWhenFree_desc" text="若俘虜被釋放或逃脫，進度每日減少 N。預設 5。" />
     <string id="lh_set_ChaosNorscanHPMult_lbl" text="諾斯卡生命值加成" />
@@ -332,7 +283,7 @@
     <string id="lh_set_ChaosMinotaurHPMult_lbl" text="牛頭怪生命值加成" />
     <string id="lh_set_ChaosMinotaurHPMult_desc" text="牛頭怪（背景：巨大的野獸）的生命值倍率。預設 0.50 = +50%。" />
     <string id="lh_set_ChaosFodderUnitsPerCapBonus_lbl" text="每 +1 部隊上限所需單位數" />
-    <string id="lh_set_ChaosFodderUnitsPerCapBonus_desc" text="需要多少邪教徒或烏戈爾來增加 +1 部隊上限（炮灰機制）。預設 2。" />
+    <string id="lh_set_ChaosFodderUnitsPerCapBonus_desc" text="需要多少邪教徒或烏戈爾才能使部隊上限 +1（炮灰機制）。越低 = 上限增長越便宜。範例：每 +1 需要 2 名炮灰。" />
     <string id="lh_set_ChaosMinotaurInjectChance_lbl" text="牛頭怪招募機率（城堡）" />
     <string id="lh_set_ChaosMinotaurInjectChance_desc" text="造訪時將牛頭怪注入城堡城鎮第 5 槽位的機率。預設 0.20 = 20%。" />
     <string id="lh_set_ChaosUprisingCooldownDays_lbl" text="混沌起義間隔冷卻（天）" />
@@ -341,19 +292,10 @@
     <string id="lh_goblin_changer_hub_leave_p" text="下次吧，哥布。" />
     <string id="lh_goblin_changer_cooldown" text="嘿老大，昨天才給您呢！{DAYS}天後再來嘛，俺得多挖挖。" />
     <string id="lh_goblin_changer_hub_no_gold_p" text="現在沒那麼多閃閃。" />
-    <string id="lh_goblin_changer_intro" text="誒老~大！俺有牙換您的閃閃，要換不？嘿嘿！" />
     <string id="lh_goblin_changer_after_no_gold" text="嘿嘿！沒閃閃就沒牙。先去掐幾個人類崽子吧，啊？" />
-    <string id="lh_goblin_changer_hub_trade" text="換啊: 1000閃閃換{AMOUNT}顆牙。" />
     <string id="lh_goblin_changer_after_trade" text="*哥布林數出{NOMINAL}顆牙，偷偷把{HIDDEN}枚硬幣塞進側兜。*生意就是生意，大老大！" />
-    <string id="lh_goblin_changer_town_ok" text="走開" />
-    <string id="lh_goblin_changer_town_title" text="哥布林換錢的" />
-    <string id="lh_goblin_changer_town_outcome" text="*哥布林在酒館桌上數出{NOMINAL}顆牙，迅速把{HIDDEN}枚硬幣塞進腰帶袋子裡，再把剩下的推到你面前。*生意就是生意，大老大！" />
-    <string id="lh_goblin_changer_town_intro" text="*角落桌邊一個狡猾的哥布林朝你招手，擺弄著一堆小硬幣，低聲說：*誒大老大！俺有牙換您的閃閃。1000閃閃——俺數出{NOMINAL}顆。會不會偷偷塞{HIDDEN}枚進側兜呢？也許吧……換不？" />
-    <string id="lh_goblin_changer_town_cancel" text="下次吧" />
-    <string id="lh_goblin_changer_town_option" text="到酒館找哥布林換零錢" />
     <string id="lh_goblin_changer_town_no_gold" text="*角落的哥布林嗅嗅你的錢包，哼了一聲。*嘿嘿！沒閃閃就沒牙。先去掐幾個人類崽子吧，啊？" />
     <string id="lh_goblin_changer_town_trade" text="換" />
-    <string id="lh_goblin_changer_town_cooldown" text="*酒館角落的哥布林警惕地瞥你一眼，轉過身去。*嘿老大，幾天前才給您呢！{DAYS}天後再來吧。" />
     <string id="lh_goblin_changer_intro_town" text="嘿大老大！俺這兒公平交易嘿嘿，兄弟們看著呢——絕無貓膩！換牙不？" />
     <string id="lh_goblin_changer_after_town_trade" text="*哥布林把整整{AMOUNT}顆牙數到你手心裡——乾淨又公平，兄弟們盯著看呢。*還要別的嗎，大老大？" />
     <string id="lh_goblin_changer_village_trade" text="換啊: 1000閃閃換{AMOUNT}顆牙。" />
@@ -372,7 +314,6 @@
     <string id="lh_chaos_tempt_popup_body" text="{HERO} 在囚禁中崩潰,已準備好接受混沌之賜。是否將其轉化並納入麾下?" />
     <string id="lh_chaos_tempt_popup_yes" text="轉化" />
     <string id="lh_chaos_tempt_popup_no" text="暫時不要" />
-    <string id="lh_chaos_upgrade_de" text="-{DE} 黑暗能量,用於 {COUNT}× {NAME}。" />
     <string id="lh_ungor_pierce_arrows" text="昂戈爾倒鉤箭" />
     <string id="str_tor_chaos_norscan_reaver" text="諾斯卡獵手" />
     <string id="str_tor_chaos_norscan_champion" text="諾斯卡狂戰士" />
@@ -399,16 +340,12 @@
     <string id="lh_chaos_lord_nolands" text="凡人,我們尚無寸土——無處收留你。待諸神賜予我們一座要塞,再回來吧。" />
     <string id="lh_chaos_hire_merc" text="以傭兵的身份效力於我的王座。" />
     <string id="lh_chaos_hire_merc_accept" text="諸神垂青你的黃金。我們的刀刃歸你,我的領主。" />
-    <string id="lh_chaos_lord_ask_leader" text="你的宗主此刻身在何處?" />
-    <string id="lh_chaos_lord_subordinate_response" text="我的宗主在 {LEADER_LOC}。我不過是他的一隻手。" />
     <string id="lh_chaos_lord_leave" text="只是路過而已。" />
-    <string id="lh_chaos_hideout_pass_peace" text="和平通過(黑暗諸神聽見了你的血)" />
     <string id="lh_chaos_hideout_recruit" text="從巢穴召喚混沌的僕從" />
     <string id="lh_chaos_portal_peace" text="在傳送門前俯首,和平通過" />
     <string id="lh_chaos_portal_recruit" text="從傳送門召喚混沌欽選者" />
     <string id="lh_chaos_recruit_cd" text="此地尚未聚足力量。稍後再來。" />
     <string id="lh_chaos_recruit_nogold" text="黃金不足,無法獻祭。" />
-    <string id="lh_chaos_portal_got" text="{NAME} 自傳送門中現身。" />
     <string id="lh_chaos_vassal_offer" text="我願侍奉黑暗諸神。" />
     <string id="lh_chaos_vassal_response_lord" text="哈！給我帶來 {VASSAL_GOLD} 金幣，我便接受你的誓言。" />
     <string id="lh_chaos_vassal_pay_p" text="黃金在此。" />
@@ -423,7 +360,6 @@
     <string id="lh_chaos_wand_skip" text="言歸正傳。我有活兒給你。" />
     <string id="lh_chaos_wand_hire" text="我需要你的本領。願意隨我同行嗎?" />
     <string id="lh_chaos_fodder_partysize" text="混沌炮灰" />
-    <string id="lh_enc_menu_button" text="Lore-Hardcore 指南" />
     <string id="lh_enc_race_orc" text="獸人" />
     <string id="lh_enc_race_chaos" text="混沌" />
     <string id="lh_enc_orc_overview_t" text="獸人改造 — 總覽" />
@@ -449,7 +385,7 @@
     <string id="lh_enc_chaos_gift_t" text="混沌之賜" />
     <string id="lh_enc_chaos_gift_b" text="混沌之賜是一場儀式,將你的英雄——以及你整個氏族——轉化為混沌文化。這是對黑暗諸神的深度投身。\n\n它的作用:\n- 將你英雄的文化改為混沌,且關鍵在於,同樣改變你氏族的文化。這很重要:若只有英雄改變,你持有的封地會因忠誠不匹配而受損。兩者皆被轉化,好讓混沌聚落對你保持忠誠。\n- 在遊戲支持之處,嘗試把你的外貌改向被混沌沾染的樣貌。\n- 賜予一陣戰鬥經驗的爆發,反映諸神注入新信徒體內的原始力量。\n\n如何獲得:在對話中請求一位混沌領主「讓你成為他們的一員」(適用最低氏族等級,在設定中設定)。轉化是永久的。\n\n獲賜之後,你便可在混沌領地自由招募黑暗部隊、和平通過邪教徒巢穴,並開始產生黑暗能量。" />
     <string id="lh_enc_chaos_darkenergy_t" text="黑暗能量" />
-    <string id="lh_enc_chaos_darkenergy_b" text="黑暗能量是混沌玩家的資源——黑暗諸神恩寵的具象顯現。它的運作如同獸人的牙齒或吸血鬼的風:一種只有你的陣營使用的特殊貨幣。\n\n如何賺取:\n- 以處決獻祭俘虜(諸神品味這份祭品)。\n- 隨著陣營壯大而進行的其他黑暗行徑。\n\n用於何處:\n- 升級精銳混沌部隊。將一個單位晉升為真正的混沌精銳,需要在普通升級之外額外支付黑暗能量。若你支付不起,該升級會在介面中被鎖定,直到你攢夠為止——因此你不會負債。\n\n黑暗能量永不會低於零,且只有當你與混沌結盟後才會顯現。可把它視為諸神為其最優秀的勇士所索取的代價:要成長,就必須不斷餵養他們。" />
+    <string id="lh_enc_chaos_darkenergy_b" text="黑暗能量是混沌玩家的資源——黑暗諸神恩寵的具象。它如同獸人的獠牙：只有你的陣營使用的特殊貨幣。只有在你皈依混沌後才能看到，且永不低於零。\n\n如何獲得：\n- 作為混沌僕從劫掠村莊（+80）。\n- 在祭壇上獻祭你的普通俘虜（任意聚落的「將你的俘虜獻祭給黑暗諸神」）。\n- 褻瀆舊神的聖壇（混沌的褻瀆選項，每隔數日）。\n- 處決敵方領主（+200）。\n- 完成黑暗諸神的任務（每個 +1000）。\n\n如何消耗：\n- 現在用於諸神任務；未來更新中用於對四神的虔誠以及傳送門處的黑暗法術。\n\n持續劫掠、獻祭與褻瀆以成長。" />
     <string id="lh_enc_chaos_troops_t" text="混沌部隊" />
     <string id="lh_enc_chaos_troops_b" text="混沌的軍隊把廉價炮灰與駭人的精銳混編在一起。\n\n陣容大致由弱到強:\n- 邪教徒與侍僧——人類狂信徒,純粹的炮灰。\n- 昂戈爾——體型較小的野獸人,同樣是炮灰。\n- 諾斯卡部落民及其冠軍——北方的人類戰士。他們獲得了生命值加成,使諾斯卡人比普通人更堅韌,正如背景設定所要求。\n- 戈爾及其精銳——體型較大的野獸人,生命值加成高於諾斯卡人。\n- 混沌戰士——黑暗諸神身披重甲的勇士。\n- 牛頭怪——擁有最高生命值加成的龐大怪物。\n\n炮灰機制:邪教徒與昂戈爾在你的部隊中佔據更少空間。你每攜帶一對這類單位,你的部隊上限便提高一名——與吸血鬼陣營的小型不死生物如出一轍。這讓廉價的烏合之眾保持可用,而不至於浪費寶貴的部隊名額。\n\n若你想要不同的平衡,所有生命值加成都可在設定中調整。" />
     <string id="lh_enc_chaos_recruiting_t" text="招募混沌部隊" />
@@ -466,17 +402,9 @@
     <string id="lh_ck_resp_lord" text="無禮的凡人！那就如你所願——諸神渴求鮮血。到城牆外的曠野上來見我。準備好了就來吧——我們之中有一人將看不到日落。" />
     <string id="lh_ck_accept_p" text="這王座將歸我所有。" />
     <string id="lh_ck_decline_p" text="時機未到。" />
-    <string id="lh_ck_disgraced_p" text="我再次向你挑戰！" />
-    <string id="lh_ck_taunt_lord" text="你早已試過自己的命運，被打倒在地，可悲的蟲子！黑暗諸神看穿了你的欺騙——這就是你的報應。" />
-    <string id="lh_ck_load_penalty" text="黑暗諸神已棄懦夫而去：你的混沌榮耀正在黯淡。" />
-    <string id="lh_ck_wound" text="諸神懲罰了你的傲慢。療好傷口，證明你配得上這王座。" />
-    <string id="lh_ck_defeat" text="混沌之王將你擊倒。{DAYS} 天後再來向他挑戰。" />
-    <string id="lh_ck_victory" text="你從混沌之王僵死的雙手中奪下了王座！黑暗諸神承認了新的主宰。這王國屬於你了。" />
-    <string id="lh_ck_victory_title" text="篡位者登上王座" />
     <string id="lh_ck_eligible" text="黑暗諸神的目光落在你身上！找到混沌之王——某個混沌王國的統治者——與他交談，為王座向他發起挑戰。" />
     <string id="lh_ck_bar_legend" text="混沌榮耀" />
     <string id="lh_ck_bar_ready" text="挑戰就緒" />
-    <string id="lh_ck_bar_disgrace" text="失寵" />
     <string id="lh_cw_bs_a" text="我以黑暗諸神之名走過了漫長的路。" />
     <string id="lh_cw_bs_b" text="鮮血與榮耀——如今唯有此事要緊。" />
     <string id="lh_cw_bs_c" text="弱者侍奉，強者統御。你是哪一種？" />
@@ -490,7 +418,7 @@
     <string id="lh_enc_chaos_market_t" text="受詛咒的集市" />
     <string id="lh_enc_chaos_market_b" text="混沌的武器與護甲為正直之人所避，只在混沌佔據的城鎮集市中出售。劫掠者裝備、邪教徒長袍、混沌武器、盾牌以及一匹混沌戰馬在任何混沌城鎮都有售；黑暗諸神（恐虐、納垢、奸奇、色孽）受祝福的戰甲與神選者的頭盔則只在都城——最繁榮的混沌城鎮——出售，且要價不菲。\n任何人都可在混沌城鎮購買，但受詛咒的貨物除混沌城鎮與村莊外無處可賣——別的商人絕不會碰它們。" />
     <string id="lh_enc_chaos_throne_t" text="推翻國王" />
-    <string id="lh_enc_chaos_throne_b" text="強權即公理。親手斬殺足夠多的敵人，黑暗諸神便會將你標記為現任混沌之王的對手。\n你的親手擊殺積累出一份混沌榮耀（顯示在地圖時鐘上方的條上）。侍奉混沌至少 30 天，並使你的混沌榮耀超過國王。諸神留意到時，便可向國王發起生死決鬥：你對陣國王及其兩名混沌戰士。\n獲勝，則王座、封地與封臣盡歸於你，你還可取走他受祝福的戰具作為戰利品。落敗，則你的混沌榮耀折損三分之一。" />
+    <string id="lh_enc_chaos_throne_b" text="強權即公理。親手殺夠足夠多的敵人，黑暗諸神便會將你標記為現任混沌霸主的對手。\n你的個人擊殺積累混沌之榮（地圖時鐘上方的進度條）。侍奉混沌至少 30 天，並令你的混沌之榮高於霸主。當諸神注意到時，向霸主發起生死決鬥：你對陣霸主及其兩名混沌戰士。\n獲勝則其王座與封臣歸你。隨後你決定他的命運：處決他——奪取其封地與受祝福的戰甲為戰利品——或饒恕他，被擊垮的霸主作為你的封臣屈膝，保留其家族與領地。失敗則你的混沌之榮折損三分之一。" />
     <string id="lh_chaos_wand_full_p" text="我沒有位置給你——我的隨從已經滿了。" />
     <string id="lh_chaos_wand_full_lord" text="那等你騰出位置再來吧，凡人。黑暗諸神可不喜歡等待。" />
     <string id="lh_ck_where_p" text="我在哪能找到你的主君，國王？" />
@@ -512,11 +440,7 @@
     <string id="lh_kd_escort_back" text="返回" />
     <string id="lh_kd_prep_text" text="混沌信徒在原野上立起了一座由顱骨與黑鐵築成的鬥環。混沌之王{KING}步入其中與你對峙——只有一人能活著走出鬥環。" />
     <string id="lh_kd_won_text" text="混沌之王橫屍在你腳下。黑暗諸神咆哮讚許——通往你自己王座的路已敞開。" />
-    <string id="lh_kd_claim" text="奪取混沌的王座。" />
     <string id="lh_kd_lost_text" text="你被擊敗、被打倒。舔舐傷口，{DAYS} 天後再來一試。" />
-    <string id="lh_ck_found_title" text="建立你自己的混沌王國" />
-    <string id="lh_ck_found_text" text="這王座以血屬於你。為你的新混沌王國命名吧。" />
-    <string id="lh_ck_found_default" text="混沌之眾" />
     <string id="lh_ck_founded" text="你的混沌王國已建立。黑暗諸神注視著他們的新勇士。" />
     <string id="lh_kd_chicken" text="今日不戰——我退下。（離開）" />
     <string id="lh_extorsion_tier_too_low" text="等級太低——只有T4+獸人才有值得拔取的金牙。" />
@@ -536,7 +460,6 @@
     <string id="lh_god_choose_title" text="向黑暗之神立誓" />
     <string id="lh_god_choose_desc" text="你跪於混沌祭壇前。選擇你將承其印記的神祇——此選擇不可更改。擊殺達 {SET} 時，你的神授予你完整的頂級戰爭裝備；擊殺達 {DUEL} 時，你可挑戰至高領主本人，奪取其王座。" />
     <string id="lh_god_choose_ok" text="立下誓言" />
-    <string id="lh_god_chosen_msg" text="你如今效忠於 {GOD}。{FLAVOR}" />
     <string id="lh_god_set_granted" text="黑暗諸神獎賞你的殺戮——{GOD} 的完整戰爭裝備現已置於你的物品欄。從物品欄裝備（按 I）。" />
     <string id="lh_god_set_title" text="神之恩寵" />
     <string id="lh_set_tab_gods" text="黑暗諸神" />
@@ -546,5 +469,132 @@
     <string id="lh_set_ChaosGodDuelKillThreshold_desc" text="在戰爭套裝閾值之外的額外個人擊殺數，達到後方可挑戰混沌至高領主（莫特金）以爭奪其王座。決鬥所需總擊殺＝戰爭套裝閾值＋此數值。越低＝越早解鎖王座挑戰。例如：兩者皆為 1000，則在 2000 擊殺時挑戰他。範圍 500-2000。" />
     <string id="lh_chaos_minotaur_weight_relief" text="米諾陶重量（已減輕）" />
     <string id="lh_chaos_recruited_list" text="已召喚：{LIST}。" />
+    <string id="lh_god_boon_khorne" text="恐虐的恩賜：你造成的所有傷害 +15%。" />
+    <string id="lh_god_boon_nurgle" text="納垢的恩賜：你的最大生命值 +20%。" />
+    <string id="lh_god_boon_tzeentch" text="奸奇的恩賜：魔法之風上限 +25%，且恢復更快。" />
+    <string id="lh_god_boon_slaanesh" text="色孽的恩賜：戰鬥中移動速度 +12%。" />
+    <string id="lh_god_chosen_msg2" text="你如今向 {GOD} 立誓。{FLAVOR} {BOON}" />
+    <string id="lh_de_raid" text="黑暗諸神享用你留下的廢墟。+{DE} 黑暗能量。" />
+    <string id="lh_de_sacrifice_opt" text="將你的俘虜獻祭給黑暗諸神" />
+    <string id="lh_de_sacrifice_tip" text="向四神獻上 {N} 名俘虜。獲得 {DE} 黑暗能量。" />
+    <string id="lh_de_sacrifice_done" text="你在混沌祭壇上獻祭了 {N} 名俘虜。+{DE} 黑暗能量。" />
+    <string id="lh_de_defile_cd" text="你每 {DEFILE_COOLDOWN_DAYS} 天才能褻瀆一次聖壇。" />
+    <string id="lh_kd_execute" text="處決霸主，奪取他的戰甲。" />
+    <string id="lh_kd_spare" text="饒恕霸主——他將屈膝侍奉你。" />
+    <string id="lh_ck_founded_spare" text="你的混沌王國已建立。被擊垮的霸主作為你的封臣屈膝——比他的盔甲更苦澀的戰利品。黑暗諸神注視著他們的新勇士。" />
+    <string id="lh_ck_slain_no_throne" text="霸主倒斃在你腳下，但混沌王座今日從你掌中溜走。" />
+    <string id="lh_ck_spared_no_throne" text="你饒恕了被擊垮的霸主，但混沌王座暫時仍在你掌握之外。" />
+    <string id="lh_health_intro2" text="Lore-Hardcore 偵測到部分功能存在問題：" />
+    <string id="lh_health_tor_api" text="部分核心系統無法連接到 TOR（可能已更新）：{LIST}。獠牙與黑暗能量的收入可能失效。詳情見檔案 lorehardcore_health.log。" />
+    <string id="lh_health_open_log" text="開啟日誌資料夾" />
+    <string id="lh_health_close" text="關閉" />
+    <string id="lh_god_mission_seek_opt" text="向黑暗諸神請求任務" />
+    <string id="lh_god_mission_status_opt" text="聆聽黑暗諸神的要求" />
+    <string id="lh_god_mission_assigned" text="黑暗諸神交給你一項任務：{TASK} 你有 {DAYS} 天。" />
+    <string id="lh_god_mission_status" text="諸神的任務：{TASK} 進度 {PROGRESS}/{TARGET}。剩餘天數：{DAYS}。" />
+    <string id="lh_god_mission_progress" text="黑暗諸神注視著：{PROGRESS}/{TARGET}。" />
+    <string id="lh_god_mission_success" text="黑暗諸神十分滿意——任務已完成。+{DE} 黑暗能量。" />
+    <string id="lh_god_mission_fail" text="你未能完成黑暗諸神的任務。他們的不悅使你損失 {DE} 黑暗能量。" />
+    <string id="lh_god_mission_task_slaughter" text="處決 {N} 名敵方領主。" />
+    <string id="lh_god_mission_task_pillage" text="劫掠 {N} 座村莊，只留下灰燼。" />
+    <string id="lh_god_mission_task_cleanse" text="清剿 {N} 處匪巢。" />
+    <string id="lh_god_mission_task_conquer" text="為混沌的榮耀贏得 {N} 場戰鬥。" />
+    <string id="lh_god_mission_task_none" text="侍奉諸神。" />
+    <string id="lh_whatsnew_title" text="Lore-Hardcore 已更新至 {VER}" />
+    <string id="lh_tip_orc_intro_t" text="你統領綠皮" />
+    <string id="lh_tip_orc_intro_b" text="獸人用獠牙而非金幣交易。你在戰鬥中從強敵（T4+）身上打出獠牙，也從獸人領地、鬥毆和競技場獲得。用它來招募。隨時按 Alt+H 查看完整指南。" />
+    <string id="lh_tip_chaos_intro_t" text="你侍奉黑暗諸神" />
+    <string id="lh_tip_chaos_intro_b" text="你如今踏上混沌之路。透過劫掠村莊、獻祭俘虜和褻瀆聖壇獲得黑暗能量。選擇一位守護神獲得永久恩賜，接受諸神的任務換取豐厚獎勵，終有一日推翻霸主本人。按 Alt+H 查看指南。" />
+    <string id="lh_tip_patron_t" text="選擇一位守護神" />
+    <string id="lh_tip_patron_b" text="向四神之一立誓——恐虐（+傷害）、納垢（+生命）、奸奇（+魔法之風）或色孽（+速度）。選擇不可更改，並賜予持久恩賜。加入混沌時會詢問你；也可用主控台：lh.chaos_god。" />
+    <string id="lh_tip_de_t" text="已積聚黑暗能量" />
+    <string id="lh_tip_de_b" text="黑暗能量是混沌的貨幣。現在用於諸神任務，未來更新中可用於對四神的虔誠。持續劫掠、獻祭與褻瀆以積聚更多。" />
+    <string id="lh_enc_chaos_gods_t" text="四神與其恩賜" />
+    <string id="lh_enc_chaos_gods_b" text="加入混沌時，你向四位黑暗之神之一立誓。選擇不可更改，並賜予你本人（而非你的部隊）一項永久恩賜：\n- 血神恐虐：你造成的所有傷害 +15%。\n- 瘟疫之主納垢：你的最大生命值 +20%。\n- 變易之主奸奇：魔法之風上限 +25%，且恢復更快。\n- 黑暗親王色孽：戰鬥中移動速度 +12%。\n\n加入混沌時會詢問你（也可用主控台：lh.chaos_god）。達到一定擊殺數後，你的守護神還會賜予你完整的戰甲。一套虔誠系統——用黑暗能量購買、面向四神的更深層獎勵——將在未來更新中加入。" />
+    <string id="lh_enc_chaos_missions_t" text="黑暗諸神的任務" />
+    <string id="lh_enc_chaos_missions_b" text="黑暗諸神考驗他們的勇士。在任何城鎮、城堡或村莊選擇「向黑暗諸神請求任務」即可領取任務：\n- 屠戮：處決若干敵方領主。\n- 劫掠：劫掠若干村莊。\n- 清剿：清剿若干匪巢。\n- 征服：贏得若干場戰鬥。\n\n你有 30 天。成功則諸神獎勵你大量黑暗能量（+1000）。錯過期限，他們的不悅會使你損失黑暗能量（-100）。選擇「聆聽黑暗諸神的要求」可查看當前任務與進度。任務之間有一天冷卻。" />
+    <string id="lh_whatsnew_0_1_9_60" text="本版本新增：\n- 守護神現在賜予永久恩賜（傷害／生命／魔法之風／速度）。\n- 黑暗能量經濟：透過劫掠村莊、獻祭俘虜和褻瀆聖壇來獲得。\n- 黑暗諸神的任務：在任意聚落接取任務，換取大量黑暗能量獎勵。\n- 推翻霸主現在可以處決或饒恕他並收為封臣。\n按 Alt+H 查看完整遊戲內指南。" />
+    <string id="lh_hud_task" text="任務 {P}/{T}" />
+    <string id="lh_panel_patron" text="守護神：{GOD}" />
+    <string id="lh_panel_lbl_devotion" text="對四神的虔誠" />
+    <string id="lh_panel_tip_title" text="混沌狀態——你在黑暗諸神面前的地位。此面板顯示你的混沌榮耀、守護神、對四神的虔誠、進行中的諸神任務，以及你在能夠向混沌霸主爭奪王座之前所欠的效命。將滑鼠懸停在任意一行可查看詳情。" />
+    <string id="lh_panel_tip_glory" text="混沌榮耀——你在黑暗諸神中的聲望，透過戰場殺敵獲得。紫色進度條隨你的擊殺而填滿。金色標記處，你的守護神會為你披上整套聖佑戰甲。填滿整條進度條並服滿所需的效命天數，即可向混沌霸主爭奪王座。" />
+    <string id="lh_panel_tip_patron" text="你的守護神——你立誓侍奉的四神之一。祂賜予一項永久的戰鬥恩賜（恐虐：傷害，納垢：生命，奸奇：魔法之風，色孽：速度），並在金色榮耀標記處賜予整套戰甲。守護神只能選擇一次，不可更改。" />
+    <string id="lh_panel_tip_allegiance" text="你在混沌階級中的地位。混沌烙印者——你已踏上此路，但尚未效命任何主君。混沌封臣——你以立誓封臣的身分侍奉霸主。混沌霸主——你推翻了前任霸主，統御全體混沌。" />
+    <string id="lh_panel_tip_mission" text="黑暗諸神的任務——可在任意聚落接取的選擇性任務，完成可獲得大量黑暗能量獎勵。計數器顯示你的進度（已完成／目標）。完成它們以資助你的虔誠，並贏得諸神的青睞。" />
+    <string id="lh_panel_tip_service" text="你對霸主的效命。即使榮耀已足，你仍須效命至少若干天後才能向他發起挑戰。挑戰失敗後會有冷卻時間。此行顯示剩餘天數；歸零時，你的效命便已履行完畢。" />
+    <string id="lh_panel_tip_deepen" text="打開「加深虔誠」視窗，消耗黑暗能量提升你對四神各自的級別，解鎖祂們的戰鬥恩賜、法術、武器與整套戰甲。" />
+    <string id="lh_boon_dmg" text="傷害" />
+    <string id="lh_boon_hp" text="生命" />
+    <string id="lh_boon_wom" text="魔法之風" />
+    <string id="lh_boon_spd" text="速度" />
+    <string id="lh_panel_tip_devotion" text="對四神的虔誠——用下方按鈕消耗黑暗能量，加深你對每位神祇的信仰（0-10級）。每一級都強化該神的戰鬥恩賜：恐虐——傷害，納垢——生命，奸奇——魔法之風，色孽——速度。第3級賜予戰鬥法術，第5級賜予標誌性武器，第10級賜予整套戰甲與一項傳奇之力。四神要求平衡——全部提升，而非只提升一位。" />
+    <string id="lh_panel_title" text="混沌狀態" />
+    <string id="lh_panel_no_patron" text="未選擇守護神" />
+    <string id="lh_panel_overlord" text="混沌霸主" />
+    <string id="lh_panel_vassal" text="混沌封臣" />
+    <string id="lh_panel_touched" text="混沌烙印者" />
+    <string id="lh_panel_task" text="諸神任務：{P}/{T}" />
+    <string id="lh_panel_no_task" text="無活動任務" />
+    <string id="lh_dev_advanced" text="你對{GOD}的虔誠加深至第{LVL}級。" />
+    <string id="lh_dev_need_de" text="加深對{GOD}的虔誠需要{DE}點黑暗能量（你擁有{HAVE}點）。" />
+    <string id="lh_dev_balance_locked" text="四神要求平衡——請先加深你的其他虔誠（某一級別不得超過最低級別2級以上）。" />
+    <string id="lh_dev_max" text="你對{GOD}的虔誠已達巔峰（第{LVL}級）。" />
+    <string id="lh_dev_not_servant" text="只有立誓侍奉黑暗諸神的僕從才能加深虔誠。" />
+    <string id="lh_dev_item_reward" text="{GOD}因你日益加深的虔誠賜予你一件武器（第5級）。" />
+    <string id="lh_dev_set_reward" text="{GOD}為你披上信徒的全套戰甲（第10級）。" />
+    <string id="lh_dev_prayer_reward" text="{GOD}賜予你一個戰鬥法術：{SPELL}。在戰鬥中打開法術書來施放它。" />
+    <string id="lh_dev_deepen_btn" text="加深虔誠" />
+    <string id="lh_dev_benefit" text="{DOMAIN} +{FROM}%→+{TO}%" />
+    <string id="lh_dev_dom_khorne" text="傷害" />
+    <string id="lh_dev_dom_nurgle" text="生命" />
+    <string id="lh_dev_dom_tzeentch" text="魔法之風" />
+    <string id="lh_dev_dom_slaanesh" text="速度" />
+    <string id="lh_dev_mk_spell" text="法術" />
+    <string id="lh_dev_mk_weapon" text="武器" />
+    <string id="lh_dev_mk_set" text="全套" />
+    <string id="lh_dev_menu_title" text="加深你的虔誠" />
+    <string id="lh_dev_menu_desc" text="消耗黑暗能量來加深你對四神的虔誠。你擁有{DE}點黑暗能量。四神要求平衡：任何級別都不得超過最低級別2級以上。你的主神分支便宜20%。" />
+    <string id="lh_dev_menu_opt" text="{GOD} — 級別 {CUR}→{NEXT}（{COST}點黑暗能量）" />
+    <string id="lh_dev_menu_opt_max" text="{GOD} — 級別 {LVL}（滿級）" />
+    <string id="lh_dev_menu_hint_max" text="已達最高級別。" />
+    <string id="lh_dev_menu_hint_balance" text="禁止失衡——請先加深較低的虔誠（最高比最低高2級）。" />
+    <string id="lh_dev_menu_hint_de" text="黑暗能量不足（需要{COST}點）。" />
+    <string id="lh_dev_menu_deepen" text="加深" />
+    <string id="lh_dev_menu_close" text="關閉" />
+    <string id="lh_enc_chaos_devotion_t" text="對四神的虔誠" />
+    <string id="lh_enc_chaos_devotion_b" text="除了主神的恩賜之外，你還可以加深對四位黑暗神祇中每一位的虔誠。每位神祇都有0到10級，用黑暗能量購買。\n你的信仰越深，該神祇賜予你的戰鬥恩賜就越強：Khorne加深你的傷害，Nurgle加深你的生命，Tzeentch加深你的魔法之風，Slaanesh加深你的速度。這些與主神的永久恩賜疊加。\n四神要求平衡：任何級別都不得超過最低級別2級以上，因此你必須提升全部四位。你的主神分支便宜20%。\n里程碑：第3級為擅長法術的神祇賜予戰鬥法術（Tzeentch - Fireball，Nurgle - Curse of Years；Khorne鄙視魔法，不提供Slaanesh的法術）；第5級賜予該神祇的標誌性武器；第10級為你披上全套戰甲。\n通過地圖時鐘旁混沌狀態面板上的「加深虔誠」按鈕打開。" />
+    <string id="lh_tip_devotion_t" text="對四神的虔誠" />
+    <string id="lh_tip_devotion_b" text="現在你可以加深對每位黑暗神祇的虔誠，用黑暗能量換取越來越豐厚的獎勵。打開混沌狀態面板（地圖右側）上的「加深虔誠」按鈕。每一級都會強化該神祇的戰鬥恩賜；第3級賜予戰鬥法術，第5級賜予標誌性武器，第10級賜予全套戰甲。四神要求平衡——全部提升，而非只提升一位。按Alt+H查看指南。" />
+    <string id="lh_whatsnew_0_1_9_62" text="本版本新增：\n- 對四神的虔誠：消耗黑暗能量來加深對每位神祇的信仰（0-10級）。\n- 每一級都會加深該神祇的戰鬥恩賜（傷害／生命／魔法之風／速度）。\n- 第3級賜予戰鬥法術（Tzeentch、Nurgle）；第5級賜予標誌性武器；第10級賜予全套戰甲。\n- 通過混沌狀態面板上的「加深虔誠」按鈕打開。\n按Alt+H查看完整的遊戲內指南。" />
+    <string id="lh_dev_rw_spell" text="下一級解鎖一個戰鬥法術。" />
+    <string id="lh_dev_rw_weapon" text="下一級賜予該神祇的標誌性武器。" />
+    <string id="lh_dev_rw_set" text="下一級賜予該神祇的全套戰甲。" />
+    <string id="lh_dev_rw_growth" text="下一級加深該神祇的戰鬥恩賜。" />
+    <string id="lh_seduce_menu" text="Whisper of the Dark Gods — seduce this lord (500 Dark Energy, 200 Influence)" />
+    <string id="lh_seduce_need" text="Requires 500 Dark Energy and 200 Influence, and devotion to Slaanesh (rank 4)." />
+    <string id="lh_seduce_no_resources" text="You lack the Dark Energy or influence to bend this lord's will." />
+    <string id="lh_seduce_no_successor" text="{LORD}'s clan has no suitable successor — the seduction fails." />
+    <string id="lh_seduce_success" text="{LORD} has been seduced to the Dark Gods and joins your retinue." />
+    <string id="lh_seduce_failed" text="The lord resists your whispers — the seduction fails." />
+    <string id="lh_dev_martial_reward" text="Your dread service to {GOD} spreads — your renown grows by {AMT}." />
+    <string id="lh_dev_rw_renown" text="Next rank grows your dread renown." />
+    <string id="lh_dev_mk_renown" text="renown" />
+    <string id="lh_whatsnew_0_1_9_71" text="NEW in this version:\n- Legendary Devotion capstones: reach rank 10 with a God to awaken a battle power.\n- Khorne: heal on every kill and unleash a blood-shockwave around the slain.\n- Nurgle: slowly regenerate health throughout the battle.\n- Tzeentch: every kill restores Winds of Magic.\n- Slaanesh: a chance on each kill to seduce nearby enemies to your side.\nPress Alt+H for the full in-game guide." />
+    <string id="lh_whatsnew_0_1_9_72" text="NEW in this version:\n- Devotion now grants a SECOND, stronger battle-spell at rank 7 to the sorcerer Gods.\n- Tzeentch: Flame Storm (a roaring vortex of fire).\n- Nurgle: The Purple Sun of Xereus (a devouring vortex of death).\n- Reach rank 3 for the first spell, rank 7 for the second.\nPress Alt+H for the full in-game guide." />
+    <string id="lh_whatsnew_0_1_9_73" text="NEW in this version:\n- Lord Seduction: with devotion to Slaanesh (rank 4), whisper enemy lords to your side.\n- When you meet an enemy lord, choose 'Whisper of the Dark Gods' (costs 500 Dark Energy + 200 Influence).\n- The lord joins your retinue; their clan promotes a successor so it survives.\n- Faction leaders cannot be seduced.\nPress Alt+H for the full in-game guide." />
+    <string id="lh_whatsnew_0_1_9_77" text="本版本新增——模組設定中新增「TOR 微調」分頁（通用頁籤）：\n- 領主從零重建軍隊：AI 領主獲釋或逃出囚禁後，隊伍幾乎空無一人，必須重新招募。\n- 移除技能學習上限：技能可越過屬性／專注的軟上限持續獲得經驗。\n- 每級專注點數（1-5）與每點屬性所需等級（1-4）滑桿。\n從主選單打開模組設定即可開關這些選項。" />
+    <string id="lh_enc_chaos_seduction_t" text="Lord Seduction" />
+    <string id="lh_enc_chaos_seduction_b" text="With devotion to Slaanesh (rank 4), you can whisper enemy lords to your side. When you meet an enemy lord on the map, choose 'Whisper of the Dark Gods' (costs 500 Dark Energy and 200 Influence). The lord abandons their banner and joins your retinue; if they led a clan, a successor is promoted so the clan endures. Faction leaders are too strong-willed to seduce." />
+    <string id="lh_tip_seduction_t" text="Whispers of Slaanesh" />
+    <string id="lh_tip_seduction_b" text="Your devotion to Slaanesh is deep enough to seduce enemy lords. When you meet an enemy lord on the map, choose 'Whisper of the Dark Gods' to lure them into your retinue for 500 Dark Energy and 200 Influence. Their clan promotes a successor and survives; faction leaders are too strong-willed to seduce. Press Alt+H for the guide." />
+    <string id="lh_set_LordsRebuildFromScratch_lbl" text="TOR: Lords rebuild army from scratch" />
+    <string id="lh_set_LordsRebuildFromScratch_desc" text="When an AI lord is released or escapes from captivity, their new party spawns almost empty (just the lord) and they must recruit an army from scratch — instead of instantly respawning with a full army. Applies to ALL AI lords. OFF = vanilla." />
+    <string id="lh_set_RemoveSkillLearningCap_lbl" text="TOR: Remove skill learning cap" />
+    <string id="lh_set_RemoveSkillLearningCap_desc" text="Removes the soft learning cap, so skills keep gaining XP normally far past the limit your attributes and focus would normally allow. OFF = vanilla cap. Applies to all heroes." />
+    <string id="lh_set_FocusPointsPerLevel_lbl" text="TOR: Focus points per level" />
+    <string id="lh_set_FocusPointsPerLevel_desc" text="How many focus points you gain each level. Vanilla is 1. Higher = faster skill specialization. Example: 2 doubles focus gain." />
+    <string id="lh_set_LevelsPerAttributePoint_lbl" text="TOR: Levels per attribute point" />
+    <string id="lh_set_LevelsPerAttributePoint_desc" text="How many levels between each free attribute point. Vanilla is 4 (one attribute point every 4 levels). LOWER = more attribute points (e.g. 1 = one every level)." />
   </strings>
 </base>

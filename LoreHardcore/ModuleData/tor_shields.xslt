@@ -12,10 +12,8 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="Item[@id='tor_chaos_weapon_shield_001']/@is_merchandise">
-        <xsl:attribute name="is_merchandise">true</xsl:attribute>
-    </xsl:template>
-    <xsl:template match="Item[@id='tor_chaos_weapon_shield_nurgle_001']/@is_merchandise">
+    <!-- ⚠ РАСШИРЕНО 2026-06-15 (баг лута): ВСЕ chaos-щиты → merchandise=true (см. tor_armors.xslt). -->
+    <xsl:template match="Item[starts-with(@id,'tor_chaos_') or starts-with(@id,'tor_chs_')]/@is_merchandise">
         <xsl:attribute name="is_merchandise">true</xsl:attribute>
     </xsl:template>
 </xsl:stylesheet>
