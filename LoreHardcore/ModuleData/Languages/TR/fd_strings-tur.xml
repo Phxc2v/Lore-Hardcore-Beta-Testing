@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <!-- Dominator: Keep's Last Stand - (c) CodeRick | Telegram: https://t.me/CodeRickTg | Site: https://rickhub.net -->
+  <tags>
+    <tag language="Türkçe" />
+  </tags>
+  <strings>
+    <string id="fd_walls_fell" text="Surlar düştü! Savunucular iç kaleye çekiliyor ve kapıları barikatlıyor...{newline}Ölümüne direnin!" />
+    <string id="fd_retreat_order" text="İç kaleye! Kapılara çekilin!" />
+    <string id="fd_retreat_too_many" text="Elinde hâlâ çok fazla asker var: iç kale bu kadar savaşçıyı alamaz. {LIMIT} veya daha az kaldığında geri çekilebilirsin." />
+    <string id="fd_keep_hold" text="İç kaleyi tutun! Kapılardan üç dalga geliyor." />
+    <string id="fd_wave_incoming" text="{WAVE}. dalga kapıları zorluyor!" />
+    <string id="fd_aftermath_lift" text="Kuşatanların cesareti kırıldı: kuşatmayı kaldırıp çekiliyorlar." />
+    <string id="fd_aftermath_talks" text="Kuşatanlar bir elçi gönderiyor: lordları şartları konuşmak istiyor." />
+    <string id="fd_aftermath_regroup" text="Kuşatanlar toparlanmak için kamplarına çekiliyor. Yeni bir saldırı {DAYS} gün içinde bekleniyor." />
+    <string id="fd_nego_open" text="İç kaleyi tuttun, bunu kabul ediyorum. Ama ordum hâlâ kapılarında duruyor ve senin elinde bir avuç yorgun adam var. Daha fazla kan dökülmeden konuşalım." />
+    <string id="fd_nego_peace" text="Krallıklarımız barış yapsın. Bunun için ödemeye hazırım." />
+    <string id="fd_nego_leave" text="Beni ve adamlarımı bırakman için ne istiyorsun?" />
+    <string id="fd_nego_refuse" text="Konuşacak bir şey yok. Gücün yetiyorsa gel de al." />
+    <string id="fd_nego_refused" text="Nasıl istersen. Yine geleceğiz ve bu sefer kapılarda durmayacağız." />
+    <string id="fd_nego_peace_ok" text="Öyle olsun. Barış o halde. Akşama kadar buradan gitmiş olacağız." />
+    <string id="fd_nego_not_enough" text="Bu yeterli değil. Bir daha düşün." />
+    <string id="fd_nego_leave_ok" text="Peki. Adamlarını al ve git, kimse size dokunmayacak. Kale artık bizim." />
+    <string id="fd_barter_lift_siege" text="Kuşatmayı kaldır: {SETTLEMENT}" />
+    <string id="fd_barter_hand_over" text="Teslim et: {SETTLEMENT}" />
+  </strings>
+</base>

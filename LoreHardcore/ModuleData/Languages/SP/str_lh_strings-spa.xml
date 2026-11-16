@@ -596,5 +596,29 @@
     <string id="lh_set_FocusPointsPerLevel_desc" text="How many focus points you gain each level. Vanilla is 1. Higher = faster skill specialization. Example: 2 doubles focus gain." />
     <string id="lh_set_LevelsPerAttributePoint_lbl" text="TOR: Levels per attribute point" />
     <string id="lh_set_LevelsPerAttributePoint_desc" text="How many levels between each free attribute point. Vanilla is 4 (one attribute point every 4 levels). LOWER = more attribute points (e.g. 1 = one every level)." />
-  </strings>
+      <string id="lh_chaos_tempt_impossible" text="Este señor no puede unirse a ti ahora (gobierna un reino o dejaría a su clan sin líder)." />
+    <string id="lh_warrior_set_granted" text="Los Dioses Oscuros se han fijado en tu matanza: la armadura de guerra de un Guerrero del Caos está ahora en tu inventario. Equípala desde el inventario (tecla I). Profundiza tu devoción a {GOD} para ganar su propia panoplia de guerra, y derroca al Señor del Caos para obtener los atributos del Elegido." />
+    <string id="lh_warrior_set_title" text="Los Dioses se fijan en ti" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_lbl" text="Las facciones oscuras no guerrean con el jugador del Caos" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_desc" text="Cuando sirves al Caos, el mundo entero se vuelve contra ti, incluidas las demás potencias oscuras. Si está ACTIVADO, los Pielesverdes, los Condes Vampiro y Mousillon NO te declararán la guerra: siempre tendrás dónde vender prisioneros, reclutar tropas y pasar desapercibido. Los Hombres Bestia y las facciones de bandidos se excluyen a propósito: el juego los mantiene hostiles a la fuerza, y luchar contra ello genera una avalancha de avisos de «guerra declarada». DESACTIVADO = comportamiento original, toda potencia oscura también es tu enemiga." />
+    <string id="lh_ck_chosen_regalia" text="Tomas los atributos del Elegido: un yelmo y unas hombreras que ningún siervo mortal del Caos puede llevar. Están en tu inventario." />
+    <string id="lh_chaos_lord_other_matters" text="Hablemos de otros asuntos." />
+    <string id="lh_chaos_left_peace" text="Has abandonado el reino del Caos: las guerras que libraba en tu nombre han terminado." />
+    <string id="lh_seduce_cooldown" text="Los susurros de los Dioses Oscuros necesitan tiempo para reunirse de nuevo: disponible en {DAYS} día(s)." />
+    <string id="lh_seduce_busy" text="El señor está metido en otra batalla: por ahora su mente está cerrada a tus susurros." />
+    <string id="lh_set_ChaosUprisingsEnabled_lbl" text="Levantamientos del Caos" />
+    <string id="lh_set_ChaosUprisingsEnabled_desc" text="Levantamientos del Caos de The Old Realms: un culto se alza en una ciudad del Imperio o de Bretonia y aparece una partida de guerra del Caos. DESACTIVADO = no habrá nuevos levantamientos (las partidas del Caos que ya están en el mapa se quedan). Efecto inmediato, sin reiniciar. Útil si juegas con otra raza y no quieres los eventos del Caos." />
+    <string id="lh_chaos_hideout_recruit2" text="Invocar a los siervos del Caos desde la guarida (hasta {LH_HO_COUNT}, {LH_HO_PRICE}{GOLD_ICON} cada uno)" />
+    <string id="lh_chaos_recruit_cd_days" text="Este lugar aún no ha reunido fuerzas. Vuelve en {DAYS} días." />
+    <string id="lh_chaos_hideout_recruit_tt" text="Compra tantos como permita tu oro, hasta {COUNT}. Cada uno cuesta {PRICE}{GOLD_ICON} (un Minotauro {MINO}{GOLD_ICON}). Tienes {GOLD}{GOLD_ICON}. Después la guarida descansa 7 días." />
+    <string id="lh_chaos_need_gold" text="No tienes suficiente oro: necesitas {NEED}{GOLD_ICON}, tienes {HAVE}{GOLD_ICON}." />
+    <string id="lh_chaos_portal_menu" text="El portal vibra con poder oscuro. A cambio de oro, los Dioses Oscuros envían guerreros a través de él.{newline}{newline}Tu oro: {LH_PT_GOLD}{GOLD_ICON}. Plazas libres en tu grupo: {LH_PT_FREE}.{newline}- Elegidos del Caos (guerreros y caballeros del Caos, 5% de probabilidad de un Minotauro): {LH_PT_EP}{GOLD_ICON} cada uno, quedan {LH_PT_ES}.{newline}- Merodeadores norses: {LH_PT_MP}{GOLD_ICON} cada uno, quedan {LH_PT_MS}.{newline}{newline}{LH_PT_REFILL}" />
+    <string id="lh_pt_elite1" text="Invocar un Elegido ({LH_PT_EP}{GOLD_ICON})" />
+    <string id="lh_pt_eliteall" text="Invocar {LH_PT_EN} Elegidos, todos los que puedas pagar ({LH_PT_ET}{GOLD_ICON})" />
+    <string id="lh_pt_mar" text="Invocar {LH_PT_MN} Merodeadores norses ({LH_PT_MT}{GOLD_ICON})" />
+    <string id="lh_chaos_portal_refill" text="El portal se restaurará por completo en {DAYS} días." />
+    <string id="lh_chaos_portal_full" text="El portal está a plena potencia. Tras tu primera invocación se restaura en 7 días." />
+    <string id="lh_chaos_portal_empty" text="El portal está agotado. Se restaura en {DAYS} días." />
+    <string id="lh_chaos_party_full" text="Tu grupo está lleno, no hay sitio para nuevos guerreros." />
+</strings>
 </base>

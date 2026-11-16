@@ -378,6 +378,7 @@
     <string id="lh_chaos_tempt_offer" text="Боги шепчут твоё имя. Прими Дар Хаоса — и я освобожу тебя как брата." />
     <string id="lh_chaos_tempt_accept_line" text="...Да. Я слышу. Я не могу больше противиться. Возьми мою клятву — я твой." />
     <string id="lh_chaos_tempt_success" text="Лорд принимает Дар Хаоса и встаёт на твою сторону." />
+    <string id="lh_chaos_tempt_impossible" text="Этот лорд не может перейти к тебе сейчас (он правит королевством или оставил бы свой клан без главы)." />
     <string id="lh_chaos_darkpact_request" text="Преврати меня в одного из вас." />
     <string id="lh_chaos_darkpact_response_lord" text="Ритуал необратим. Твоя смертная природа умрёт. Готов?" />
     <string id="lh_chaos_darkpact_accept_p" text="Я готов." />
@@ -552,6 +553,11 @@
     <string id="lh_god_choose_ok" text="Принести клятву" />
     <string id="lh_god_set_granted" text="Тёмные Боги вознаграждают твою резню — полный боевой доспех {GOD} теперь в твоём инвентаре. Надень его из инвентаря (клавиша I)." />
     <string id="lh_god_set_title" text="Милость Бога" />
+    <string id="lh_warrior_set_granted" text="Тёмные Боги приметили твою резню — боевой доспех Воина Хаоса теперь в твоём инвентаре. Надень его из инвентаря (клавиша I). Углубляй Преданность {GOD}, чтобы заслужить его собственный доспех, и свергни Повелителя ради регалий Избранного." />
+    <string id="lh_warrior_set_title" text="Боги приметили тебя" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_lbl" text="Тёмные фракции не воюют с игроком-Хаосом" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_desc" text="Когда ты служишь Хаосу, против тебя встаёт весь мир — включая другие тёмные силы. Если ВКЛ, орки, вампиры и Мусильон НЕ будут объявлять тебе войну: всегда остаётся куда продать пленных, где набрать войск и где отсидеться. Зверолюды и бандитские фракции намеренно исключены: игра принудительно держит их враждебными, и борьба с этим даёт поток уведомлений «объявлена война». ВЫКЛ = как в ванили, каждая тёмная сила тоже враг." />
+    <string id="lh_ck_chosen_regalia" text="Ты забираешь регалии Избранного — шлем и наплечники, каких не носит ни один смертный слуга Хаоса. Они в твоём инвентаре." />
     <string id="lh_panel_patron" text="Покровитель: {GOD}" />
     <string id="lh_panel_lbl_devotion" text="Преданность Четвёрым" />
     <string id="lh_boon_dmg" text="урон" />
@@ -633,5 +639,101 @@
     <string id="lh_set_FocusPointsPerLevel_desc" text="Сколько фокус-очков вы получаете за уровень. В ванили 1. Больше = быстрее специализация. Пример: 2 удваивает прирост фокуса." />
     <string id="lh_set_LevelsPerAttributePoint_lbl" text="TOR: Уровней на атрибут-очко" />
     <string id="lh_set_LevelsPerAttributePoint_desc" text="Сколько уровней между бесплатными атрибут-очками. В ванили 4 (одно очко каждые 4 уровня). МЕНЬШЕ = больше атрибут-очков (например 1 = каждый уровень)." />
-  </strings>
+      <string id="lh_chaos_lord_other_matters" text="Поговорим о другом." />
+    <string id="lh_chaos_left_peace" text="Ты покинул царство Хаоса — войны, что он вёл от твоего имени, окончены." />
+    <string id="lh_seduce_cooldown" text="Шёпоту Тёмных Богов нужно время, чтобы набрать силу — доступно через {DAYS} дн." />
+    <string id="lh_seduce_busy" text="Лорд втянут в другой бой — сейчас его разум закрыт для твоего шёпота." />
+    <!-- Фаза 5, Путь А: культура Хаоса в создании персонажа -->
+    <string id="lh_cc_chaos_culture_name" text="Хаос" />
+    <string id="lh_cc_chaos_culture_short" text="Хаос" />
+    <string id="lh_cc_chaos_culture_desc" text="Начни мародёром, присягнувшим Губительным Силам. Набирай воинов у Портала Хаоса, копи Тёмную энергию и милость Тёмных Богов, служи Повелителю Хаоса — и однажды займи его трон." />
+    <string id="lh_cc_chaos_feat_recruit" text="Найм варбанд Хаоса у порталов и тёмных логов" />
+    <string id="lh_cc_chaos_feat_energy" text="Тёмная энергия и милость Тёмных Богов" />
+    <string id="lh_cc_chaos_feat_enemy" text="Цивилизованные королевства видят в тебе врага" />
+    <string id="lh_cc_chaos_origin_warband" text="Рождён в варбанде" />
+    <string id="lh_cc_chaos_origin_warband_desc" text="Ты родился среди шатров норскийской варбанды, что шла на юг под восьмиконечной звездой. Колыбельными тебе были боевые кличи, а первой игрушкой — сломанный топор." />
+    <string id="lh_cc_chaos_origin_noble" text="Падший знатный дом" />
+    <string id="lh_cc_chaos_origin_noble_desc" text="Когда-то твоя семья была уважаемым знатным домом Старого Света, пока честолюбие и запретные обряды не бросили её в объятия Тёмных Богов. Ты рос за запертыми дверями, учась править и скрываться." />
+    <string id="lh_cc_chaos_origin_acolyte" text="Дитя культа" />
+    <string id="lh_cc_chaos_origin_acolyte_desc" text="Тебя вырастил тайный культ, укрывшийся в подвалах имперского города. Свечи, шёпот молитв и запах крови научили тебя: Губительные Силы отвечают тем, кто их зовёт." />
+    <string id="lh_cc_chaos_growth_aspirant" text="Окровавленный претендент" />
+    <string id="lh_cc_chaos_growth_aspirant_desc" text="В юности ты бился в ямах и ходил в набеги, посвящая богам каждое убийство. Шрамы стали твоими молитвами — и боги начали тебя замечать." />
+    <string id="lh_cc_chaos_growth_handler" text="Связной культа" />
+    <string id="lh_cc_chaos_growth_handler_desc" text="Ты научился вербовать отчаявшихся и честолюбивых, передавать вести между тайными ячейками и устранять проблемы раньше, чем в дверь постучат охотники на ведьм." />
+    <string id="lh_cc_chaos_growth_raider" text="Морской налётчик" />
+    <string id="lh_cc_chaos_growth_raider_desc" text="Юность ты провёл на ладьях, грабя побережья Империи и Бретонии. Ты умеешь ударить быстро, взять нужное и исчезнуть до прихода ополчения." />
+    <string id="lh_cc_chaos_prof_champion" text="Претендент в чемпионы" />
+    <string id="lh_cc_chaos_prof_champion_desc" text="Ты присягнул Хаосу Неделимому и вышел добиваться милости Тёмных Богов. Ты начинаешь грозным вожаком мародёров: цивилизованные королевства увидят в тебе врага, но слуги Хаоса пойдут за тобой." />
+    <string id="lh_cc_chaos_start_de" text="Губительные Силы отметили твоё рождение: +{AMOUNT} Тёмной энергии." />
+    <string id="lh_set_ChaosUprisingsEnabled_lbl" text="Восстания Хаоса" />
+    <string id="lh_set_ChaosUprisingsEnabled_desc" text="Восстания Хаоса из The Old Realms: в городе Империи или Бретонии поднимается культ и появляется варбанда Хаоса. ВЫКЛ — новых восстаний не будет (уже вышедшие на карту отряды Хаоса остаются). Действует сразу, перезапуск не нужен. Удобно, если играешь за другую расу и не хочешь событий Хаоса." />
+    <string id="lh_chaos_hostile_intro" text="Ещё один смертный на пути избранников Богов. Говори — или умрёшь на месте!" />
+    <string id="lh_chaos_seek_gods" text="Я ищу Тёмных Богов." />
+    <string id="lh_chaos_seek_gods_resp" text="Тогда Боги услышали тебя, смертный. Ступай с миром — пока. Найди нас снова, когда будешь готов преклонить колено." />
+    <string id="lh_chaos_hostile_fight" text="Тогда сразимся." />
+    <string id="lh_chaos_hideout_recruit2" text="Призвать слуг Хаоса из логова (до {LH_HO_COUNT}, по {LH_HO_PRICE}{GOLD_ICON})" />
+    <string id="lh_chaos_recruit_cd_days" text="Логово ещё не накопило сил. Возвращайся через {DAYS} дн." />
+    <string id="lh_chaos_hideout_recruit_tt" text="Покупает столько, на сколько хватит золота, но не больше {COUNT}. Каждый стоит {PRICE}{GOLD_ICON} (минотавр — {MINO}{GOLD_ICON}). У тебя {GOLD}{GOLD_ICON}. После этого логово отдыхает 7 дней." />
+    <string id="lh_chaos_need_gold" text="Не хватает золота: нужно {NEED}{GOLD_ICON}, у тебя {HAVE}{GOLD_ICON}." />
+    <string id="lh_chaos_portal_menu" text="Портал гудит тёмной силой. За золото Тёмные Боги шлют через него воинов.{newline}{newline}Твоё золото: {LH_PT_GOLD}{GOLD_ICON}. Свободных мест в отряде: {LH_PT_FREE}.{newline}- Избранные Хаоса (воины и рыцари Хаоса, шанс 5% на минотавра): {LH_PT_EP}{GOLD_ICON} за каждого, осталось {LH_PT_ES}.{newline}- Норскские мародёры: {LH_PT_MP}{GOLD_ICON} за каждого, осталось {LH_PT_MS}.{newline}{newline}{LH_PT_REFILL}" />
+    <string id="lh_pt_elite1" text="Призвать одного Избранного ({LH_PT_EP}{GOLD_ICON})" />
+    <string id="lh_pt_eliteall" text="Призвать {LH_PT_EN} Избранных — на сколько хватит золота ({LH_PT_ET}{GOLD_ICON})" />
+    <string id="lh_pt_mar" text="Призвать норскских мародёров: {LH_PT_MN} ({LH_PT_MT}{GOLD_ICON})" />
+    <string id="lh_chaos_portal_refill" text="Портал полностью восстановится через {DAYS} дн." />
+    <string id="lh_chaos_portal_full" text="Портал полон сил. После первого призыва он восстанавливается 7 дней." />
+    <string id="lh_chaos_portal_empty" text="Портал истощён. Восстановится через {DAYS} дн." />
+    <string id="lh_chaos_party_full" text="Отряд полон — новым воинам нет места." />
+    <!-- Карьера «Чемпион Хаоса» (LhChaosChampion), Фаза 5 ч.2 -->
+    <string id="lh_career_chaos_title" text="Чемпион Хаоса" />
+    <string id="lh_career_chaos_desc" text="Поклявшийся кровью Губительным Силам, Чемпион Хаоса идёт путём славы, который кончается либо демонским троном, либо участью безмозглого отродья. Каждый череп, взятый в бою, приближает к нему взоры Тёмных Богов." />
+    <string id="lh_career_chaos_rank1" text="Отмеченный" />
+    <string id="lh_career_chaos_rank2" text="Возвышенный" />
+    <string id="lh_career_chaos_rank3" text="Избранный" />
+    <string id="lh_career_chaos_hireling0" text="Рубить чучела двуручным оружием" />
+    <string id="lh_career_chaos_hireling1" text="Биться с поединщиками варбанды" />
+    <string id="lh_career_chaos_hireling2" text="Ходить в набеги с налётчиками" />
+    <string id="lh_career_chaos_hireling3" text="Слушать военный совет вождя" />
+    <string id="lh_career_chaos_hireling4" text="Обирать павших" />
+    <string id="lh_career_chaos_req" text="Нужно {KILLS} личных убийств в бою (у вас {CURRENT}) или ранг клана {CLAN}." />
+    <string id="lh_career_chaos_tier_reward" text="Тёмные Боги признают ваше восхождение: ранг {TIER} пути Чемпиона, +{AMOUNT} Тёмной Энергии." />
+    <string id="lh_career_chaos_fallback" text="Карьеру «Чемпион Хаоса» не удалось загрузить. Ваш герой переведён на карьеру Наёмника." />
+    <string id="lh_career_chaos_champion_root" text="Дар Тёмных Богов — Красная Ярость: на 8 с +45% физического урона в ближнем бою и +10% физического сопротивления против атак ближнего боя. Заряжается уроном, который вы лично наносите в ближнем бою (300 до полного заряда)." />
+    <string id="lh_career_chaos_bloodtide" text="Кровавый прилив" />
+    <string id="lh_career_chaos_bloodtide_keystone" text="Красная Ярость также даёт +10% к скорости атаки." />
+    <string id="lh_career_chaos_bloodtide_passive1" text="+15% физического урона в ближнем бою." />
+    <string id="lh_career_chaos_bloodtide_passive2" text="+8% к скорости замаха в ближнем бою." />
+    <string id="lh_career_chaos_bloodtide_passive3" text="+10% бронепробития для атак ближнего боя." />
+    <string id="lh_career_chaos_bloodtide_passive4" text="+20 к здоровью." />
+    <string id="lh_career_chaos_ironhide" text="Железная шкура" />
+    <string id="lh_career_chaos_ironhide_keystone" text="Физическое сопротивление Красной Ярости увеличено на +15% (до 25%)." />
+    <string id="lh_career_chaos_ironhide_passive1" text="+25 к здоровью." />
+    <string id="lh_career_chaos_ironhide_passive2" text="+10% физического сопротивления." />
+    <string id="lh_career_chaos_ironhide_passive3" text="+10% сопротивления магии." />
+    <string id="lh_career_chaos_ironhide_passive4" text="+3 к скорости личного лечения на глобальной карте." />
+    <string id="lh_career_chaos_warband" text="Варбанда Погибели" />
+    <string id="lh_career_chaos_warband_keystone" text="Красная Ярость теперь усиливает и союзников в радиусе 6 м от вас." />
+    <string id="lh_career_chaos_warband_passive1" text="+10 к размеру отряда." />
+    <string id="lh_career_chaos_warband_passive2" text="+10% физического урона воинам вашего отряда." />
+    <string id="lh_career_chaos_warband_passive3" text="+10% физического сопротивления воинам вашего отряда." />
+    <string id="lh_career_chaos_warband_passive4" text="-15% к жалованью войск Хаоса." />
+    <string id="lh_career_chaos_dark_tithe" text="Тёмная десятина" />
+    <string id="lh_career_chaos_dark_tithe_keystone" text="Красная Ярость длится на 3 с дольше." />
+    <string id="lh_career_chaos_dark_tithe_passive1" text="+5 Тёмной Энергии в день." />
+    <string id="lh_career_chaos_dark_tithe_passive2" text="+10% известности за сражения." />
+    <string id="lh_career_chaos_dark_tithe_passive3" text="+10% к боевому духу войск." />
+    <string id="lh_career_chaos_dark_tithe_passive4" text="Метка Покровителя: +30 к здоровью, пока вы служите богу-покровителю Хаоса." />
+    <string id="lh_career_chaos_exalted" text="Вознесение" />
+    <string id="lh_career_chaos_exalted_keystone" text="Урон Красной Ярости в ближнем бою увеличен на +15% (до 60%), и она также даёт +20% к скорости передвижения." />
+    <string id="lh_career_chaos_exalted_passive1" text="+30 к здоровью." />
+    <string id="lh_career_chaos_exalted_passive2" text="+15% физического сопротивления против атак ближнего боя." />
+    <string id="lh_career_chaos_exalted_passive3" text="+10% физического урона в ближнем бою." />
+    <string id="lh_career_chaos_exalted_passive4" text="+15% сопротивления магии." />
+    <string id="lh_career_chaos_horde" text="Владыка орды" />
+    <string id="lh_career_chaos_horde_keystone" text="Все, кого усиливает Красная Ярость, становятся Несгибаемыми на время её действия." />
+    <string id="lh_career_chaos_horde_passive1" text="+20 к размеру отряда." />
+    <string id="lh_career_chaos_horde_passive2" text="+10% физического урона воинам вашего отряда." />
+    <string id="lh_career_chaos_horde_passive3" text="+10% физического сопротивления воинам вашего отряда." />
+    <string id="lh_career_chaos_horde_passive4" text="+1 к скорости отряда на глобальной карте." />
+    <!-- /Карьера «Чемпион Хаоса» -->
+</strings>
 </base>

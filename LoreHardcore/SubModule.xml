@@ -2,7 +2,7 @@
 <Module>
     <Name value="Lore-Hardcore — TOR Balance Overhaul"/>
     <Id value="LoreHardcore"/>
-    <Version value="v1.3.15"/>
+    <Version value="v0.2.0.5"/>
     <DefaultModule value="false"/>
     <ModuleCategory value="Singleplayer"/>
     <SingleplayerModule value="true"/>

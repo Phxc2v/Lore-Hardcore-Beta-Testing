@@ -378,6 +378,7 @@
     <string id="lh_chaos_tempt_offer" text="The Gods whisper your name. Accept the Gift of Chaos, and I will free you as a brother." />
     <string id="lh_chaos_tempt_accept_line" text="...Yes. I hear them. I can resist no longer. Take my oath — I am yours." />
     <string id="lh_chaos_tempt_success" text="The lord accepts the Gift of Chaos and joins your side." />
+    <string id="lh_chaos_tempt_impossible" text="This lord cannot join you now (they rule a realm or would leave their clan leaderless)." />
     <string id="lh_chaos_darkpact_request" text="Make me one of you." />
     <string id="lh_chaos_darkpact_response_lord" text="The ritual is irreversible. Your mortal nature will die. Are you ready?" />
     <string id="lh_chaos_darkpact_accept_p" text="I am ready." />
@@ -552,6 +553,11 @@
     <string id="lh_god_choose_ok" text="Swear the oath" />
     <string id="lh_god_set_granted" text="The Dark Gods reward your slaughter - the full war-panoply of {GOD} now lies in your inventory. Equip it from your inventory (press I)." />
     <string id="lh_god_set_title" text="A God's Favour" />
+    <string id="lh_warrior_set_granted" text="The Dark Gods take note of your slaughter - the war-plate of a Chaos Warrior now lies in your inventory. Equip it from your inventory (press I). Deepen your Devotion to {GOD} to earn his own war-panoply, and cast down the Overlord for the regalia of the Chosen." />
+    <string id="lh_warrior_set_title" text="The Gods Take Note" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_lbl" text="Dark factions do not war the Chaos player" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_desc" text="When you serve Chaos, the whole world turns on you - including the other dark powers. With this ON, the Greenskins, the Vampire Counts and Mousillon will NOT declare war on you, so you always keep somewhere to sell prisoners, recruit troops and lie low. Beastmen and bandit factions are deliberately excluded: the base game forces them to stay hostile, and fighting that produces a stream of &quot;war declared&quot; spam. OFF = vanilla behaviour, every dark power is your enemy too." />
+    <string id="lh_ck_chosen_regalia" text="You take the regalia of the Chosen - helm and pauldrons no mortal servant of Chaos may wear. They lie in your inventory." />
     <string id="lh_panel_patron" text="Patron: {GOD}" />
     <string id="lh_panel_lbl_devotion" text="Devotion" />
     <string id="lh_panel_tip_glory" text="Chaos Glory is your renown among the Dark Gods, earned by slaying foes. Reach the golden mark and serve your time to challenge the Chaos King." />
@@ -622,5 +628,112 @@
     <string id="lh_set_FocusPointsPerLevel_desc" text="How many focus points you gain each level. Vanilla is 1. Higher = faster skill specialization. Example: 2 doubles focus gain." />
     <string id="lh_set_LevelsPerAttributePoint_lbl" text="TOR: Levels per attribute point" />
     <string id="lh_set_LevelsPerAttributePoint_desc" text="How many levels between each free attribute point. Vanilla is 4 (one attribute point every 4 levels). LOWER = more attribute points (e.g. 1 = one every level)." />
-  </strings>
+      <string id="lh_chaos_lord_other_matters" text="Let us speak of other matters." />
+    <string id="lh_boon_dmg" text="damage" />
+    <string id="lh_boon_hp" text="health" />
+    <string id="lh_boon_wom" text="Winds of Magic" />
+    <string id="lh_boon_spd" text="speed" />
+    <string id="lh_panel_tip_title" text="Chaos Status — your standing before the Dark Gods. This panel tracks your Chaos Glory, your Patron God, your Devotion to the Four, active Tasks of the Gods and the service you owe before you may challenge the Overlord of Chaos for his throne. Hover any line for details." />
+    <string id="lh_panel_tip_patron" text="Your Patron God — the one of the Four you swore to. He grants a permanent battle-boon (Khorne: damage, Nurgle: health, Tzeentch: Winds of Magic, Slaanesh: speed) and, at the golden Glory mark, a full armour set. The Patron is chosen once and cannot be changed." />
+    <string id="lh_panel_tip_allegiance" text="Your standing in the Chaos hierarchy. Chaos-touched — you walk the path but serve no lord yet. Vassal of Chaos — you serve the Overlord as his sworn lord. Overlord of Chaos — you rule all Chaos, having cast down the previous Overlord." />
+    <string id="lh_panel_tip_mission" text="Tasks of the Dark Gods — optional quests taken in any settlement for a large Dark Energy reward. The counter shows your progress (done / target). Complete them to fund your Devotion and win the Gods' favour." />
+    <string id="lh_panel_tip_service" text="Your service to the Overlord. You must serve a minimum number of days before you may challenge him — even with enough Glory. After a failed challenge a cooldown applies. This line counts the days that remain; when empty, your service is fulfilled." />
+    <string id="lh_panel_tip_deepen" text="Open the Deepen Devotion window to spend Dark Energy and raise your rank with each of the Four Gods, unlocking their battle-boons, spells, weapons and war-panoply." />
+    <string id="lh_whatsnew_0_1_9_77" text="NEW — a TOR Tweaks section in the mod settings (Common tab):\n- Lords rebuild army from scratch: AI lords released from captivity respawn almost empty and must recruit again.\n- Remove skill learning cap: skills keep gaining XP past the attribute/focus soft cap.\n- Focus points per level (1-5) and Levels per attribute point (1-4) sliders.\nOpen the mod settings from the main menu to toggle them." />
+    <string id="lh_chaos_left_peace" text="You have left the realm of Chaos — the wars it waged in your name are over." />
+    <string id="lh_seduce_cooldown" text="The Dark Gods' whispers need time to gather again — available in {DAYS} day(s)." />
+    <string id="lh_seduce_busy" text="The lord is caught up in another battle — his mind is closed to your whispers for now." />
+    <!-- Фаза 5, Путь А: культура Хаоса в создании персонажа -->
+    <string id="lh_cc_chaos_culture_name" text="Chaos" />
+    <string id="lh_cc_chaos_culture_short" text="Chaos" />
+    <string id="lh_cc_chaos_culture_desc" text="Begin as a marauder sworn to the Ruinous Powers. Recruit at the Chaos Portal, earn Dark Energy and the favour of the Dark Gods, serve the Overlord of Chaos — and one day take his throne." />
+    <string id="lh_cc_chaos_feat_recruit" text="Recruit Chaos warbands at portals and dark lairs" />
+    <string id="lh_cc_chaos_feat_energy" text="Earn Dark Energy and the favour of the Dark Gods" />
+    <string id="lh_cc_chaos_feat_enemy" text="The civilized realms see you as an enemy" />
+    <string id="lh_cc_chaos_origin_warband" text="Born in the Warband" />
+    <string id="lh_cc_chaos_origin_warband_desc" text="You were born among the tents of a Norscan warband that marched south under the eight-pointed star. Your cradle songs were war chants, and your first toy was a broken axe." />
+    <string id="lh_cc_chaos_origin_noble" text="Fallen Noble House" />
+    <string id="lh_cc_chaos_origin_noble_desc" text="Your family was once a respected noble house of the Old World, until ambition and forbidden rites dragged it into the embrace of the Dark Gods. You grew up behind locked doors, learning to rule and to hide." />
+    <string id="lh_cc_chaos_origin_acolyte" text="Child of the Cult" />
+    <string id="lh_cc_chaos_origin_acolyte_desc" text="You were raised by a secret cult hidden in the cellars of an imperial town. Candles, whispered prayers and the smell of blood taught you that the Ruinous Powers answer those who call to them." />
+    <string id="lh_cc_chaos_growth_aspirant" text="Blooded Aspirant" />
+    <string id="lh_cc_chaos_growth_aspirant_desc" text="In your youth you fought in the pits and on the raids, offering every kill to the gods. Scars became your prayers and the gods began to notice." />
+    <string id="lh_cc_chaos_growth_handler" text="Cult Handler" />
+    <string id="lh_cc_chaos_growth_handler_desc" text="You learned to recruit the desperate and the ambitious, to pass messages between hidden cells and to make problems disappear before the witch hunters came knocking." />
+    <string id="lh_cc_chaos_growth_raider" text="Coastal Raider" />
+    <string id="lh_cc_chaos_growth_raider_desc" text="You spent your youth on longships, raiding the coasts of the Empire and Bretonnia. You know how to strike fast, take what you need and vanish before the militia arrives." />
+    <string id="lh_cc_chaos_prof_champion" text="Aspiring Champion" />
+    <string id="lh_cc_chaos_prof_champion_desc" text="You have sworn yourself to Chaos Undivided and set out to win the favour of the Dark Gods. You start as a feared marauder chieftain: the civilized realms will see you as an enemy, but the servants of Chaos will follow you." />
+    <string id="lh_cc_chaos_start_de" text="The Ruinous Powers mark your birth: +{AMOUNT} Dark Energy." />
+    <string id="lh_set_ChaosUprisingsEnabled_lbl" text="Chaos uprisings" />
+    <string id="lh_set_ChaosUprisingsEnabled_desc" text="Chaos uprisings of The Old Realms: a cult rises in a town of the Empire or Bretonnia and a Chaos warband appears. OFF = no new uprisings (Chaos parties already on the map stay). Takes effect immediately, no restart needed. Useful when you play another race and do not want the Chaos events." />
+    <string id="lh_chaos_hostile_intro" text="Another mortal stands in the path of the Gods' chosen. Speak, or die where you stand!" />
+    <string id="lh_chaos_seek_gods" text="I seek the Dark Gods." />
+    <string id="lh_chaos_seek_gods_resp" text="Then the Gods have heard you, mortal. Go in peace — for now. Seek us out again when you are ready to kneel." />
+    <string id="lh_chaos_hostile_fight" text="Then we fight." />
+    <string id="lh_chaos_hideout_recruit2" text="Summon the servants of Chaos from the lair (up to {LH_HO_COUNT}, {LH_HO_PRICE}{GOLD_ICON} each)" />
+    <string id="lh_chaos_recruit_cd_days" text="This place has not yet gathered its strength. Return in {DAYS} days." />
+    <string id="lh_chaos_hideout_recruit_tt" text="Buys as many as your gold allows, up to {COUNT}. Each costs {PRICE}{GOLD_ICON} (a Minotaur costs {MINO}{GOLD_ICON}). You have {GOLD}{GOLD_ICON}. After that the lair rests for 7 days." />
+    <string id="lh_chaos_need_gold" text="Not enough gold: you need {NEED}{GOLD_ICON}, you have {HAVE}{GOLD_ICON}." />
+    <string id="lh_chaos_portal_menu" text="The portal hums with dark power. For gold the Dark Gods send warriors through it.{newline}{newline}Your gold: {LH_PT_GOLD}{GOLD_ICON}. Free places in your party: {LH_PT_FREE}.{newline}- Chosen of Chaos (Chaos Warriors and Knights, 5% chance of a Minotaur): {LH_PT_EP}{GOLD_ICON} each, {LH_PT_ES} left.{newline}- Norscan Marauders: {LH_PT_MP}{GOLD_ICON} each, {LH_PT_MS} left.{newline}{newline}{LH_PT_REFILL}" />
+    <string id="lh_pt_elite1" text="Summon one Chosen ({LH_PT_EP}{GOLD_ICON})" />
+    <string id="lh_pt_eliteall" text="Summon {LH_PT_EN} Chosen, all you can afford ({LH_PT_ET}{GOLD_ICON})" />
+    <string id="lh_pt_mar" text="Summon {LH_PT_MN} Norscan Marauders ({LH_PT_MT}{GOLD_ICON})" />
+    <string id="lh_chaos_portal_refill" text="The portal will be fully restored in {DAYS} days." />
+    <string id="lh_chaos_portal_full" text="The portal is at full strength. After your first summon it restores in 7 days." />
+    <string id="lh_chaos_portal_empty" text="The portal is exhausted. It restores in {DAYS} days." />
+    <string id="lh_chaos_party_full" text="Your party is full, there is no room for new warriors." />
+    <!-- Карьера «Чемпион Хаоса» (LhChaosChampion), Фаза 5 ч.2 -->
+    <string id="lh_career_chaos_title" text="Chaos Champion" />
+    <string id="lh_career_chaos_desc" text="Sworn in blood to the Ruinous Powers, the Champion of Chaos walks the path of glory that ends either on a daemon throne or as a mindless spawn. Every skull taken in battle draws the eyes of the Dark Gods closer." />
+    <string id="lh_career_chaos_rank1" text="Marked" />
+    <string id="lh_career_chaos_rank2" text="Exalted" />
+    <string id="lh_career_chaos_rank3" text="Chosen" />
+    <string id="lh_career_chaos_hireling0" text="Hew at the pells with a great weapon" />
+    <string id="lh_career_chaos_hireling1" text="Duel the warband's champions" />
+    <string id="lh_career_chaos_hireling2" text="Run with the raiders" />
+    <string id="lh_career_chaos_hireling3" text="Listen at the chieftain's war council" />
+    <string id="lh_career_chaos_hireling4" text="Loot the fallen" />
+    <string id="lh_career_chaos_req" text="Requires {KILLS} personal kills in battle (you have {CURRENT}) or clan tier {CLAN}." />
+    <string id="lh_career_chaos_tier_reward" text="The Dark Gods acknowledge your ascent: rank {TIER} of the Champion path, +{AMOUNT} Dark Energy." />
+    <string id="lh_career_chaos_fallback" text="The Chaos Champion career could not be loaded. Your hero now follows the Mercenary career." />
+    <string id="lh_career_chaos_champion_root" text="Gift of the Dark Gods - Red Fury: for 8s gain +45% physical melee damage and +10% physical resistance against melee attacks. Charges from melee damage you deal personally (300 to fill)." />
+    <string id="lh_career_chaos_bloodtide" text="Bloodtide" />
+    <string id="lh_career_chaos_bloodtide_keystone" text="Red Fury also grants +10% attack speed." />
+    <string id="lh_career_chaos_bloodtide_passive1" text="+15% physical melee damage." />
+    <string id="lh_career_chaos_bloodtide_passive2" text="+8% melee swing speed." />
+    <string id="lh_career_chaos_bloodtide_passive3" text="+10% armour penetration for melee attacks." />
+    <string id="lh_career_chaos_bloodtide_passive4" text="+20 health points." />
+    <string id="lh_career_chaos_ironhide" text="Iron Hide" />
+    <string id="lh_career_chaos_ironhide_keystone" text="Red Fury physical resistance increased by +15% (to 25%)." />
+    <string id="lh_career_chaos_ironhide_passive1" text="+25 health points." />
+    <string id="lh_career_chaos_ironhide_passive2" text="+10% physical resistance." />
+    <string id="lh_career_chaos_ironhide_passive3" text="+10% magic resistance." />
+    <string id="lh_career_chaos_ironhide_passive4" text="+3 personal healing rate on the campaign map." />
+    <string id="lh_career_chaos_warband" text="Warband of Ruin" />
+    <string id="lh_career_chaos_warband_keystone" text="Red Fury now also empowers allies within 6m of you." />
+    <string id="lh_career_chaos_warband_passive1" text="+10 party size." />
+    <string id="lh_career_chaos_warband_passive2" text="+10% physical damage for troops of your party." />
+    <string id="lh_career_chaos_warband_passive3" text="+10% physical resistance for troops of your party." />
+    <string id="lh_career_chaos_warband_passive4" text="-15% wages for Chaos troops." />
+    <string id="lh_career_chaos_dark_tithe" text="Dark Tithe" />
+    <string id="lh_career_chaos_dark_tithe_keystone" text="Red Fury lasts 3s longer." />
+    <string id="lh_career_chaos_dark_tithe_passive1" text="+5 Dark Energy per day." />
+    <string id="lh_career_chaos_dark_tithe_passive2" text="+10% renown from battles." />
+    <string id="lh_career_chaos_dark_tithe_passive3" text="+10% troop morale." />
+    <string id="lh_career_chaos_dark_tithe_passive4" text="Mark of the Patron: +30 health points while you serve a Chaos patron god." />
+    <string id="lh_career_chaos_exalted" text="Ascension" />
+    <string id="lh_career_chaos_exalted_keystone" text="Red Fury melee damage increased by +15% (to 60%) and it also grants +20% movement speed." />
+    <string id="lh_career_chaos_exalted_passive1" text="+30 health points." />
+    <string id="lh_career_chaos_exalted_passive2" text="+15% physical resistance against melee attacks." />
+    <string id="lh_career_chaos_exalted_passive3" text="+10% physical melee damage." />
+    <string id="lh_career_chaos_exalted_passive4" text="+15% magic resistance." />
+    <string id="lh_career_chaos_horde" text="Lord of the Horde" />
+    <string id="lh_career_chaos_horde_keystone" text="Everyone empowered by Red Fury becomes Unbreakable for its duration." />
+    <string id="lh_career_chaos_horde_passive1" text="+20 party size." />
+    <string id="lh_career_chaos_horde_passive2" text="+10% physical damage for troops of your party." />
+    <string id="lh_career_chaos_horde_passive3" text="+10% physical resistance for troops of your party." />
+    <string id="lh_career_chaos_horde_passive4" text="+1 party speed on the campaign map." />
+    <!-- /Карьера «Чемпион Хаоса» -->
+</strings>
 </base>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <!-- Dominator: Keep's Last Stand - (c) CodeRick | Telegram: https://t.me/CodeRickTg | Site: https://rickhub.net -->
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <string id="fd_walls_fell" text="The walls have fallen! The defenders fall back into the keep and bar the doors...{newline}Stand to the death!" />
+    <string id="fd_retreat_order" text="To the keep! Fall back to the doors!" />
+    <string id="fd_retreat_too_many" text="Too many of your men are still standing: the keep cannot hold that many warriors. You can fall back once {LIMIT} or fewer remain." />
+    <string id="fd_keep_hold" text="Hold the keep! Three waves are coming through the doors." />
+    <string id="fd_wave_incoming" text="Wave {WAVE} is breaking through the doors!" />
+    <string id="fd_aftermath_lift" text="The besiegers have lost heart: they lift the siege and march away." />
+    <string id="fd_aftermath_talks" text="The besiegers send an envoy: their lord wants to talk terms." />
+    <string id="fd_aftermath_regroup" text="The besiegers fall back to their camp to regroup. A new assault is expected in {DAYS} day(s)." />
+    <string id="fd_nego_open" text="You held the keep, I will grant you that. But my army still stands at your gates, and you have a handful of tired men. Let us talk, before more blood is spilled." />
+    <string id="fd_nego_peace" text="Let our realms make peace. I am ready to pay for it." />
+    <string id="fd_nego_leave" text="What would it take for you to let me and my men march out?" />
+    <string id="fd_nego_refuse" text="There is nothing to talk about. Come and take it, if you can." />
+    <string id="fd_nego_refused" text="As you wish. We will come again, and this time we will not stop at the doors." />
+    <string id="fd_nego_peace_ok" text="So be it. Peace, then. We will be gone by nightfall." />
+    <string id="fd_nego_not_enough" text="That is not enough. Think again." />
+    <string id="fd_nego_leave_ok" text="Very well. Take your men and go, no one will touch you. The castle is ours." />
+    <string id="fd_barter_lift_siege" text="Lift the siege of {SETTLEMENT}" />
+    <string id="fd_barter_hand_over" text="Hand over {SETTLEMENT}" />
+  </strings>
+</base>

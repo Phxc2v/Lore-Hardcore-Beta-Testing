@@ -4,9 +4,43 @@ Each entry is a release day. Multiple small fixes within a day are bundled into 
 
 ---
 
-## (pending release) — v0.1.9.84: Devotion to the Four, Lord Seduction, TOR Tweaks settings, Chaos panel polish
+## 2026-08-02 — v0.1.9.90: code audit, Overlord duel, Chaos wars, reward rebalance
 
-Large set of changes since v0.1.9.57 (still local/beta, not yet on Steam). Target: Bannerlord 1.3.15, TOR "War in the Mountains" 1.16.
+A full code-audit session driven by player reports, plus three client reports.
+
+### ⚔ Duel with the Chaos Overlord
+- **Fixed a duel that could not be finished.** The Overlord stayed invulnerable while "any hostile agent" lived — summoned skeletons and stray NPCs counted, while the enemy counter ignored them. Result: the Overlord could not be killed and victory never registered. Only his actual bodyguards hold the invulnerability now.
+- **Fixed "neither of us takes damage".** If the spell state got stuck mid-cast, the player was left with combat channels blocked forever — unable to strike and unable to react to hits. A watchdog now force-resets the ability mode after 3 seconds.
+- **The Overlord is now visually distinct** — duel enemies wear their team colours. Previously a player in god-plate looked identical to him.
+- The duel preparation menu no longer becomes a dead end after a save/load.
+
+### 🕊 Chaos wars
+- **"Chaos declares war on Chaos"** — fixed. The game sorted sides by culture string and did not understand that a vassal of a Chaos kingdom with a human culture is also Chaos. Such wars could not even be undone: peace involving Chaos is forbidden by the rules. They are no longer declared, and existing ones are cleared automatically.
+- **"Left the Chaos kingdom → became the enemy of the whole world"** — fixed. A Chaos Uprising declared war on the player's CLAN against every clan and kingdom at once. The world script no longer touches the player's clan.
+- **New setting "Dark factions do not war the Chaos player"** (ON by default): Greenskins, Vampire Counts and Mousillon will not declare war on a servant of Chaos, so you always keep somewhere to sell prisoners and recruit. Beastmen and bandits are unaffected.
+- For already broken saves: console command `lh.chaos_clear_world_war`.
+
+### ⚖ Chaos reward rebalance — three milestones, three armour tiers
+The top god-plate used to be handed out three times: for kills, for Devotion rank 10 and as the Overlord's trophy. The last two gave nothing new.
+- **Kill threshold** — Chaos Warrior war-plate (mid tier).
+- **Devotion rank 10** — the full war-panoply of your God.
+- **Casting down the Overlord** — trophy + regalia of the Chosen (helm and pauldrons found nowhere else).
+
+### 🛡 Code audit
+- **God thresholds now persist.** Settings values only lived until you quit the game.
+- **The castle duel with orc elite** worked only once per session — the fight state was never cleared.
+- "Reset all" no longer zeroes the elite teef upkeep.
+- The out-of-bounds check for orcs falling off the arena no longer aborts halfway.
+- Ctrl+Space can no longer freeze campaign time.
+- Converting a captured lord no longer leaves his clan without a leader.
+- Dead code removed; build warnings: 20 → 0.
+
+---
+
+
+## 2026-07-23 — v0.1.9.84: Devotion to the Four, Lord Seduction, TOR Tweaks settings, Chaos panel polish
+
+Large set of changes since v0.1.9.57. Target: Bannerlord 1.3.15, TOR "War in the Mountains" 1.16.
 
 ### ⭐ Devotion to the Four (Chaos)
 - Spend Dark Energy to deepen your devotion to **each** of the four Dark Gods, ranks 0-10.

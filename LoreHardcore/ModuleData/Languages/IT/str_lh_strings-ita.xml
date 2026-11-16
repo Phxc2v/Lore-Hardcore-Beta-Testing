@@ -603,5 +603,29 @@
     <string id="lh_set_FocusPointsPerLevel_desc" text="How many focus points you gain each level. Vanilla is 1. Higher = faster skill specialization. Example: 2 doubles focus gain." />
     <string id="lh_set_LevelsPerAttributePoint_lbl" text="TOR: Levels per attribute point" />
     <string id="lh_set_LevelsPerAttributePoint_desc" text="How many levels between each free attribute point. Vanilla is 4 (one attribute point every 4 levels). LOWER = more attribute points (e.g. 1 = one every level)." />
-  </strings>
+      <string id="lh_chaos_tempt_impossible" text="Questo lord non può unirsi a te ora (regna su un regno o lascerebbe il suo clan senza un capo)." />
+    <string id="lh_warrior_set_granted" text="Gli Dei Oscuri hanno notato il tuo massacro — l'armatura da guerra di un Guerriero del Caos ora si trova nel tuo inventario. Indossala dall'inventario (tasto I). Approfondisci la tua devozione a {GOD} per guadagnare la sua armatura da guerra, e rovescia il Signore del Caos per ottenere le insegne del Prescelto." />
+    <string id="lh_warrior_set_title" text="Gli Dei ti notano" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_lbl" text="Le fazioni oscure non combattono il giocatore del Caos" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_desc" text="Quando servi il Caos, il mondo intero ti si rivolta contro — comprese le altre potenze oscure. Se ATTIVO, i Pelleverde, i Conti Vampiri e Mousillon NON ti dichiareranno guerra: avrai sempre un luogo dove vendere i prigionieri, reclutare truppe e nasconderti. Uominibestia e fazioni di banditi sono esclusi di proposito: il gioco li mantiene forzatamente ostili, e contrastarlo produce una valanga di notifiche «guerra dichiarata». DISATTIVO = comportamento originale, ogni potenza oscura è anche tua nemica." />
+    <string id="lh_ck_chosen_regalia" text="Prendi le insegne del Prescelto — elmo e spallacci che nessun servitore mortale del Caos può indossare. Si trovano nel tuo inventario." />
+    <string id="lh_chaos_lord_other_matters" text="Parliamo d'altro." />
+    <string id="lh_chaos_left_peace" text="Hai lasciato il regno del Caos — le guerre che combatteva in tuo nome sono finite." />
+    <string id="lh_seduce_cooldown" text="I sussurri degli Dei Oscuri hanno bisogno di tempo per raccogliersi — disponibile tra {DAYS} giorno/i." />
+    <string id="lh_seduce_busy" text="Il lord è impegnato in un'altra battaglia — per ora la sua mente è chiusa ai tuoi sussurri." />
+    <string id="lh_set_ChaosUprisingsEnabled_lbl" text="Rivolte del Caos" />
+    <string id="lh_set_ChaosUprisingsEnabled_desc" text="Rivolte del Caos di The Old Realms: in una città dell'Impero o di Bretonnia sorge un culto e compare una banda da guerra del Caos. OFF = nessuna nuova rivolta (le truppe del Caos già sulla mappa restano). Effetto immediato, senza riavvio. Utile se giochi un'altra razza e non vuoi gli eventi del Caos." />
+    <string id="lh_chaos_hideout_recruit2" text="Evoca i servitori del Caos dal covo (fino a {LH_HO_COUNT}, {LH_HO_PRICE}{GOLD_ICON} ciascuno)" />
+    <string id="lh_chaos_recruit_cd_days" text="Questo luogo non ha ancora raccolto le forze. Torna tra {DAYS} giorni." />
+    <string id="lh_chaos_hideout_recruit_tt" text="Ne compra quanti il tuo oro permette, fino a {COUNT}. Ognuno costa {PRICE}{GOLD_ICON} (un Minotauro {MINO}{GOLD_ICON}). Hai {GOLD}{GOLD_ICON}. Poi il covo riposa 7 giorni." />
+    <string id="lh_chaos_need_gold" text="Oro insufficiente: servono {NEED}{GOLD_ICON}, ne hai {HAVE}{GOLD_ICON}." />
+    <string id="lh_chaos_portal_menu" text="Il portale vibra di potere oscuro. In cambio di oro, gli Dei Oscuri vi mandano guerrieri.{newline}{newline}Il tuo oro: {LH_PT_GOLD}{GOLD_ICON}. Posti liberi nel gruppo: {LH_PT_FREE}.{newline}- Prescelti del Caos (guerrieri e cavalieri del Caos, 5% di probabilità di un Minotauro): {LH_PT_EP}{GOLD_ICON} ciascuno, ne restano {LH_PT_ES}.{newline}- Predoni norscani: {LH_PT_MP}{GOLD_ICON} ciascuno, ne restano {LH_PT_MS}.{newline}{newline}{LH_PT_REFILL}" />
+    <string id="lh_pt_elite1" text="Evoca un Prescelto ({LH_PT_EP}{GOLD_ICON})" />
+    <string id="lh_pt_eliteall" text="Evoca {LH_PT_EN} Prescelti, quanti il tuo oro permette ({LH_PT_ET}{GOLD_ICON})" />
+    <string id="lh_pt_mar" text="Evoca {LH_PT_MN} Predoni norscani ({LH_PT_MT}{GOLD_ICON})" />
+    <string id="lh_chaos_portal_refill" text="Il portale sarà del tutto ripristinato tra {DAYS} giorni." />
+    <string id="lh_chaos_portal_full" text="Il portale è al massimo della forza. Dopo la prima evocazione si ripristina in 7 giorni." />
+    <string id="lh_chaos_portal_empty" text="Il portale è esaurito. Si ripristina tra {DAYS} giorni." />
+    <string id="lh_chaos_party_full" text="Il tuo gruppo è al completo, non c'è posto per nuovi guerrieri." />
+</strings>
 </base>

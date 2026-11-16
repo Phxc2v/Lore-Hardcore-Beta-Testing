@@ -41,7 +41,7 @@
             <!-- ===== Заголовок ===== (Fixed-контейнер + HintWidget = обзорная подсказка по панели) -->
             <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="32">
               <Children>
-                <HintWidget DataSource="{TitleHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <HintWidget DataSource="{TitleHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint"/>
                 <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" VerticalAlignment="Center"
                             Brush.FontSize="22" Brush.FontColor="#F4E1C4FF"
                             Brush.TextHorizontalAlignment="Center"
@@ -59,7 +59,7 @@
             <Widget WidthSizePolicy="Fixed" SuggestedWidth="204" HeightSizePolicy="Fixed" SuggestedHeight="18"
                     HorizontalAlignment="Center" MarginBottom="7">
               <Children>
-                <HintWidget DataSource="{GloryHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <HintWidget DataSource="{GloryHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint"/>
                 <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"
                         Sprite="BlankWhiteSquare_9" Color="#1A140EFF" DoNotAcceptEvents="true"/>
                 <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"
@@ -81,7 +81,7 @@
             <!-- Подпись Славы (Fixed-контейнер + HintWidget) -->
             <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="24" MarginBottom="10">
               <Children>
-                <HintWidget DataSource="{GloryHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <HintWidget DataSource="{GloryHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint"/>
                 <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" VerticalAlignment="Center"
                             Brush.FontSize="17" Brush.FontColor="#E8D9B9FF"
                             Brush.TextHorizontalAlignment="Center"
@@ -96,7 +96,7 @@
             <!-- ===== Секция «Боги» ===== (каждая строка = Fixed-контейнер + своя HintWidget-зона) -->
             <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="22" MarginBottom="4">
               <Children>
-                <HintWidget DataSource="{PatronHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <HintWidget DataSource="{PatronHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint"/>
                 <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" VerticalAlignment="Center"
                             Brush.FontSize="16" Brush.FontColor="#D6C4A8FF"
                             Text="@PatronText" DoNotAcceptEvents="true"/>
@@ -104,7 +104,7 @@
             </Widget>
             <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="22" MarginBottom="4">
               <Children>
-                <HintWidget DataSource="{AllegianceHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <HintWidget DataSource="{AllegianceHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint"/>
                 <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" VerticalAlignment="Center"
                             Brush.FontSize="16" Brush.FontColor="#C8B898FF"
                             Text="@AllegianceText" DoNotAcceptEvents="true"/>
@@ -112,7 +112,7 @@
             </Widget>
             <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="22" MarginBottom="6">
               <Children>
-                <HintWidget DataSource="{MissionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <HintWidget DataSource="{MissionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint"/>
                 <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" VerticalAlignment="Center"
                             Brush.FontSize="16" Brush.FontColor="#C8B898FF"
                             Text="@MissionText" DoNotAcceptEvents="true"/>
@@ -122,7 +122,7 @@
             <!-- Преданность: подпись (Fixed-контейнер) + 4 цветные строки богов. HintWidget = зона подсказки. -->
             <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="22" MarginBottom="3">
               <Children>
-                <HintWidget DataSource="{DevotionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <HintWidget DataSource="{DevotionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint"/>
                 <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" VerticalAlignment="Center"
                             Brush.FontSize="16" Brush.FontColor="#D6C4A8FF"
                             Text="@DevotionLabelText" DoNotAcceptEvents="true"/>
@@ -131,7 +131,7 @@
             <!-- 4 строки: имя бога (его цвет) + «ранг/10 бонус» в фикс. колонке. HintWidget = тултип. -->
             <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="19" MarginBottom="2">
               <Children>
-                <HintWidget DataSource="{DevotionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <HintWidget DataSource="{DevotionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint"/>
                 <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent"
                             HorizontalAlignment="Left" VerticalAlignment="Center" MarginLeft="8"
                             Brush.FontSize="16" Brush.FontColor="#C0392BFF"
@@ -144,7 +144,7 @@
             </Widget>
             <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="19" MarginBottom="2">
               <Children>
-                <HintWidget DataSource="{DevotionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <HintWidget DataSource="{DevotionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint"/>
                 <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent"
                             HorizontalAlignment="Left" VerticalAlignment="Center" MarginLeft="8"
                             Brush.FontSize="16" Brush.FontColor="#6E9A3AFF"
@@ -157,7 +157,7 @@
             </Widget>
             <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="19" MarginBottom="2">
               <Children>
-                <HintWidget DataSource="{DevotionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <HintWidget DataSource="{DevotionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint"/>
                 <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent"
                             HorizontalAlignment="Left" VerticalAlignment="Center" MarginLeft="8"
                             Brush.FontSize="16" Brush.FontColor="#3A86C8FF"
@@ -170,7 +170,7 @@
             </Widget>
             <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="19" MarginBottom="6">
               <Children>
-                <HintWidget DataSource="{DevotionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <HintWidget DataSource="{DevotionHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint"/>
                 <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent"
                             HorizontalAlignment="Left" VerticalAlignment="Center" MarginLeft="8"
                             Brush.FontSize="16" Brush.FontColor="#C45AA0FF"
@@ -189,7 +189,7 @@
             <!-- ===== Секция «Служба» ===== (Fixed-контейнер + HintWidget) -->
             <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="20">
               <Children>
-                <HintWidget DataSource="{ServiceHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                <HintWidget DataSource="{ServiceHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint"/>
                 <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" VerticalAlignment="Center"
                             Brush.FontSize="15" Brush.FontColor="#988673FF"
                             Text="@ServiceText" DoNotAcceptEvents="true"/>

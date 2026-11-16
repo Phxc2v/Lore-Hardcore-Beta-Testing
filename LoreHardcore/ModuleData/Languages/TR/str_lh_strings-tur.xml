@@ -603,5 +603,29 @@
     <string id="lh_set_FocusPointsPerLevel_desc" text="How many focus points you gain each level. Vanilla is 1. Higher = faster skill specialization. Example: 2 doubles focus gain." />
     <string id="lh_set_LevelsPerAttributePoint_lbl" text="TOR: Levels per attribute point" />
     <string id="lh_set_LevelsPerAttributePoint_desc" text="How many levels between each free attribute point. Vanilla is 4 (one attribute point every 4 levels). LOWER = more attribute points (e.g. 1 = one every level)." />
-  </strings>
+      <string id="lh_chaos_tempt_impossible" text="Bu lord şimdi sana katılamaz (bir krallığı yönetiyor ya da klanını lidersiz bırakacak)." />
+    <string id="lh_warrior_set_granted" text="Karanlık Tanrılar katliamını fark etti — bir Kaos Savaşçısının savaş zırhı artık envanterinde. Onu envanterden kuşan (I tuşu). Kendi savaş zırhını kazanmak için {GOD} tanrısına Bağlılığını derinleştir, Seçilmiş'in nişanları için de Kaos Efendisi'ni devir." />
+    <string id="lh_warrior_set_title" text="Tanrılar seni fark ediyor" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_lbl" text="Karanlık gruplar Kaos oyuncusuyla savaşmaz" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_desc" text="Kaos'a hizmet ettiğinde tüm dünya sana karşı döner — diğer karanlık güçler de dahil. AÇIK olursa Yeşilderililer, Vampir Kontları ve Mousillon sana savaş İLAN ETMEZ: esirleri satacak, asker toplayacak ve saklanacak bir yerin hep olur. Hayvan-İnsanlar ve haydut grupları bilerek hariç tutuldu: oyun onları zorla düşman tutar ve buna karşı koymak bir &quot;savaş ilan edildi&quot; bildirimi selline yol açar. KAPALI = orijinal davranış, her karanlık güç de düşmanındır." />
+    <string id="lh_ck_chosen_regalia" text="Seçilmiş'in nişanlarını alıyorsun — hiçbir ölümlü Kaos hizmetkârının takamayacağı miğfer ve omuzluklar. Envanterinde duruyorlar." />
+    <string id="lh_chaos_lord_other_matters" text="Başka konulardan konuşalım." />
+    <string id="lh_chaos_left_peace" text="Kaos diyarından ayrıldın — senin adına sürdürdüğü savaşlar sona erdi." />
+    <string id="lh_seduce_cooldown" text="Karanlık Tanrıların fısıltılarının yeniden toplanması için zaman gerek — {DAYS} gün sonra kullanılabilir." />
+    <string id="lh_seduce_busy" text="Lord başka bir savaşa dalmış — zihni şimdilik fısıltılarına kapalı." />
+    <string id="lh_set_ChaosUprisingsEnabled_lbl" text="Kaos ayaklanmaları" />
+    <string id="lh_set_ChaosUprisingsEnabled_desc" text="The Old Realms'in Kaos ayaklanmaları: İmparatorluk ya da Bretonya'nın bir şehrinde bir tarikat ayaklanır ve bir Kaos savaş çetesi ortaya çıkar. KAPALI = yeni ayaklanma olmaz (haritada zaten bulunan Kaos birlikleri kalır). Hemen etki eder, yeniden başlatma gerekmez. Başka bir ırkla oynuyor ve Kaos olaylarını istemiyorsan kullanışlı." />
+    <string id="lh_chaos_hideout_recruit2" text="Kaos hizmetkârlarını inden çağır (en fazla {LH_HO_COUNT}, tanesi {LH_HO_PRICE}{GOLD_ICON})" />
+    <string id="lh_chaos_recruit_cd_days" text="Bu yer henüz güç toplamadı. {DAYS} gün sonra gel." />
+    <string id="lh_chaos_hideout_recruit_tt" text="Altının yettiği kadar alır, en fazla {COUNT}. Her biri {PRICE}{GOLD_ICON} (Minotor {MINO}{GOLD_ICON}). Altının: {GOLD}{GOLD_ICON}. Sonra in 7 gün dinlenir." />
+    <string id="lh_chaos_need_gold" text="Yeterli altın yok: {NEED}{GOLD_ICON} gerekli, sende {HAVE}{GOLD_ICON} var." />
+    <string id="lh_chaos_portal_menu" text="Geçit karanlık bir güçle uğulduyor. Altın karşılığında Karanlık Tanrılar içinden savaşçılar gönderir.{newline}{newline}Altının: {LH_PT_GOLD}{GOLD_ICON}. Birliğindeki boş yer: {LH_PT_FREE}.{newline}- Kaos Seçilmişleri (Kaos savaşçıları ve şövalyeleri, %5 Minotor şansı): {LH_PT_EP}{GOLD_ICON} tanesi, {LH_PT_ES} kaldı.{newline}- Norska Yağmacıları: {LH_PT_MP}{GOLD_ICON} tanesi, {LH_PT_MS} kaldı.{newline}{newline}{LH_PT_REFILL}" />
+    <string id="lh_pt_elite1" text="Bir Seçilmiş çağır ({LH_PT_EP}{GOLD_ICON})" />
+    <string id="lh_pt_eliteall" text="{LH_PT_EN} Seçilmiş çağır, altının yettiği kadar ({LH_PT_ET}{GOLD_ICON})" />
+    <string id="lh_pt_mar" text="{LH_PT_MN} Norska Yağmacısı çağır ({LH_PT_MT}{GOLD_ICON})" />
+    <string id="lh_chaos_portal_refill" text="Geçit {DAYS} gün içinde tamamen yenilenecek." />
+    <string id="lh_chaos_portal_full" text="Geçit tam güçte. İlk çağrından sonra 7 günde yenilenir." />
+    <string id="lh_chaos_portal_empty" text="Geçit tükendi. {DAYS} gün içinde yenilenir." />
+    <string id="lh_chaos_party_full" text="Birliğin dolu, yeni savaşçılara yer yok." />
+</strings>
 </base>

@@ -595,5 +595,29 @@
     <string id="lh_set_FocusPointsPerLevel_desc" text="How many focus points you gain each level. Vanilla is 1. Higher = faster skill specialization. Example: 2 doubles focus gain." />
     <string id="lh_set_LevelsPerAttributePoint_lbl" text="TOR: Levels per attribute point" />
     <string id="lh_set_LevelsPerAttributePoint_desc" text="How many levels between each free attribute point. Vanilla is 4 (one attribute point every 4 levels). LOWER = more attribute points (e.g. 1 = one every level)." />
-  </strings>
+      <string id="lh_chaos_tempt_impossible" text="この領主は今はお前に加われない（王国を治めているか、氏族を指導者のいない状態にしてしまう）。" />
+    <string id="lh_warrior_set_granted" text="闇の神々はお前の殺戮に目を留めた――混沌の戦士の戦鎧がインベントリに入った。インベントリ（Iキー）から装備せよ。{GOD}への信仰を深めてその神自身の戦装束を勝ち取り、混沌の覇王を打ち倒して選ばれし者の宝飾を手に入れよ。" />
+    <string id="lh_warrior_set_title" text="神々が目を留めた" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_lbl" text="闇の勢力は混沌のプレイヤーと戦争しない" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_desc" text="混沌に仕えると、世界中がお前に敵対する――他の闇の勢力も含めて。オンにすると、グリーンスキン、ヴァンパイア・カウント、ムジヨンはお前に宣戦布告しない。捕虜を売り、兵を募り、身を潜める場所が常に残る。ビーストマンと山賊勢力は意図的に除外されている：ゲームが強制的に敵対状態を保つため、抗うと「宣戦布告」の通知が大量に出る。オフ＝オリジナルの挙動で、すべての闇の勢力も敵となる。" />
+    <string id="lh_ck_chosen_regalia" text="選ばれし者の宝飾を手にした――死すべき混沌の僕には決して身に着けられぬ兜と肩当てだ。インベントリに入っている。" />
+    <string id="lh_chaos_lord_other_matters" text="別の話をしよう。" />
+    <string id="lh_chaos_left_peace" text="混沌の領域を去った――お前の名で行われていた戦争は終わった。" />
+    <string id="lh_seduce_cooldown" text="闇の神々の囁きが再び力を集めるには時間が要る――あと{DAYS}日で使用可能。" />
+    <string id="lh_seduce_busy" text="この領主は別の戦いに巻き込まれている――今はお前の囁きに心を閉ざしている。" />
+    <string id="lh_set_ChaosUprisingsEnabled_lbl" text="混沌の蜂起" />
+    <string id="lh_set_ChaosUprisingsEnabled_desc" text="The Old Realmsの混沌の蜂起：帝国またはブレトニアの町でカルトが蜂起し、混沌のウォーバンドが現れる。オフ＝新たな蜂起は起こらない（すでにマップ上にいる混沌の部隊は残る）。即時反映、再起動不要。他の種族でプレイしていて混沌のイベントが不要なときに便利。" />
+    <string id="lh_chaos_hideout_recruit2" text="巣窟から混沌の僕を召喚する（最大 {LH_HO_COUNT} 体、1体 {LH_HO_PRICE}{GOLD_ICON}）" />
+    <string id="lh_chaos_recruit_cd_days" text="この場所はまだ力を蓄えていない。{DAYS} 日後に戻れ。" />
+    <string id="lh_chaos_hideout_recruit_tt" text="所持金の許す限り、最大 {COUNT} 体まで購入する。1体 {PRICE}{GOLD_ICON}（ミノタウロスは {MINO}{GOLD_ICON}）。所持金 {GOLD}{GOLD_ICON}。その後、巣窟は7日間休む。" />
+    <string id="lh_chaos_need_gold" text="金が足りない：{NEED}{GOLD_ICON} 必要、所持 {HAVE}{GOLD_ICON}。" />
+    <string id="lh_chaos_portal_menu" text="ポータルは闇の力でうなっている。金を払えば、闇の神々が戦士を送り込む。{newline}{newline}所持金： {LH_PT_GOLD}{GOLD_ICON}. 部隊の空き： {LH_PT_FREE}.{newline}- 混沌の選ばれし者（混沌の戦士と騎士、5%でミノタウロス）: {LH_PT_EP}{GOLD_ICON} 1体, 残り {LH_PT_ES}.{newline}- ノルスカの略奪者: {LH_PT_MP}{GOLD_ICON} 1体, 残り {LH_PT_MS}.{newline}{newline}{LH_PT_REFILL}" />
+    <string id="lh_pt_elite1" text="選ばれし者を1体召喚（{LH_PT_EP}{GOLD_ICON}）" />
+    <string id="lh_pt_eliteall" text="選ばれし者を {LH_PT_EN} 体召喚、払える限り（{LH_PT_ET}{GOLD_ICON}）" />
+    <string id="lh_pt_mar" text="ノルスカの略奪者を {LH_PT_MN} 体召喚（{LH_PT_MT}{GOLD_ICON}）" />
+    <string id="lh_chaos_portal_refill" text="ポータルは {DAYS} 日後に完全に回復する。" />
+    <string id="lh_chaos_portal_full" text="ポータルは力に満ちている。最初の召喚後、7日で回復する。" />
+    <string id="lh_chaos_portal_empty" text="ポータルは枯渇している。{DAYS} 日後に回復する。" />
+    <string id="lh_chaos_party_full" text="部隊は満員で、新たな戦士の空きがない。" />
+</strings>
 </base>

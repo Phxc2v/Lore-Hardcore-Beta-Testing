@@ -64,8 +64,6 @@
     <ShrineLootVanillaMeatPerTick>10</ShrineLootVanillaMeatPerTick>
     <OrcExtorsionMinTier>4</OrcExtorsionMinTier>
 
-    <HideoutCooldownDays>60</HideoutCooldownDays>
-    <MaxHideouts>7</MaxHideouts>
     <TrollCaveMaxRaidParties>2</TrollCaveMaxRaidParties>
     <TrollCaveDailySpawnChance>0.05</TrollCaveDailySpawnChance>
     <TrollCaveTargetBattleSize>50</TrollCaveTargetBattleSize>
@@ -84,6 +82,12 @@
     <QuestShamanFaith>50</QuestShamanFaith>
     <QuestShamanEnchants>5</QuestShamanEnchants>
   </Orc>
+
+  <!-- Общие (любая раса): логова бандитов. Раньше по ошибке лежали в <Orc> и не читались. -->
+  <Common>
+    <HideoutCooldownDays>60</HideoutCooldownDays>
+    <MaxHideouts>7</MaxHideouts>
+  </Common>
 
   <System>
     <!-- === MASTER race toggles ===

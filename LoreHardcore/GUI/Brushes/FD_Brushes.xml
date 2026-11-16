@@ -1,0 +1,8 @@
+<!-- Dominator: Keep's Last Stand - (c) CodeRick | Telegram: https://t.me/CodeRickTg | Site: https://rickhub.net -->
+<Brushes>
+  <Brush Name="FD.Retreat.Caption" Font="Galahad" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextGlowColor="#000000FF" TextOutlineColor="#000000FF" TextOutlineAmount="0.1" TextGlowRadius="0.1" TextBlur="1" FontSize="44" />
+    </Styles>
+  </Brush>
+</Brushes>

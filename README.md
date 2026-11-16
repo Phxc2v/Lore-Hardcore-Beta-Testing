@@ -11,7 +11,7 @@
 - 🇬🇧 **[Beta changelog (EN)](BETA_CHANGELOG_EN.md)** — what changed since the last Steam release.
 
 **Last stable Steam release / Последний релиз в Steam:** v0.1.7.5
-**Current beta / Текущая бета:** v0.1.9.57
+**Current beta / Текущая бета:** v0.2.0.5
 
 ---
 

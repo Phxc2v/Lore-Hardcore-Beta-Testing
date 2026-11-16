@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <!-- Dominator: Keep's Last Stand - (c) CodeRick | Telegram: https://t.me/CodeRickTg | Site: https://rickhub.net -->
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="fd_walls_fell" text="Стены пали! Защитники отступают в цитадель и заколачивают двери...{newline}Стоять насмерть!" />
+    <string id="fd_retreat_order" text="Все в цитадель! Отходим к дверям!" />
+    <string id="fd_retreat_too_many" text="У вас осталось слишком много войск: цитадель не вместит столько воинов. Отступить можно, когда останется {LIMIT} или меньше." />
+    <string id="fd_keep_hold" text="Удержать цитадель! Через двери идут три волны." />
+    <string id="fd_wave_incoming" text="Волна {WAVE} прорывается в двери!" />
+    <string id="fd_aftermath_lift" text="Осаждающие пали духом: они снимают осаду и уходят." />
+    <string id="fd_aftermath_talks" text="Осаждающие присылают парламентёра: их лорд хочет обсудить условия." />
+    <string id="fd_aftermath_regroup" text="Осаждающие отходят в лагерь, чтобы собраться с силами. Новый штурм ожидается через {DAYS} дн." />
+    <string id="fd_nego_open" text="Цитадель ты удержал, признаю. Но моё войско всё ещё стоит у твоих ворот, а у тебя горстка измотанных людей. Давай поговорим, пока не пролилось ещё больше крови." />
+    <string id="fd_nego_peace" text="Пусть наши державы заключат мир. Я готов за него заплатить." />
+    <string id="fd_nego_leave" text="Что ты хочешь за то, чтобы выпустить меня и моих людей?" />
+    <string id="fd_nego_refuse" text="Говорить не о чем. Приходи и возьми, если сможешь." />
+    <string id="fd_nego_refused" text="Как знаешь. Мы придём снова, и на этот раз не остановимся у дверей." />
+    <string id="fd_nego_peace_ok" text="Быть по сему. Значит, мир. К ночи нас здесь не будет." />
+    <string id="fd_nego_not_enough" text="Этого мало. Подумай ещё." />
+    <string id="fd_nego_leave_ok" text="Хорошо. Забирай своих людей и уходи, никто вас не тронет. Замок наш." />
+    <string id="fd_barter_lift_siege" text="Снять осаду: {SETTLEMENT}" />
+    <string id="fd_barter_hand_over" text="Передать замок: {SETTLEMENT}" />
+  </strings>
+</base>

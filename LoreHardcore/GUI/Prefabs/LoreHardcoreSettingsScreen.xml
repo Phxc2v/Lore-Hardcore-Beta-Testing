@@ -200,7 +200,9 @@
                                                         Brush.TextVerticalAlignment="Center"
                                                         Brush.FontColor="#7BB0E6FF"/>
                                             <HintWidget DataSource="{Hint}"
-                                                        WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                                                        WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"
+                                                        Command.HoverBegin="ExecuteBeginHint"
+                                                        Command.HoverEnd="ExecuteEndHint"/>
                                           </Children>
                                         </Widget>
                                         <TextWidget DoNotAcceptEvents="true"
@@ -308,7 +310,9 @@
                                                         Brush.TextVerticalAlignment="Center"
                                                         Brush.FontColor="#7BB0E6FF"/>
                                             <HintWidget DataSource="{Hint}"
-                                                        WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"/>
+                                                        WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"
+                                                        Command.HoverBegin="ExecuteBeginHint"
+                                                        Command.HoverEnd="ExecuteEndHint"/>
                                           </Children>
                                         </Widget>
                                         <TextWidget DoNotAcceptEvents="true"

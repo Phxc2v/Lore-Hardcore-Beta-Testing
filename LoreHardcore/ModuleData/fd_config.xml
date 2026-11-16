@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dominator: Keep's Last Stand - (c) CodeRick | Telegram: https://t.me/CodeRickTg | Site: https://rickhub.net -->
+<!-- Dominator: Keep's Last Stand settings. Delete a line to fall back to its default. -->
+<DominatorKeepsLastStand>
+  <!-- Retreat to the keep fires when defenders alive (garrison + player party, reserves included) drop to this number or less. -->
+  <RetreatThreshold value="30"/>
+  <!-- Max defenders (besides the player) taken into the keep. -->
+  <KeepDefenderCount value="30"/>
+  <!-- Attacker waves inside the keep. -->
+  <WaveCount value="3"/>
+  <WaveSize value="30"/>
+  <!-- Next wave enters when this share of the current wave is down (0.7 - 0.8). -->
+  <NextWaveRatio value="0.75"/>
+  <!-- Attackers of a wave enter through the door in batches. -->
+  <WaveBatchSize value="6"/>
+  <WaveBatchInterval value="1.5"/>
+  <!-- Player HP share when revived in the keep after falling on the walls. -->
+  <RevivedPlayerHealthRatio value="0.5"/>
+  <!-- Manual retreat hotkey (TaleWorlds.InputSystem.InputKey name). Empty = disabled. -->
+  <RetreatHotkey value="F11"/>
+  <!-- The hotkey works only while this many defenders or fewer are left (on the field + reserves);
+       with more, a message says the keep cannot hold them all. -->
+  <ManualRetreatMaxDefenders value="50"/>
+  <!-- Seconds the survivors run to the keep doors before the fade (hotkey and auto retreat alike), 10 - 90. -->
+  <RetreatRunSeconds value="25"/>
+  <!-- Black screen with the caption, seconds. -->
+  <CaptionSeconds value="4"/>
+  <!-- After a held keep: what the besiegers do, by the share of their army left from the start of the assault.
+       Off = they always lift the siege and retreat. -->
+  <AftermathEnabled value="true"/>
+  <!-- Below this share they lift the siege and retreat. -->
+  <LiftSiegeBelowRatio value="0.30"/>
+  <!-- Above this share they offer to negotiate (ransom for free passage = the castle is theirs, or peace).
+       In between - and if the talks fail - they regroup and storm again after RegroupDaysMin..RegroupDaysMax days. -->
+  <NegotiateAboveRatio value="0.50"/>
+  <RegroupDaysMin value="1"/>
+  <RegroupDaysMax value="3"/>
+  <!-- Price of the talks. Peace: the besiegers also want what the castle is worth to them, times this
+       (vanilla alone weighs only the war in general, so a war-weary realm would make peace for free).
+       Free passage: the vanilla "let me go" price times this (1 = vanilla); the castle you hand over
+       is on the table too, so its worth to the besiegers comes off that price. -->
+  <PeaceSiegeValueFactor value="1.0"/>
+  <PassagePriceFactor value="1.0"/>
+  <!-- Write extra diagnostics to the game log. -->
+  <Verbose value="true"/>
+</DominatorKeepsLastStand>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <!-- Dominator: Keep's Last Stand - (c) CodeRick | Telegram: https://t.me/CodeRickTg | Site: https://rickhub.net -->
+  <tags>
+    <tag language="Français" />
+  </tags>
+  <strings>
+    <string id="fd_walls_fell" text="Les murailles sont tombées ! Les défenseurs se replient dans le donjon et barricadent les portes...{newline}Tenez jusqu'à la mort !" />
+    <string id="fd_retreat_order" text="Au donjon ! Repliez-vous vers les portes !" />
+    <string id="fd_retreat_too_many" text="Il vous reste trop d'hommes : le donjon ne peut pas accueillir autant de guerriers. Le repli sera possible quand il en restera {LIMIT} ou moins." />
+    <string id="fd_keep_hold" text="Tenez le donjon ! Trois vagues vont franchir les portes." />
+    <string id="fd_wave_incoming" text="La vague {WAVE} enfonce les portes !" />
+    <string id="fd_aftermath_lift" text="Les assiégeants ont perdu courage : ils lèvent le siège et s'en vont." />
+    <string id="fd_aftermath_talks" text="Les assiégeants envoient un émissaire : leur seigneur veut négocier." />
+    <string id="fd_aftermath_regroup" text="Les assiégeants se replient dans leur camp pour se regrouper. Un nouvel assaut est attendu dans {DAYS} jour(s)." />
+    <string id="fd_nego_open" text="Vous avez tenu le donjon, je vous l'accorde. Mais mon armée est toujours à vos portes, et il ne vous reste qu'une poignée d'hommes épuisés. Parlons, avant que davantage de sang ne coule." />
+    <string id="fd_nego_peace" text="Que nos royaumes fassent la paix. Je suis prêt à la payer." />
+    <string id="fd_nego_leave" text="Que voulez-vous pour nous laisser partir, mes hommes et moi ?" />
+    <string id="fd_nego_refuse" text="Il n'y a rien à discuter. Venez le prendre, si vous le pouvez." />
+    <string id="fd_nego_refused" text="Comme vous voudrez. Nous reviendrons, et cette fois nous ne nous arrêterons pas aux portes." />
+    <string id="fd_nego_peace_ok" text="Soit. La paix, donc. Nous serons partis avant la nuit." />
+    <string id="fd_nego_not_enough" text="Ce n'est pas assez. Réfléchissez encore." />
+    <string id="fd_nego_leave_ok" text="Très bien. Prenez vos hommes et partez, personne ne vous touchera. Le château est à nous." />
+    <string id="fd_barter_lift_siege" text="Lever le siège : {SETTLEMENT}" />
+    <string id="fd_barter_hand_over" text="Céder : {SETTLEMENT}" />
+  </strings>
+</base>

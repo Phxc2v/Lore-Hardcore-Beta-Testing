@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <!-- Dominator: Keep's Last Stand - (c) CodeRick | Telegram: https://t.me/CodeRickTg | Site: https://rickhub.net -->
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="fd_walls_fell" text="Die Mauern sind gefallen! Die Verteidiger ziehen sich in den Bergfried zurück und verrammeln die Tore...{newline}Haltet stand bis zum Tod!" />
+    <string id="fd_retreat_order" text="In den Bergfried! Zurück zu den Toren!" />
+    <string id="fd_retreat_too_many" text="Ihr habt noch zu viele Männer: Der Bergfried fasst nicht so viele Krieger. Der Rückzug ist möglich, sobald {LIMIT} oder weniger übrig sind." />
+    <string id="fd_keep_hold" text="Haltet den Bergfried! Drei Wellen dringen durch die Tore." />
+    <string id="fd_wave_incoming" text="Welle {WAVE} bricht durch die Tore!" />
+    <string id="fd_aftermath_lift" text="Die Belagerer haben den Mut verloren: Sie heben die Belagerung auf und ziehen ab." />
+    <string id="fd_aftermath_talks" text="Die Belagerer schicken einen Gesandten: Ihr Fürst will verhandeln." />
+    <string id="fd_aftermath_regroup" text="Die Belagerer ziehen sich in ihr Lager zurück, um sich neu zu sammeln. Ein neuer Sturm wird in {DAYS} Tag(en) erwartet." />
+    <string id="fd_nego_open" text="Ihr habt den Bergfried gehalten, das gestehe ich Euch zu. Doch mein Heer steht noch immer vor Euren Toren, und Ihr habt nur eine Handvoll erschöpfter Männer. Lasst uns reden, bevor noch mehr Blut fließt." />
+    <string id="fd_nego_peace" text="Lasst unsere Reiche Frieden schließen. Ich bin bereit, dafür zu zahlen." />
+    <string id="fd_nego_leave" text="Was verlangt Ihr, damit Ihr mich und meine Männer abziehen lasst?" />
+    <string id="fd_nego_refuse" text="Es gibt nichts zu bereden. Kommt und holt es Euch, wenn Ihr könnt." />
+    <string id="fd_nego_refused" text="Wie Ihr wollt. Wir kommen wieder, und diesmal machen wir an den Toren nicht halt." />
+    <string id="fd_nego_peace_ok" text="So sei es. Also Frieden. Bei Einbruch der Nacht sind wir fort." />
+    <string id="fd_nego_not_enough" text="Das ist nicht genug. Überlegt es Euch noch einmal." />
+    <string id="fd_nego_leave_ok" text="Nun gut. Nehmt Eure Männer und geht, niemand wird Euch anrühren. Die Burg gehört uns." />
+    <string id="fd_barter_lift_siege" text="Belagerung aufheben: {SETTLEMENT}" />
+    <string id="fd_barter_hand_over" text="Übergeben: {SETTLEMENT}" />
+  </strings>
+</base>

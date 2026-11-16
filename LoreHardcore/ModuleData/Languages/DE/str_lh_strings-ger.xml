@@ -596,5 +596,29 @@
     <string id="lh_set_FocusPointsPerLevel_desc" text="How many focus points you gain each level. Vanilla is 1. Higher = faster skill specialization. Example: 2 doubles focus gain." />
     <string id="lh_set_LevelsPerAttributePoint_lbl" text="TOR: Levels per attribute point" />
     <string id="lh_set_LevelsPerAttributePoint_desc" text="How many levels between each free attribute point. Vanilla is 4 (one attribute point every 4 levels). LOWER = more attribute points (e.g. 1 = one every level)." />
-  </strings>
+      <string id="lh_chaos_tempt_impossible" text="Dieser Lord kann sich dir jetzt nicht anschließen (er herrscht über ein Reich oder würde seinen Clan führerlos zurücklassen)." />
+    <string id="lh_warrior_set_granted" text="Die Dunklen Götter haben dein Gemetzel bemerkt — die Kriegsrüstung eines Chaoskriegers liegt nun in deinem Inventar. Lege sie im Inventar an (Taste I). Vertiefe deine Hingabe an {GOD}, um seine eigene Kriegsrüstung zu verdienen, und stürze den Gebieter für die Insignien des Auserwählten." />
+    <string id="lh_warrior_set_title" text="Die Götter werden aufmerksam" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_lbl" text="Dunkle Fraktionen bekriegen den Chaos-Spieler nicht" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_desc" text="Wenn du dem Chaos dienst, wendet sich die ganze Welt gegen dich — auch die anderen dunklen Mächte. Ist dies AN, erklären dir die Grünhäute, die Vampirfürsten und Mousillon KEINEN Krieg: Du hast stets einen Ort, um Gefangene zu verkaufen, Truppen anzuwerben und unterzutauchen. Tiermenschen und Banditenfraktionen sind bewusst ausgenommen: Das Spiel hält sie zwingend feindlich, und dagegen anzukämpfen erzeugt eine Flut von „Krieg erklärt“-Meldungen. AUS = Vanilla-Verhalten, jede dunkle Macht ist ebenfalls dein Feind." />
+    <string id="lh_ck_chosen_regalia" text="Du nimmst die Insignien des Auserwählten an dich — Helm und Schulterstücke, die kein sterblicher Diener des Chaos tragen darf. Sie liegen in deinem Inventar." />
+    <string id="lh_chaos_lord_other_matters" text="Lass uns über andere Dinge sprechen." />
+    <string id="lh_chaos_left_peace" text="Du hast das Reich des Chaos verlassen — die Kriege, die es in deinem Namen führte, sind vorbei." />
+    <string id="lh_seduce_cooldown" text="Das Flüstern der Dunklen Götter braucht Zeit, um sich neu zu sammeln — verfügbar in {DAYS} Tag(en)." />
+    <string id="lh_seduce_busy" text="Der Lord steckt in einer anderen Schlacht — sein Geist ist deinem Flüstern vorerst verschlossen." />
+    <string id="lh_set_ChaosUprisingsEnabled_lbl" text="Chaos-Aufstände" />
+    <string id="lh_set_ChaosUprisingsEnabled_desc" text="Chaos-Aufstände aus The Old Realms: In einer Stadt des Imperiums oder Bretonnias erhebt sich ein Kult, und eine Chaos-Kriegsschar erscheint. AUS = keine neuen Aufstände (Chaos-Trupps, die schon auf der Karte sind, bleiben). Wirkt sofort, kein Neustart nötig. Praktisch, wenn du eine andere Rasse spielst und keine Chaos-Ereignisse willst." />
+    <string id="lh_chaos_hideout_recruit2" text="Diener des Chaos aus dem Lager beschwören (bis zu {LH_HO_COUNT}, je {LH_HO_PRICE}{GOLD_ICON})" />
+    <string id="lh_chaos_recruit_cd_days" text="Dieser Ort hat noch keine Kraft gesammelt. Komm in {DAYS} Tagen wieder." />
+    <string id="lh_chaos_hideout_recruit_tt" text="Kauft so viele, wie dein Gold reicht, höchstens {COUNT}. Jeder kostet {PRICE}{GOLD_ICON} (ein Minotaurus {MINO}{GOLD_ICON}). Du hast {GOLD}{GOLD_ICON}. Danach ruht das Lager 7 Tage." />
+    <string id="lh_chaos_need_gold" text="Nicht genug Gold: du brauchst {NEED}{GOLD_ICON}, du hast {HAVE}{GOLD_ICON}." />
+    <string id="lh_chaos_portal_menu" text="Das Portal summt vor dunkler Macht. Für Gold schicken die Dunklen Götter Krieger hindurch.{newline}{newline}Dein Gold: {LH_PT_GOLD}{GOLD_ICON}. Freie Plätze im Trupp: {LH_PT_FREE}.{newline}- Auserkorene des Chaos (Chaoskrieger und -ritter, 5% Chance auf einen Minotaurus): {LH_PT_EP}{GOLD_ICON} je, noch {LH_PT_ES}.{newline}- Nordische Marodeure: {LH_PT_MP}{GOLD_ICON} je, noch {LH_PT_MS}.{newline}{newline}{LH_PT_REFILL}" />
+    <string id="lh_pt_elite1" text="Einen Auserkorenen beschwören ({LH_PT_EP}{GOLD_ICON})" />
+    <string id="lh_pt_eliteall" text="{LH_PT_EN} Auserkorene beschwören, so viele dein Gold reicht ({LH_PT_ET}{GOLD_ICON})" />
+    <string id="lh_pt_mar" text="{LH_PT_MN} Nordische Marodeure beschwören ({LH_PT_MT}{GOLD_ICON})" />
+    <string id="lh_chaos_portal_refill" text="Das Portal ist in {DAYS} Tagen vollständig erholt." />
+    <string id="lh_chaos_portal_full" text="Das Portal ist bei voller Kraft. Nach der ersten Beschwörung erholt es sich 7 Tage." />
+    <string id="lh_chaos_portal_empty" text="Das Portal ist erschöpft. Es erholt sich in {DAYS} Tagen." />
+    <string id="lh_chaos_party_full" text="Dein Trupp ist voll, für neue Krieger ist kein Platz." />
+</strings>
 </base>

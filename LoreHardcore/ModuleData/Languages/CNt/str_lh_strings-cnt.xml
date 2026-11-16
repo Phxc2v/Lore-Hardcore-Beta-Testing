@@ -596,5 +596,29 @@
     <string id="lh_set_FocusPointsPerLevel_desc" text="How many focus points you gain each level. Vanilla is 1. Higher = faster skill specialization. Example: 2 doubles focus gain." />
     <string id="lh_set_LevelsPerAttributePoint_lbl" text="TOR: Levels per attribute point" />
     <string id="lh_set_LevelsPerAttributePoint_desc" text="How many levels between each free attribute point. Vanilla is 4 (one attribute point every 4 levels). LOWER = more attribute points (e.g. 1 = one every level)." />
-  </strings>
+      <string id="lh_chaos_tempt_impossible" text="這位領主現在無法加入你（他統治著一個王國，或者會讓自己的家族群龍無首）。" />
+    <string id="lh_warrior_set_granted" text="黑暗諸神注意到了你的殺戮——一套混沌戰士的戰甲已放入你的物品欄。請在物品欄中裝備它（按 I 鍵）。加深你對{GOD}的虔誠以贏得祂專屬的整套戰甲，推翻混沌霸主以獲得天選者的王權飾物。" />
+    <string id="lh_warrior_set_title" text="諸神注意到了你" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_lbl" text="黑暗勢力不與混沌玩家開戰" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_desc" text="當你侍奉混沌時，整個世界都會與你為敵——包括其他黑暗勢力。開啟後，綠皮、吸血鬼伯爵與穆西隆不會向你宣戰：你總有地方出售俘虜、招募部隊和藏身。獸人與強盜勢力被刻意排除在外：遊戲會強制讓他們保持敵對，與之對抗只會帶來一連串「已宣戰」通知。關閉 = 原版行為，所有黑暗勢力也都是你的敵人。" />
+    <string id="lh_ck_chosen_regalia" text="你取得了天選者的王權飾物——任何凡人混沌僕從都無權佩戴的頭盔與肩甲。它們已放入你的物品欄。" />
+    <string id="lh_chaos_lord_other_matters" text="我們談談別的事吧。" />
+    <string id="lh_chaos_left_peace" text="你已離開混沌的國度——它以你之名發動的戰爭已經結束。" />
+    <string id="lh_seduce_cooldown" text="黑暗諸神的低語需要時間重新匯聚——{DAYS}天後可用。" />
+    <string id="lh_seduce_busy" text="這位領主正陷於另一場戰鬥——此刻他的心智對你的低語緊閉。" />
+    <string id="lh_set_ChaosUprisingsEnabled_lbl" text="混沌起義" />
+    <string id="lh_set_ChaosUprisingsEnabled_desc" text="The Old Realms 的混沌起義：帝國或巴托尼亞的某座城鎮中邪教興起，並出現一支混沌戰幫。關 = 不再發生新的起義（已在地圖上的混沌部隊保留）。立即生效，無需重啟。適合使用其他種族遊玩、不想遇到混沌事件時使用。" />
+    <string id="lh_chaos_hideout_recruit2" text="從巢穴召喚混沌僕從（最多 {LH_HO_COUNT} 名，每名 {LH_HO_PRICE}{GOLD_ICON}）" />
+    <string id="lh_chaos_recruit_cd_days" text="此處尚未恢復力量。{DAYS} 天後再來。" />
+    <string id="lh_chaos_hideout_recruit_tt" text="在金幣允許範圍內盡量購買，最多 {COUNT} 名。每名 {PRICE}{GOLD_ICON}（牛頭怪 {MINO}{GOLD_ICON}）。你有 {GOLD}{GOLD_ICON}。之後巢穴休整 7 天。" />
+    <string id="lh_chaos_need_gold" text="金幣不足：需要 {NEED}{GOLD_ICON}，你有 {HAVE}{GOLD_ICON}。" />
+    <string id="lh_chaos_portal_menu" text="傳送門中湧動著黑暗之力。只要支付金幣，黑暗諸神便會送來戰士。{newline}{newline}你的金幣： {LH_PT_GOLD}{GOLD_ICON}. 隊伍空位： {LH_PT_FREE}.{newline}- 混沌選民（混沌勇士與騎士，5% 機率為牛頭怪）: {LH_PT_EP}{GOLD_ICON} 每名, 剩餘 {LH_PT_ES}.{newline}- 諾斯卡掠奪者: {LH_PT_MP}{GOLD_ICON} 每名, 剩餘 {LH_PT_MS}.{newline}{newline}{LH_PT_REFILL}" />
+    <string id="lh_pt_elite1" text="召喚一名選民（{LH_PT_EP}{GOLD_ICON}）" />
+    <string id="lh_pt_eliteall" text="召喚 {LH_PT_EN} 名選民，盡你所能（{LH_PT_ET}{GOLD_ICON}）" />
+    <string id="lh_pt_mar" text="召喚 {LH_PT_MN} 名諾斯卡掠奪者（{LH_PT_MT}{GOLD_ICON}）" />
+    <string id="lh_chaos_portal_refill" text="傳送門將在 {DAYS} 天後完全恢復。" />
+    <string id="lh_chaos_portal_full" text="傳送門力量充盈。首次召喚後需 7 天恢復。" />
+    <string id="lh_chaos_portal_empty" text="傳送門已枯竭。{DAYS} 天後恢復。" />
+    <string id="lh_chaos_party_full" text="你的隊伍已滿，沒有空位容納新戰士。" />
+</strings>
 </base>

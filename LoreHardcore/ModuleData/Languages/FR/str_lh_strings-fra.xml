@@ -596,5 +596,29 @@
     <string id="lh_set_FocusPointsPerLevel_desc" text="How many focus points you gain each level. Vanilla is 1. Higher = faster skill specialization. Example: 2 doubles focus gain." />
     <string id="lh_set_LevelsPerAttributePoint_lbl" text="TOR: Levels per attribute point" />
     <string id="lh_set_LevelsPerAttributePoint_desc" text="How many levels between each free attribute point. Vanilla is 4 (one attribute point every 4 levels). LOWER = more attribute points (e.g. 1 = one every level)." />
-  </strings>
+      <string id="lh_chaos_tempt_impossible" text="Ce seigneur ne peut pas te rejoindre pour l'instant (il règne sur un royaume ou laisserait son clan sans chef)." />
+    <string id="lh_warrior_set_granted" text="Les Dieux Sombres ont remarqué ton carnage — l'armure de guerre d'un Guerrier du Chaos se trouve désormais dans ton inventaire. Équipe-la depuis l'inventaire (touche I). Approfondis ta Dévotion envers {GOD} pour mériter sa propre panoplie de guerre, et renverse le Seigneur du Chaos pour obtenir les regalia de l'Élu." />
+    <string id="lh_warrior_set_title" text="Les Dieux te remarquent" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_lbl" text="Les factions sombres ne font pas la guerre au joueur du Chaos" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_desc" text="Quand tu sers le Chaos, le monde entier se dresse contre toi — y compris les autres puissances sombres. Si ACTIVÉ, les Peaux-Vertes, les Comtes Vampires et Mousillon ne te déclareront PAS la guerre : tu gardes toujours un endroit où vendre tes prisonniers, recruter des troupes et te faire oublier. Les Hommes-Bêtes et les factions de bandits sont volontairement exclus : le jeu les maintient de force hostiles, et lutter contre cela génère un flot de notifications « guerre déclarée ». DÉSACTIVÉ = comportement d'origine, chaque puissance sombre est aussi ton ennemie." />
+    <string id="lh_ck_chosen_regalia" text="Tu prends les regalia de l'Élu — un heaume et des spallières qu'aucun serviteur mortel du Chaos ne peut porter. Ils se trouvent dans ton inventaire." />
+    <string id="lh_chaos_lord_other_matters" text="Parlons d'autre chose." />
+    <string id="lh_chaos_left_peace" text="Tu as quitté le royaume du Chaos — les guerres qu'il menait en ton nom sont terminées." />
+    <string id="lh_seduce_cooldown" text="Les murmures des Dieux Sombres ont besoin de temps pour se rassembler — disponible dans {DAYS} jour(s)." />
+    <string id="lh_seduce_busy" text="Ce seigneur est pris dans une autre bataille — son esprit est fermé à tes murmures pour l'instant." />
+    <string id="lh_set_ChaosUprisingsEnabled_lbl" text="Soulèvements du Chaos" />
+    <string id="lh_set_ChaosUprisingsEnabled_desc" text="Soulèvements du Chaos de The Old Realms : un culte se lève dans une ville de l'Empire ou de Bretonnie et une bande de guerre du Chaos apparaît. DÉSACTIVÉ = plus de nouveaux soulèvements (les troupes du Chaos déjà sur la carte restent). Effet immédiat, sans redémarrage. Pratique si tu joues une autre race et ne veux pas des événements du Chaos." />
+    <string id="lh_chaos_hideout_recruit2" text="Invoquer les serviteurs du Chaos depuis le repaire (jusqu'à {LH_HO_COUNT}, {LH_HO_PRICE}{GOLD_ICON} chacun)" />
+    <string id="lh_chaos_recruit_cd_days" text="Ce lieu n'a pas encore repris ses forces. Reviens dans {DAYS} jours." />
+    <string id="lh_chaos_hideout_recruit_tt" text="Achète autant que ton or le permet, jusqu'à {COUNT}. Chacun coûte {PRICE}{GOLD_ICON} (un Minotaure {MINO}{GOLD_ICON}). Tu as {GOLD}{GOLD_ICON}. Ensuite le repaire se repose 7 jours." />
+    <string id="lh_chaos_need_gold" text="Pas assez d'or : il faut {NEED}{GOLD_ICON}, tu as {HAVE}{GOLD_ICON}." />
+    <string id="lh_chaos_portal_menu" text="Le portail vibre d'une puissance obscure. Contre de l'or, les Dieux Sombres y envoient des guerriers.{newline}{newline}Ton or : {LH_PT_GOLD}{GOLD_ICON}. Places libres dans ta troupe : {LH_PT_FREE}.{newline}- Élus du Chaos (guerriers et chevaliers du Chaos, 5 % de chance de Minotaure): {LH_PT_EP}{GOLD_ICON} chacun, reste {LH_PT_ES}.{newline}- Maraudeurs norses: {LH_PT_MP}{GOLD_ICON} chacun, reste {LH_PT_MS}.{newline}{newline}{LH_PT_REFILL}" />
+    <string id="lh_pt_elite1" text="Invoquer un Élu ({LH_PT_EP}{GOLD_ICON})" />
+    <string id="lh_pt_eliteall" text="Invoquer {LH_PT_EN} Élus, autant que ton or le permet ({LH_PT_ET}{GOLD_ICON})" />
+    <string id="lh_pt_mar" text="Invoquer {LH_PT_MN} Maraudeurs norses ({LH_PT_MT}{GOLD_ICON})" />
+    <string id="lh_chaos_portal_refill" text="Le portail sera entièrement restauré dans {DAYS} jours." />
+    <string id="lh_chaos_portal_full" text="Le portail est à pleine puissance. Après ta première invocation, il se restaure en 7 jours." />
+    <string id="lh_chaos_portal_empty" text="Le portail est épuisé. Il se restaure dans {DAYS} jours." />
+    <string id="lh_chaos_party_full" text="Ta troupe est pleine, il n'y a pas de place pour de nouveaux guerriers." />
+</strings>
 </base>

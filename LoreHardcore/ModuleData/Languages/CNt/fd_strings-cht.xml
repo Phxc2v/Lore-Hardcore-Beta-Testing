@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <!-- Dominator: Keep's Last Stand - (c) CodeRick | Telegram: https://t.me/CodeRickTg | Site: https://rickhub.net -->
+  <tags>
+    <tag language="繁體中文" />
+  </tags>
+  <strings>
+    <string id="fd_walls_fell" text="城牆已經失守！守軍撤入要塞，封死大門……{newline}死戰到底！" />
+    <string id="fd_retreat_order" text="撤往要塞！退到大門那裡！" />
+    <string id="fd_retreat_too_many" text="你剩下的士兵太多了：要塞容納不下這麼多戰士。剩下{LIMIT}人或更少時才能撤退。" />
+    <string id="fd_keep_hold" text="守住要塞！三波敵軍正從大門湧入。" />
+    <string id="fd_wave_incoming" text="第{WAVE}波敵軍正在衝破大門！" />
+    <string id="fd_aftermath_lift" text="圍城者士氣崩潰：他們解除圍城，撤軍離去。" />
+    <string id="fd_aftermath_talks" text="圍城者派來使者：他們的領主想談談條件。" />
+    <string id="fd_aftermath_regroup" text="圍城者退回營地重整旗鼓。預計{DAYS}天後會再次攻城。" />
+    <string id="fd_nego_open" text="我承認，你守住了要塞。但我的大軍仍在你的城門外，而你只剩一小撮疲憊不堪的士兵。趁著還沒流更多的血，我們談談吧。" />
+    <string id="fd_nego_peace" text="讓我們兩國議和吧。我願意為此付出代價。" />
+    <string id="fd_nego_leave" text="要怎樣你才肯放我和我的部下離開？" />
+    <string id="fd_nego_refuse" text="沒什麼可談的。有本事就來拿。" />
+    <string id="fd_nego_refused" text="隨你便。我們還會再來，這一次我們不會止步於大門。" />
+    <string id="fd_nego_peace_ok" text="那就這樣吧。議和。天黑之前我們就會離開。" />
+    <string id="fd_nego_not_enough" text="這還不夠。再想想。" />
+    <string id="fd_nego_leave_ok" text="好吧。帶上你的人走吧，沒人會動你們。城堡歸我們了。" />
+    <string id="fd_barter_lift_siege" text="解除圍城：{SETTLEMENT}" />
+    <string id="fd_barter_hand_over" text="交出：{SETTLEMENT}" />
+  </strings>
+</base>

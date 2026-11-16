@@ -595,5 +595,29 @@
     <string id="lh_set_FocusPointsPerLevel_desc" text="How many focus points you gain each level. Vanilla is 1. Higher = faster skill specialization. Example: 2 doubles focus gain." />
     <string id="lh_set_LevelsPerAttributePoint_lbl" text="TOR: Levels per attribute point" />
     <string id="lh_set_LevelsPerAttributePoint_desc" text="How many levels between each free attribute point. Vanilla is 4 (one attribute point every 4 levels). LOWER = more attribute points (e.g. 1 = one every level)." />
-  </strings>
+      <string id="lh_chaos_tempt_impossible" text="이 영주는 지금 그대에게 합류할 수 없다 (왕국을 다스리고 있거나, 자기 가문을 지도자 없이 남기게 된다)." />
+    <string id="lh_warrior_set_granted" text="어둠의 신들이 그대의 학살을 주목했다 — 혼돈 전사의 전투 갑주가 이제 그대의 인벤토리에 있다. 인벤토리(I 키)에서 착용하라. {GOD}에 대한 헌신을 강화해 그 신의 전투 갑주를 얻고, 혼돈의 군주를 쓰러뜨려 선택받은 자의 표장을 차지하라." />
+    <string id="lh_warrior_set_title" text="신들이 그대를 주목한다" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_lbl" text="어둠의 세력은 혼돈 플레이어와 전쟁하지 않음" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_desc" text="혼돈을 섬기면 온 세상이 그대에게 등을 돌린다 — 다른 어둠의 세력까지도. 켜면 그린스킨, 뱀파이어 백작, 무실롱은 그대에게 전쟁을 선포하지 않는다: 포로를 팔고, 병력을 모으고, 몸을 숨길 곳이 언제나 남는다. 비스트맨과 산적 세력은 의도적으로 제외되었다: 게임이 그들을 강제로 적대 상태로 유지하며, 이를 거스르면 &quot;전쟁 선포&quot; 알림이 쏟아진다. 끄면 = 원래 동작, 모든 어둠의 세력도 그대의 적이다." />
+    <string id="lh_ck_chosen_regalia" text="선택받은 자의 표장을 차지했다 — 필멸의 혼돈 하수인은 결코 걸칠 수 없는 투구와 견갑이다. 그대의 인벤토리에 있다." />
+    <string id="lh_chaos_lord_other_matters" text="다른 이야기를 하지." />
+    <string id="lh_chaos_left_peace" text="그대는 혼돈의 영역을 떠났다 — 그대의 이름으로 벌이던 전쟁은 끝났다." />
+    <string id="lh_seduce_cooldown" text="어둠의 신들의 속삭임이 다시 모이려면 시간이 필요하다 — {DAYS}일 후 사용 가능." />
+    <string id="lh_seduce_busy" text="이 영주는 다른 전투에 휘말려 있다 — 지금은 그의 정신이 그대의 속삭임에 닫혀 있다." />
+    <string id="lh_set_ChaosUprisingsEnabled_lbl" text="혼돈의 봉기" />
+    <string id="lh_set_ChaosUprisingsEnabled_desc" text="The Old Realms의 혼돈의 봉기: 제국 또는 브레토니아의 도시에서 컬트가 봉기하고 혼돈의 워밴드가 나타납니다. 꺼짐 = 새 봉기가 일어나지 않습니다(이미 지도에 있는 혼돈 부대는 남습니다). 즉시 적용되며 재시작이 필요 없습니다. 다른 종족으로 플레이하며 혼돈 이벤트를 원하지 않을 때 유용합니다." />
+    <string id="lh_chaos_hideout_recruit2" text="소굴에서 혼돈의 하수인 소환 (최대 {LH_HO_COUNT}명, 1명당 {LH_HO_PRICE}{GOLD_ICON})" />
+    <string id="lh_chaos_recruit_cd_days" text="이곳은 아직 힘을 모으지 못했습니다. {DAYS}일 후에 다시 오십시오." />
+    <string id="lh_chaos_hideout_recruit_tt" text="금이 허락하는 만큼, 최대 {COUNT}명까지 구매합니다. 1명당 {PRICE}{GOLD_ICON} (미노타우로스 {MINO}{GOLD_ICON}). 보유: {GOLD}{GOLD_ICON}. 그 후 소굴은 7일간 쉽니다." />
+    <string id="lh_chaos_need_gold" text="금이 부족합니다: {NEED}{GOLD_ICON} 필요, 보유 {HAVE}{GOLD_ICON}." />
+    <string id="lh_chaos_portal_menu" text="포털이 어둠의 힘으로 웅웅거립니다. 금을 바치면 어둠의 신들이 전사를 보냅니다.{newline}{newline}보유 금: {LH_PT_GOLD}{GOLD_ICON}. 부대 빈자리: {LH_PT_FREE}.{newline}- 혼돈의 선택받은 자 (혼돈의 전사와 기사, 5% 확률로 미노타우로스): {LH_PT_EP}{GOLD_ICON} 1명당, {LH_PT_ES}명 남음.{newline}- 노스카 약탈자: {LH_PT_MP}{GOLD_ICON} 1명당, {LH_PT_MS}명 남음.{newline}{newline}{LH_PT_REFILL}" />
+    <string id="lh_pt_elite1" text="선택받은 자 1명 소환 ({LH_PT_EP}{GOLD_ICON})" />
+    <string id="lh_pt_eliteall" text="선택받은 자 {LH_PT_EN}명 소환, 가능한 만큼 ({LH_PT_ET}{GOLD_ICON})" />
+    <string id="lh_pt_mar" text="노스카 약탈자 {LH_PT_MN}명 소환 ({LH_PT_MT}{GOLD_ICON})" />
+    <string id="lh_chaos_portal_refill" text="포털은 {DAYS}일 후 완전히 회복됩니다." />
+    <string id="lh_chaos_portal_full" text="포털이 힘으로 가득합니다. 첫 소환 후 7일 동안 회복됩니다." />
+    <string id="lh_chaos_portal_empty" text="포털이 고갈되었습니다. {DAYS}일 후 회복됩니다." />
+    <string id="lh_chaos_party_full" text="부대가 가득 차 새 전사를 받을 자리가 없습니다." />
+</strings>
 </base>

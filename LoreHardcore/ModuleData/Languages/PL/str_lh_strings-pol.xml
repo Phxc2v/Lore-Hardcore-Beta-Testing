@@ -603,5 +603,29 @@
     <string id="lh_set_FocusPointsPerLevel_desc" text="How many focus points you gain each level. Vanilla is 1. Higher = faster skill specialization. Example: 2 doubles focus gain." />
     <string id="lh_set_LevelsPerAttributePoint_lbl" text="TOR: Levels per attribute point" />
     <string id="lh_set_LevelsPerAttributePoint_desc" text="How many levels between each free attribute point. Vanilla is 4 (one attribute point every 4 levels). LOWER = more attribute points (e.g. 1 = one every level)." />
-  </strings>
+      <string id="lh_chaos_tempt_impossible" text="Ten lord nie może teraz do ciebie dołączyć (włada królestwem albo zostawiłby swój klan bez przywódcy)." />
+    <string id="lh_warrior_set_granted" text="Mroczni Bogowie dostrzegli twoją rzeź — zbroja wojenna Wojownika Chaosu leży teraz w twoim ekwipunku. Załóż ją z ekwipunku (klawisz I). Pogłębiaj Oddanie dla {GOD}, by zasłużyć na jego własny rynsztunek wojenny, i obal Władcę Chaosu, by zdobyć regalia Wybrańca." />
+    <string id="lh_warrior_set_title" text="Bogowie cię dostrzegają" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_lbl" text="Mroczne frakcje nie walczą z graczem Chaosu" />
+    <string id="lh_set_ChaosPeaceWithDarkFactions_desc" text="Gdy służysz Chaosowi, cały świat obraca się przeciw tobie — także inne mroczne potęgi. Gdy WŁĄCZONE, Zielonoskórzy, Hrabiowie Wampirów i Mousillon NIE wypowiedzą ci wojny: zawsze masz gdzie sprzedać jeńców, zwerbować wojsko i się przyczaić. Zwierzoludzie i frakcje bandytów są celowo wyłączeni: gra na siłę utrzymuje ich wrogość, a walka z tym daje lawinę powiadomień „wypowiedziano wojnę”. WYŁĄCZONE = zachowanie oryginalne, każda mroczna potęga jest też twoim wrogiem." />
+    <string id="lh_ck_chosen_regalia" text="Zabierasz regalia Wybrańca — hełm i naramienniki, których nie może nosić żaden śmiertelny sługa Chaosu. Leżą w twoim ekwipunku." />
+    <string id="lh_chaos_lord_other_matters" text="Porozmawiajmy o czymś innym." />
+    <string id="lh_chaos_left_peace" text="Opuściłeś królestwo Chaosu — wojny, które toczyło w twoim imieniu, dobiegły końca." />
+    <string id="lh_seduce_cooldown" text="Szept Mrocznych Bogów potrzebuje czasu, by znów nabrać mocy — dostępne za {DAYS} dni." />
+    <string id="lh_seduce_busy" text="Lord jest zajęty inną bitwą — jego umysł jest na razie zamknięty na twój szept." />
+    <string id="lh_set_ChaosUprisingsEnabled_lbl" text="Powstania Chaosu" />
+    <string id="lh_set_ChaosUprisingsEnabled_desc" text="Powstania Chaosu z The Old Realms: w mieście Imperium lub Bretonii powstaje kult i pojawia się banda wojenna Chaosu. WYŁ = brak nowych powstań (oddziały Chaosu, które już są na mapie, zostają). Działa od razu, bez restartu. Przydatne, gdy grasz inną rasą i nie chcesz wydarzeń Chaosu." />
+    <string id="lh_chaos_hideout_recruit2" text="Przywołaj sługi Chaosu z leża (do {LH_HO_COUNT}, po {LH_HO_PRICE}{GOLD_ICON})" />
+    <string id="lh_chaos_recruit_cd_days" text="To miejsce nie zebrało jeszcze sił. Wróć za {DAYS} dni." />
+    <string id="lh_chaos_hideout_recruit_tt" text="Kupuje tylu, na ilu starczy złota, najwyżej {COUNT}. Każdy kosztuje {PRICE}{GOLD_ICON} (minotaur {MINO}{GOLD_ICON}). Masz {GOLD}{GOLD_ICON}. Potem leże odpoczywa 7 dni." />
+    <string id="lh_chaos_need_gold" text="Za mało złota: potrzeba {NEED}{GOLD_ICON}, masz {HAVE}{GOLD_ICON}." />
+    <string id="lh_chaos_portal_menu" text="Portal tętni mroczną mocą. Za złoto Mroczni Bogowie przysyłają przez niego wojowników.{newline}{newline}Twoje złoto: {LH_PT_GOLD}{GOLD_ICON}. Wolne miejsca w oddziale: {LH_PT_FREE}.{newline}- Wybrańcy Chaosu (wojownicy i rycerze Chaosu, 5% szansy na minotaura): {LH_PT_EP}{GOLD_ICON} za każdego, zostało {LH_PT_ES}.{newline}- Norscyjscy maruderzy: {LH_PT_MP}{GOLD_ICON} za każdego, zostało {LH_PT_MS}.{newline}{newline}{LH_PT_REFILL}" />
+    <string id="lh_pt_elite1" text="Przywołaj jednego Wybrańca ({LH_PT_EP}{GOLD_ICON})" />
+    <string id="lh_pt_eliteall" text="Przywołaj {LH_PT_EN} Wybrańców, na ilu cię stać ({LH_PT_ET}{GOLD_ICON})" />
+    <string id="lh_pt_mar" text="Przywołaj norscyjskich maruderów: {LH_PT_MN} ({LH_PT_MT}{GOLD_ICON})" />
+    <string id="lh_chaos_portal_refill" text="Portal w pełni odnowi się za {DAYS} dni." />
+    <string id="lh_chaos_portal_full" text="Portal jest w pełni sił. Po pierwszym przywołaniu odnawia się 7 dni." />
+    <string id="lh_chaos_portal_empty" text="Portal jest wyczerpany. Odnowi się za {DAYS} dni." />
+    <string id="lh_chaos_party_full" text="Twój oddział jest pełny, nie ma miejsca dla nowych wojowników." />
+</strings>
 </base>

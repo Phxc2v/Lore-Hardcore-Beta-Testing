@@ -9,11 +9,62 @@
 > of the same module conflict).
 
 **Last stable Steam Workshop release:** v0.1.7.5
-**Current beta:** v0.1.9.84
+**Current beta:** v0.2.0.5
 
 This file is updated on every beta publish. Newest on top.
 
 ---
+
+## New in beta v0.2.0.5 (since v0.1.9.90)
+
+### 🔥 Start as Chaos
+- **Chaos is a new culture in character creation.** Its own card and banner, 3 origins, 3 youth options, the "Aspiring Champion" profession. You start at the Chaos Portal with +350 Dark Energy.
+- **TOR career "Chaos Champion".** Ability "Red Fury" (8 s: +45% melee damage, +10% resistance), charged by your own melee hits. A tree of 6 branches in 3 tiers (150 kills / 1000 kills or clan tier 2 / 4); tier rewards +150/+300 Dark Energy.
+- **Chaos Portal — clear recruiting.** Its own menu shows your gold, free party slots, prices and the portal's stock (10 Chosen at 1500, 20 Norscan Marauders at 150) and when it restocks. A disabled button tells you why.
+- **Cultist and beastmen lairs:** the price is on the button, cooldown shows days left.
+- **Fewer pop-ups at the start:** intro, Dark Energy and Devotion are one window; the gods explanation sits inside the god choice window.
+- **Chaos battle cry:** Chaos warriors no longer shout "For the Emperor / For Sigmar" — a war roar instead (TOR's Chaos troops too).
+- **Talking to a Chaos lord:** "Just passing by" no longer needs two clicks.
+
+### ⚙ Chaos is always on
+- The Chaos race is always active (toggling it without a restart crashed a new campaign).
+- **New setting "Chaos uprisings"** (Chaos tab): turn it off if you play another race and don't want uprisings. Takes effect immediately.
+- **Peace by culture:** a free non-Chaos player is at war with Chaos as in TOR; in a hostile meeting you can say "I seek the Dark Gods" and part in peace.
+
+### 🏰 Keep defense
+- "Keep's Last Stand" is built in: defenders of a town/castle can fall back to the keep and hold it.
+
+### 🎬 Videos
+- Main menu: video backgrounds (Chaos Host, Knights at Dawn, Keep's Last Stand, Imperial City).
+- Event videos on the map (oath to a god, coronation, Chaos uprising and more).
+
+### 🛠 Compatibility and fixes
+- Full compatibility audit against TOR "War in the Mountains" (1.3.15): fixed patches that silently did nothing (troll lairs, orc career quests, settlement culture change and more).
+- Lair recruit cooldowns are saved; the orc party cap applies to lords only; "What's new" is not shown in a new campaign.
+- The mod version is now shown in the launcher.
+
+## New in beta v0.1.9.90 (since v0.1.9.84)
+
+### ⚔ Duel with the Chaos Overlord
+- **The duel can no longer soft-lock.** The Overlord stayed invulnerable while "any hostile agent" lived — summoned skeletons and stray NPCs counted. He could not be killed and victory never registered. Only real bodyguards hold the invulnerability now.
+- **"Neither of us takes damage"** — if the spell state got stuck mid-cast, the player was left unable to strike forever. A 3-second watchdog now clears it.
+- **The Overlord is visible now** — duel enemies wear team colours (previously a player in god-plate looked identical to him).
+
+### 🕊 Chaos wars
+- **"Chaos declared war on Chaos"** — no longer happens; existing such wars clear themselves.
+- **"Left the Chaos kingdom → enemy of the whole world"** — fixed. For broken saves: `lh.chaos_clear_world_war`.
+- **New setting:** Greenskins, Vampire Counts and Mousillon do not war the Chaos player (ON by default) — you keep somewhere to sell prisoners and recruit.
+
+### ⚖ Reward rebalance — three milestones, three armour tiers
+- **Kill threshold** → Chaos Warrior war-plate (mid tier).
+- **Devotion rank 10** → the full war-panoply of your God.
+- **Casting down the Overlord** → trophy + regalia of the Chosen.
+
+### 🛡 Code audit
+God thresholds now persist across restarts; the castle duel with orc elite works more than once per session; "Reset all" no longer zeroes elite upkeep; Ctrl+Space cannot freeze time; converting a captured lord no longer beheads his clan. Build warnings: 20 → 0.
+
+---
+
 
 ## New in beta v0.1.9.84 (since v0.1.9.57)
 
